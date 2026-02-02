@@ -23,10 +23,10 @@ BlockEvents.placed(event => {
 
   if (level.isClientSide && level.isClientSide()) return
   if (level.dimension != 'minecraft:the_nether') return
-  if (block.id == 'minecraft:spawner')
-  if (block.y <= NETHER_ROOF_Y) return
- 
-  event.cancel()
+  if (block.id == 'minecraft:spawner') {
+    if (block.y <= NETHER_ROOF_Y) return
+    event.cancel()
+  }
 })
 
 BlockEvents.rightClicked(event => {
