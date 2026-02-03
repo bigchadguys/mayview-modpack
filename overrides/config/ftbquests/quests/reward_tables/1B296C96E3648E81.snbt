@@ -48,5 +48,6 @@
 				id: "minecraft:honey_bottle"
 			}
 		}
+		{ id: "0A3555DC4564B946", item: { count: 1, id: "cobblemon:quick_ball" } }
 	]
 }

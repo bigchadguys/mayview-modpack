@@ -683,6 +683,9 @@
 		}
 		{
 			dependencies: ["6BA76324A48CF929"]
+			icon: {
+				id: "minecraft:tropical_fish"
+			}
 			icon_scale: 0.9d
 			id: "2DDE3DB9837389A1"
 			rewards: [
@@ -926,24 +929,37 @@
 			dependencies: ["6C73D78922A3488A"]
 			icon_scale: 0.9d
 			id: "6EE4B338012DA7BF"
-			rewards: [{
-				id: "33D79218C871D572"
-				type: "xp"
-				xp: 60
-			}]
-			size: 1.4d
-			tasks: [
+			rewards: [
 				{
-					id: "49C23A20C78A2BF5"
-					item: { count: 1, id: "exposure:black_and_white_film" }
+					id: "33D79218C871D572"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "5D19F1A62AE9C8F9"
+					item: {
+						count: 1
+						id: "exposure:color_film"
+					}
 					type: "item"
 				}
 				{
-					id: "475F05FA93E4BC86"
-					item: { count: 1, id: "exposure:color_film" }
+					count: 2
+					id: "7BBD8E569C7D76D4"
+					item: {
+						count: 1
+						id: "exposure:black_and_white_film"
+					}
 					type: "item"
 				}
 			]
+			size: 1.4d
+			tasks: [{
+				id: "475F05FA93E4BC86"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(exposure:film_rolls)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: -2.4d
 			y: -2.4d
 		}

@@ -20,7 +20,7 @@
 			y: -1.5d
 		}
 		{
-			dependency: "5F411DDD034523DC"
+			dependency: "0898F24EA14CDE54"
 			height: 1.5d
 			image: "mayview:textures/gamba_title.png"
 			rotation: 0.0d
@@ -59,6 +59,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon: {
@@ -123,6 +124,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon_scale: 0.9d
@@ -165,6 +167,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon: {
@@ -213,6 +216,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon: {
@@ -258,16 +262,19 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon_scale: 0.9d
 			id: "5F411DDD034523DC"
 			rewards: [{
+				exclude_from_claim_all: true
 				id: "51E7C29E21A10D04"
 				item: {
 					count: 1
 					id: "kubejs:pokemon_gamba_package"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			shape: "dex2"
@@ -309,16 +316,19 @@
 			y: -1.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon_scale: 0.9d
 			id: "5FE33CA612F43357"
 			rewards: [{
+				exclude_from_claim_all: true
 				id: "723FEB01290311F5"
 				item: {
 					count: 1
 					id: "kubejs:pokemon_gamba_package"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			shape: "dex2"
@@ -357,6 +367,7 @@
 			y: -1.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon: {
@@ -373,6 +384,7 @@
 					count: 1
 					id: "kubejs:shiny_pokemon_gamba_package"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			shape: "dex2"
@@ -415,6 +427,7 @@
 			y: -3.6d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon: {
@@ -463,6 +476,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon: {
@@ -472,26 +486,30 @@
 			id: "612F76D85816EE70"
 			rewards: [
 				{
+					exclude_from_claim_all: true
 					id: "243F103863A45C1A"
 					item: {
 						count: 1
 						id: "mega_showdown:zygarde_cell"
 					}
+					team_reward: false
 					type: "item"
 				}
 				{
+					exclude_from_claim_all: true
 					id: "3B67079788EF1256"
 					item: {
 						count: 1
 						id: "kubejs:pokemon_gamba_package"
 					}
+					team_reward: false
 					type: "item"
 				}
 			]
 			shape: "dex2"
 			size: 1.3d
 			tasks: [{
-				action: "have_registered"
+				action: "scan"
 				amount: 100L
 				aspects: ""
 				biome: ""
@@ -521,6 +539,7 @@
 			y: -3.1d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon_scale: 0.9d
@@ -576,6 +595,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon_scale: 0.75d
@@ -621,6 +641,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58869888B37C4839"]
 			hide_until_deps_complete: true
 			icon: {
@@ -629,11 +650,13 @@
 			icon_scale: 0.9d
 			id: "1B7AD97644C13D1D"
 			rewards: [{
+				exclude_from_claim_all: true
 				id: "79304950F932EF83"
 				item: {
 					count: 1
 					id: "kubejs:shiny_pokemon_gamba_package"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			shape: "dex2"
@@ -718,6 +741,7 @@
 				"58869888B37C4839"
 				"5F411DDD034523DC"
 			]
+			dependency_requirement: "one_completed"
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true

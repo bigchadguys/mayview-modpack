@@ -95,11 +95,15 @@
 		{
 			dependencies: ["05A0C8A7E8ABDA51"]
 			id: "5CE73D710D431953"
+			rewards: [{
+				id: "7B2FEF66634A7501"
+				type: "xp"
+				xp: 20
+			}]
 			size: 1.2d
 			tasks: [{
-				count: 5L
 				id: "3D1075F7AB0F3CCC"
-				item: { count: 1, id: "create:hand_crank" }
+				item: { count: 1, id: "ae2:crank" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -121,19 +125,13 @@
 			tags: ["ae2quests"]
 			tasks: [
 				{
-					icon: {
-						id: "ae2:charger"
-					}
-					id: "75EDF15FCBA68601"
-					item: { components: { "ftbquests:missing_item": "ae2:charger" }, count: 1, id: "ftbquests:missing_item" }
+					id: "724934D37F393E3F"
+					item: { count: 1, id: "ae2:inscriber" }
 					type: "item"
 				}
 				{
-					icon: {
-						id: "ae2:inscriber"
-					}
-					id: "6B942C50CE595EDF"
-					item: { components: { "ftbquests:missing_item": "ae2:inscriber" }, count: 1, id: "ftbquests:missing_item" }
+					id: "2705AE16282F32F2"
+					item: { count: 1, id: "ae2:charger" }
 					type: "item"
 				}
 			]
@@ -141,7 +139,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["008E9F2F0247A08F"]
+			dependencies: ["4215E3B30B023608"]
 			id: "5830A34E3698C712"
 			rewards: [{
 				count: 4
@@ -154,18 +152,15 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:quartz_block"
-				}
-				id: "53F822D2CD832182"
-				item: { components: { "ftbquests:missing_item": "ae2:quartz_block" }, count: 1, id: "ftbquests:missing_item" }
+				id: "3B429233992D2D92"
+				item: { count: 1, id: "ae2:quartz_block" }
 				type: "item"
 			}]
 			x: 2.0d
 			y: -8.0d
 		}
 		{
-			dependencies: ["008E9F2F0247A08F"]
+			dependencies: ["4215E3B30B023608"]
 			icon_scale: 0.8d
 			id: "1412C2CDEEE773AA"
 			rewards: [{
@@ -180,11 +175,8 @@
 			shape: "ae2_3"
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:charged_certus_quartz_crystal"
-				}
-				id: "263671ED72926D2F"
-				item: { components: { "ftbquests:missing_item": "ae2:charged_certus_quartz_crystal" }, count: 1, id: "ftbquests:missing_item" }
+				id: "31345B3A757BF83F"
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -207,11 +199,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:damaged_budding_quartz"
-				}
-				id: "5067F4A47EC89174"
-				item: { components: { "ftbquests:missing_item": "ae2:damaged_budding_quartz" }, count: 1, id: "ftbquests:missing_item" }
+				id: "125AE0D5611D5B44"
+				item: { count: 1, id: "ae2:damaged_budding_quartz" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -231,11 +220,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:chipped_budding_quartz"
-				}
-				id: "732C06B3113843F4"
-				item: { components: { "ftbquests:missing_item": "ae2:chipped_budding_quartz" }, count: 1, id: "ftbquests:missing_item" }
+				id: "744E6B595E120B10"
+				item: { count: 1, id: "ae2:chipped_budding_quartz" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -255,18 +241,15 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:flawed_budding_quartz"
-				}
-				id: "534B7ACDC2348957"
-				item: { components: { "ftbquests:missing_item": "ae2:flawed_budding_quartz" }, count: 1, id: "ftbquests:missing_item" }
+				id: "6B6FC4405740B908"
+				item: { count: 1, id: "ae2:flawed_budding_quartz" }
 				type: "item"
 			}]
 			x: 4.0d
 			y: -14.0d
 		}
 		{
-			dependencies: ["008E9F2F0247A08F"]
+			dependencies: ["4215E3B30B023608"]
 			id: "56E9E5957908644F"
 			rewards: [{
 				count: 8
@@ -279,11 +262,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:certus_quartz_dust"
-				}
-				id: "14F83C0372CD8DC3"
-				item: { components: { "ftbquests:missing_item": "ae2:certus_quartz_dust" }, count: 1, id: "ftbquests:missing_item" }
+				id: "4749E6A35C245B57"
+				item: { count: 1, id: "ae2:certus_quartz_dust" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -303,11 +283,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:sky_stone_block"
-				}
-				id: "53B19CB7FCB49353"
-				item: { components: { "ftbquests:missing_item": "ae2:sky_stone_block" }, count: 1, id: "ftbquests:missing_item" }
+				id: "37175EE052BC3C69"
+				item: { count: 1, id: "ae2:sky_stone_block" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -324,10 +301,7 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:mysterious_cube"
-				}
-				id: "0F6FFF62B71736A5"
+				id: "2D6BEEFEC00312BE"
 				item: { count: 1, id: "ae2:not_so_mysterious_cube" }
 				type: "item"
 			}]
@@ -348,11 +322,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:quartz_glass"
-				}
-				id: "5592F1AD435B8541"
-				item: { components: { "ftbquests:missing_item": "ae2:quartz_glass" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1C666AC4052DC34A"
+				item: { count: 1, id: "ae2:quartz_glass" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -374,11 +345,8 @@
 			shape: "ae2_3"
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:fluix_crystal"
-				}
-				id: "1C1EA6F39DD7C033"
-				item: { components: { "ftbquests:missing_item": "ae2:fluix_crystal" }, count: 1, id: "ftbquests:missing_item" }
+				id: "0F2A5DD6831108DC"
+				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -398,11 +366,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:fluix_glass_cable"
-				}
-				id: "41F9C0720150D431"
-				item: { components: { "ftbquests:missing_item": "ae2:fluix_glass_cable" }, count: 1, id: "ftbquests:missing_item" }
+				id: "70F4662F59182A72"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -422,11 +387,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:engineering_processor"
-				}
-				id: "6A6E066965BD96A6"
-				item: { components: { "ftbquests:missing_item": "ae2:engineering_processor" }, count: 1, id: "ftbquests:missing_item" }
+				id: "21AA210B595E82D7"
+				item: { count: 1, id: "ae2:engineering_processor" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -446,11 +408,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:drive"
-				}
-				id: "7C164FEAE42CE1F6"
-				item: { components: { "ftbquests:missing_item": "ae2:drive" }, count: 1, id: "ftbquests:missing_item" }
+				id: "6E1988609A532ADF"
+				item: { count: 1, id: "ae2:drive" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -470,11 +429,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:logic_processor"
-				}
-				id: "6B664BF09A2D827E"
-				item: { components: { "ftbquests:missing_item": "ae2:logic_processor" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1E263219AF0578CB"
+				item: { count: 1, id: "ae2:logic_processor" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -514,11 +470,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:energy_acceptor"
-				}
-				id: "11801D8911C8AEB9"
-				item: { components: { "ftbquests:missing_item": "ae2:energy_acceptor" }, count: 1, id: "ftbquests:missing_item" }
+				id: "278EC58A6A58E6B5"
+				item: { count: 1, id: "ae2:energy_acceptor" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -527,13 +480,16 @@
 		{
 			dependencies: ["11196B63B1AA871F"]
 			id: "2128F1D80625C058"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04BEAFC4373B8FB3"
+				table_id: 5713114257409878076L
+				type: "choice"
+			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:vibration_chamber"
-				}
-				id: "3795B529F046861D"
-				item: { components: { "ftbquests:missing_item": "ae2:vibration_chamber" }, count: 1, id: "ftbquests:missing_item" }
+				id: "651127A1B38C3A8D"
+				item: { count: 1, id: "ae2:vibration_chamber" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -542,13 +498,16 @@
 		{
 			dependencies: ["3CAD0A2FAC8FCB68"]
 			id: "63B065D82F747B11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B9EDEACDD6EAC65"
+				table_id: 5713114257409878076L
+				type: "choice"
+			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:energy_cell"
-				}
-				id: "209922A02DD3CB07"
-				item: { components: { "ftbquests:missing_item": "ae2:energy_cell" }, count: 1, id: "ftbquests:missing_item" }
+				id: "07EF456E84733073"
+				item: { count: 1, id: "ae2:energy_cell" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -585,11 +544,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:calculation_processor"
-				}
-				id: "3B41D818DF84EB96"
-				item: { components: { "ftbquests:missing_item": "ae2:calculation_processor" }, count: 1, id: "ftbquests:missing_item" }
+				id: "46AEC1E979DC6341"
+				item: { count: 1, id: "ae2:calculation_processor" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -623,11 +579,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:dense_energy_cell"
-				}
-				id: "784D6854EBAC3C97"
-				item: { components: { "ftbquests:missing_item": "ae2:dense_energy_cell" }, count: 1, id: "ftbquests:missing_item" }
+				id: "3A72E4E7C83C9374"
+				item: { count: 1, id: "ae2:dense_energy_cell" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -657,7 +610,7 @@
 			]
 			size: 1.2d
 			tasks: [{
-				id: "6C3D654969AD54F2"
+				id: "48DA97B44D28F61E"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ae2:quartz_wrench)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
@@ -675,11 +628,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:io_port"
-				}
-				id: "740687719AE332E2"
-				item: { components: { "ftbquests:missing_item": "ae2:io_port" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1703F7715876E004"
+				item: { count: 1, id: "ae2:io_port" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -688,6 +638,12 @@
 		{
 			dependencies: ["17DC5C56253ED8DB"]
 			id: "7840DBC81DA2D87E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4653D9FE0FE3D345"
+				table_id: 5713114257409878076L
+				type: "choice"
+			}]
 			size: 1.2d
 			tasks: [
 				{
@@ -795,11 +751,8 @@
 			}]
 			size: 1.2d
 			tasks: [{
-				icon: {
-					id: "ae2:growth_accelerator"
-				}
-				id: "07096F31EDCC7E51"
-				item: { components: { "ftbquests:missing_item": "ae2:growth_accelerator" }, count: 1, id: "ftbquests:missing_item" }
+				id: "4F636E6A3FF9F33C"
+				item: { count: 1, id: "ae2:growth_accelerator" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -813,6 +766,8 @@
 			}
 			icon_scale: 0.9d
 			id: "008E9F2F0247A08F"
+			optional: true
+			repeat_cooldown: 4
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2280312C44EEDB57"
@@ -821,26 +776,38 @@
 			}]
 			shape: "ae2_3"
 			size: 2.0d
-			tasks: [{
-				icon: {
-					id: "ae2:charger"
+			tasks: [
+				{
+					icon: {
+						id: "ae2:charger"
+					}
+					id: "1F5DA0A52080D4F2"
+					profession_dropdown: "ae2:fluix_researcher"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: true
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
 				}
-				id: "1F5DA0A52080D4F2"
-				profession_dropdown: "ae2:fluix_researcher"
-				profession_manual: "minecraft:librarian"
-				required: 1
-				type: "questeventbridge:trade_task"
-				use_dropdown: true
-				use_total: true
-				use_wanted_item: false
-				use_wanted_item_output_count: false
-				wanted_item: "minecraft:emerald"
-			}]
-			x: 0.0d
-			y: -6.0d
+				{
+					id: "1DE6CB2BCE79DA6C"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7C43FDC9F76C0BBC"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ae2:block/mysterious_cube_side"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			icon_scale: 0.9d
 			id: "2A3506E933FB38F4"
 			rewards: [{
@@ -1127,6 +1094,26 @@
 		{
 			dependencies: ["519FF730A538FB14"]
 			id: "17DC5C56253ED8DB"
+			rewards: [
+				{
+					count: 8
+					id: "6DF816D4B50EA07D"
+					item: {
+						count: 1
+						id: "ae2:formation_core"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "610E8A93EBBFA29E"
+					item: {
+						count: 1
+						id: "ae2:annihilation_core"
+					}
+					type: "item"
+				}
+			]
 			size: 1.2d
 			tasks: [
 				{

@@ -1078,6 +1078,7 @@
 			size: 2.0d
 			tags: ["legendaryquests"]
 			tasks: [{
+				consume_items: true
 				count: 8192L
 				id: "5A764BA763D0575B"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }

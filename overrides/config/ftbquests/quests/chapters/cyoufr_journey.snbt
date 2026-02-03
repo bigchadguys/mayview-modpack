@@ -352,6 +352,14 @@
 					type: "xp"
 					xp: 30
 				}
+				{
+					id: "3FC21A85349D8115"
+					item: {
+						count: 1
+						id: "cobblemon:pc"
+					}
+					type: "item"
+				}
 			]
 			shape: "dex2"
 			size: 1.2d
@@ -522,7 +530,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["0398F21524DC7590"]
+			dependencies: ["56B2D68DF399DD78"]
 			icon_scale: 0.9d
 			id: "3E1010E09DC4090A"
 			optional: true
@@ -1570,6 +1578,26 @@
 			}]
 			x: -4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0398F21524DC7590"]
+			icon_scale: 0.9d
+			id: "56B2D68DF399DD78"
+			rewards: [{
+				id: "4BCDB6A0BDC137BB"
+				item: {
+					count: 1
+					id: "cobblemon:healing_machine"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "3AAFC88F884D6B17"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.0d
 		}
 	]
 	tags: ["cobblemonquests"]

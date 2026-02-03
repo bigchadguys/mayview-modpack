@@ -1156,6 +1156,7 @@
 		}
 		{
 			dependencies: ["58C0765D4FFB1025"]
+			disable_toast: true
 			hide_dependency_lines: true
 			hide_lock_icon: true
 			hide_until_deps_complete: true
@@ -1257,6 +1258,7 @@
 		}
 		{
 			dependencies: ["58C0765D4FFB1025"]
+			disable_toast: true
 			hide_dependency_lines: true
 			hide_lock_icon: true
 			hide_until_deps_complete: true
@@ -1554,6 +1556,7 @@
 		}
 		{
 			dependencies: ["58C0765D4FFB1025"]
+			disable_toast: true
 			hide_dependency_lines: true
 			hide_lock_icon: true
 			hide_until_deps_complete: true

@@ -25,11 +25,18 @@
 			}
 			icon_scale: 0.9d
 			id: "76D3889BC03E7022"
-			rewards: [{
-				id: "350B61FDA34F056F"
-				type: "xp"
-				xp: 20
-			}]
+			rewards: [
+				{
+					id: "350B61FDA34F056F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0BBCC88AAFD548F0"
+					type: "xp"
+					xp: 40
+				}
+			]
 			shape: "octosquare"
 			size: 1.8d
 			tasks: [{
@@ -69,6 +76,11 @@
 				id: "farmersdelight:cooking_pot"
 			}
 			id: "446A338E5D864FC5"
+			rewards: [{
+				id: "12E4D6DBA84F11C1"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -101,6 +113,11 @@
 				id: "biomeswevegone:foragers_table"
 			}
 			id: "1332F4BE43C3ACBF"
+			rewards: [{
+				id: "32C77AE764B16413"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -133,6 +150,11 @@
 				id: "beautify:botanist_workbench"
 			}
 			id: "3C13C4F2884995A5"
+			rewards: [{
+				id: "021ECB69C3FDA44D"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -165,6 +187,11 @@
 				id: "minecraft:composter"
 			}
 			id: "3B79DC9F4241274E"
+			rewards: [{
+				id: "2D0CD0D664252BA7"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -197,6 +224,11 @@
 				id: "minecraft:barrel"
 			}
 			id: "76D0CFD177937B83"
+			rewards: [{
+				id: "4417B12595323CF8"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -229,6 +261,11 @@
 				id: "minecraft:fletching_table"
 			}
 			id: "2C4BBF14C54D0D1A"
+			rewards: [{
+				id: "59DDD1B58EA20A20"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -261,6 +298,11 @@
 				id: "minecraft:cauldron"
 			}
 			id: "3295946B3E6D0E0C"
+			rewards: [{
+				id: "7F6D20BE558BC155"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -293,6 +335,11 @@
 				id: "ae2:charger"
 			}
 			id: "694750A3B6D87435"
+			rewards: [{
+				id: "591D0E2CEAEC3ECC"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -310,6 +357,7 @@
 					wanted_item: "minecraft:emerald"
 				}
 				{
+					disable_toast: true
 					id: "70892B2BC7EFD503"
 					item: { count: 1, id: "ae2:charger" }
 					type: "item"
@@ -325,6 +373,11 @@
 				id: "farmersdelight:skillet"
 			}
 			id: "4995723E72765DCE"
+			rewards: [{
+				id: "060CC4825DF3D338"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -357,6 +410,11 @@
 				id: "cobblemon:healing_machine"
 			}
 			id: "6B693D101E498D99"
+			rewards: [{
+				id: "1633633623BCE38D"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -389,6 +447,11 @@
 				id: "minecraft:blast_furnace"
 			}
 			id: "3EE0157197FCB123"
+			rewards: [{
+				id: "7F850223384E21BA"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -421,6 +484,11 @@
 				id: "minecraft:smoker"
 			}
 			id: "1ABA833262772E53"
+			rewards: [{
+				id: "1838B25CDE105FD3"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -453,6 +521,11 @@
 				id: "minecraft:cartography_table"
 			}
 			id: "1DF07DA2A52B1E1B"
+			rewards: [{
+				id: "34365888C8FA5107"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -485,6 +558,11 @@
 				id: "minecraft:brewing_stand"
 			}
 			id: "10A94F598BAB2625"
+			rewards: [{
+				id: "4A723BAC73AA7EA2"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -517,6 +595,11 @@
 				id: "minecraft:lectern"
 			}
 			id: "36C219896F2D98D5"
+			rewards: [{
+				id: "12955A8C962549FF"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -549,6 +632,11 @@
 				id: "minecraft:stonecutter"
 			}
 			id: "4CD9DF4C9FEE455B"
+			rewards: [{
+				id: "6DAB5DB355A469C7"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -581,6 +669,11 @@
 				id: "minecraft:loom"
 			}
 			id: "768B2E9FFE81CE23"
+			rewards: [{
+				id: "0E98D2F63E26B5B1"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -613,6 +706,11 @@
 				id: "minecraft:smithing_table"
 			}
 			id: "44E4FC79CB7E87C3"
+			rewards: [{
+				id: "333661892D67D96E"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -645,6 +743,11 @@
 				id: "minecraft:grindstone"
 			}
 			id: "4FD5D47135133451"
+			rewards: [{
+				id: "4FA6117A26089DED"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [
 				{
 					icon: {
@@ -679,6 +782,11 @@
 			}
 			icon_scale: 0.9d
 			id: "1A81125F084BBFA5"
+			rewards: [{
+				id: "20ADEA7F5A4BC301"
+				type: "xp"
+				xp: 40
+			}]
 			shape: "octosquare"
 			size: 1.8d
 			tasks: [{
@@ -692,6 +800,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "1CF39C2BA9FFD2B4"
+			rewards: [{
+				id: "0584F5170783EB3B"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "ae2:charger"
@@ -714,6 +827,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "6F23B277CC1AFAC0"
+			rewards: [{
+				id: "2D919FD722D08AA2"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "beautify:botanist_workbench"
@@ -736,6 +854,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "5E9EFA9856252E9E"
+			rewards: [{
+				id: "32092C89176C362E"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "farmersdelight:cooking_pot"
@@ -758,6 +881,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "0C37DA8A103E508D"
+			rewards: [{
+				id: "603742485822AFD2"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "farmersdelight:skillet"
@@ -780,6 +908,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "19D1E0EF219C2F3C"
+			rewards: [{
+				id: "13470A2BBDA5860B"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "cobblemon:healing_machine"
@@ -802,6 +935,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "0C5AFB107AB94B04"
+			rewards: [{
+				id: "5D85C36CC3CE1A1D"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:blast_furnace"
@@ -824,6 +962,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "3794A15A6ABC3245"
+			rewards: [{
+				id: "73CFD5C39817FBF5"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:smoker"
@@ -846,6 +989,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "30219714086D6264"
+			rewards: [{
+				id: "41099B5F787AD669"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:cartography_table"
@@ -868,6 +1016,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "1979B29D9CB08C9B"
+			rewards: [{
+				id: "1F1ECBC2AEDE1BC1"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:brewing_stand"
@@ -890,6 +1043,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "655539BA83A80644"
+			rewards: [{
+				id: "07CE504180C2E3C3"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:composter"
@@ -912,6 +1070,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "04B9DE339B135991"
+			rewards: [{
+				id: "2BAA59878781A7B4"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:barrel"
@@ -934,6 +1097,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "66FAE70650FC5940"
+			rewards: [{
+				id: "703298A177DC70F1"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:fletching_table"
@@ -956,6 +1124,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "7BD5086547F46FD1"
+			rewards: [{
+				id: "3C5DB1B5C4006539"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:cauldron"
@@ -978,6 +1151,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "56213AA136BAE706"
+			rewards: [{
+				id: "252A5F8421A4731B"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:lectern"
@@ -1000,6 +1178,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "6C52672E709EBA53"
+			rewards: [{
+				id: "7622A47E4E0989FC"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:stonecutter"
@@ -1022,6 +1205,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "2B8779BCBC301CD1"
+			rewards: [{
+				id: "674ADD2F2AE5B1BC"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:loom"
@@ -1044,6 +1232,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "1FE5EEDDF5E7BFFC"
+			rewards: [{
+				id: "1609F9AA09DE75A0"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:smithing_table"
@@ -1066,6 +1259,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "09258DE91AFB6A16"
+			rewards: [{
+				id: "6997A57A72E2C6D1"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:grindstone"
@@ -1088,6 +1286,11 @@
 			dependencies: ["1A81125F084BBFA5"]
 			hide_until_deps_complete: true
 			id: "52919649E427583D"
+			rewards: [{
+				id: "68F4DB0808614A3A"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				icon: {
 					id: "biomeswevegone:foragers_table"

@@ -2,6 +2,7 @@
 	autofocus_id: "72066E0FF8AA2818"
 	default_hide_dependency_lines: false
 	default_quest_shape: "mv_wood"
+	disable_toast: true
 	filename: "decorations"
 	group: "216429D7B624FFA8"
 	icon: {

@@ -214,14 +214,32 @@
 			}
 			icon_scale: 1.2d
 			id: "43B54EE2E0483FA7"
-			rewards: [{
-				id: "6C6DA509AA0BEE3B"
-				item: {
-					count: 1
-					id: "kubejs:food_care_package"
+			rewards: [
+				{
+					id: "6C6DA509AA0BEE3B"
+					item: {
+						count: 1
+						id: "kubejs:food_care_package"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "444F5B295B10AE22"
+					item: {
+						count: 1
+						id: "kubejs:starter_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "020DD18C250AD449"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:iron_backpack"
+					}
+					type: "item"
+				}
+			]
 			shape: "mv_wood2"
 			size: 1.7d
 			tags: ["mayviewquests"]
@@ -321,8 +339,8 @@
 			shape: "none"
 			size: 1.5d
 			tasks: [{
-				id: "772A7D9413FE6552"
-				item: { count: 1, id: "mcwbyg:stripped_fir_striped_chair" }
+				id: "5E5288C206B27437"
+				item: { count: 1, id: "mcwfurnitures:oak_chair" }
 				type: "item"
 			}]
 			x: 4.5d

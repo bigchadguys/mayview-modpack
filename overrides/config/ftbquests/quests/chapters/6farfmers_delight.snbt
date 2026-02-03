@@ -2,6 +2,7 @@
 	autofocus_id: "356E5A72B9C35F2E"
 	default_hide_dependency_lines: false
 	default_quest_shape: "mv_wood2"
+	disable_toast: true
 	filename: "6farfmers_delight"
 	group: "216429D7B624FFA8"
 	icon: {

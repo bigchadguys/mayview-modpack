@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "octosquare"
+	disable_toast: true
 	filename: "6trafnsportation"
 	group: "216429D7B624FFA8"
 	icon: {

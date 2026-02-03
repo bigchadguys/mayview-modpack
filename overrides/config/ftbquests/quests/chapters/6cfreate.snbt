@@ -745,9 +745,12 @@
 			id: "268BBA7EC5BDFBF0"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "698D72A9DC16271E"
-					type: "choice"
+					id: "381C47D4385904D7"
+					item: {
+						count: 1
+						id: "kubejs:tier_one_create_care_package"
+					}
+					type: "item"
 				}
 				{
 					id: "39C175435CB43F15"
@@ -1286,10 +1289,9 @@
 			size: 1.9d
 			tags: ["createquests"]
 			tasks: [{
-				advancement: "create:brass"
-				criterion: ""
-				id: "7D3038580E9D651B"
-				type: "advancement"
+				id: "49FDFE7000324F3E"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: -14.0d

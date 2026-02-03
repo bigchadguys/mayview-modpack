@@ -81,67 +81,77 @@
 			disable_toast: true
 			icon: {
 				components: {
-					"sellingbin:bin_material": "wood"
-					"sellingbin:bin_mode": "player_bound"
+					"ftbquests:missing_item": "sellingbin:selling_bin"
 				}
-				id: "sellingbin:selling_bin"
+				id: "ftbquests:missing_item"
 			}
 			id: "2F174A4CD3484062"
 			rewards: [{
 				id: "38652B3424B107CB"
 				item: {
 					components: {
-						"sellingbin:bin_material": "wood"
-						"sellingbin:bin_mode": "player_bound"
+						"ftbquests:missing_item": "sellingbin:selling_bin"
 					}
 					count: 1
-					id: "sellingbin:selling_bin"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			shape: "mv_wood"
 			size: 1.1d
-			tasks: [{
-				count: 5L
-				id: "595020D632BFBF58"
-				item: { count: 1, id: "mayview:copper_coin" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "595020D632BFBF58"
+					item: { count: 1, id: "mayview:copper_coin" }
+					type: "item"
+				}
+				{
+					id: "7D6C9D894E8EE9DE"
+					type: "checkmark"
+				}
+			]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["4653E430E6C28B82"]
+			dependency_requirement: "one_started"
 			icon: {
 				components: {
-					"sellingbin:bin_material": "netherite"
-					"sellingbin:bin_mode": "player_bound"
+					"ftbquests:missing_item": "sellingbin:selling_bin"
 				}
-				id: "sellingbin:selling_bin"
+				id: "ftbquests:missing_item"
 			}
 			id: "00B363F735626BAD"
 			rewards: [{
 				id: "003E637192628A8F"
 				item: {
 					components: {
-						"sellingbin:bin_material": "netherite"
-						"sellingbin:bin_mode": "player_bound"
+						"ftbquests:missing_item": "sellingbin:selling_bin"
 					}
 					count: 1
-					id: "sellingbin:selling_bin"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			shape: "wood_rounded"
 			size: 1.1d
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "79C6C73480741991"
-				item: { count: 1, id: "mayview:diamond_coin" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "79C6C73480741991"
+					item: { count: 1, id: "mayview:diamond_coin" }
+					type: "item"
+				}
+				{
+					id: "3FB7EB653EDC64D6"
+					type: "checkmark"
+				}
+			]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -213,37 +223,42 @@
 		{
 			can_repeat: true
 			dependencies: ["2F174A4CD3484062"]
+			dependency_requirement: "one_started"
 			disable_toast: true
 			icon: {
 				components: {
-					"sellingbin:bin_material": "iron"
-					"sellingbin:bin_mode": "player_bound"
+					"ftbquests:missing_item": "sellingbin:selling_bin"
 				}
-				id: "sellingbin:selling_bin"
+				id: "ftbquests:missing_item"
 			}
 			id: "73CA7AE70B0F3318"
 			rewards: [{
 				id: "7567FFA109BAFF22"
 				item: {
 					components: {
-						"sellingbin:bin_material": "iron"
-						"sellingbin:bin_mode": "player_bound"
+						"ftbquests:missing_item": "sellingbin:selling_bin"
 					}
 					count: 1
-					id: "sellingbin:selling_bin"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			shape: "wood_rounded"
 			size: 1.1d
-			tasks: [{
-				consume_items: true
-				count: 5L
-				disable_toast: true
-				id: "47C793A6860B63CB"
-				item: { count: 1, id: "mayview:iron_coin" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					disable_toast: true
+					id: "47C793A6860B63CB"
+					item: { count: 1, id: "mayview:iron_coin" }
+					type: "item"
+				}
+				{
+					id: "5E3E8D29870B813E"
+					type: "checkmark"
+				}
+			]
 			x: 4.0d
 			y: 1.0d
 		}
@@ -253,13 +268,13 @@
 				"73CA7AE70B0F3318"
 				"2EA8499C85F1E97B"
 			]
+			dependency_requirement: "one_started"
 			disable_toast: true
 			icon: {
 				components: {
-					"sellingbin:bin_material": "diamond"
-					"sellingbin:bin_mode": "player_bound"
+					"ftbquests:missing_item": "sellingbin:selling_bin"
 				}
-				id: "sellingbin:selling_bin"
+				id: "ftbquests:missing_item"
 			}
 			id: "4653E430E6C28B82"
 			min_required_dependencies: 1
@@ -267,62 +282,73 @@
 				id: "06183D63456705EB"
 				item: {
 					components: {
-						"sellingbin:bin_material": "diamond"
-						"sellingbin:bin_mode": "player_bound"
+						"ftbquests:missing_item": "sellingbin:selling_bin"
 					}
 					count: 1
-					id: "sellingbin:selling_bin"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			shape: "wood_rounded"
 			size: 1.1d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				icon: {
-					id: "mayview:diamond_coin"
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					icon: {
+						id: "mayview:diamond_coin"
+					}
+					id: "08B2B772D0C9E5F2"
+					item: { count: 1, id: "mayview:diamond_coin" }
+					type: "item"
 				}
-				id: "08B2B772D0C9E5F2"
-				item: { count: 1, id: "mayview:diamond_coin" }
-				type: "item"
-			}]
+				{
+					id: "181E6CBA99F83755"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["2F174A4CD3484062"]
+			dependency_requirement: "one_started"
 			disable_toast: true
 			icon: {
 				components: {
-					"sellingbin:bin_material": "redstone"
-					"sellingbin:bin_mode": "block_bound"
+					"ftbquests:missing_item": "sellingbin:selling_bin"
 				}
-				id: "sellingbin:selling_bin"
+				id: "ftbquests:missing_item"
 			}
 			id: "2EA8499C85F1E97B"
 			rewards: [{
 				id: "0E153D7732A9C7DE"
 				item: {
 					components: {
-						"sellingbin:bin_material": "redstone"
-						"sellingbin:bin_mode": "block_bound"
+						"ftbquests:missing_item": "sellingbin:selling_bin"
 					}
 					count: 1
-					id: "sellingbin:selling_bin"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			shape: "wood_rounded"
 			size: 1.1d
-			tasks: [{
-				count: 3L
-				disable_toast: true
-				id: "7EE46AD75890C4E8"
-				item: { count: 1, id: "mayview:gold_coin" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					disable_toast: true
+					id: "7EE46AD75890C4E8"
+					item: { count: 1, id: "mayview:gold_coin" }
+					type: "item"
+				}
+				{
+					id: "452722AC40F9E159"
+					type: "checkmark"
+				}
+			]
 			x: 4.0d
 			y: -1.0d
 		}

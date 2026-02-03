@@ -329,6 +329,7 @@
 			]
 			size: 1.2d
 			tasks: [{
+				disable_toast: true
 				id: "3EAB6607F549ACBA"
 				item: { count: 1, id: "cobblemon:persim_berry" }
 				type: "item"
