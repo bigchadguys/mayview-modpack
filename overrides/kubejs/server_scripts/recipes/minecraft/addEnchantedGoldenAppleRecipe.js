@@ -1,3 +1,8 @@
+// kubejs/server_scripts/recipes/minecraft/addEnchantedGoldenAppleRecipe.js
+//-------------------------------------------
+//   Enchanted Golden Apple Recipe
+//     Create Mechanical Craft
+//-------------------------------------------
 ServerEvents.recipes((event) => {
   const recipe = {
     type: "create:mechanical_crafting",
@@ -12,14 +17,17 @@ ServerEvents.recipes((event) => {
       },
       G: {
         item: "mayview:gold_coin",
+      },
+      E: {
+        item: "create:experience_block",
       }
     },
     pattern: [
-        " AAA ",
+        "EAAAE",
         "AGGGA",
         "AGBGA",
         "AGGGA",
-        " AAA "
+        "EAAAE"
     ],
     result: {
       count: 1,

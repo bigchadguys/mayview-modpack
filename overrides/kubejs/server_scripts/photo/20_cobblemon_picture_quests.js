@@ -114,18 +114,66 @@ global.Photo.quests.push(
   {"advancement": "mayview:photo/falinks_badlands_photo", "biome": "minecraft:badlands", "pokemon": "falinks"},
   {"advancement": "mayview:photo/falinks_badlands_photo", "biome": "minecraft:wooded_badlands", "pokemon": "falinks"},
   {"advancement": "mayview:photo/falinks_badlands_photo", "biome": "minecraft:eroded_badlands", "pokemon": "falinks"},
-  {"advancement": "mayview:photo/alolan_diglett_beach_photo", "biome": "minecraft:beach", "pokemon": "alolan diglett"},
-  {"advancement": "mayview:photo/alolan_diglett_beach_photo", "biome": "minecraft:snowy_beach", "pokemon": "alolan diglett"},
-  {"advancement": "mayview:photo/alolan_diglett_beach_photo", "biome": "minecraft:stony_shore", "pokemon": "alolan diglett"},
-  {"advancement": "mayview:photo/alolan_dugtrio_beach_photo", "biome": "minecraft:beach", "pokemon": "alolan dugtrio"},
-  {"advancement": "mayview:photo/alolan_dugtrio_beach_photo", "biome": "minecraft:snowy_beach", "pokemon": "alolan dugtrio"},
-  {"advancement": "mayview:photo/alolan_dugtrio_beach_photo", "biome": "minecraft:stony_shore", "pokemon": "alolan dugtrio"},
-  {"advancement": "mayview:photo/alolan_grimer_beach_photo", "biome": "minecraft:beach", "pokemon": "alolan grimer"},
-  {"advancement": "mayview:photo/alolan_grimer_beach_photo", "biome": "minecraft:snowy_beach", "pokemon": "alolan grimer"},
-  {"advancement": "mayview:photo/alolan_grimer_beach_photo", "biome": "minecraft:stony_shore", "pokemon": "alolan grimer"},
-  {"advancement": "mayview:photo/alolan_muk_beach_photo", "biome": "minecraft:beach", "pokemon": "alolan muk"},
-  {"advancement": "mayview:photo/alolan_muk_beach_photo", "biome": "minecraft:snowy_beach", "pokemon": "alolan muk"},
-  {"advancement": "mayview:photo/alolan_muk_beach_photo", "biome": "minecraft:stony_shore", "pokemon": "alolan muk"},
+  {
+    advancement: "mayview:photo/alolan_diglett_beach_photo",
+    biome: "minecraft:beach",
+    pokemonAny: ["alolan diglett", "diglett (alolan)", "diglett-alola"]
+  },
+  {
+    advancement: "mayview:photo/alolan_diglett_beach_photo",
+    biome: "minecraft:snowy_beach",
+    pokemonAny: ["alolan diglett", "diglett (alolan)", "diglett-alola"]
+  },  
+  {
+    advancement: "mayview:photo/alolan_diglett_beach_photo",
+    biome: "minecraft:stony_shore",
+    pokemonAny: ["alolan diglett", "diglett (alolan)", "diglett-alola"]
+  },
+  {
+    advancement: "mayview:photo/alolan_dugtrio_beach_photo",
+    biome: "minecraft:beach",
+    pokemonAny: ["alolan dugtrio", "dugtrio (alolan)", "dugtrio-alola"]
+  },
+  {
+    advancement: "mayview:photo/alolan_dugtrio_beach_photo",
+    biome: "minecraft:snowy_beach",
+    pokemonAny: ["alolan dugtrio", "dugtrio (alolan)", "dugtrio-alola"]
+  },  
+  {
+    advancement: "mayview:photo/alolan_dugtrio_beach_photo",
+    biome: "minecraft:stony_shore",
+    pokemonAny: ["alolan dugtrio", "dugtrio (alolan)", "dugtrio-alola"]
+  },
+  {
+    advancement: "mayview:photo/alolan_muk_beach_photo",
+    biome: "minecraft:beach",
+    pokemonAny: ["alolan muk", "muk (alolan)", "muk-alola"]
+  },
+  {
+    advancement: "mayview:photo/alolan_muk_beach_photo",
+    biome: "minecraft:snowy_beach",
+    pokemonAny: ["alolan muk", "muk (alolan)", "muk-alola"]
+  },  
+  {
+    advancement: "mayview:photo/alolan_muk_beach_photo",
+    biome: "minecraft:stony_shore",
+    pokemonAny: ["alolan muk", "muk (alolan)", "muk-alola"]
+  },
+  {
+    advancement: "mayview:photo/alolan_grimer_beach_photo",
+    biome: "minecraft:beach",
+    pokemonAny: ["alolan grimer", "grimer (alolan)", "grimer-alola"]
+  },
+  {
+    advancement: "mayview:photo/alolan_grimer_beach_photo",
+    biome: "minecraft:snowy_beach",
+    pokemonAny: ["alolan grimer", "grimer (alolan)", "grimer-alola"]
+  },  
+  {
+    advancement: "mayview:photo/alolan_grimer_beach_photo",
+    biome: "minecraft:stony_shore",
+    pokemonAny: ["alolan grimer", "grimer (alolan)", "grimer-alola"]
+  },
   {"advancement": "mayview:photo/noibat_spooky_photo", "biome": "minecraft:dark_forest", "pokemon": "noibat"},
   {"advancement": "mayview:photo/noibat_spooky_photo", "biome": "minecraft:deep_dark", "pokemon": "noibat"},
   {"advancement": "mayview:photo/noibat_cave_photo", "biome": "minecraft:lush_caves", "pokemon": "noibat"},

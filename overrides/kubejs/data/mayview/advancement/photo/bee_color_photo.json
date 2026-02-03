@@ -1,10 +1,11 @@
 {
+  "parent": "mayview:photo/root",
   "display": {
     "icon": {
-      "item": "exposure:camera"
+      "id": "minecraft:spyglass"
     },
     "title": {
-      "text": "Bee Color Photo"
+      "text": "Photo: Bee Photo"
     },
     "description": {
       "text": "Capture the requested photo to complete this objective."
@@ -12,16 +13,11 @@
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
-    "photo": {
+    "shot": {
       "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "photo"
-    ]
-  ]
+  }
 }

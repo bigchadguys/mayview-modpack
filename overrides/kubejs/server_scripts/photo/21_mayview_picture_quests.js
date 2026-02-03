@@ -3,23 +3,23 @@ console.info("[PhotoQuests] Loading Mayview picture quests...");
 
 global.Photo.quests.push(
   {
-      advancement: "mayview:photo/ribbit_swamp_photo",
+      advancement: "mayview:photo/ribbit_village_photo",
       dimension: "minecraft:overworld",
-      biome: "minecraft:swamp",
       entity: "ribbits:ribbit",
+      structures: "ribbits:ribbit_village"
     },
   { advancement: "mayview:photo/villager_crowd_photo", entity: "minecraft:villager", minCount: 10 },
   { advancement: "mayview:photo/ender_dragon_photo", entity: "minecraft:ender_dragon" },
   { advancement: "mayview:photo/wither_photo", entity: "minecraft:wither" },
-  { advancement: "mayview:photo/warden_photo", entity: "minecraft:warden" },
+  { advancement: "mayview:photo/warden_photo", entity: "minecraft:warden", structures: "minecraft:ancient_city" },
   { advancement: "mayview:photo/rain_bw_photo", type: "black_and_white", weather: "Rain" },
   { advancement: "mayview:photo/bee_color_photo", type: "color", entity: "minecraft:bee" },
   { advancement: "mayview:photo/enderman_end_photo", dimension: "minecraft:the_end", entity: "minecraft:enderman" },
   { advancement: "mayview:photo/golem_vs_zombie_photo", bothEntities: ["minecraft:iron_golem", "minecraft:zombie"] },
   {
-      advancement: "mayview:photo/dark_oak_enderman_photo",
+      advancement: "mayview:photo/dark_oak_creeper_photo",
       biome: "minecraft:dark_forest",
-      entity: "endermanoverhaul:dark_oak_enderman",
+      entity: "creeperoverhaul:dark_oak_creeper",
     },
   { advancement: "mayview:photo/armadillo_ironwood_gour_photo", biome: "biomeswevegone:ironwood_gour", entity: "minecraft:armadillo" },
   {
@@ -49,9 +49,8 @@ global.Photo.quests.push(
       biome: "minecraft:mushroom_fields",
       bothEntities: ["minecraft:mooshroom", "creeper_overhaul:mushroom_creeper"],
     },
-  { advancement: "mayview:photo/pig_photo", entity: "minecraft:pig" },
-  { advancement: "mayview:photo/sheep_photo", entity: "minecraft:sheep" },
-  { advancement: "mayview:photo/cow_photo", entity: "minecraft:cow" }
+  { advancement: "mayview:photo/cow_or_sheep_or_pig_photo", entity: "minecraft:pig" },
+  { advancement: "mayview:photo/wandering_trader_llamas_photo", bothEntities: ["minecraft:wandering_trader", "minecraft:trader_llama" ]},
 );
 
 console.info("[PhotoQuests] Mayview quests loaded.");

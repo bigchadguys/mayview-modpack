@@ -82,7 +82,12 @@ function matchesFilmType(frame, quest) {
 
 function matchesStructures(frame, quest) {
   if (!quest.structures) return true;
-  return quest.structures.every((s) => frame.structures.includes(s));
+
+  const needed = Array.isArray(quest.structures)
+    ? quest.structures
+    : [quest.structures]; // allow single string
+
+  return needed.every((s) => frame.structures.includes(s));
 }
 
 function matchesEntityCounts(frame, entityId, minCount) {
@@ -118,6 +123,11 @@ function matchesTimeWindows(frame, windows) {
   });
 }
 
+function matchesPokemonAny(frame, names, minCount) {
+  if (!names || !names.length) return true;
+  return names.some(n => matchesPokemonCounts(frame, n, minCount));
+}
+
 // EXACT biome match only (tags later)
 function matchesBiome(frame, questBiome) {
   if (!questBiome) return true;
@@ -137,6 +147,9 @@ Photo.frameMatches = function (frame, quest) {
   }
   if (quest.pokemon) {
     if (!matchesPokemonCounts(frame, quest.pokemon, quest.minCount)) return false;
+  }
+  if (quest.pokemonAny) {
+  if (!matchesPokemonAny(frame, quest.pokemonAny, quest.minCount)) return false;
   }
   if (quest.entityPrefix) {
     if (!matchesEntityPrefix(frame, quest.entityPrefix)) return false;
@@ -159,15 +172,24 @@ Photo.grantAdvancement = function (player, advId) {
   const pd = player.persistentData;
   const now = Date.now();
 
-  const key = "photoquest_cd"; // ONE key total
-  const last = pd.getLong(key) || 0;
+  // Permanent "already granted" guard
+  const doneKey = "photoquest_adv_done_" + advId;
+  if (pd.getBoolean(doneKey)) return;
 
+  // Optional: small cooldown per-adv (prevents double-tick spam)
+  const cdKey = "photoquest_cd_" + advId;
+  const last = pd.getLong(cdKey) || 0;
   if (now - last < 1500) return;
-  pd.putLong(key, now);
+  pd.putLong(cdKey, now);
 
-  const cmd = `advancement grant ${getCmdName(player)} only ${advId}`;
-  Photo.log(`[PhotoQuests] CMD: ${cmd}`);
-  player.runCommandSilent(cmd);
+  // Mark done BEFORE command (prevents racey duplicates)
+  pd.putBoolean(doneKey, true);
+
+  // Run as server, target by UUID
+  const cmd =
+    `execute as @a[name="${player.username}"] run advancement grant @s only ${advId}`;
+  Photo.log(`[PhotoQuests] CMD(server): ${cmd}`);
+  player.server.runCommand(cmd);
 };
 
 console.log("[PhotoEngine] Loaded.");

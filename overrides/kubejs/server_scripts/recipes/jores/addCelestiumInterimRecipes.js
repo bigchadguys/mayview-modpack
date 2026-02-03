@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     // Celestium Sun Infused Recipe
     event.shapeless(
-        Item.of('kubejs:celestium_sun_infused', 1),
+        Item.of('ores:solarium_ingot', 1),
         [
             'cobblemon:heat_rock',
             'cobblemon:sun_stone',
@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
     )
     // Celestium Lunar Charged Recipe
     event.shapeless(
-        Item.of('kubejs:celestium_lunar_charged', 1),
+        Item.of('ores:lunarium_ingot', 1),
         [
             'cobblemon:moon_stone',
             'cobblemon:moon_stone',
