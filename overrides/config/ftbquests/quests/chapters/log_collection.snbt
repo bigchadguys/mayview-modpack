@@ -712,10 +712,10 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				icon: {
-					id: "ores:mythril_axe"
+					id: "ores:adamantite_axe"
 				}
 				id: "63E17499107B7EA6"
-				table_id: 3227310769734009468L
+				table_id: 4868995026320795599L
 				type: "all_table"
 			}]
 			size: 1.5d

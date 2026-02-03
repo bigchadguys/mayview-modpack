@@ -1,4 +1,4 @@
-// mayview_picture_quests.js
+// server_scripts/photo/21_mayview_picture_quests.js
 console.info("[PhotoQuests] Loading Mayview picture quests...");
 
 global.Photo.quests.push(

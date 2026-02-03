@@ -1,7 +1,7 @@
 {
   "fancyAdvancementToastsEnabled": true,
   "fancyQuestToastsEnabled": true,
-  "advancementToastsEnabled": true,
+  "advancementToastsEnabled": false,
   "recipeToastsEnabled": false,
   "systemToastsEnabled": true,
   "tutorialToastsEnabled": false,

@@ -17,11 +17,11 @@ replaceModeEnabled = true
 # Range: 7 ~ 70
 maxPalettes = 28
 #Maximum number of blocks that can be placed in one wand mode action as default
-# Default: 81
-# Range: 1 ~ 512
+# Default: 64
+# Range: 1 ~ 256
 wandMaxBlocks = 64
 #Maximum range from clicked block for wand mode
-# Default: 31
+# Default: 64
 # Range: 2 ~ 256
 wandMaxRange = 64
 #Enable wand upgrade functionality
@@ -42,5 +42,3 @@ reachUpgradeEnabled = true
 # Default: 4.0
 # Range: 0.0 ~ 16.0
 reachUpgradeBonus = 4.0
-#Enable AE2 ME Storage integration upgrade functionality
-ae2UpgradeEnabled = true

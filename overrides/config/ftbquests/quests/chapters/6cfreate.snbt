@@ -2662,6 +2662,9 @@
 			tasks: [{
 				advancement: "create:train_portal"
 				criterion: ""
+				icon: {
+					id: "minecraft:netherrack"
+				}
 				id: "298F4B192D9897BB"
 				type: "advancement"
 			}]
@@ -3401,6 +3404,7 @@
 		}
 		{
 			dependencies: ["0DE477B195CB758E"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "create:mechanical_crafter"
 			}

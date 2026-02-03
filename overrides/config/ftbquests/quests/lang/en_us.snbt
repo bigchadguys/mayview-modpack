@@ -1612,7 +1612,7 @@
 	quest.56213AA136BAE706.quest_subtitle: "Read or Die"
 	quest.569687B318EA6FF4.title: "Mystic Moon"
 	quest.56B2D68DF399DD78.quest_desc: [
-		"Hope those Pokemon Wellness Packages have been helping those early-game Pokemon Battles."
+		"Hope those &bPokemon Wellness Packages&r have been helping those early-game Pokemon Battles."
 		""
 		"Here's a &bHealing Machine&r for your base"
 	]

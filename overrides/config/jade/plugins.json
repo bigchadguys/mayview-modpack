@@ -75,7 +75,7 @@
     "registry_name.special": false,
     "block_states": false,
     "distance": false,
-    "block_face": true,
+    "block_face": false,
     "coordinates": false,
     "registry_name": "ADVANCED_TOOLTIPS",
     "block_properties": false,

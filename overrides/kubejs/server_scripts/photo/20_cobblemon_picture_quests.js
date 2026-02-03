@@ -1,4 +1,4 @@
-// cobblemon_picture_quests.js
+// server_scripts/photo/20_cobblemon_picture_quests.js
 console.info("[PhotoQuests] Loading Cobblemon picture quests...");
 
 global.Photo.quests.push(

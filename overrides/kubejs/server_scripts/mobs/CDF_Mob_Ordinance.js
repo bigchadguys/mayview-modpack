@@ -1,19 +1,4 @@
-/*
-const NETHER_ROOF_Y = 120
-
-EntityEvents.spawned(event => {
-  const level = event.level
-  const e = event.entity
-
-  if (e.isPlayer()) return
-  if (level.dimension != 'minecraft:the_nether') return
-
-  if (e.y > NETHER_ROOF_Y) {
-    event.entity.kill()
-  }
-})
-*/
-
+// kubejs/server_scripts/mobs/CDF_Mob_Ordinance.js
 const NETHER_ROOF_Y = 120
 const ROOF_TAG = 'mayview_roof_illegal'
 
@@ -23,10 +8,10 @@ BlockEvents.placed(event => {
 
   if (level.isClientSide && level.isClientSide()) return
   if (level.dimension != 'minecraft:the_nether') return
-  if (block.id == 'minecraft:spawner') {
-    if (block.y <= NETHER_ROOF_Y) return
-    event.cancel()
-  }
+  if (block.id == 'minecraft:spawner')
+  if (block.y <= NETHER_ROOF_Y) return
+ 
+  event.cancel()
 })
 
 BlockEvents.rightClicked(event => {
@@ -48,7 +33,7 @@ BlockEvents.rightClicked(event => {
 
   // Only talk on server
   if (!(level.isClientSide && level.isClientSide())) {
-    player.tell('⚠ Spawners can’t be placed above Y ' + NETHER_ROOF_Y + ' in the Nether.')
+    player.tell('CDF Ordinance: No Spawners can’t be placed above Y ' + NETHER_ROOF_Y + ' in the Nether.')
   }
 })
 

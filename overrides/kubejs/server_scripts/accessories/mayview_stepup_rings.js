@@ -1,12 +1,17 @@
-// kubejs/server_scripts/accessories/mayview_stepup_rings.js
+// server_scripts/accessories/mayview_stepup_rings.js
 // ignored: true
-const ResourceLocation = Java.type('net.minecraft.resources.ResourceLocation')
-const AttributeModifier = Java.type('net.minecraft.world.entity.ai.attributes.AttributeModifier')
-const Operation = Java.type('net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation')
-const Attributes = Java.type('net.minecraft.world.entity.ai.attributes.Attributes')
 
-// Accessories API (we’ll try multiple method names to match your build)
-const AccessoriesAPI = Java.type('io.wispforest.accessories.api.AccessoriesAPI')
+const ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
+const AttributeModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier')
+const Operation = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation')
+const Attributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
+
+let AccessoriesAPI = null
+try {
+  AccessoriesAPI = Java.loadClass('io.wispforest.accessories.api.AccessoriesAPI')
+} catch (e) {
+  console.log('[StepUpRings] AccessoriesAPI class not found. Is Accessories installed?')
+}
 
 const RINGS = new Set([
   'mayview:kinetic_assist_ring',
@@ -16,19 +21,58 @@ const RINGS = new Set([
 const STEP_MOD_ID = ResourceLocation.fromNamespaceAndPath('mayview', 'step_up_rings')
 const STEP_MOD = new AttributeModifier(STEP_MOD_ID, 0.4, Operation.ADD_VALUE) // 0.6 -> 1.0
 
+function dumpMethods(objOrClass, label) {
+  try {
+    const cls = objOrClass.class ? objOrClass.class : objOrClass.getClass()
+    const methods = cls.getMethods()
+    console.log(`[StepUpRings] Methods on ${label}:`)
+    for (let i = 0; i < methods.length; i++) {
+      console.log(' - ' + methods[i].getName())
+    }
+  } catch (e) {
+    console.log(`[StepUpRings] Failed dumping methods for ${label}: ${e}`)
+  }
+}
+
 function getAccessoriesInv(player) {
-  // method names vary; try a few common ones
-  if (AccessoriesAPI.getAccessoriesInventory) return AccessoriesAPI.getAccessoriesInventory(player)
-  if (AccessoriesAPI.getAccessoryInventory) return AccessoriesAPI.getAccessoryInventory(player)
-  if (AccessoriesAPI.getInventory) return AccessoriesAPI.getInventory(player)
+  if (!AccessoriesAPI) return null
+
+  // Try common names (varies by version)
+  try { if (AccessoriesAPI.getAccessoriesInventory) return AccessoriesAPI.getAccessoriesInventory(player) } catch (e) {}
+  try { if (AccessoriesAPI.getAccessoryInventory) return AccessoriesAPI.getAccessoryInventory(player) } catch (e) {}
+  try { if (AccessoriesAPI.getInventory) return AccessoriesAPI.getInventory(player) } catch (e) {}
+
+  // If none worked, dump once so we can see what's available
+  if (!global.__stepuprings_dumped) {
+    global.__stepuprings_dumped = true
+    dumpMethods(AccessoriesAPI, 'AccessoriesAPI')
+  }
+
   return null
 }
 
-function getContainer(inv, name) {
-  // container access can vary too
-  try { if (inv.getContainer) return inv.getContainer(name) } catch (e) {}
-  try { if (inv.getAccessoriesContainer) return inv.getAccessoriesContainer(name) } catch (e) {}
-  try { if (inv.container) return inv.container(name) } catch (e) {}
+function findRingStacks(inv) {
+  // Try “ring” container first, but inventory/container APIs vary too.
+  // We'll attempt a few method shapes and dump if needed.
+  try {
+    if (inv.getContainer) {
+      const ring = inv.getContainer('ring')
+      if (ring) return ring
+    }
+  } catch (e) {}
+
+  try {
+    if (inv.getAccessoriesContainer) {
+      const ring = inv.getAccessoriesContainer('ring')
+      if (ring) return ring
+    }
+  } catch (e) {}
+
+  if (!global.__stepuprings_inv_dumped && inv) {
+    global.__stepuprings_inv_dumped = true
+    dumpMethods(inv, 'AccessoriesInventory(?)')
+  }
+
   return null
 }
 
@@ -46,21 +90,27 @@ function getStack(container, i) {
 
 function hasStepRingEquipped(player) {
   const inv = getAccessoriesInv(player)
-  if (!inv) return false
+  if (!inv) {
+    console.log(`[StepUpRings] No accessories inventory for ${player.name.string}`)
+    return false
+  }
 
-  const ring = getContainer(inv, 'ring')
-  if (!ring) return false
+  const ringContainer = findRingStacks(inv)
+  if (!ringContainer) {
+    console.log(`[StepUpRings] Could not find ring container for ${player.name.string}`)
+    return false
+  }
 
-  const n = containerSize(ring)
+  const n = containerSize(ringContainer)
   for (let i = 0; i < n; i++) {
-    const stack = getStack(ring, i)
+    const stack = getStack(ringContainer, i)
     if (stack && !stack.isEmpty() && RINGS.has(stack.id)) return true
   }
+
   return false
 }
 
 ServerEvents.tick(event => {
-  // light cost: check every 5 ticks
   if (event.server.tickCount % 5 !== 0) return
 
   event.server.players.forEach(player => {
@@ -71,7 +121,6 @@ ServerEvents.tick(event => {
       inst.addOrUpdateTransientModifier(STEP_MOD)
     } else {
       try { inst.removeModifier(STEP_MOD_ID) } catch (e) {}
-      try { inst.removeModifier(STEP_MOD) } catch (e) {}
     }
   })
 })

@@ -328,6 +328,7 @@
 			rewards: [
 				{
 					command: "/unlockpcboxwallpaper @p mayview:mayview_wallpaper"
+					exclude_from_claim_all: true
 					icon: {
 						components: {
 							"ftbquests:icon": "mayview:textures/joe_flower_01.png"

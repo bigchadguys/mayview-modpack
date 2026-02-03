@@ -3,7 +3,7 @@ ItemEvents.crafted(event => {
   const { item, player } = event
   if (!player) return
 
-  // Waxed copper always starts with this prefix
+  // Waxed copper always starts with this prefix, courtesy of the wax salon
   if (item.id.startsWith('minecraft:waxed_') || item.id.startsWith('create:waxed_')) {
     player.level.playSound(
       null,

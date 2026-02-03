@@ -3,7 +3,7 @@
   "animationId": "fancytoasts:animations/toast/standard",
   "soundIds": {
     "TASK": "mayview:toast.task",
-    "GOAL": "minecraft:entity.firework_rocket.twinkle_far",
+    "GOAL": "mayview:toast.task",
     "CHALLENGE": "minecraft:ui.toast.challenge_complete"
   },
   "version": 1
