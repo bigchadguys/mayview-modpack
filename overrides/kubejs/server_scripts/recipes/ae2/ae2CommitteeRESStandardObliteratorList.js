@@ -62,5 +62,16 @@ ServerEvents.recipes(event => {
     "ae2wtlib:wireless_pattern_encoding_terminal"
   ]
 
-  bannedOutputs.forEach(id => event.remove({ output: id }))
+  // bannedOutputs.forEach(id => event.remove({ output: id }))
+
+  const craftingTypes = [
+    "minecraft:crafting_shaped",
+    "minecraft:crafting_shapeless"
+  ]
+
+  for (const out of bannedOutputs) {
+    for (const type of craftingTypes) {
+      event.remove({ type: type, output: out })
+    }
+  }
 })

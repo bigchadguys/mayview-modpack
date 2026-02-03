@@ -1,12 +1,12 @@
 const TARGET_INTERACT_ID = "minecraft:sugar_cane";
-const BONE_MEAL_ID = "minecraft:bone_meal";
 
-// Player onRightClickBlock event to add custom bonemeal interaction for Energy Root
+// Player onRightClickBlock event to add custom bonemeal interaction 
+// for TARGET_INTERACT_ID
 BlockEvents.rightClicked(TARGET_INTERACT_ID, (event) => {
     let { player, block, level, server, item } = event;
 
     if (level.isClientSide()) return;
-    if (!player.isHolding(Item.of(BONE_MEAL_ID))) return;
+    if (!player.isHolding(Item.of('minecraft:bone_meal'))) return;
 
     global.CarePackageFX.generic(
         { server: server, player: player, block: block },
