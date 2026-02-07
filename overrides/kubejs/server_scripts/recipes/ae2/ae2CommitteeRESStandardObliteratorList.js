@@ -1,6 +1,8 @@
 //--------------------------------------------------------------
 //  AE2 Committee: RES Standard - Items Prohibited in Mayview 
 //--------------------------------------------------------------
+console.info('[Mayview] AE2 Committee Prohibited Manifest Loaded')
+
 ServerEvents.recipes(event => {
 
   const bannedOutputs = [

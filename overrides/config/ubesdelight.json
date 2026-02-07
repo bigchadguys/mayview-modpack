@@ -7,6 +7,6 @@
   "generateWildGarlic": true,
   "generateWildGinger": true,
   "generateWildLemongrass": true,
-  "bakingMatFortuneBonus": 0.1,
+  "bakingMatFortuneBonus": 0.4,
   "isFoodEffectTooltip": true
 }

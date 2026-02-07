@@ -1,3 +1,5 @@
+// kubejs\server_scripts\appliedEnergisticsTrades.js
+
 MoreJS.villagerTrades((event) => {
   const fluix = "ae2:fluix_researcher";
 

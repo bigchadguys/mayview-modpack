@@ -7,7 +7,7 @@
   "teralization": true,
   "dynamax": true,
   "powerSpotRange": 20,
-  "dynamaxAnywhere": false,
+  "dynamaxAnywhere": true,
   "dynamaxScaleFactor": 4.0,
   "teraShardDropRate": 33.0,
   "stellarShardDropRate": 5.0,

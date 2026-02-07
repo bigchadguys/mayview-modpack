@@ -16,7 +16,8 @@
     "entries": {
       "minecraft:gold_nugget": 0.2,
       "minecraft:nether_wart": 0.1,
-      "minecraft:gold_ingot": 0.1
+      "minecraft:gold_ingot": 0.1,
+      "ores:mythril_ingot": 0.1
     },
     "defaultItem": "minecraft:air"
   },
@@ -24,22 +25,35 @@
     "entries": {
       "minecraft:writable_book": 0.1,
       "minecraft:enchanted_book": 0.1,
-      "minecraft:book": 0.4,
-      "minecraft:paper": 0.1
+      "minecraft:book": 0.1,
+      "starcatcher:starcatcher_guide": 0.1,
+      "simplehats:questbook": 0.1,
+      "minecraft:paper": 0.1,
+      "cobblenav:pokenav_item_old": 0.1,
+      "cobblemon:link_cable": 0.1
     },
     "defaultItem": "minecraft:air"
   },
   "messHallItems": {
     "entries": {
-      "minecraft:porkchop": 0.3,
-      "minecraft:gold_ingot": 0.2,
-      "minecraft:cooked_porkchop": 0.3
+      "minecraft:porkchop": 0.1,
+      "minecraft:gold_ingot": 0.1,
+      "minecraft:cooked_porkchop": 0.1,
+      "ubesdelight:tocino": 0.1,
+      "ubesdelight:chicken_inasal": 0.1,
+      "ubesdelight:sisig": 0.1,
+      "brewinandchewin:pizza_slice": 0.1,
+      "veggiesdelight:sweet_potato_pancakes": 0.1,
+      "mynethersdelight:giant_takoyaki": 0.1,
+      "artifacts:eternal_steak": 0.1
     },
     "defaultItem": "minecraft:air"
   },
   "alchemyItems": {
     "entries": {
-      "minecraft:quartz": 0.3,
+      "minecraft:quartz": 0.1,
+      "ae2:certus_quartz_crystal": 0.2,
+      "ae2:fluix_crystal": 0.2,
       "minecraft:fire_charge": 0.2,
       "minecraft:magma_cream": 0.3
     },

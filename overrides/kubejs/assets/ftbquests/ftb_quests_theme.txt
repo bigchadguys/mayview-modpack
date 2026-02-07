@@ -16,6 +16,7 @@ dependency_line_unavailable_color: #996B6258
 dependency_line_completed_color:   #80809BB0
 dependency_line_selected_color:    #CCE0F2F2
 
+panel: part:mayview:textures/gui/create.png; pos=0,0,64,64; corner=8; texture_w=64; texture_h=64; padding=-3
 
 [#mayviewquests]
 quest_view_background: part:mayview:textures/gui/mayview.png; pos=0,0,64,64; corner=15; texture_w=64; texture_h=64; padding=-10

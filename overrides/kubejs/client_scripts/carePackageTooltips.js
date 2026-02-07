@@ -1,6 +1,11 @@
 ItemEvents.modifyTooltips((event) => {
   const COMMON_USAGE_LINES = [Text.gray("Place, then Sneak + Right Click")];
 
+  // Guideme Const, still testing
+  const GUIDE_HINT_LINE = (Text.darkGray("Hold ["))
+    .append(Text.gray("G"))
+    .append(Text.darkGray("] to open guide"));
+
   const CARE_PACKAGE_TOOLTIPS = {
     "kubejs:seed_care_package": [Text.aqua("Contains a random selection of seeds!")],
     "kubejs:wood_care_package": [Text.aqua("Contains a random selection of logs!")],
@@ -38,8 +43,13 @@ ItemEvents.modifyTooltips((event) => {
         tooltip.add(Array.isArray(title) ? title : [title]);
       }
 
+      // Main Tooltip
       tooltip.add(CARE_PACKAGE_TOOLTIPS[itemId]);
+      // How-to Use 
       tooltip.add(COMMON_USAGE_LINES);
+      // Press [G] to open guide
+      // tooltip.add(GUIDE_HINT_LINE);
+
     });
   });
 });

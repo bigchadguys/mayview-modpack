@@ -1,5 +1,5 @@
 #Award guide when joining the world/server once per player
-give_guide = true
+give_guide = false
 show_exclamation_mark_particle = false
 #Enables/disables the ability to bonemeal farmland for worms.
 enable_worms = true

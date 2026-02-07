@@ -50,7 +50,7 @@
 			y: 4.0d
 		}
 	]
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -507,18 +507,11 @@
 		{
 			disable_toast: true
 			id: "7A2E3FA6AC360090"
-			rewards: [
-				{
-					id: "59E27D21282178D6"
-					type: "xp"
-					xp: 20
-				}
-				{
-					id: "1FE05C45674694BE"
-					type: "xp"
-					xp: 20
-				}
-			]
+			rewards: [{
+				id: "59E27D21282178D6"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "40290535E255D026"
 				item: { count: 1, id: "minecraft:dark_oak_sapling" }

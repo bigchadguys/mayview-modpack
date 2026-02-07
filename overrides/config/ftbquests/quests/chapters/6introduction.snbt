@@ -10,16 +10,6 @@
 	id: "3BE7C2DCF9CBCB6C"
 	images: [
 		{
-			color: 16767406
-			height: 1.0d
-			image: "minecraft:item/bee_spawn_egg"
-			order: 2
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: 1.0d
-		}
-		{
 			height: 6.5d
 			image: "mayview:textures/mayview_logo_day.png"
 			order: 10
@@ -256,6 +246,14 @@
 			}
 			icon_scale: 0.9d
 			id: "04E42B9FBE016B30"
+			rewards: [{
+				id: "196B4AEE1ACE2AAA"
+				item: {
+					count: 1
+					id: "kubejs:food_care_package"
+				}
+				type: "item"
+			}]
 			shape: "mv_wood3"
 			size: 1.2d
 			tasks: [{
@@ -345,6 +343,28 @@
 			}]
 			x: 4.5d
 			y: -0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:bee_spawn_egg"
+			}
+			icon_scale: 1.2d
+			id: "6800A37D038E872A"
+			rewards: [{
+				id: "201A20463FB2B9A8"
+				item: {
+					count: 1
+					id: "minecraft:beehive"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "27859F257EBFC395"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 	tags: ["mayviewquests"]

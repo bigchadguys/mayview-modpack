@@ -28,11 +28,12 @@
 	chapter.779407891BE6EF00.title: "&6Pro&fspecting"
 	chapter.7945EEEB5303E899.title: "&6Eco&fnomy"
 	chapter.7AA541E7B4C340DF.title: "&6Ado&frnment - WIP"
-	chapter_group.13E63132F42CE474.title: "Collectathon"
-	chapter_group.216429D7B624FFA8.title: "Mayview"
+	chapter_group.13E63132F42CE474.title: "&aCollectathon"
+	chapter_group.16050E97798E2F4B.title: "&#F800FFP&#F817F5h&#F92EEBo&#F944E0t&#F95BD6o &#FA89C2T&#FA9FB7o&#FBB6ADu&#FBCDA3r"
+	chapter_group.216429D7B624FFA8.title: "&6Mayview"
 	chapter_group.35BB7EDFB30990B6.title: "&1Dev"
-	chapter_group.379FE802613ABCBC.title: "Pokemon"
-	chapter_group.76673E7EF2CBE1DD.title: "Technology"
+	chapter_group.379FE802613ABCBC.title: "&ePokemon"
+	chapter_group.76673E7EF2CBE1DD.title: "&9Technology"
 	file.0000000000000001.title: " &fDiary"
 	quest.00198A0F8958D446.title: "Dex 03"
 	quest.007C2B6693C9A9F7.quest_subtitle: "Egg Group - Human-like and Flying"
@@ -111,6 +112,18 @@
 		"&7PS. Photo of just a normal Ender Dragon. Not sure the Mythical is a real thing... yet"
 	]
 	quest.025DE646E78F585B.quest_subtitle: "The Mythical Ender Dragon"
+	quest.026E833E7A56EB2B.quest_desc: [
+		"The &6Paleontologist&r is here!"
+		""
+		"Their workstation is the &bLab Table&r"
+		""
+		"Lab Tables can be crafted with:"
+		"  &6-&b2x Deepslate"
+		"  &6-&b2x Wood Plank (Oak, Spruce, Birch, etc.)"
+		""
+		"&7PS. Vanilla Minecraft Planks for now"
+	]
+	quest.026E833E7A56EB2B.quest_subtitle: "Lab Table"
 	quest.02A8794BD703DDB8.quest_subtitle: "1k Storage Cell"
 	quest.0330D78E9232D352.quest_subtitle: "1x Drops Reroll"
 	quest.0344C248EE3A7515.quest_subtitle: "10x Chance for Fire Type"
@@ -171,6 +184,8 @@
 	]
 	quest.04E42B9FBE016B30.quest_subtitle: "Skip the grind!"
 	quest.04E42B9FBE016B30.title: "Ultimine"
+	quest.04FC75E291C1A0BA.quest_subtitle: "Lab Table"
+	quest.04FC75E291C1A0BA.title: "Cobblemon Paleontologist"
 	quest.05366D4A29A19DC4.title: "Nature's Bounty"
 	quest.05418193499DB652.quest_desc: [
 		"&6Fluid Tanks&r can be crafted with:"
@@ -254,6 +269,10 @@
 	]
 	quest.07C8736E3BD0E3C0.quest_subtitle: "Use the Bearing and Sails to start generating power!"
 	quest.07F725FB96CC4E68.quest_subtitle: "Good Eats!"
+	quest.087F0A1625207E38.quest_desc: [
+		"- Toedscool"
+		"- Toedscruel"
+	]
 	quest.0898F24EA14CDE54.quest_desc: ["There's a Fossil Maniac looking for &bSniffer Eggs&r.  Trade one and you will get a &6Random Fossil&r"]
 	quest.0898F24EA14CDE54.quest_subtitle: "&fHeard you needed Fossils"
 	quest.08A5D09F7CDCE8E4.title: "Hills and Mountains"
@@ -329,6 +348,12 @@
 	quest.0D3F6E932360DE88.quest_subtitle: "Necklace Slot"
 	quest.0D5064D62169DB56.quest_subtitle: "10x Chance for Rock Type"
 	quest.0D6ED7EB7F74B611.quest_subtitle: "Tier 4"
+	quest.0D7F2538B3C6FE5A.quest_desc: [
+		"- Bouffalant (F)"
+		"- Gogoat (F)"
+		"- Miltank (F)"
+		"- Skiddo (F)"
+	]
 	quest.0DB4B9D6CD807E2C.quest_subtitle: "No Effect"
 	quest.0DCBC60C63FE9527.quest_subtitle: "Time to disturb the wildlife."
 	quest.0DCC0FBD300642B3.quest_subtitle: "Charm Slot"
@@ -459,6 +484,7 @@
 	quest.13902BE64CF66757.quest_subtitle: "Necklace Slot"
 	quest.13B374A9DF294405.title: "Find some Hearty Grain"
 	quest.13D988EDB0AE2DDE.quest_subtitle: "Belt Slot"
+	quest.13E71AAED1F30AEC.title: "Heracross"
 	quest.1412C2CDEEE773AA.quest_desc: [
 		"Certus Supply has been &odeclining&r since the &cRAM market&r switched suppliers.  You'll have to source &aCertus Quartz Crystal&r from the &9RES &bFluix Researchers&r for now..."
 		""
@@ -493,6 +519,8 @@
 	quest.15D6338560EB2D6E.quest_subtitle: "Reduces bite time - 12.5%"
 	quest.169B62F5398A5C8E.quest_subtitle: "Shoes Slot"
 	quest.16A417A48FCF1544.quest_subtitle: "Mutation"
+	quest.16F9164D3E036B38.quest_subtitle: "Paleontologist"
+	quest.16F9164D3E036B38.title: "Fossil Guy"
 	quest.1712E1B798EAE502.quest_desc: ["Harvests Mature Mints"]
 	quest.1712E1B798EAE502.quest_subtitle: "Fairy Type"
 	quest.1712E1B798EAE502.title: "Minty Fresh"
@@ -545,6 +573,7 @@
 	quest.1B09909EAD89DF2A.quest_subtitle: "4k Fluid Cell"
 	quest.1B2391ED897E44C4.quest_subtitle: "Peak, Temperate, Sky"
 	quest.1B4BE6AF7BABFAB9.quest_subtitle: "Forest, Jungle, Swamp"
+	quest.1B56A9C1F20956B1.quest_desc: ["- Dhelmise"]
 	quest.1B63296669E4F781.quest_subtitle: "Arid"
 	quest.1B7AD97644C13D1D.quest_subtitle: "Quick one you are"
 	quest.1B81FB27E850429E.quest_subtitle: "Hand Slot"
@@ -656,6 +685,11 @@
 	quest.217B032AAEECAC7C.quest_desc: ["These are quite handy.  Bulk order these as the RAM shortage is hitting all sides of the Semiconductor Industry"]
 	quest.217B032AAEECAC7C.quest_subtitle: "Calculators?"
 	quest.21EE48E47E44B3EA.quest_subtitle: "Mutation"
+	quest.223DB8C3D16D4F22.quest_desc: [
+		"- Carkol"
+		"- Coalossal"
+		"- Rolycoly"
+	]
 	quest.22845A5EFC906722.quest_desc: [
 		"The &bMechanical Crafter&r is textbook big-time crafting.  The recipes this thing can utilize are quite amazing. "
 		""
@@ -674,6 +708,7 @@
 	quest.2437CCA034CDE30B.quest_subtitle: "Pokemon Trainer Things"
 	quest.2497FC043B400A8A.quest_subtitle: "Special DEF IV +5"
 	quest.24DED1A6F07FFA98.quest_subtitle: "Desert, Floral, Magical, Savanna, Spooky"
+	quest.24F062B2D147503C.quest_desc: ["- Abomasnow"]
 	quest.255BAF7468B80172.quest_desc: ["Need brewing stand fuel? The dragons are great at fueling them"]
 	quest.255BAF7468B80172.quest_subtitle: "Dragon Type"
 	quest.255BAF7468B80172.title: "We Didn't Start the Fire, again"
@@ -724,9 +759,21 @@
 	quest.273B9B822BEA02AD.title: "Multiplayer Options"
 	quest.2783963FB74CE37E.quest_subtitle: "Attack - EV Yields"
 	quest.27F43B0ADAC07C61.quest_subtitle: "WIP"
+	quest.281ECCCBA104FC7C.quest_desc: [
+		"- Cottenee"
+		"- Eldegoss"
+		"- Spidops"
+		"- Tarountula"
+	]
 	quest.283B1F088E96D70A.quest_subtitle: "Charm Slot"
 	quest.2849D95DF2DEB0F9.quest_subtitle: "Reduces bite time - 25% / 2x item catch rate"
+	quest.285AD013ECB91079.quest_desc: [
+		"- Vanillish"
+		"- Vanillite"
+		"- Vanilluxe"
+	]
 	quest.286571A25475F503.quest_subtitle: "Hand Slot"
+	quest.28918E57CFF1CD11.quest_desc: ["- Petilil"]
 	quest.28938C4C8E25BD60.title: "Wood Quad"
 	quest.28B54AE7ECDB763A.quest_subtitle: "64k Storage Cell"
 	quest.28D0C638B107ACF1.quest_desc: [
@@ -774,6 +821,11 @@
 	quest.2D417D9F7A850487.quest_subtitle: "Psychic Type"
 	quest.2D417D9F7A850487.title: "Item Gathering"
 	quest.2D51FBC4803C1E41.quest_subtitle: "Reduces bite time - 33%"
+	quest.2D6076DA55E59D89.quest_desc: [
+		"- Hoppip"
+		"- Jumpluff"
+		"- Skiploom"
+	]
 	quest.2D938394EDC810D6.quest_desc: ["For many years, the wither has destroyed many a caves.  See if you can take a photo of one.  Make sure to make it out alive"]
 	quest.2D938394EDC810D6.quest_subtitle: "Soul Sand and Skulls"
 	quest.2DC721ED415CC6F7.quest_desc: [
@@ -796,6 +848,7 @@
 	]
 	quest.2DDE3DB9837389A1.quest_subtitle: "Hinalea?"
 	quest.2E3C01C71D2B61D8.quest_subtitle: "The core component for logistical machinery!"
+	quest.2E3E69ED1C83F401.title: "Sentret"
 	quest.2E5866CA79AB274A.quest_desc: [
 		"Mayview has it's very own currency... "
 		""
@@ -852,6 +905,12 @@
 		"2x &bDried Kelp&r"
 	]
 	quest.2EFCE5215223E002.quest_subtitle: "Easily split items on Belts."
+	quest.2F101B636C42FB09.quest_desc: [
+		"- Hippopotas"
+		"- Hippowdon"
+		"- Palossand"
+		"- Sandyghast"
+	]
 	quest.2F174A4CD3484062.quest_desc: [
 		"&bWooden Selling Bins&r are for making some coin.  There is some &oweird magic&r preventing us from crafting our own.  We did find a place that offers them to us. "
 		""
@@ -1018,8 +1077,18 @@
 	quest.356E5A72B9C35F2E.quest_subtitle: "Extra points if it's Diamond."
 	quest.356E5A72B9C35F2E.title: "Craft any farming hoe"
 	quest.35B2F7B42BCD5A90.quest_subtitle: "Tier 4"
+	quest.35F7863764800C51.quest_desc: [
+		"- Hakamoo"
+		"- Hangmoo"
+		"- Kommoo"
+		"- Sandshrew"
+		"- SandSlash"
+	]
 	quest.36143E325E594597.quest_subtitle: "Charm Slot"
+	quest.3626F22C8E547584.quest_subtitle: "Lab Table"
+	quest.3626F22C8E547584.title: "Cobblemon Paleontologist"
 	quest.362AD96860B72D62.quest_subtitle: "Found on Apricorn trees!"
+	quest.3640C15A0F3C96FB.quest_desc: ["- Slowpoke"]
 	quest.364AD0AE666BDB57.quest_desc: [
 		"&cCDF&r reports that &bTera Shard&r are dropping much more now.  "
 		""
@@ -1029,6 +1098,10 @@
 	]
 	quest.364AD0AE666BDB57.quest_subtitle: "Tera Shard Farming"
 	quest.367ADB0E92186CD9.quest_subtitle: "Charm Slot"
+	quest.36A3C244A66E8699.quest_desc: [
+		"- Roselia"
+		"- Roserade"
+	]
 	quest.36C219896F2D98D5.quest_subtitle: "Lectern"
 	quest.36CABE05FCD22DEF.title: "Caves"
 	quest.36CB5E9349D68805.quest_subtitle: "Badlands, Spooky, Taiga"
@@ -1285,6 +1358,14 @@
 	quest.4527877C804CF3D8.quest_subtitle: "Media Control"
 	quest.453DD0BF0FF31EF1.quest_subtitle: "Shoes Slot"
 	quest.45588B37210B366F.quest_subtitle: "Special DEF Nature - 50%"
+	quest.45614538AE73BC59.quest_desc: [
+		"- Tangela"
+		"- Tangrowth"
+	]
+	quest.457270018FCFBDAF.quest_desc: [
+		"- Rotom (Frost)"
+		"- Vanilluxe"
+	]
 	quest.459965B8A62AFB24.quest_desc: [
 		"This guy doesn't seem to work at a particular place"
 		""
@@ -1361,6 +1442,7 @@
 	quest.48F24EE618104860.quest_subtitle: "Face Apple"
 	quest.4977764ED56E2A67.quest_subtitle: "Shoes Slot"
 	quest.4995723E72765DCE.quest_subtitle: "Skillet"
+	quest.4A1D58AA04747586.quest_desc: ["- Rotom (Wash)"]
 	quest.4A2022FEAB85AAA7.quest_subtitle: "Mochi Mochi Mochi!"
 	quest.4A700F4ACE15A3E1.quest_subtitle: "Increase Pokemon Levels +10"
 	quest.4ACD15B7201F32A7.quest_desc: ["When you need a bit more magnet, here you go"]
@@ -1474,6 +1556,7 @@
 	]
 	quest.4F4FF1A605E7A762.quest_subtitle: "Allows you to breathe underwater and move effortlessly on Belts!"
 	quest.4F4FF1A605E7A762.title: "Craft a Copper Diving Set"
+	quest.4F6D5497C58A7A51.quest_desc: ["- Sunflora"]
 	quest.4F6E94BF2C80A4C9.quest_desc: [
 		"&6Hand Cranks&r can be crafted with:"
 		""
@@ -1562,6 +1645,10 @@
 	quest.533314FD463A7808.quest_subtitle: "Held Item"
 	quest.533E28FDD184CA97.quest_subtitle: "Egg Group - Water 3 and Bug"
 	quest.533E5ECACD25067E.quest_subtitle: "&#FF4D73A&#FF4D73d&#F7496Ea&#EF456Am&#E84265a&#E03E60n&#D83A5Ct&#D03657i&#C83252t&#C02E4Ee &#B12744O&#A92340r&#A11F3Be"
+	quest.534000F7107600E8.quest_desc: [
+		"- Cacnea"
+		"- Cacturne"
+	]
 	quest.536939CFCB5D03BF.quest_subtitle: "Necklace Slot"
 	quest.537FAEE941BA30A8.quest_subtitle: "Mutation"
 	quest.53DEBE13B3E6E4F1.quest_subtitle: "Tier 2"
@@ -1569,6 +1656,11 @@
 	quest.543C423463FE6027.quest_subtitle: "Find what works best!"
 	quest.547C36E53B76F336.quest_subtitle: "Mutation"
 	quest.548343A390F2D219.quest_subtitle: "They don't have to be unique!"
+	quest.5497342494170503.quest_desc: [
+		"- Lombre"
+		"- Lotad"
+		"- Ludicolo"
+	]
 	quest.54AE6C7B41BD5077.quest_subtitle: "Touch some Grass!"
 	quest.54BC2101F70BB5BC.quest_subtitle: "Plains"
 	quest.54DB4D7D7F675BA6.quest_subtitle: "One heck of a smoothie."
@@ -1612,7 +1704,7 @@
 	quest.56213AA136BAE706.quest_subtitle: "Read or Die"
 	quest.569687B318EA6FF4.title: "Mystic Moon"
 	quest.56B2D68DF399DD78.quest_desc: [
-		"Hope those &bPokemon Wellness Packages&r have been helping those early-game Pokemon Battles."
+		"Hope those Pokemon Wellness Packages have been helping those early-game Pokemon Battles."
 		""
 		"Here's a &bHealing Machine&r for your base"
 	]
@@ -1867,6 +1959,10 @@
 	quest.6319F4499C7F9DE6.quest_desc: ["Bird's Eye View.  Flying types can generate structure maps from empty maps.  "]
 	quest.6319F4499C7F9DE6.quest_subtitle: "Flying Type or Fly"
 	quest.6319F4499C7F9DE6.title: "Scouts"
+	quest.634084BA42AD9256.quest_desc: [
+		"- Grotle"
+		"- Snover"
+	]
 	quest.63AF865778ED2F3E.quest_subtitle: "Mutation"
 	quest.63B065D82F747B11.quest_desc: ["Careful now.  This new Lithium Ion Tech doesn't like being exposed to oxygen."]
 	quest.63B065D82F747B11.quest_subtitle: "Tastes like a battery."
@@ -1894,6 +1990,11 @@
 		"That sounds &ocrazy&r"
 	]
 	quest.643FD075003B1EF9.quest_subtitle: "They grow in dirt caves! Look up"
+	quest.64745F2FD4D1BA22.quest_desc: [
+		"- Wooloo"
+		"- Dubwool"
+		"- Mareep (white wool)"
+	]
 	quest.647B808723C16DC2.quest_desc: ["Harvest Mature Apricorns"]
 	quest.647B808723C16DC2.quest_subtitle: "Bug Type"
 	quest.647B808723C16DC2.title: "Apricorn Harvesting"
@@ -1903,6 +2004,15 @@
 		"Craft a &bTerminal&r and attach it to your cabling"
 	]
 	quest.64A6946D291DABB1.quest_subtitle: "Basic Terminal Access"
+	quest.64BB0AB074FB2E6C.quest_desc: [
+		"- Goodra"
+		"- Goomy"
+		"- Sliggoo"
+		"- Grimer"
+		"- Alolan Grimer"
+		"- Muk"
+		"- Alolan Muk"
+	]
 	quest.65433CBE072BF67F.quest_desc: [
 		"The &9AE2 Committee&r have been discussing about a few things lately."
 		""
@@ -2024,6 +2134,7 @@
 	]
 	quest.6C223A15828BD608.quest_subtitle: "Slenderman?"
 	quest.6C52672E709EBA53.quest_subtitle: "Cyan Terracotta"
+	quest.6C5FB730824F5AD6.quest_desc: ["- Exeggutor"]
 	quest.6C73D78922A3488A.quest_desc: [
 		"Camera Time.  "
 		""
@@ -2038,6 +2149,7 @@
 	quest.6D8B35C77B1A1A85.quest_subtitle: "Might need to put your beer down for this one."
 	quest.6DA8B5C48A8CA237.quest_subtitle: "Tracks can be placed through Portals!"
 	quest.6DAAC90FB9CF2B68.quest_subtitle: "Wow, so pretty!"
+	quest.6DF9676F51BCB702.quest_desc: ["Bottle for Honey Bottle"]
 	quest.6DF9676F51BCB702.title: "Milk... the Bee?"
 	quest.6E17A064AC8199AA.quest_subtitle: "The fish are no longer safe."
 	quest.6E34C0861D78012E.quest_desc: [
@@ -2141,7 +2253,14 @@
 		"2x &bDried Kelp&r"
 	]
 	quest.6F9B040235C88E10.quest_subtitle: "Similar to Andesite, but with item grouping and filtering capabilities!"
+	quest.6FCB397E906974E2.quest_desc: ["- Volcarona"]
 	quest.7031C0CDB7A83825.quest_subtitle: "Speed IV +5"
+	quest.703A04114BE95485.quest_desc: [
+		"- Camerupt"
+		"- Magcargo"
+		"- Numel"
+		"- Slugma"
+	]
 	quest.704EA46473FA55E2.quest_subtitle: "Ring Slot"
 	quest.705850341C7C1AFA.quest_subtitle: "Charm Slot"
 	quest.706FDEA90079E954.quest_subtitle: "Coast, Freshwater, Island, Ocean"
@@ -2274,6 +2393,7 @@
 	quest.797DBD9D29485CEF.title: "&#64B96BL&#5FB366o&#5BAE61g &#52A258C&#4D9D53o&#48974El&#44914Al&#3F8B45e&#3A8640c&#36803Bt&#317A37i&#2D7532o&#286F2Dn"
 	quest.79B4C4AB03CA1815.quest_subtitle: "Necklace Slot"
 	quest.79F942CC9C619D03.quest_subtitle: "Show off those flowers!"
+	quest.7A2E3FA6AC360090.quest_desc: ["- Trevenant"]
 	quest.7A6D6E0664DCEFAF.quest_desc: [
 		"&6Set Up the Track&r: Place a &bTrack&r and right-click it with a &bStation&r, or place the &bStation&r nearby."
 		""
@@ -2510,6 +2630,7 @@
 	task.13FC52526112B83B.title: "Leatherworker 50x Trades"
 	task.140688F6D2B4CD97.title: "Master Chef 50x Trades"
 	task.14591CCC62DA1883.title: "The Wonderful World of Snacks"
+	task.145950D7A66CD835.title: "Trade with the Cobblemon Paleontologist"
 	task.14C73FFB86E7D979.title: "Craft a Chair"
 	task.14D49BFF7A45A6B3.title: "Jungles"
 	task.150EBB1F8531A123.title: "Obtain 6x Dried Kelp"
@@ -2603,6 +2724,7 @@
 	task.26E571DBD41AB73E.title: "&6Use an Extendo Grip&r"
 	task.276E8645FC72B4A9.title: "Food Book"
 	task.2778988E7870D7D0.title: "Edible when Placed"
+	task.27859F257EBFC395.title: "Bee ready!"
 	task.27E78CBEC733CF70.title: "Take a Picture of Bibarel in the Taiga"
 	task.281462A4E81DA745.title: "Log Collection"
 	task.285E667B605648F4.title: "Take a Picture of Toucannon in a Jungle"
@@ -2806,6 +2928,7 @@
 	task.56573E789DEDFC02.title: "Unlock Cobblemon Industrialized"
 	task.56721030133B7124.title: "Introduction"
 	task.56821786825B4BAA.title: "Craft a Poké Rod"
+	task.57AB85C7B8280855.title: "Trade 10x with Paleontologist"
 	task.5806573745FE311D.title: "Craft an Item Drain"
 	task.58334A57711A5DA0.title: "Trade with a Fluix Researcher"
 	task.58871EA8BAAA7528.title: "boneaml"

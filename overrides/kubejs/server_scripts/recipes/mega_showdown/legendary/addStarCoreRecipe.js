@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    event.remove({ output: 'mega_showdown:star_core' })
     event.shaped(
         Item.of('mega_showdown:star_core'),
         [

@@ -133,48 +133,50 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"endermanoverhaul:savanna_enderman": true
-			"minecraft:drowned": true
-			"minecraft:armadillo": true
-			"minecraft:enderman": true
-			"creeperoverhaul:cave_creeper": true
-			"minecraft:tropical_fish": false
-			"minecraft:goat": true
-			"minecraft:bat": true
-			"vinery:wandering_winemaker": true
-			"artifacts:mimic": true
-			"minecraft:wandering_trader": true
-			"minecraft:rabbit": true
-			"minecraft:fox": true
-			"minecraft:glow_squid": true
-			"minecraft:villager": true
-			"vinery:mule": true
 			"minecraft:phantom": true
-			"minecraft:evoker": true
-			"minecraft:creeper": true
-			"minecraft:cow": true
-			"minecraft:axolotl": true
 			"minecraft:cat": true
-			"minecraft:sheep": true
-			"minecraft:salmon": false
+			"minecraft:creeper": true
 			"minecraft:cod": false
-			"creeperoverhaul:savannah_creeper": true
-			"minecraft:chicken": true
-			"creeperoverhaul:dripstone_creeper": true
-			"minecraft:pig": true
-			"minecraft:zombie": true
-			"minecraft:witch": true
-			"minecraft:zombie_villager": true
-			"minecraft:bee": true
-			"minecraft:spider": true
-			"minecraft:squid": true
+			"minecraft:wolf": true
 			"endermanoverhaul:cave_enderman": true
 			"minecraft:horse": true
-			"cobblemon:pokemon": true
-			"minecraft:pillager": true
 			"minecraft:iron_golem": true
+			"minecraft:witch": true
 			"minecraft:dolphin": true
+			"minecraft:bee": true
+			"minecraft:zombie": true
+			"minecraft:spider": true
+			"minecraft:pig": true
+			"minecraft:rabbit": true
+			"minecraft:evoker": true
+			"cobblemon:pokemon": true
+			"minecraft:tropical_fish": false
+			"minecraft:armadillo": true
+			"minecraft:squid": true
+			"minecraft:axolotl": true
+			"creeperoverhaul:dripstone_creeper": true
+			"minecraft:villager": true
+			"creeperoverhaul:cave_creeper": true
+			"minecraft:zombie_villager": true
+			"minecraft:chicken": true
+			"minecraft:salmon": false
+			"creeperoverhaul:savannah_creeper": true
+			"minecraft:fox": true
+			"endermanoverhaul:savanna_enderman": true
+			"minecraft:sheep": true
+			"vinery:wandering_winemaker": true
+			"minecraft:pillager": true
+			"artifacts:mimic": true
+			"minecraft:bat": true
+			"minecraft:goat": true
 			"minecraft:skeleton": true
+			"minecraft:enderman": true
+			"minecraft:drowned": true
+			"minecraft:glow_squid": true
+			"minecraft:cow": true
+			"vinery:mule": true
+			"minecraft:wandering_trader": true
+			"creeperoverhaul:hills_creeper": true
 			"minecraft:slime": true
 		}
 		

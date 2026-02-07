@@ -327,8 +327,7 @@
 			id: "0BEF6D91E50F42E7"
 			rewards: [
 				{
-					command: "/unlockpcboxwallpaper @p mayview:mayview_wallpaper"
-					exclude_from_claim_all: true
+					command: "/unlockpcboxwallpaper @s mayview:mayview_wallpaper"
 					icon: {
 						components: {
 							"ftbquests:icon": "mayview:textures/joe_flower_01.png"
@@ -1599,6 +1598,47 @@
 			}]
 			x: -2.0d
 			y: -6.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "026E833E7A56EB2B"
+			rewards: [
+				{
+					id: "02F3F24DE1840D3B"
+					item: {
+						count: 1
+						id: "kubejs:pokemon_gamba_package"
+					}
+					type: "item"
+				}
+				{
+					id: "219E02CA0FC77B38"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [
+				{
+					id: "145950D7A66CD835"
+					profession_dropdown: "cobblemon_paleontologist:cobblemon_paleontologist"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					id: "2E29752618489004"
+					item: { count: 1, id: "cobblemon_paleontologist:lab_table" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
 		}
 	]
 	tags: ["cobblemonquests"]

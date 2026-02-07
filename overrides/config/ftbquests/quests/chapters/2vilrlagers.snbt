@@ -1309,6 +1309,58 @@
 			x: 3.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["573F9BC77791E771"]
+			icon: {
+				id: "cobblemon_paleontologist:lab_table"
+			}
+			id: "04FC75E291C1A0BA"
+			tasks: [
+				{
+					id: "5EC956337327AC9F"
+					profession_dropdown: "cobblemon_paleontologist:cobblemon_paleontologist"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					id: "57C04EFBF8631B95"
+					item: { count: 1, id: "cobblemon_paleontologist:lab_table" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A81125F084BBFA5"]
+			icon: {
+				id: "cobblemon_paleontologist:lab_table"
+			}
+			id: "3626F22C8E547584"
+			tasks: [{
+				icon: {
+					id: "cobblemon_paleontologist:lab_table"
+				}
+				id: "52AD6675B79E39E2"
+				profession_dropdown: "cobblemon_paleontologist:cobblemon_paleontologist"
+				profession_manual: "minecraft:librarian"
+				required: 50
+				type: "questeventbridge:trade_task"
+				use_dropdown: true
+				use_total: false
+				use_wanted_item: false
+				use_wanted_item_output_count: false
+				wanted_item: "minecraft:emerald"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
 	]
 	tags: ["mayviewquests"]
 }

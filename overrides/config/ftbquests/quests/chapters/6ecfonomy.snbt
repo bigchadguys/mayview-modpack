@@ -734,6 +734,23 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2
+					id: "6CA57C6050DFE982"
+					item: {
+						count: 1
+						id: "vinery:dark_cherry_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "0E9B3555AAFDC24E"
+					item: {
+						count: 1
+						id: "vinery:apple_tree_sapling"
+					}
+					type: "item"
+				}
 			]
 			shape: "wood_rounded"
 			size: 1.1d
@@ -800,6 +817,43 @@
 			tasks: [{
 				id: "453B63ECAB2478F4"
 				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon_scale: 0.9d
+			id: "16F9164D3E036B38"
+			rewards: [
+				{
+					id: "6DA510AA8E4B333A"
+					type: "xp"
+					xp: 60
+				}
+				{
+					exclude_from_claim_all: true
+					id: "207CB6CFED01B025"
+					table_id: 2558676000304795484L
+					type: "choice"
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.1d
+			tasks: [{
+				icon: {
+					id: "cobblemon_paleontologist:lab_table"
+				}
+				id: "57AB85C7B8280855"
+				profession_dropdown: "cobblemon_paleontologist:cobblemon_paleontologist"
+				profession_manual: "minecraft:librarian"
+				required: 10
+				type: "questeventbridge:trade_task"
+				use_dropdown: true
+				use_total: false
+				use_wanted_item: false
+				use_wanted_item_output_count: false
+				wanted_item: "minecraft:emerald"
 			}]
 			x: 2.0d
 			y: 2.0d

@@ -741,7 +741,7 @@
 				"58869888B37C4839"
 				"5F411DDD034523DC"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			disable_toast: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true

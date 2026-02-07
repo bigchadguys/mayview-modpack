@@ -89,7 +89,7 @@
 	#Maximum allowed rotation speed for any Kinetic Block.
 	# Default: 256
 	# Range: > 64
-	maxRotationSpeed = 256
+	maxRotationSpeed = 128
 	#.
 	#Select what mobs should ignore Deployers when attacked by them.
 	#Allowed Values: ALL, CREEPERS, NONE
@@ -148,7 +148,7 @@
 		#Rotation speed at which the maximum stats of fans are reached.
 		# Default: 256
 		# Range: > 64
-		fanRotationArgmax = 256
+		fanRotationArgmax = 128
 		#.
 		#Game ticks required for a Fan-based processing recipe to take effect.
 		# Default: 150
@@ -162,7 +162,7 @@
 		#Maximum amount of blocks in a structure movable by Pistons, Bearings or other means.
 		# Default: 2048
 		# Range: > 1
-		maxBlocksMoved = 1024
+		maxBlocksMoved = 512
 		#.
 		#Maximum value of a chassis attachment range.
 		# Default: 16
@@ -172,7 +172,7 @@
 		#Maximum amount of extension poles behind a Mechanical Piston.
 		# Default: 64
 		# Range: > 1
-		maxPistonPoles = 64
+		maxPistonPoles = 32
 		#.
 		#Max length of rope available off a Rope Pulley.
 		# Default: 384
@@ -567,7 +567,7 @@
 		#The top speed of any assembled Train.
 		# Default: 28.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTopSpeed = 28.0
+		trainTopSpeed = 25.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of Trains during a turn.

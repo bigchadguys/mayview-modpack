@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "dex1"
 	filename: "cpokfemon_snap"
-	group: "379FE802613ABCBC"
+	group: "16050E97798E2F4B"
 	icon: {
 		id: "exposure:camera"
 	}
@@ -36,7 +36,7 @@
 			y: 2.2d
 		}
 	]
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1647,6 +1647,46 @@
 			}]
 			x: 8.5d
 			y: 3.6d
+		}
+		{
+			dependencies: ["121274F88179B4AC"]
+			icon_scale: 2.0d
+			id: "13E71AAED1F30AEC"
+			rewards: [{
+				id: "668CB0B7FB2C6942"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.2d
+			tags: ["cobblemonquests"]
+			tasks: [{
+				advancement: "mayview:photo/raichu_forest_photo"
+				criterion: ""
+				id: "5A3B9C826DCAFD87"
+				type: "advancement"
+			}]
+			x: -10.799999999999999d
+			y: 8.4d
+		}
+		{
+			dependencies: ["121274F88179B4AC"]
+			icon_scale: 2.0d
+			id: "2E3E69ED1C83F401"
+			rewards: [{
+				id: "3A91CCA8ED68E3A0"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.2d
+			tags: ["cobblemonquests"]
+			tasks: [{
+				advancement: "mayview:photo/raichu_forest_photo"
+				criterion: ""
+				id: "7E8B5EEE1875A6E0"
+				type: "advancement"
+			}]
+			x: -9.6d
+			y: 9.6d
 		}
 	]
 	tags: ["cobblemonquests"]

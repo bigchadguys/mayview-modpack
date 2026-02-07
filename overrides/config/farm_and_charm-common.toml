@@ -9,7 +9,7 @@
 	enableRainGrowthEffect = true
 	# Default: 0.5
 	# Range: 0.1 ~ 2.0
-	rainGrowthMultiplier = 0.5
+	rainGrowthMultiplier = 1.0
 	# Default: 8
 	# Range: 1 ~ 16
 	feedingTroughRange = 8

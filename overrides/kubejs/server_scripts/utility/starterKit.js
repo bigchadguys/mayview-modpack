@@ -1,7 +1,8 @@
+// server_scripts/utility/starterKit.js
+// Log when new player joins world/server
+
 PlayerEvents.loggedIn((e) => {
   if (!e.player.stages.has("started")) {
     e.player.stages.add("started");
-    e.player.give("ftbquests:book");
-    e.player.give(Item.of("farmersdelight:fruit_salad", 3));
   }
 });
