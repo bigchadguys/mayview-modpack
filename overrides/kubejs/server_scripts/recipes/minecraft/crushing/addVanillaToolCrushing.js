@@ -1,5 +1,17 @@
-// kubejs/server_scripts/recipes/minecraft/crushing/addVanillaToolCrushing.js
-console.info('[Mayview] Vanilla tool crushing loaded')
+/* ══▣ RES INTERFACE ▣═════════════════════════════════════════════════
+
+░░░▒▒▓▓██ RES CORE ██▓▓▒▒░░░
+
+╭────────────────────────────────────────────────────────────────────╮
+│ FILE     : addVanillaToolCrushing.js                               │
+│ LAYER    : server_scripts                                          │
+│ DOMAIN   : recycling                                               │
+│ PURPOSE  : Recipes of tool to material                             │
+│ WARN     : global crushing helper                                  │
+│ UPDATED  : 2026-02-10                                              │
+╰────────────────────────────────────────────────────────────────────╯
+*/
+console.info("[RES:CORE] Initializing addVanillaToolCrushing.js");
 
 ServerEvents.recipes(event => {
   if (!global.Mayview || !global.Mayview.crushing || !global.Mayview.crushing.registerSet) {
@@ -58,4 +70,22 @@ ServerEvents.recipes(event => {
       // debug: true
     })
   })
+  
+  // Bow + Crossbow cause why not
+  event.recipes.create.crushing(
+    [
+      Item.of('minecraft:string', 2),
+      Item.of('minecraft:stick', 1),
+    ],
+    'minecraft:bow'
+  )
+
+  event.recipes.create.crushing(
+    [
+      Item.of('minecraft:iron_nugget', 4),
+      Item.of('minecraft:string', 1),
+      Item.of('minecraft:stick', 2),
+    ],
+    'minecraft:crossbow'
+  )
 })
