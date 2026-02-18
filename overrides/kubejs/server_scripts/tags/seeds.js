@@ -12,6 +12,8 @@ ServerEvents.tags("item", (event) => {
     "biomeswevegone:pale_pumpkin_seeds",
     "biomeswevegone:oddion_bulb",
 
+    "brewery:hops",
+
     "cobblemon:vivichoke_seeds",
     "cobblemon:red_mint_seeds",
     "cobblemon:blue_mint_seeds",
@@ -29,11 +31,33 @@ ServerEvents.tags("item", (event) => {
     "farmersdelight:rice",
     "farmersdelight:onion",
 
+    "farm_and_charm:kernels",
+    "farm_and_charm:oat_seeds",
+    "farm_and_charm:barley_seeds",
+    "farm_and_charm:lettuce_seeds",
+    "farm_and_charm:onion",
+    "farm_and_charm:tomato_seeds",
+    "farm_and_charm:strawberry_seeds",
+
     "rusticdelight:cotton_seeds",
     "rusticdelight:bell_pepper_seeds",
     "rusticdelight:coffee_beans",
 
-    "expandeddelight:asparagus_seeds",
-    "expandeddelight:chili_pepper_seeds",
+    "veggiesdelight:sweet_potato",
+    "veggiesdelight:bellpepper_seeds",
+    "veggiesdelight:broccoli_seeds",
+    "veggiesdelight:cauliflower_seeds",
+    "veggiesdelight:turnip_seeds",
+    "veggiesdelight:zucchini_seeds",
+    "veggiesdelight:garlic_clove",
+
+    "vinery:red_grape_seeds",
+    "vinery:white_grape_seeds",
+    "vinery:savanna_grape_seeds_red",
+    "vinery:savanna_grape_seeds_white",
+    "vinery:taiga_grape_seeds_red",
+    "vinery:taiga_grape_seeds_white",
+    "vinery:jungle_grape_seeds_red",
+    "vinery:jungle_grape_seeds_white"
   ]);
 });

@@ -1,45 +1,30 @@
 {
-  "broadcastRange": -1,
+  "broadcastRange": 128,
   "playerLimit": -1,
   "broadcastAcrossDimensions": false,
   "actionBar": false,
   "baseColor": "GRAY",
   "partColors": {
-    "spawn_notification:pokemon_species": "WHITE",
+    "spawn_notification:pokemon_species": "GOLD",
     "spawn_notification:pokemon_form": "WHITE",
-    "spawn_notification:player_name": "WHITE",
-    "spawn_notification:biome": "WHITE",
+    "spawn_notification:player_name": "YELLOW",
+    "spawn_notification:biome": "GREEN",
     "spawn_notification:dimension": "WHITE",
-    "spawn_notification:bucket": "WHITE",
-    "spawn_notification:coord_x": "WHITE",
-    "spawn_notification:coord_y": "WHITE",
-    "spawn_notification:coord_z": "WHITE"
+    "spawn_notification:bucket": "LIGHT_PURPLE",
+    "spawn_notification:coord_x": "AQUA",
+    "spawn_notification:coord_y": "DARK_AQUA",
+    "spawn_notification:coord_z": "AQUA"
   },
   "disabledSituations": [],
   "disabledSegments": [],
   "disabledSegmentsBySituation": [
     {
-      "situations": [
-        "spawn_notification:*/captured",
-        "spawn_notification:*/fished",
-        "spawn_notification:*/resurrected",
-        "spawn_notification:*/hatched"
-      ],
-      "segments": [
-        "spawn_notification:coordinates",
-        "spawn_notification:biome",
-        "spawn_notification:dimension"
-      ]
+      "situations": [],
+      "segments": []
     },
     {
-      "situations": [
-        "spawn_notification:*/despawned",
-        "spawn_notification:*/snacked",
-        "spawn_notification:*/spawned"
-      ],
-      "segments": [
-        "spawn_notification:player"
-      ]
+      "situations": [],
+      "segments": []
     }
   ],
   "ignoreSpectators": true,

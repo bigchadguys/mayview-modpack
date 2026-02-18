@@ -1,0 +1,32 @@
+{
+	// Enable natural spawning of raid dens. Default: true
+	"enable_spawning": true,
+	// Weighted probability of each raid tier from Tier 1 to Tier 7 per dimension. Leave empty to use overworld/default. Default: {"minecraft:overworld": [9.0, 15.0, 25.0, 25.0, 20.0, 5.0, 1.0]}
+	"dimension_tier_weights": {
+		"minecraft:overworld": [
+			9.0,
+			15.0,
+			25.0,
+			25.0,
+			20.0,
+			5.0,
+			1.0
+		]
+	},
+	// How long in seconds until raid dens reset (Set to -1 for no resets). Default: 7200
+	"reset_time": 7200,
+	// Whether the raid boss and raid tier changes between resets (Options: NONE, LOCK_BOTH, LOCK_TIER, LOCK_TYPE, BUCKET, ALL). Default: ALL
+	"cycle_mode": "ALL",
+	// Whether failed raids count towards the max clears. Default: false
+	"max_clears_include_fails": false,
+	// Whether the reward Pokemon attributes (IVs/Shiny/etc.) are synced between all players or rolled individually. Default: true
+	"sync_rewards": true,
+	// Whether raid crystals can be broken. Default: true
+	"can_break": true,
+	// The reward distribution algorithm (RANDOM/DAMAGE/SURVIVOR). Default: RANDOM
+	"reward_distribution": "RANDOM",
+	// The maximum number of players in a raid before shared supporting moves are disabled. Default: 4
+	"max_players_for_support": 4,
+	// The amount of raid energy required to convert a raid shard. Default: 100
+	"required_energy": 100
+}

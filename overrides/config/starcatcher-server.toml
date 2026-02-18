@@ -2,11 +2,11 @@
 give_guide = false
 show_exclamation_mark_particle = false
 #Enables/disables the ability to bonemeal farmland for worms.
-enable_worms = true
+enable_worms = false
 enable_minigame = true
 #Enables/disables fishes being restricted by seasons.
 #Useful if you want to play with a seasons mod but don't like the built-in restrictions.
-enable_seasons = true
+enable_seasons = false
 #Enables/disables fishes caught being unlocked for all online team members.
 #Offline players won't be awarded the entry.
 enable_ftb_team_sharing = false

@@ -1,4 +1,4 @@
-ServerEvents.tags("block", (event) => {
+ServerEvents.tags("item", (event) => {
   event.add("mayview:crops", [
     "minecraft:beetroots",
     "minecraft:melon_stem",
@@ -24,14 +24,27 @@ ServerEvents.tags("block", (event) => {
 
     "ubesdelight:lemongrass_stalk_crop",
 
+
     "farmersdelight:cabbages",
     "farmersdelight:tomatoes",
+    "farmersdelight:rice_panicle",
+
+    "farm_and_charm:corn",
+    "farm_and_charm:oat",
+    "farm_and_charm:barley",
+    "farm_and_charm:lettuce",
+    "farm_and_charm:tomato",
+    "farm_and_charm:strawberry",
 
     "rusticdelight:cotton",
     "rusticdelight:bell_peppers",
     "rusticdelight:coffee",
 
-    "expandeddelight:asparagus_crop",
-    "expandeddelight:chili_pepper_crop",
+    "veggiesdelight:bellpepper",
+    "veggiesdelight:broccoli",
+    "veggiesdelight:cauliflower",
+    "veggiesdelight:turnip",
+    "veggiesdelight:zucchini",
+    "veggiesdelight:garlic"
   ]);
 });

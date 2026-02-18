@@ -1,4 +1,4 @@
-ServerEvents.tags("block", (event) => {
+ServerEvents.tags("item", (event) => {
   event.add("brewery:foods", [
     "brewery:pork_knuckle",
     "brewery:fried_chicken",

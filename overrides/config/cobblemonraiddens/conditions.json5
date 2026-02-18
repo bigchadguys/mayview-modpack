@@ -1,0 +1,28 @@
+{
+	// List of all conditions to be synced in raid battles. Only edit this file to add custom moves.
+	"primal_weather": [
+		"primordialsea",
+		"desolateland",
+		"deltastream"
+	],
+	"screens": [
+		"reflect",
+		"screen",
+		"veil"
+	],
+	"tailwind": [
+		"tailwind"
+	],
+	// The only hazards labelled as Hazard in Cobblemon.
+	"hazards": [
+		"spikes",
+		"rock",
+		"web"
+	],
+	"terrain": [
+		"electricterrain",
+		"grassyterrain",
+		"mistyterrain",
+		"psychicterrain"
+	]
+}

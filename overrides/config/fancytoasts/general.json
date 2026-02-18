@@ -1,14 +1,17 @@
 {
   "isJadeHiding": true,
+  "isBossBarHiding": true,
   "areSoundsEnabled": true,
   "taskVolume": 0.5,
   "goalVolume": 0.5,
   "challengeVolume": 0.5,
   "loopsStrength": 0.49,
   "loopsSpeed": 3.33,
+  "pitchRandomness": 0.05,
+  "animationSpeed": 1.0,
   "offsetX": 0,
   "offsetY": -50,
   "toastAnchor": "TOP",
   "toastScreenBehavior": "TRANSPARENT",
-  "version": 1
+  "version": 2
 }

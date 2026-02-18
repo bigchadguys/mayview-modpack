@@ -1,3 +1,24 @@
+/* ══▣ RES INTERFACE ▣═════════════════════════════════════════════════
+
+░  ░░░░  ░░░      ░░░  ░░░░  ░░  ░░░░  ░░        ░░        ░░  ░░░░  ░
+▒   ▒▒   ▒▒  ▒▒▒▒  ▒▒▒  ▒▒  ▒▒▒  ▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒▒▒▒  ▒  ▒  ▒
+▓        ▓▓  ▓▓▓▓  ▓▓▓▓    ▓▓▓▓▓  ▓▓  ▓▓▓▓▓▓  ▓▓▓▓▓      ▓▓▓▓        ▓
+█  █  █  ██        █████  ███████    ███████  █████  ████████   ██   █
+█  ████  ██  ████  █████  ████████  █████        ██        ██  ████  █
+
+╭────────────────────────────────────────────────────────────────────╮
+│ FILE     : carePackageTooltips.js                                   │
+│ LAYER    : server_scripts                                   │
+│ PURPOSE  : Describe module purpose                           │
+│ NOTES    : Optional notes                                    │
+│ UPDATED  : 2026-02-07      │
+╰────────────────────────────────────────────────────────────────────╯
+
+══▣ RELATIVE PATH ▣════════════════════════════════════════════════════
+kubejs\client_scripts\carePackageTooltips.js
+*/
+console.info("[RES INTERFACE] Loading carePackageTooltips.js");
+
 ItemEvents.modifyTooltips((event) => {
   const COMMON_USAGE_LINES = [Text.gray("Place, then Sneak + Right Click")];
 

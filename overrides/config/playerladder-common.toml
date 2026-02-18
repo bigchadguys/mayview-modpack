@@ -1,0 +1,15 @@
+#Action that occurs when you click on a player/entity.
+#Allowed Values: RIDE, PICK_UP, DO_NOTHING
+rightClickMode = "RIDE"
+#Limits how many entities a player can pick up.
+# Default: 16
+# Range: > 1
+pickUpLimit = 16
+#Limits how many entities up a player can go if they click on an entity with passengers.
+# Default: 16
+# Range: > 1
+stepUpLimit = 16
+#If enabled, allows you to ride or pick up any living entity, not just players.
+interactWithAnyLiving = false
+#Allows the /ride command to mount entities on top of players.
+rideCommandExtension = true

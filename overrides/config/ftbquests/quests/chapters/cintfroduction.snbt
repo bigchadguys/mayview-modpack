@@ -878,6 +878,8 @@
 				"58869888B37C4839"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
 				components: {
@@ -888,14 +890,24 @@
 			icon_scale: 2.0d
 			id: "062F96229582627E"
 			min_required_dependencies: 11
-			rewards: [{
-				id: "553317F8F05F16B5"
-				item: {
-					count: 1
-					id: "kubejs:pokemon_gamba_package"
+			rewards: [
+				{
+					id: "553317F8F05F16B5"
+					item: {
+						count: 1
+						id: "kubejs:pokemon_gamba_package"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5FAECE25E1B5736F"
+					item: {
+						count: 1
+						id: "kubejs:shiny_pokemon_gamba_package"
+					}
+					type: "item"
+				}
+			]
 			shape: "dex2"
 			size: 1.6d
 			tasks: [{
@@ -960,9 +972,12 @@
 				"09872513B314774E"
 				"5495F6DE36843931"
 				"58869888B37C4839"
+				"062F96229582627E"
 			]
-			hide_details_until_startable: true
-			hide_until_deps_complete: true
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: {
 				components: {
 					"ftbquests:icon": "cobblemon:textures/sprites/minimap/0731_pikipek.png"
@@ -971,16 +986,27 @@
 			}
 			icon_scale: 2.0d
 			id: "1FF2598F672F7E41"
-			min_required_dependencies: 21
-			rewards: [{
-				count: 2
-				id: "723E432651469CFC"
-				item: {
-					count: 1
-					id: "kubejs:pokemon_gamba_package"
+			min_required_dependencies: 22
+			rewards: [
+				{
+					count: 2
+					id: "723E432651469CFC"
+					item: {
+						count: 1
+						id: "kubejs:pokemon_gamba_package"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "05C38104A266A999"
+					item: {
+						count: 1
+						id: "kubejs:shiny_pokemon_gamba_package"
+					}
+					type: "item"
+				}
+			]
 			shape: "dex2"
 			size: 1.6d
 			tasks: [{
@@ -1045,9 +1071,11 @@
 				"09872513B314774E"
 				"5495F6DE36843931"
 				"58869888B37C4839"
+				"1FF2598F672F7E41"
 			]
-			hide_details_until_startable: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: {
 				components: {
 					"ftbquests:icon": "cobblemon:textures/sprites/minimap/0125_electabuzz.png"
@@ -1056,16 +1084,27 @@
 			}
 			icon_scale: 2.0d
 			id: "558FA1E6E9DFA6D2"
-			min_required_dependencies: 31
-			rewards: [{
-				count: 3
-				id: "134A232AD61D3A37"
-				item: {
-					count: 1
-					id: "kubejs:pokemon_gamba_package"
+			min_required_dependencies: 32
+			rewards: [
+				{
+					count: 3
+					id: "134A232AD61D3A37"
+					item: {
+						count: 1
+						id: "kubejs:pokemon_gamba_package"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 3
+					id: "1204C510B49230C6"
+					item: {
+						count: 1
+						id: "kubejs:shiny_pokemon_gamba_package"
+					}
+					type: "item"
+				}
+			]
 			shape: "dex2"
 			size: 1.6d
 			tasks: [{
@@ -1130,9 +1169,11 @@
 				"09872513B314774E"
 				"5495F6DE36843931"
 				"58869888B37C4839"
+				"558FA1E6E9DFA6D2"
 			]
-			hide_details_until_startable: true
-			hide_until_deps_complete: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: {
 				components: {
 					"ftbquests:icon": "cobblemon:textures/sprites/minimap/0051_dugtrio_alolan.png"
@@ -1141,16 +1182,27 @@
 			}
 			icon_scale: 2.0d
 			id: "73ED937972583F28"
-			min_required_dependencies: 41
-			rewards: [{
-				count: 4
-				id: "539B76D81F1AAEDC"
-				item: {
-					count: 1
-					id: "kubejs:pokemon_gamba_package"
+			min_required_dependencies: 42
+			rewards: [
+				{
+					count: 4
+					id: "539B76D81F1AAEDC"
+					item: {
+						count: 1
+						id: "kubejs:pokemon_gamba_package"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "1FA0CDD86966BEFF"
+					item: {
+						count: 1
+						id: "kubejs:shiny_pokemon_gamba_package"
+					}
+					type: "item"
+				}
+			]
 			shape: "dex2"
 			size: 1.6d
 			tasks: [{

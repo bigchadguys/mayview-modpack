@@ -302,6 +302,7 @@
 	quest.097CB73987F94E30.quest_subtitle: "Tectonic"
 	quest.09C9B3C14D21ACCC.quest_subtitle: "Wrist Slot"
 	quest.0A5B6FA94F1F5450.quest_subtitle: "Gotta Catch Them All"
+	quest.0A85115FF245FE8F.quest_subtitle: "36 Unique Logs"
 	quest.0AE17A255B4BCBFC.quest_subtitle: "&#6FCE4BM&#6FCE4By&#6FCE4Bt&#6FCE4Bh&#6FCE4Br&#6EC248i&#6DB644l &#6B9E3EO&#6A923Ar&#698637e"
 	quest.0AE4B16C28832A83.quest_desc: [
 		"&2Leaves&r = honey harvest"
@@ -335,6 +336,8 @@
 		"This quest line will guide you, but don’t forget to use &aPonder&r—an essential tool in &6Create&r that shows you how each item works."
 		""
 		"Don't hesitate to ask questions! The mod is well-documented, so anything you're curious about is just a search away."
+		""
+		"&7PS. Mayview has been limited to 128 RPM... for reasons"
 	]
 	quest.0C5A75DD4C276B70.quest_subtitle: "Click here to learn more!"
 	quest.0C5A75DD4C276B70.title: "&6The Beginner's Guide to Create"
@@ -486,7 +489,11 @@
 	quest.13D988EDB0AE2DDE.quest_subtitle: "Belt Slot"
 	quest.13E71AAED1F30AEC.title: "Heracross"
 	quest.1412C2CDEEE773AA.quest_desc: [
-		"Certus Supply has been &odeclining&r since the &cRAM market&r switched suppliers.  You'll have to source &aCertus Quartz Crystal&r from the &9RES &bFluix Researchers&r for now..."
+		"Certus Supply has been &odeclining&r since the &cRAM market&r switched suppliers.  "
+		""
+		"You'll have to source &aCertus Quartz Crystal&r from the "
+		""
+		"[ { \"text\": \"RES Fluix Researcher\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"694750A3B6D87435\" } } ]"
 		""
 		"To get a &6Charged Certus&r, Put a &aCertus Quartz Crystal&r in a Charger and... Charge it"
 	]
@@ -668,6 +675,14 @@
 	quest.1FF2598F672F7E41.title: "Cobblemon Snap: Tier 2"
 	quest.1FF8557CE19D54C5.title: "Taiga and Cool Forests"
 	quest.2048C38357DF3AF7.quest_subtitle: "Unlock furniture varieties!"
+	quest.2075F7DED6A4CEA5.quest_desc: [
+		"Find &624 Unique Log&r Types around the world.  "
+		""
+		"&624 different logs&r "
+		""
+		"Once you have twelve, you can claim the &bTier 2 Axe&r"
+	]
+	quest.2075F7DED6A4CEA5.quest_subtitle: "24 Unique Logs"
 	quest.207F516AD3B1FF93.quest_subtitle: "Mutation"
 	quest.20946855265AADF1.quest_subtitle: "&#6DA8FFC&#6DA8FFo&#6DA8FFb&#6DA8FFa&#679EFAl&#6193F6t &#567EECO&#5074E8r&#4A69E3e"
 	quest.2095665C756D2A1C.quest_subtitle: "Poison Type"
@@ -784,6 +799,8 @@
 	quest.28D0C638B107ACF1.quest_subtitle: "Octo Bag"
 	quest.29200665991FFD10.quest_subtitle: "Hand Slot"
 	quest.29765B282C564AFD.quest_subtitle: "&#BFC0BEC&#BFC0BEe&#BFC0BEl&#B6B7B4e&#ADAEABs&#A4A5A1t&#9B9C98i&#92938Eu&#888984m &#767771O&#6D6E68r&#64655Ee"
+	quest.29A55C969297B847.quest_desc: ["For the next step, you will need to &cSmelt&r some &bCertus Crystal Dust&r into &9Silicon&r"]
+	quest.29A55C969297B847.quest_subtitle: "Cookin some Silicon"
 	quest.2A09D51D5BA04769.quest_desc: [
 		"=- &9RES Technical Bulletin&r -="
 		""
@@ -859,10 +876,13 @@
 	quest.2E5866CA79AB274A.quest_subtitle: "Coins...Coins!"
 	quest.2E5866CA79AB274A.title: "&6The Root of All Evil"
 	quest.2E976AB705F26470.quest_desc: [
-		"&6Item Vaults&r are the intended storage system in &6BigChadGuys Plus&r. Each &6Vault&r can hold up to 30x items."
+		"&6Item Vaults&r are the intended Mid-Game storage system in &6Mayview&r. Each &6Vault&r can hold up to 30x items."
 		""
 		"Make sure to pair your &6Item Vaults&r with:"
 		""
+		"- Item Hatch"
+		""
+		"- ME Storage Bus"
 		""
 		"&6Item Vaults&r can be crafted with:"
 		""
@@ -951,7 +971,7 @@
 	quest.31520C3B86B5D14F.quest_subtitle: "&fThere is only one right answer."
 	quest.3172C7BB4EC04398.quest_subtitle: "Necklace Slot"
 	quest.31C8767E1AD34337.quest_desc: [
-		"&6Blaze Burners&r require &bBlazes&r to function."
+		"&6Blaze Burners&r require &bBlazes&r or &c'Lava'&r Pokemon to function."
 		""
 		"To place a &bBlaze&r in an &bEmpty Blaze Burner&r, right-click a &bBlaze&r while holding an &bEmpty Blaze Burner&r. Alternatively, right-clicking an &bEmpty Blaze Burner&r on a &bBlaze Spawner&r will fill it."
 		""
@@ -1026,9 +1046,13 @@
 	quest.3372AD0B7F9AC61D.quest_desc: [
 		"The &9RES Scientist(s)&r in &6Mayview&r have developed a &nResonance Energy Source.&r"
 		""
-		"&aNow Available&r to the public, this is the RES V1.2.  It boasts a strong and stable energy output, capable of powering many day to day systems."
+		"&aNow Available&r to the public, this is the RES V1.2.  It boasts a strong and stable energy output of "
 		""
-		"One of two of these Energy Sources will be more then enough"
+		"&d6789 Applied Energy/Tick&r"
+		""
+		"Capable of powering a wide range of system setups."
+		""
+		"Attach a &bCrystal Resonance Generator&r to your cables/controller and you will be good to go"
 	]
 	quest.3372AD0B7F9AC61D.quest_subtitle: "Ultimate Power"
 	quest.337552B629B30806.quest_subtitle: "Egg Group - Mineral and Amorphous"
@@ -1040,6 +1064,14 @@
 	]
 	quest.338101BBFFF7151D.quest_subtitle: "Create mod time"
 	quest.338101BBFFF7151D.title: "Step 3: The Setup"
+	quest.339EAB9D6C1C5D53.quest_desc: [
+		"Find &612 Unique Log&r Types around the world.  "
+		""
+		"&612 different logs&r "
+		""
+		"Once you have twelve, you can claim the &bTier 1 Axe&r"
+	]
+	quest.339EAB9D6C1C5D53.quest_subtitle: "12 Unique Logs"
 	quest.33AB63DE7A758714.quest_subtitle: "Mutation"
 	quest.340B003A83ADB44C.quest_desc: [
 		"&6Accumulators&r are multi-block structures that store large amounts of electric energy."
@@ -1232,7 +1264,7 @@
 	quest.3FB93E2BFE62D0F8.quest_desc: [
 		"I once saw a Pillager Raid.  The Villagers had a bell they rang to notify the others.  Now i'm not saying to go ring the bell..."
 		""
-		"Take a photo of... 10... yeah &b10 villagers&r in one photo"
+		"Take a photo of... 5... yeah &b5 villagers&r in one photo"
 	]
 	quest.3FB93E2BFE62D0F8.quest_subtitle: "Town Meeting"
 	quest.3FCF661FCC7DC7B0.quest_desc: [
@@ -1253,6 +1285,14 @@
 	]
 	quest.3FD572CB67ABF2E9.quest_subtitle: "Shrines of Wish"
 	quest.3FFCA3356B57E97E.quest_subtitle: "Hand Slot"
+	quest.40A15CD6CF3ED849.quest_desc: [
+		"All the TR and TM.  "
+		""
+		"Craft a &bTM Machine&r "
+		""
+		"These can store all the TR/TM you'll find and gather on your journey"
+	]
+	quest.40A15CD6CF3ED849.quest_subtitle: "Simple TMs"
 	quest.40BB7FC6B28FC65F.quest_subtitle: "&#A38575I&#A38575r&#A38575o&#A38575n &#967A6AO&#886F5Er&#7B6453e"
 	quest.4125C17373A1EDD7.quest_subtitle: "They grow in freshwater!"
 	quest.412F7EB8AD3B212D.quest_desc: [
@@ -1286,7 +1326,17 @@
 	quest.41E08891F539622E.quest_subtitle: "This thing is really kicking."
 	quest.42006A74FD39C28E.title: "&#E119E9H&#E326DBa&#E433CDt &#E74EB2C&#E95BA4o&#EA6896l&#EC7589l&#ED827Be&#EF8F6Dc&#F09D5Ft&#F2AA52i&#F3B744o&#F5C436n"
 	quest.420FB45B7A40F824.quest_subtitle: "Forest, Mushroom, Spooky, Swamp"
-	quest.4215E3B30B023608.quest_desc: ["Charger charges, Inscriber inscribes.  View the EMI entries to see what they can charge/inscribe"]
+	quest.4215E3B30B023608.quest_desc: [
+		"Charger charges, Inscriber inscribes.  "
+		""
+		"To power these, place a &bHand Crank&r on the charger/inscriber. "
+		""
+		"This will sustain early AE2 until you get:"
+		""
+		"[ { \"text\": \"Crystal Resonance Generator\", \"underlined\": true, \"color\": \"aqua\", \"hoverEvent\": { \"action\": \"show_text\", \"contents\": [ { \"text\": \"Click to open Quest Entry\"} ] }, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3372AD0B7F9AC61D\" } } ]"
+		""
+		"View the EMI entries to see what they can charge/inscribe"
+	]
 	quest.4215E3B30B023608.quest_subtitle: "Beginner crafting stations powered by FE."
 	quest.4215E3B30B023608.title: "Craft a Charger and Inscriber"
 	quest.42C3043704578363.quest_subtitle: "Peat Mulch makes the Berry Tree behave as if it's in a Forest biome for an infinite duration."
@@ -1375,12 +1425,14 @@
 	quest.459965B8A62AFB24.title: "A wandering... winemaker?"
 	quest.45BE08225DC1B151.quest_subtitle: "Rise, my friends!"
 	quest.45E6A57FC792C4B8.quest_desc: [
-		"The &6CDF&r have put out a resupply ordinance"
+		"&6CDF&r have put out a resupply ordinance."
 		""
-		"&bSubmit&r your fish for valueable relics in return.  Namely the &zUnbreak&r thingy"
+		"&eSubmit&r &b256x Fish&r for a valuable relic in return.  "
+		""
+		"Namely the &zUnbreak&r thingy"
 	]
-	quest.45E6A57FC792C4B8.quest_subtitle: "=- CDF Reupply Notice -="
-	quest.45E6A57FC792C4B8.title: "&#83D0E1F&#79C8DAi&#6FC1D2s&#65B9CBh &#51AABDM&#46A2B5a&#3C9AAEr&#3292A7k&#288B9Fe&#1E8398t"
+	quest.45E6A57FC792C4B8.quest_subtitle: "=- CDF Resupply Notice -="
+	quest.45E6A57FC792C4B8.title: "&#01C5FFF&#01CBFEi&#01D1FCs&#01D6FBh &#01E2F8M&#00E8F7a&#00EEF5r&#00F3F4k&#00F9F2e&#00FFF1t"
 	quest.46090A1C79B3490E.quest_desc: ["Yes, these are expensive early on.  It ain't easy bein super computer wizard"]
 	quest.46090A1C79B3490E.quest_subtitle: "Not the Diamonds..."
 	quest.4615DCECF12BE2C8.quest_subtitle: "10x Chance for Ghost Type"
@@ -1393,6 +1445,20 @@
 	]
 	quest.4653E430E6C28B82.quest_subtitle: "27x Slot Capacity"
 	quest.4704880BA1B96ED7.quest_subtitle: "Shoes Slot"
+	quest.472978F07501BFA3.quest_desc: [
+		"Now that we have Wifi, its time to put it to good use."
+		""
+		"Craft a Wireless Crafting Terminal"
+		""
+		"To link it to your &6Storage&r, First, make sure to place a &bME Wireless Access Point&r on your system/cable/controller.  "
+		""
+		"Open the Wireless Access Point to see its menu.  In the Menu, place your &bWireless Crafting Terminal&r in the &aTop-Right slot&r.  It will link and transfer to the &dBottom-Right slot&r"
+		""
+		"You can grab the Wireless Crafting Terminal from the Bottom-Right Slot and begin using it!"
+		""
+		"&7PS. Place One Wireless Booster in the Wireless Access Points.  Any higher and the Technology starts spiraling out of control.  I'm warning you"
+	]
+	quest.472978F07501BFA3.quest_subtitle: "Wireless"
 	quest.478FEC4FDDCE106D.quest_subtitle: "Mutation"
 	quest.479779F17CDDCA6E.quest_subtitle: "Held Item"
 	quest.47DDEBFB031EDCCB.quest_desc: [
@@ -1877,7 +1943,10 @@
 	quest.5C8CB5C24CAB60B1.quest_subtitle: "Produces 256x Stress Units from water streams."
 	quest.5CE563B3A6A334E0.quest_subtitle: "Hat Slot"
 	quest.5CE73D710D431953.quest_desc: [
-		"&cCraft&r a &bHand Crank"
+		"&eWooden Crank&r can be crafted with:"
+		""
+		"4x &bSticks"
+		"1x &bCopper Ingot"
 		""
 		"This is where the power comes from... for now"
 	]
@@ -2013,6 +2082,14 @@
 		"- Muk"
 		"- Alolan Muk"
 	]
+	quest.6513942C8E954477.quest_desc: [
+		"The Main Block of any AE2 System. "
+		""
+		"   Controller"
+		""
+		"Essential to building out large systems.  However, since the innovation of the infinite cable, the need for these have lessened since."
+	]
+	quest.6513942C8E954477.quest_subtitle: "Big Brain"
 	quest.65433CBE072BF67F.quest_desc: [
 		"The &9AE2 Committee&r have been discussing about a few things lately."
 		""
@@ -2370,7 +2447,7 @@
 		""
 		"For &9Washing&r, this occurs when the air passes through &bWater&r or any waterlogged block."
 		""
-		"In the case of &8Smoking&r, the air stream interacts with &bFire&r, &bCampfire&r, an empty &bBlaze Burner&r lit with &bFlint and Steel&r, or a &bBlaze Burner&r that is &bsmouldering&r."
+		"In the case of &7Smoking&r, the air stream interacts with &bFire&r, &bCampfire&r, an empty &bBlaze Burner&r lit with &bFlint and Steel&r, or a &bBlaze Burner&r that is &bsmouldering&r."
 		""
 		"For &cBlasting&r, the air stream is affected by &bLava&r or a &bBlaze Burner&r that is &bfueled&r."
 		""
@@ -2382,12 +2459,23 @@
 		"1x &bPropeller&r"
 	]
 	quest.79264DBB440336BB.quest_subtitle: "Pushes or pulls air depending on rotational force direction."
+	quest.79752B092B6E3037.quest_desc: [
+		"&6Fluid Hatch&r can be crafted with:"
+		""
+		"1x &bCopper Ingot&r"
+		"1x &bItem Drain&r"
+		""
+		"These Hatches can be attached to the side of fluid-related containers. Great quality of life when you can directly interact with &6Fluid Tanks&r and &6Spouts&r. "
+		""
+		"&aPondering is recommended.&r"
+	]
+	quest.79752B092B6E3037.quest_subtitle: "Hatch for Fluid"
 	quest.797DBD9D29485CEF.quest_desc: [
-		"Logs.  Good to build and good to decorate."
+		"Logs.  Good to build with and good to decorate with."
 		""
 		"We've included a &bCare Package&r to get you started"
 		""
-		"The &6CDF&r is also looking for large amounts of logs.  They claimed it was for building sleeping areas around the world"
+		"The &6CDF&r is also looking for large quantities of logs.  They claimed it was for building sleeping areas around the world"
 	]
 	quest.797DBD9D29485CEF.quest_subtitle: "Building Blocks"
 	quest.797DBD9D29485CEF.title: "&#64B96BL&#5FB366o&#5BAE61g &#52A258C&#4D9D53o&#48974El&#44914Al&#3F8B45e&#3A8640c&#36803Bt&#317A37i&#2D7532o&#286F2Dn"
@@ -2554,7 +2642,6 @@
 	task.010C37E2959B5306.title: "Weaponsmith 50x Trades"
 	task.01307AB91E8989BB.title: "Trade with a Cook"
 	task.01725D9FB77426C7.title: "Craft All of the Ancient Balls"
-	task.018E7A17A7B725F9.title: "Craft an Andesite Funnel"
 	task.01EF512F51B89E40.title: "Trade with an Armorer"
 	task.02265D448AD15FF3.title: "Forager 50x Trades"
 	task.026950B9D4DD5340.title: "Unlock &6Slice and Dice"
@@ -2685,12 +2772,10 @@
 	task.1EE001A8CBF802D2.title: "Unknown type: cobblemon_tasks:cobblemon_task"
 	task.1EEE514C2E5C054A.title: "Obtain an Andesite Alloy"
 	task.1F38AF46A7F43707.title: "Craft 3x Sprinklers"
-	task.1F50F112701F1B15.title: "Craft a Brass Tunnel"
 	task.1F5DA0A52080D4F2.title: "Trade with the Fluix Researcher"
 	task.1F72FD5700C6B627.title: "Take a Picture of Geodude on a Mountain"
 	task.1FBBC5D4D06362FD.title: "Upgrade to an Iron Backpack"
 	task.203BFB5C8A9F21E2.title: "Craft Your First Poké Ball"
-	task.2094BFDE867003C8.title: "Craft a Mechanical Pump"
 	task.20B9F04A3D1B778F.title: "Craft the Engineer's Goggles"
 	task.20CF4498C5928AD7.title: "Bake a Poke Snack"
 	task.2121F8F1397554B7.title: "Take a Picture of Magikarp in the Rivers"
@@ -2720,7 +2805,6 @@
 	task.25DCD39213C74E66.title: "Take a Picture of Plusle in the Plains"
 	task.25EC09BE8E182F6F.title: "Take a Picture of the Wandering Trader and their Llama"
 	task.2600F9B4E8C1F33B.title: "Craft a Camera"
-	task.2693C288B70C5F3A.title: "Craft a Water Wheel"
 	task.26E571DBD41AB73E.title: "&6Use an Extendo Grip&r"
 	task.276E8645FC72B4A9.title: "Food Book"
 	task.2778988E7870D7D0.title: "Edible when Placed"
@@ -2738,11 +2822,9 @@
 	task.29D6806DEB52C92A.title: "&6Duplicate an Enchanted Book with a Printer"
 	task.29DE6B52FB24580B.title: "Stardew Valley"
 	task.2A71AF7624D9ACCC.title: "AE2 Start?"
-	task.2B5DC74AFAD508DB.title: "Craft a Mechanical Belt"
 	task.2B82DA5877A84C7B.title: "Power any Pokemon with a Z-Move"
 	task.2B9EB5DE1F1B714A.title: "Craft 4x Straws"
 	task.2BC614CAE9142D91.title: "Obtain One of Every Berry"
-	task.2C31CDE1002A3546.title: "Craft a Large Water Wheel"
 	task.2C4309A8A7D04474.title: "Craft 8x Wire Spools"
 	task.2C45A948A9282843.title: "Legendary Spawning"
 	task.2C8CE0AFDCB25ED5.title: "Film Rolls"
@@ -2755,7 +2837,6 @@
 	task.2E95CE907E782282.title: "Armorer 50x Trades"
 	task.2EA145C196D427B3.title: "Combee in an Orchard"
 	task.2F416DF77F529C7E.title: "Craft a Z-Ring"
-	task.2F6995CC821AA667.title: "Craft a Windmill Bearing"
 	task.2FC3D9CEE60CA06E.title: "Find a Wishing Weald"
 	task.30212B4334563123.title: "Craft a Curtain"
 	task.30A9565FD0EEC3B5.title: "Click to complete!"
@@ -2815,7 +2896,7 @@
 	task.3CA8DA1FBA37CCF3.title: "Theme Group"
 	task.3CA8F12E159B341E.title: "&6Assemble a Train with 6x Bogeys&r"
 	task.3D0A83A969B06130.title: "Find a Tumblestone"
-	task.3D1075F7AB0F3CCC.title: "Craft a Hand Crank"
+	task.3D1075F7AB0F3CCC.title: "Craft a Wooden Crank"
 	task.3D8BE32B0A588EDC.title: "Take a Picture of Spewpa in the Plains"
 	task.3DF4192F1E0E0C23.title: "Change the Tera Form of a Pokemon"
 	task.3E00A0193DCAF05E.title: "Take a Picture of a Cow, Sheep, or Pig"
@@ -2868,7 +2949,6 @@
 	task.475F05FA93E4BC86.title: "Craft Color Film"
 	task.4761F2A7C6315EF2.title: "Take a Black-and-White Picture in the Rain"
 	task.476D245B190D019A.title: "Take a Picture of Talonflame in the Taiga"
-	task.47831D0547046FB9.title: "Craft a Brass Tunnel"
 	task.478DD2465E5EA719.title: "Trade with a Mason"
 	task.47C793A6860B63CB.title: "Purchase with 5x Iron Coin"
 	task.47CB8774BD52C321.title: "Let's Get Started"
@@ -3027,10 +3107,8 @@
 	task.6F1926AB9D649A5C.title: "Craft 2x Large Connectors"
 	task.6F8E4EEF1250B53A.title: "photo"
 	task.702889ED6DBDA906.title: "Take a Picture of Alolan Diglett on the Beach"
-	task.7031FB37A5874927.title: "Craft an Andesite Tunnel"
 	task.7056EA834F5B7BC7.title: "Plant an Apricorn Sprout of Every Type"
 	task.70940BD0818790B3.title: "Battle and Win Against Another Trainer"
-	task.709EEA9038698DC2.title: "Craft 6x Windmill Sails"
 	task.7103DA6BB76CB80D.title: "Craft 3x Blaze Cakes"
 	task.7110DCB7520B62C7.title: "&6Place and power a pair of Crushing Wheels&r"
 	task.714CE3097C736AC1.title: "Craft a Mechanical Arm"

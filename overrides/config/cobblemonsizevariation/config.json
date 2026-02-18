@@ -13,5 +13,5 @@
   ],
   "sizingAlgorithm": "basic",
   "biasSizeTowardAverage": false,
-  "enableEssenceRecipes": false
+  "enableEssenceRecipes": true
 }

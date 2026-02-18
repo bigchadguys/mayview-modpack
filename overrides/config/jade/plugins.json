@@ -81,6 +81,9 @@
     "block_properties": false,
     "mod_name": true
   },
+  "aewireless": {
+    "wireless_tooltip": true
+  },
   "waystones": {
     "waystone": true
   },

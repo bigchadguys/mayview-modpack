@@ -53,6 +53,14 @@
 		{
 			"slotType": "wrist",
 			"amount": 1
+		},
+		{
+			"slotType": "back",
+			"amount": 1
+		},
+		{
+			"slotType": "cape",
+			"amount": 1
 		}
 	]
 }

@@ -1,5 +1,17 @@
-// server_scripts/photo/20_cobblemon_picture_quests.js
-console.info("[PhotoQuests] Loading Cobblemon picture quests...");
+/* ══▣ RES INTERFACE ▣═════════════════════════════════════════════════
+
+░░░▒▒▓▓██ RES CORE ██▓▓▒▒░░░
+
+╭────────────────────────────────────────────────────────────────────╮
+│ FILE     : 20_cobblemon_picture_quests.js                          │
+│ LAYER    : server_scripts                                          │
+│ DOMAIN   : progression / quests                                    │
+│ PURPOSE  : Cobblemon Advancement Photo Array                       │
+│ WARN     : Hardcoded Photo Quest Data to Global                    │
+│ UPDATED  : 2026-02-07                                              │
+╰────────────────────────────────────────────────────────────────────╯
+*/
+console.info("[RES:CORE] Initializing 20_cobblemon_picture_quests.js");
 
 global.Photo.quests.push(
   {"advancement": "mayview:photo/caterpie_plains_photo", "biome": "minecraft:plains", "pokemon": "caterpie"},
@@ -234,5 +246,3 @@ global.Photo.quests.push(
   {"advancement": "mayview:photo/buneary_orchard_photo", "biome": "biomeswevegone:orchard", "pokemon": "buneary" },
   {"advancement": "mayview:photo/rhyhorn_ironwood_gour_photo", "biome": "biomeswevegone:ironwood_gour", "pokemon": "rhyhorn" }
 );
-
-console.info(`[PhotoQuests] Cobblemon quests: loaded`);

@@ -1,0 +1,28 @@
+{
+  "onCapture": true,
+  "onKo": true,
+  "initialChance": 1.0,
+  "points": {},
+  "notifyPlayer": true,
+  "breakOnSuccess": true,
+  "chainingBlacklist": [
+    "labels=legendary,mythical,ultra_beast,paradox any_label"
+  ],
+  "chainingWhitelist": [],
+  "overrideBlacklist": [
+    "labels=legendary,mythical,ultra_beast,paradox,pseudo_legendary any_label"
+  ],
+  "overrideWhitelist": [],
+  "assumePlayerSpawnered": true,
+  "levelModRange": {
+    "first": -5,
+    "last": 5,
+    "step": 1
+  },
+  "levelModMaxRange": {
+    "first": -15,
+    "last": 15,
+    "step": 1
+  },
+  "debug": false
+}

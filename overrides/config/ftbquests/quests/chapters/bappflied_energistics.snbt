@@ -63,6 +63,14 @@
 			x: 0.0d
 			y: 4.0d
 		}
+		{
+			height: 1.6d
+			image: "ae2:block/fluix_block"
+			rotation: 0.0d
+			width: 1.6d
+			x: -4.0d
+			y: -16.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -252,7 +260,7 @@
 			dependencies: ["4215E3B30B023608"]
 			id: "56E9E5957908644F"
 			rewards: [{
-				count: 8
+				count: 16
 				id: "6F4A8169A4F92D79"
 				item: {
 					count: 1
@@ -271,6 +279,7 @@
 		}
 		{
 			dependencies: ["56E9E5957908644F"]
+			icon_scale: 0.9d
 			id: "58A19E8B7B321AD6"
 			rewards: [{
 				count: 16
@@ -287,11 +296,10 @@
 				item: { count: 1, id: "ae2:sky_stone_block" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -10.0d
+			x: -4.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["58A19E8B7B321AD6"]
 			id: "7C43FDC9F76C0BBC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -305,8 +313,8 @@
 				item: { count: 1, id: "ae2:not_so_mysterious_cube" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -12.0d
+			x: -8.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["56E9E5957908644F"]
@@ -437,7 +445,7 @@
 			y: -16.0d
 		}
 		{
-			dependencies: ["519FF730A538FB14"]
+			dependencies: ["17DC5C56253ED8DB"]
 			id: "64A6946D291DABB1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -451,8 +459,8 @@
 				item: { count: 1, id: "ae2:terminal" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -16.0d
+			x: -6.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["3CAD0A2FAC8FCB68"]
@@ -492,8 +500,8 @@
 				item: { count: 1, id: "ae2:vibration_chamber" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -14.0d
+			x: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["3CAD0A2FAC8FCB68"]
@@ -663,19 +671,29 @@
 		{
 			dependencies: ["64A6946D291DABB1"]
 			id: "7B89923016C99E1A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "568DD26417927906"
-				table_id: 5713114257409878076L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "568DD26417927906"
+					table_id: 5713114257409878076L
+					type: "choice"
+				}
+				{
+					id: "394C9F3D6B2E03E7"
+					item: {
+						count: 1
+						id: "ae2:crafting_terminal"
+					}
+					type: "item"
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "58460AA11C8D09D7"
 				item: { count: 1, id: "ae2:crafting_terminal" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: -18.0d
 		}
 		{
@@ -801,7 +819,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["7C43FDC9F76C0BBC"]
+			dependencies: ["29A55C969297B847"]
 			icon: {
 				components: {
 					"ftbquests:icon": "ae2:block/mysterious_cube_side"
@@ -1189,6 +1207,115 @@
 			}]
 			x: 4.0d
 			y: -16.0d
+		}
+		{
+			dependencies: ["56E9E5957908644F"]
+			icon_scale: 0.9d
+			id: "29A55C969297B847"
+			rewards: [{
+				count: 16
+				id: "7B09E5B429341258"
+				item: {
+					count: 1
+					id: "ae2:silicon"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				count: 4L
+				id: "159995E6EDF19A1A"
+				item: { count: 1, id: "ae2:silicon" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["46090A1C79B3490E"]
+			icon_scale: 0.9d
+			id: "6513942C8E954477"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0839211439C4C2CD"
+				table_id: 5713114257409878076L
+				type: "choice"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "49E4810C7C340E15"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3CAD0A2FAC8FCB68"]
+			icon_scale: 0.9d
+			id: "043A52933F4FE497"
+			rewards: [
+				{
+					count: 8
+					id: "4A4A3E861ABCBA0C"
+					item: {
+						count: 1
+						id: "ae2:semi_dark_monitor"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20501CD99DE80F37"
+					table_id: 5713114257409878076L
+					type: "choice"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "3638B1D5FEB4FB73"
+				item: { count: 1, id: "ae2:semi_dark_monitor" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7B89923016C99E1A"]
+			icon_scale: 0.9d
+			id: "472978F07501BFA3"
+			rewards: [
+				{
+					id: "5D4BBC1281A53041"
+					item: {
+						count: 1
+						id: "ae2:charger"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54A0467171617454"
+					table_id: 5713114257409878076L
+					type: "choice"
+				}
+				{
+					id: "6EB7724ACD09603D"
+					item: {
+						count: 1
+						id: "ae2:wireless_booster"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "2B584C5C320D6591"
+				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -18.0d
 		}
 	]
 	tags: ["ae2quests"]

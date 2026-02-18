@@ -1,5 +1,17 @@
-// server_scripts/photo/21_mayview_picture_quests.js
-console.info("[PhotoQuests] Loading Mayview picture quests...");
+/* ══▣ RES INTERFACE ▣═════════════════════════════════════════════════
+
+░░░▒▒▓▓██ RES CORE ██▓▓▒▒░░░
+
+╭────────────────────────────────────────────────────────────────────╮
+│ FILE     : 21_mayview_picture_quests.js                            │
+│ LAYER    : server_scripts                                          │
+│ DOMAIN   : progression / quests                                    │
+│ PURPOSE  : Mayview Advancement Photo Array                         │
+│ WARN     : Hardcoded Photo Quest Data to Global                    │
+│ UPDATED  : 2026-02-07                                              │
+╰────────────────────────────────────────────────────────────────────╯
+*/
+console.info("[RES:CORE] Initializing 21_mayview_picture_quests.js");
 
 global.Photo.quests.push(
   {
@@ -8,7 +20,7 @@ global.Photo.quests.push(
       entity: "ribbits:ribbit",
       structures: "ribbits:ribbit_village"
     },
-  { advancement: "mayview:photo/villager_crowd_photo", entity: "minecraft:villager", minCount: 10 },
+  { advancement: "mayview:photo/villager_crowd_photo", entity: "minecraft:villager", minCount: 5 },
   { advancement: "mayview:photo/ender_dragon_photo", entity: "minecraft:ender_dragon" },
   { advancement: "mayview:photo/wither_photo", entity: "minecraft:wither" },
   { advancement: "mayview:photo/warden_photo", entity: "minecraft:warden", structures: "minecraft:ancient_city" },
@@ -52,5 +64,3 @@ global.Photo.quests.push(
   { advancement: "mayview:photo/cow_or_sheep_or_pig_photo", entity: "minecraft:pig" },
   { advancement: "mayview:photo/wandering_trader_llamas_photo", bothEntities: ["minecraft:wandering_trader", "minecraft:trader_llama" ]},
 );
-
-console.info("[PhotoQuests] Mayview quests loaded.");

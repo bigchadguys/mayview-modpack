@@ -1640,6 +1640,108 @@
 			x: 8.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["31520C3B86B5D14F"]
+			icon_scale: 0.9d
+			id: "7165D419C046988B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F047DFC1BE75A6B"
+					table_id: 1957214908385103489L
+					type: "choice"
+				}
+				{
+					id: "75EC83672C0EB085"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "5C4597FDB590A63C"
+				item: { count: 1, id: "simpletms:case_tr" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7165D419C046988B"]
+			icon_scale: 0.9d
+			id: "3310BDCA6C8AFA83"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BBC3DC7D12F9FB9"
+					table_id: 1957214908385103489L
+					type: "choice"
+				}
+				{
+					id: "6F96C678DF028A3A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "31FB32C122A51D52"
+				item: { count: 1, id: "simpletms:case_tm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3310BDCA6C8AFA83"]
+			icon_scale: 0.9d
+			id: "40A15CD6CF3ED849"
+			rewards: [
+				{
+					id: "1FA35359B2531BFD"
+					item: {
+						count: 1
+						id: "simpletms:tm_falseswipe"
+					}
+					type: "item"
+				}
+				{
+					id: "062E09CA692A1D94"
+					item: {
+						count: 1
+						id: "simpletms:tm_dive"
+					}
+					type: "item"
+				}
+				{
+					id: "1BA4E2FAD523E416"
+					item: {
+						count: 1
+						id: "simpletms:tm_healbell"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FBBF5BDD70FF8D6"
+					table_id: 1957214908385103489L
+					type: "choice"
+				}
+				{
+					id: "72C99DFE2F952D57"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "46F0A75E7C85D614"
+				item: { count: 1, id: "simpletms:machine_tm" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
 	]
 	tags: ["cobblemonquests"]
 }

@@ -1,0 +1,14 @@
+[Config]
+	#NO_COST - No experience cost,
+	#COUNT_COST - Experience cost based on number of enchantments,
+	#FIXED_COST - Fixed experience cost,
+	#ANVIL_COST - Experience cost like vanilla anvil
+	#
+	#Allowed Values: NO_COST, COUNT_COST, FIXED_COST, ANVIL_COST
+	cost_type = "COUNT_COST"
+	#cost type is FIXED_COST, apply this fixed cost
+	# Default: 2
+	# Range: > 1
+	fixed_cost = 2
+	#allow transferring cursed enchantments
+	transfer_curses = false

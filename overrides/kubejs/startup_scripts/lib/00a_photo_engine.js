@@ -1,5 +1,23 @@
-// 00_engine.js
-console.info("[PhotoEngine] Loaded.");
+/* ══▣ RES INTERFACE ▣═════════════════════════════════════════════════
+
+░  ░░░░  ░░░      ░░░  ░░░░  ░░  ░░░░  ░░        ░░        ░░  ░░░░  ░
+▒   ▒▒   ▒▒  ▒▒▒▒  ▒▒▒  ▒▒  ▒▒▒  ▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒▒▒▒  ▒  ▒  ▒
+▓        ▓▓  ▓▓▓▓  ▓▓▓▓    ▓▓▓▓▓  ▓▓  ▓▓▓▓▓▓  ▓▓▓▓▓      ▓▓▓▓        ▓
+█  █  █  ██        █████  ███████    ███████  █████  ████████   ██   █
+█  ████  ██  ████  █████  ████████  █████        ██        ██  ████  █
+
+╭────────────────────────────────────────────────────────────────────╮
+│ FILE     : 00a_photo_engine.js                                     │
+│ LAYER    : server_scripts                                          │
+│ PURPOSE  : Global Photo Engine and Camera Data Parser              │
+│ NOTES    : runCommand for dev, runSilentCommand for release        │
+│ UPDATED  : 2026-02-07                                              │
+╰────────────────────────────────────────────────────────────────────╯
+
+══▣ RELATIVE PATH ▣════════════════════════════════════════════════════
+kubejs\startup_scripts\lib\00a_photo_engine.js
+*/
+console.info("[RES INTERFACE] Loading 00a_photo_engine.js");
 
 global.Photo = global.Photo || { quests: [] };
 const Photo = global.Photo
@@ -55,7 +73,7 @@ Photo.parseCameraData = function (dataObj) {
     });
 
     out.push({
-      frameId: frameId, // ✅ NEW
+      frameId: frameId, 
       weather: extra.weather || null,
       timeOfDay: extra.day_time != null ? extra.day_time : null,
       dimension: extra.dimension || null,

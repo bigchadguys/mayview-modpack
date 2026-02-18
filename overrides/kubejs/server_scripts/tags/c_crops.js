@@ -1,0 +1,7 @@
+ServerEvents.tags("item", (event) => {
+  event.add("c:crops/onion", [
+    "biomeswevegone:oddion_bulb"
+  ]);
+
+
+});

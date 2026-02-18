@@ -66,6 +66,7 @@
 			y: 10.5d
 		}
 		{
+			hide_dependent_lines: true
 			icon: {
 				id: "exposure:signed_album"
 			}

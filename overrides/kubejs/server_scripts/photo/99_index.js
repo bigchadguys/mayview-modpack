@@ -1,5 +1,23 @@
-// index.js
-console.info("[PhotoIndex] Loaded.");
+/* ══▣ RES INTERFACE ▣═════════════════════════════════════════════════
+
+░  ░░░░  ░░░      ░░░  ░░░░  ░░  ░░░░  ░░        ░░        ░░  ░░░░  ░
+▒   ▒▒   ▒▒  ▒▒▒▒  ▒▒▒  ▒▒  ▒▒▒  ▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒▒▒▒  ▒  ▒  ▒
+▓        ▓▓  ▓▓▓▓  ▓▓▓▓    ▓▓▓▓▓  ▓▓  ▓▓▓▓▓▓  ▓▓▓▓▓      ▓▓▓▓        ▓
+█  █  █  ██        █████  ███████    ███████  █████  ████████   ██   █
+█  ████  ██  ████  █████  ████████  █████        ██        ██  ████  █
+
+╭────────────────────────────────────────────────────────────────────╮
+│ FILE     : 99_index.js                                             │
+│ LAYER    : server_scripts                                          │
+│ PURPOSE  : Photo Advancement Granting for Photo Quests             │
+│ NOTES    : PlayerTick and Advancement Granting                     │
+│ UPDATED  : 2026-02-07                                              │
+╰────────────────────────────────────────────────────────────────────╯
+
+══▣ RELATIVE PATH ▣════════════════════════════════════════════════════
+C:\Users\kalan\AppData\Roaming\PrismLauncher\instances\Mayview Playtest Devbuild\minecraft\kubejs\server_scripts\photo\99_index.js
+*/
+console.info("[RES INTERFACE] Loading 99_index.js");
 
 function frameSig(frame) {
   return [

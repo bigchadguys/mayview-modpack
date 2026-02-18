@@ -1,4 +1,4 @@
-ServerEvents.tags("block", (event) => {
+ServerEvents.tags("item", (event) => {
   event.add("c:bowls", [
     "handcrafted:white_bowl",
     "handcrafted:yellow_bowl",
