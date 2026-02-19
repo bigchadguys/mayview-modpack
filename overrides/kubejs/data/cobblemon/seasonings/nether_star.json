@@ -1,8 +1,0 @@
-{
-  "ingredient": "minecraft:nether_star",
-  "baitEffects": [
-    { "type": "cobblemon:rarity_bucket_boost", "tiers": 10 },
-    { "type": "cobblemon:shiny_multiplier", "multiplier": 10.0 },
-    { "type": "cobblemon:bite_time_multiplier", "multiplier": 0.90 }
-  ]
-}
