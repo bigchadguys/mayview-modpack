@@ -64,11 +64,6 @@ StartupEvents.registry("block", function (event) {
       id: "plushie_care_package",
       displayName: "Plushie Care Package",
       soundType: "wool",
-    },    
-    {
-      id: "delibird_present",
-      displayName: "Delibird Present",
-      soundType: "wool",
     },
     {
       id: "assorted_dyed_blocks_care_package",

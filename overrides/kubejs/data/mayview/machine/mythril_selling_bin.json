@@ -1,0 +1,201 @@
+{
+  "name": {
+    "text": "Mythril Selling Bin"
+  },
+  "appearance": {
+    "custommachinery:block": "mayview:machine/mythril_selling_bin#standalone",
+    "custommachinery:item": "mayview:machine/mythril_selling_bin#standalone",
+    "running": {
+      "custommachinery:block": "mayview:machine/mythril_selling_bin#standalone"
+    },
+    "errored": {
+      "custommachinery:block": "mayview:machine/mythril_selling_bin#standalone"
+    },
+    "paused": {
+      "custommachinery:block": "mayview:machine/mythril_selling_bin#standalone"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output4",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output5",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:redstone",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": "mayview:textures/gui/mythril_selling_bin/bg.png",
+      "width": 178,
+      "height": 154
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 8,
+      "y": 70,
+      "texture": "mayview:textures/gui/mythril_selling_bin/player_inventory.png",
+      "priority": 0
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 59,
+      "y": 38,
+      "texture_empty": {
+        "texture": "mayview:textures/gui/mythril_selling_bin/progress_empty.png"
+      },
+      "texture_filled": {
+        "texture": "mayview:textures/gui/mythril_selling_bin/progress_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "mayview:textures/gui/mythril_selling_bin/slot_input.png",
+      "id": "input",
+      "x": 24,
+      "y": 34
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "mayview:textures/gui/mythril_selling_bin/slot_output.png",
+      "id": "output1",
+      "x": 101,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "mayview:textures/gui/mythril_selling_bin/slot_output.png",
+      "id": "output2",
+      "x": 119,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "mayview:textures/gui/mythril_selling_bin/slot_output.png",
+      "id": "output3",
+      "x": 137,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "mayview:textures/gui/mythril_selling_bin/slot_output.png",
+      "id": "output4",
+      "x": 101,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "mayview:textures/gui/mythril_selling_bin/slot_output.png",
+      "id": "output5",
+      "x": 119,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture": "mayview:textures/gui/mythril_selling_bin/slot_output.png",
+      "id": "output6",
+      "x": 137,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 25,
+      "y": 19,
+      "texture_idle": "mayview:textures/gui/mythril_selling_bin/status_idle.png",
+      "texture_running": "mayview:textures/gui/mythril_selling_bin/status_running.png",
+      "texture_errored": "mayview:textures/gui/mythril_selling_bin/status_errored.png"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 43,
+      "y": 8,
+      "text": {
+        "text": "Mythril Selling Bin",
+        "color": "#404040"
+      }
+    }
+  ]
+}

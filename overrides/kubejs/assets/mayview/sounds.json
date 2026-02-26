@@ -13,5 +13,10 @@
     "sounds": [
       { "name": "mayview:toast/task", "volume": 1.0, "pitch": 1.0 }
     ]
+  },
+  "toast.shimmer": {
+    "sounds": [
+      { "name": "mayview:toast/shimmer", "volume": 1.0, "pitch": 1.0 }
+    ]
   }
 }

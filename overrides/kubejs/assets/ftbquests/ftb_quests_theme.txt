@@ -74,7 +74,7 @@ quest_view_progress_fill: #FF8FE9FF
 quest_view_background: part:mayview:textures/gui/creativecreate.png; pos=0,0,64,64; corner=15; texture_w=64; texture_h=64; padding=-10
 
 [#ae2quests]
-quest_view_background: part:mayview:textures/gui/ae2.png; pos=0,0,64,64; corner=11; texture_w=64; texture_h=64; padding=-10
+quest_view_background: part:mayview:textures/gui/ae2.png; pos=0,0,64,64; corner=9; texture_w=64; texture_h=64; padding=-10
 quest_view_border: #fb292c2d
 quest_view_title: #FFfefefe
 quest_not_started_color: #FF9FD6E6

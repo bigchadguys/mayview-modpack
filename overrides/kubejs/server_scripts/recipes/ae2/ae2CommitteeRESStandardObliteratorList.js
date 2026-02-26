@@ -3,6 +3,10 @@
 //--------------------------------------------------------------
 console.info('[Mayview] AE2 Committee Prohibited Manifest Loaded')
 
+RecipeViewerEvents.removeEntries('item', event => {
+    event.remove("ae2:facade")
+})
+
 ServerEvents.recipes(event => {
 
   const bannedOutputs = [

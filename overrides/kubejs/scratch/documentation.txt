@@ -29,6 +29,10 @@ ServerEvents.recipes(event => {
     )
 })
 
+// Recipe Viewer Remove Entry
+RecipeViewerEvents.removeEntries('item', event => {
+    event.remove("kubejs:facebook_marketplace")
+})
 
 // Gradient Style Sheet
 Copper Ore

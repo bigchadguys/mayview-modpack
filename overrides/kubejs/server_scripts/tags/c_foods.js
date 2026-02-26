@@ -20,7 +20,7 @@ ServerEvents.tags("item", (e) => {
   // foods/milk
   e.add("c:foods/milk", "cobblemon:moomoo_milk");
   // foods/bread
-    e.add("c:foods/bread",[ 
+  e.add("c:foods/bread",[ 
     "farm_and_charm:farmers_bread",
     "bakery:crusty_bread",
     "bakery:bread",
@@ -28,5 +28,10 @@ ServerEvents.tags("item", (e) => {
     "bakery:toast",
     "bakery:braided_bread",
     "bakery:bun"
+  ]);
+  e.add("c:foods/bellpepper",[
+      "rusticdelight:bell_pepper_red",
+      "rusticdelight:bell_pepper_yellow",
+      "rusticdelight:bell_pepper_green",
   ]);
 });

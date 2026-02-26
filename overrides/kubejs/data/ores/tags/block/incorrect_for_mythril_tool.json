@@ -1,17 +1,15 @@
 {
+  "replace": true,
   "remove": [
     "ores:mythril_ore",
     "ores:deepslate_mythril_ore",
     "ores:orichalcum_ore",
     "ores:deepslate_orichalcum_ore",
     "minecraft:obsidian",
-    "minecraft:crying_obsidian",
-    "mega_showdown:keystone_ore",
-    "#minecraft:cluster_max_harvestables",
-    "minecraft:ancient_debris"
+    "mega_showdown:mega_stone_crystal"
   ],
   "values": [
-    "#ores:incorrect_for_cobalt_tool",
+    "#minecraft:incorrect_for_netherite_tool",
     "ores:viridium_ore",
     "ores:morphite_ore",
     "ores:deepslate_morphite_ore",

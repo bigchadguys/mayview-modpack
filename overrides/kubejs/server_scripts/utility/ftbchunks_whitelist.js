@@ -9,5 +9,6 @@ ServerEvents.tags('block', event => {
     'waystones:sandy_waystone',
     '#waystones:sharestone',
     'waystones:warp_plate',
+    'cobblemon:pokemon'
   ])
 })
