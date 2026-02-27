@@ -48,12 +48,6 @@
 	]
 	quest.008E9F2F0247A08F.quest_subtitle: "Fluix Researcher"
 	quest.008E9F2F0247A08F.title: "Get the presses!"
-	quest.00B363F735626BAD.quest_desc: [
-		"This bin got the highest capacity.  Buy one today for:"
-		""
-		"   &b3x Diamond Coin"
-	]
-	quest.00B363F735626BAD.quest_subtitle: "54x Slot Capacity"
 	quest.00C59F8525D48840.quest_subtitle: "Golden Touch"
 	quest.00D8954BA81F216F.quest_subtitle: "Exp. Share is a Thing"
 	quest.00EF0A3F7732AE8D.quest_subtitle: "Special DEF Nature - 25%"
@@ -149,6 +143,7 @@
 	quest.042C7C33DD8AA0B1.title: "Crop Harvesting"
 	quest.0431A9ACE4F30C6E.quest_subtitle: "Allows crops to grow much faster."
 	quest.0431A9ACE4F30C6E.title: "Craft and Place Rich Soil"
+	quest.043A52933F4FE497.quest_subtitle: "Panel de Pon"
 	quest.046FF8F1D923B625.quest_desc: ["Ground Types can dig around and find archaeology loot"]
 	quest.046FF8F1D923B625.quest_subtitle: "Ground Type"
 	quest.046FF8F1D923B625.title: "Archeologist"
@@ -203,7 +198,9 @@
 		""
 		"Welcome to the world of "
 		""
-		"  &9Applied Energistics 2."
+		"  &9Applied Energistics 2"
+		""
+		"PSA: Meteors have not been falling into Mayview.  Meteorite compasses will be recalled"
 		""
 		"&7PS. There are some rules involved with AE2"
 	]
@@ -890,18 +887,6 @@
 		"1x &bAny Barrel&r"
 	]
 	quest.2E976AB705F26470.quest_subtitle: "A great place to store your items!"
-	quest.2EA8499C85F1E97B.quest_desc: [
-		"Redstone Selling Bin offers some I/O"
-		""
-		"  &cInput and Output&r"
-		""
-		"Hopper some items in and automate your selling.  These go for"
-		""
-		"  &b3x &6Gold Coin"
-		""
-		""
-	]
-	quest.2EA8499C85F1E97B.quest_subtitle: "9x Slot Capacity"
 	quest.2EAC03F39F4B9DA6.title: "Let's Get Cooking!"
 	quest.2EB0E1AFF346D473.quest_desc: ["Another &b5 x 5 Crafter&r Recipe.  I've seen the &6CDF&r use them for near &zinfinite&r milk supply"]
 	quest.2EB0E1AFF346D473.quest_subtitle: "Tessaract: Fluid Dimensions"
@@ -931,17 +916,6 @@
 		"- Palossand"
 		"- Sandyghast"
 	]
-	quest.2F174A4CD3484062.quest_desc: [
-		"&bWooden Selling Bins&r are for making some coin.  There is some &oweird magic&r preventing us from crafting our own.  We did find a place that offers them to us. "
-		""
-		"To get your very own Wooden Selling Bin:"
-		""
-		"   &9Give us &65x Copper Coins&r "
-		""
-		"And you're good to go"
-	]
-	quest.2F174A4CD3484062.quest_subtitle: "9x Slot Capacity"
-	quest.2F174A4CD3484062.title: "Wooden Selling Bin"
 	quest.2F33EECB6401E569.quest_subtitle: "10x Chance for Dragon Type"
 	quest.30219714086D6264.quest_subtitle: "Need them maps"
 	quest.302691487D9DF4BA.quest_desc: ["16x Slot Stack Capacity.  You storing some high numbers now"]
@@ -1436,14 +1410,6 @@
 	quest.46090A1C79B3490E.quest_desc: ["Yes, these are expensive early on.  It ain't easy bein super computer wizard"]
 	quest.46090A1C79B3490E.quest_subtitle: "Not the Diamonds..."
 	quest.4615DCECF12BE2C8.quest_subtitle: "10x Chance for Ghost Type"
-	quest.4653E430E6C28B82.quest_desc: [
-		"Remember yall, you can't trim armor in Runescape"
-		""
-		"With that &oPSA&r out of the way, Grab a Diamond Selling Bin for:"
-		""
-		"   &b1x Diamond Coin"
-	]
-	quest.4653E430E6C28B82.quest_subtitle: "27x Slot Capacity"
 	quest.4704880BA1B96ED7.quest_subtitle: "Shoes Slot"
 	quest.472978F07501BFA3.quest_desc: [
 		"Now that we have Wifi, its time to put it to good use."
@@ -1823,7 +1789,7 @@
 	quest.58A19E8B7B321AD6.quest_desc: [
 		"Through various examinations, Sky Stone composition closely resembled crystal structures found in certus.  "
 		""
-		"The ratio of:"
+		"Crafted with:"
 		"8x &5Fluix Crystals&r "
 		"1x &9Charge Certus Quartz Crystal&r"
 		""
@@ -2102,6 +2068,12 @@
 		"For now, we will still be issueing the components as hardware upgrades remain the same"
 	]
 	quest.65433CBE072BF67F.quest_subtitle: "4k Component"
+	quest.654E6DCCEC201923.quest_desc: [
+		"Selling Bin has been &9Temporarily&r recalled."
+		""
+		"The Villagers Union has setup a new &bTrading Depot&r"
+	]
+	quest.654E6DCCEC201923.quest_subtitle: "Villagers + Create"
 	quest.655539BA83A80644.quest_subtitle: "Who's got Carrots"
 	quest.658E543E117E7E2A.quest_desc: ["Harvest Mature Nether Wart"]
 	quest.658E543E117E7E2A.quest_subtitle: "Ghost Type"
@@ -2193,7 +2165,7 @@
 	quest.6BA76324A48CF929.quest_subtitle: "Double Polar Trouble"
 	quest.6BE4B57C0FE9A8C9.quest_desc: ["Haven't tested these out.  They looked pretty cool"]
 	quest.6BE4B57C0FE9A8C9.quest_subtitle: "I think these work"
-	quest.6BE4B57C0FE9A8C9.title: "HyperTube"
+	quest.6BE4B57C0FE9A8C9.title: "Hooked"
 	quest.6C0E66901E0DE461.quest_subtitle: "&#E8CD89G&#E8CD89o&#E8CD89l&#E9C781d &#ECBC72O&#EEB76Br&#EFB163e"
 	quest.6C1241DE3F7EFDB1.quest_subtitle: "&bGrassland, Hills, Lush"
 	quest.6C1B5E8D5F82D470.quest_desc: [
@@ -2261,7 +2233,6 @@
 	quest.6E657210AE8E2BF2.quest_subtitle: "Pokemon that know 'Dive'"
 	quest.6E657210AE8E2BF2.title: "Let's go Diving"
 	quest.6E92BA5FB284EE90.quest_subtitle: "A taller place to sit!"
-	quest.6ED3683B843FCFDA.quest_subtitle: "Instant delivery!"
 	quest.6EE4B338012DA7BF.quest_desc: [
 		"Craft your choice of film!  "
 		""
@@ -2356,12 +2327,6 @@
 	quest.73AE87E9AF98E835.title: "Buttom 1"
 	quest.73B73B12E5E7A7D4.quest_subtitle: "Arid"
 	quest.73C74CD3D7EEB780.quest_subtitle: "Mutation"
-	quest.73CA7AE70B0F3318.quest_desc: [
-		"With the economy starting now, upgrade your selling bin capacity. This Iron Selling Bin goes for:"
-		""
-		"  &b5x &7Iron Coin"
-	]
-	quest.73CA7AE70B0F3318.quest_subtitle: "18x Slot Capacity"
 	quest.73EA2892A5F4C983.quest_subtitle: "5x Shiny Chance"
 	quest.73ED937972583F28.quest_desc: [
 		"Careful with that one.  "
@@ -2498,6 +2463,15 @@
 		"&aPondering is recommended.&r"
 	]
 	quest.7A6D6E0664DCEFAF.quest_subtitle: "Click to learn more!"
+	quest.7AFA0A5BC44B381B.quest_desc: [
+		"This time, we have the &bMythril Selling Bin&r"
+		""
+		"Craft one with:"
+		"  &6- &b5x Any Planks"
+		"  &6- &b1x Mythril Ingot"
+	]
+	quest.7AFA0A5BC44B381B.quest_subtitle: "More Selling Bins?"
+	quest.7AFA0A5BC44B381B.title: "Craft a Mythril Selling Bin"
 	quest.7B27A8E892F8D26E.quest_subtitle: "Hat Slot"
 	quest.7B2D3AB79C60206E.quest_subtitle: "Necklace Slot"
 	quest.7B2F6F9EE545F75A.quest_subtitle: "10x Chance for Dark Type"
@@ -2862,6 +2836,7 @@
 	task.35CCA765E225D08C.title: "Trade with a Librarian"
 	task.36F2466359F1505A.title: "Craft a Seat"
 	task.371C2203E9A1C939.title: "Catch a Full Party of Pokémon"
+	task.3726D3050BCD10A5.title: "Craft a Trading Depot"
 	task.37C794D67E7C7387.title: "Unlock &6Crafts and Additions"
 	task.37E7830B4649331F.title: "Craft a Portable Storage Interface"
 	task.3801D9A5C93DB3B7.title: "Any #c:seeds"
@@ -2971,6 +2946,7 @@
 	task.4B9A27D19F8AC098.title: "Craft a Mechanical Plough"
 	task.4B9DE40729AE7826.title: "Unknown type: cobblemon_tasks:cobblemon_task"
 	task.4BE81A09D06A5821.title: "Use a Revive, Max Revive, or Revival Herb"
+	task.4BF3EB632BC06C09.title: "dirt see"
 	task.4C8B67CA41596844.title: "Nurse Joy got them berries"
 	task.4C9400213972B7B2.title: "Place the Campfire pot on the... Campfire"
 	task.4CB90836CB2797A1.title: "Pressed Plates"
@@ -3042,6 +3018,7 @@
 	task.5E5288C206B27437.title: "Oak Chair"
 	task.5E8479CA551AC1CC.title: "Obtain any Z-Move"
 	task.5EC3753F4DADB315.title: "&6Generate torque with a Steam Engine&r"
+	task.5EC956337327AC9F.title: "Trade with a Cobblemon Paleontologist"
 	task.5EE2FDAB06201B3E.title: "Craft Train Controls"
 	task.5EF2AE6C6818E04E.title: "Je suis monte"
 	task.5F114DBFBC0F72B2.title: "Obtain a Fossil Pokémon"
@@ -3138,6 +3115,7 @@
 	task.760D8E64D384874F.title: "Evolve a Pokémon"
 	task.76306A023C944B9E.title: "Forager Trade"
 	task.767E3B445A19EDA4.title: "Any #c:dyes"
+	task.76C9BED1BB07B2C1.title: "Take a Photo of a Frog in a Swamp"
 	task.7707234FBA4C9D39.title: "Take a Picture of Trumbeak in a Jungle"
 	task.7754439BD7D03190.title: "Take a Color Picture of a Phantom at Dawn or Dusk"
 	task.775A8EB596FDE4AC.title: "Aircraft?"

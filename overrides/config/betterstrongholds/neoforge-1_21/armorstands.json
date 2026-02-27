@@ -3,6 +3,8 @@
     "entries": {
       "minecraft:iron_helmet": 0.3,
       "minecraft:chainmail_helmet": 0.3,
+      "ores:cobalt_helmet": 0.1,
+      "ores:magnite_helmet": 0.1,
       "minecraft:carved_pumpkin": 0.01,
       "minecraft:leather_helmet": 0.1
     },
@@ -11,6 +13,7 @@
   "rareHelmets": {
     "entries": {
       "minecraft:diamond_helmet": 0.3,
+      "ores:mythril_helmet": 0.3,
       "minecraft:carved_pumpkin": 0.2
     },
     "defaultItem": "minecraft:air"
@@ -18,6 +21,8 @@
   "commonChestplates": {
     "entries": {
       "minecraft:chainmail_chestplate": 0.3,
+      "ores:cobalt_chestplate": 0.1,
+      "ores:magnite_chestplate": 0.1,
       "minecraft:leather_chestplate": 0.1,
       "minecraft:iron_chestplate": 0.3
     },
@@ -25,7 +30,8 @@
   },
   "rareChestplates": {
     "entries": {
-      "minecraft:diamond_chestplate": 0.3
+      "minecraft:diamond_chestplate": 0.3,
+      "ores:mythril_chestplate": 0.3
     },
     "defaultItem": "minecraft:air"
   },
@@ -33,13 +39,16 @@
     "entries": {
       "minecraft:iron_leggings": 0.3,
       "minecraft:chainmail_leggings": 0.3,
+      "ores:magnite_leggings": 0.1,
+      "ores:cobalt_leggings": 0.1,
       "minecraft:leather_leggings": 0.1
     },
     "defaultItem": "minecraft:air"
   },
   "rareLeggings": {
     "entries": {
-      "minecraft:diamond_leggings": 0.3
+      "minecraft:diamond_leggings": 0.3,
+      "ores:mythril_leggings": 0.3
     },
     "defaultItem": "minecraft:air"
   },
@@ -47,13 +56,16 @@
     "entries": {
       "minecraft:iron_boots": 0.3,
       "minecraft:chainmail_boots": 0.3,
+      "ores:magnite_boots": 0.1,
+      "ores:cobalt_boots": 0.1,
       "minecraft:leather_boots": 0.1
     },
     "defaultItem": "minecraft:air"
   },
   "rareBoots": {
     "entries": {
-      "minecraft:diamond_boots": 0.3
+      "minecraft:diamond_boots": 0.3,
+      "ores:mythril_boots": 0.3
     },
     "defaultItem": "minecraft:air"
   }

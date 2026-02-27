@@ -18,7 +18,7 @@
 	#Electric Motor min/max RPM.
 	# Default: 256
 	# Range: > 1
-	motor_rpm_range = 256
+	motor_rpm_range = 128
 	#Electric Motor minimum required energy consumption in FE/t.
 	# Default: 8
 	# Range: > 0

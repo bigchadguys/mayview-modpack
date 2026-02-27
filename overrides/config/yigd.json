@@ -143,11 +143,11 @@
   },
   "compatConfig": {
     "enableAccessoriesCompat": true,
-    "defaultAccessoriesDropRule": "PUT_IN_GRAVE",
+    "defaultAccessoriesDropRule": "KEEP",
     "enableTravelersBackpackCompat": true,
     "defaultTravelersBackpackDropRule": "PUT_IN_GRAVE",
     "enableCuriosCompat": true,
-    "defaultCuriosDropRule": "PUT_IN_GRAVE",
+    "defaultCuriosDropRule": "KEEP",
     "enableCosmeticArmorCompat": true,
     "defaultCosmeticArmorDropRule": "PUT_IN_GRAVE"
   },

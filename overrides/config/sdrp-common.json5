@@ -1,6 +1,6 @@
 {
 	// Your Discord App ID
-	"clientId": 608012526537408579,
+	"clientId": 1389838767602270208,
 	// If you wish to disable Discord Rich Presence, set this to false.
 	"enabled": true,
 	// When enabled, the mod will log the current state being sent to Discord
@@ -16,7 +16,16 @@
 	       ...
 	   ]
 	*/
-	"buttons": [],
+	"buttons": [
+		{
+			"label": "Mayview Discord",
+			"url": "https://discord.gg/B5YQsgSZbR"
+		},
+		{
+			"label": "Play Modpack Now",
+			"url": "https://www.curseforge.com/minecraft/modpacks/mayview"
+		}
+	],
 	// If set to false, it disables the build-in clientJoinEvent, which is used to tell when the player joins a world and changing Dimension.
 	"enableUpdateDimensionPresence": true,
 	/* Dimensions can be setup to update the Rich Presence when the player is in them.

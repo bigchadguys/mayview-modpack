@@ -1,5 +1,5 @@
 {
-  "teraShardRequired": 25,
+  "teraShardRequired": 15,
   "multipleMegas": true,
   "showdownFilesLoading": true,
   "mega": true,

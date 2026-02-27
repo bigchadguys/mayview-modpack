@@ -27,7 +27,7 @@ S:custom_window_icon_16 = '/config/fancymenu/assets/icon16x16.png';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/mac_icon.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/icon32x32.png';
-S:custom_window_title = 'Mayview 1.1.0 - PLAYTEST - DevBuild 020726v1 - MC 1.21.1';
+S:custom_window_title = 'Mayview - PLAYTEST - DevBuild 022726v1 - NeoForge 21.1.219';
 
 
 ##[multiplayer_screen]

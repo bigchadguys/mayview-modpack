@@ -6,7 +6,7 @@
     "friendlyEndermanDespawn": true,
     "allowSpawning": true,
     "spawnBadlandsEnderman": true,
-    "spawnCaveEnderman": true,
+    "spawnCaveEnderman": false,
     "spawnCrimsonForestEnderman": true,
     "spawnDarkOakEnderman": true,
     "spawnDesertEnderman": true,

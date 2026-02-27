@@ -16,7 +16,7 @@
   "tmCoolDownTicks": 0,
   "blankTMCooldownTicks": 0,
   "blankTMBaseDurability": 1,
-  "tmBaseDurability": 32,
+  "tmBaseDurability": 8,
   "tmRepairable": true,
   "trStackSize": 16,
   "dropOutsideOfBattle": true,

@@ -430,7 +430,7 @@
 			y: -7.199999999999999d
 		}
 		{
-			dependencies: ["6BA76324A48CF929"]
+			dependencies: ["18901FD254641674"]
 			icon: {
 				id: "minecraft:dark_oak_sapling"
 			}
@@ -493,7 +493,7 @@
 			y: -9.6d
 		}
 		{
-			dependencies: ["3358F20C6F1230D8"]
+			dependencies: ["5874413FBDDE2AC1"]
 			icon: {
 				id: "minecraft:polar_bear_spawn_egg"
 			}
@@ -548,8 +548,8 @@
 				id: "723726A3EDAD526A"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: -7.199999999999999d
+			x: 4.4d
+			y: -2.4d
 		}
 		{
 			dependencies: ["61BC1B6A2524CBE7"]
@@ -682,7 +682,7 @@
 			y: -9.6d
 		}
 		{
-			dependencies: ["6BA76324A48CF929"]
+			dependencies: ["18901FD254641674"]
 			icon: {
 				id: "minecraft:tropical_fish"
 			}
@@ -764,7 +764,7 @@
 			y: -9.6d
 		}
 		{
-			dependencies: ["6BA76324A48CF929"]
+			dependencies: ["18901FD254641674"]
 			icon: {
 				id: "minecraft:cat_spawn_egg"
 			}
@@ -1367,6 +1367,31 @@
 			}]
 			x: 0.0d
 			y: 8.4d
+		}
+		{
+			dependencies: ["3358F20C6F1230D8"]
+			icon: {
+				id: "plushies:frog_plushie"
+			}
+			icon_scale: 0.9d
+			id: "18901FD254641674"
+			rewards: [{
+				id: "36E5560F529AEB83"
+				item: {
+					count: 1
+					id: "minecraft:frog_spawn_egg"
+				}
+				type: "item"
+			}]
+			size: 1.4d
+			tasks: [{
+				advancement: "lootr:1frame"
+				criterion: ""
+				id: "76C9BED1BB07B2C1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -7.19d
 		}
 	]
 	tags: ["mayviewquests"]

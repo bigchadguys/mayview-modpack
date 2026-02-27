@@ -50,16 +50,16 @@
     "show_coords": false,
     "reduce_resolution_on_mac": false,
     "use_adaptive_sync": false,
-    "cloud_height": 252,
-    "cloud_distance": 250,
+    "cloud_height": 270,
+    "cloud_distance": 200,
     "toasts": true,
     "advancement_toast": true,
     "recipe_toast": true,
     "system_toast": true,
-    "tutorial_toast": true,
+    "tutorial_toast": false,
     "instant_sneak": false,
     "prevent_shaders": false,
-    "steady_debug_hud": true,
-    "steady_debug_hud_refresh_interval": 1
+    "steady_debug_hud": false,
+    "steady_debug_hud_refresh_interval": 20
   }
 }

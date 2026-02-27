@@ -20,5 +20,5 @@ addInventoryButton = false
 defaultDrawDirectLines = false
 defaultHideLines = false
 defaultCompletedLineColor = "#FFFFFF"
-defaultUncompletedLineColor = "#FFFFFF"
+defaultUncompletedLineColor = "#858585"
 onlyUseAboveAdvancementTabs = false

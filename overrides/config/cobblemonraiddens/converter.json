@@ -1,0 +1,496 @@
+{
+  "consume_item": true,
+  "items": {
+    "mythsandlegends:rusted_shield": {
+      "raid_bosses": [
+        "cobblemonraiddens:zamazenta"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:old_sea_map": {
+      "raid_bosses": [
+        "cobblemonraiddens:mew"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:azelf_fang": {
+      "raid_bosses": [
+        "cobblemonraiddens:azelf"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:reveal_glass": {
+      "raid_bosses": [
+        "cobblemonraiddens:landorus",
+        "cobblemonraiddens:thundurus",
+        "cobblemonraiddens:tornadus",
+        "cobblemonraiddens:enamorus"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:genesect_drive": {
+      "raid_bosses": [
+        "cobblemonraiddens:genesect"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:member_card": {
+      "raid_bosses": [
+        "cobblemonraiddens:darkrai"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:ancient_tablet": {
+      "raid_bosses": [
+        "cobblemonraiddens:regigigas"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:hearthflame_mask": {
+      "raid_bosses": [
+        "cobblemonraiddens:ogerpon"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:mesprit_plume": {
+      "raid_bosses": [
+        "cobblemonraiddens:mesprit"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:liberty_pass": {
+      "raid_bosses": [
+        "cobblemonraiddens:victini"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:hoopa_ring": {
+      "raid_bosses": [
+        "cobblemonraiddens:hoopa"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:wellspring_mask": {
+      "raid_bosses": [
+        "cobblemonraiddens:ogerpon"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:dr_fujis_diary": {
+      "raid_bosses": [
+        "cobblemonraiddens:mewtwo"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:blue_orb": {
+      "raid_bosses": [
+        "cobblemonraiddens:kyogre"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:jade_orb": {
+      "raid_bosses": [
+        "cobblemonraiddens:rayquaza"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:shaderoot_carrot": {
+      "raid_bosses": [
+        "cobblemonraiddens:spectrier"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:mystery_box": {
+      "raid_bosses": [
+        "cobblemonraiddens:melmetal"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:ice_tablet": {
+      "raid_bosses": [
+        "cobblemonraiddens:regice"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:dna_splicer": {
+      "raid_bosses": [
+        "cobblemonraiddens:kyurem"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:adamant_orb": {
+      "raid_bosses": [
+        "cobblemonraiddens:dialga"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:steel_tablet": {
+      "raid_bosses": [
+        "cobblemonraiddens:registeel"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:aurora_ticket": {
+      "raid_bosses": [
+        "cobblemonraiddens:deoxys_normal",
+        "cobblemonraiddens:deoxys_attack",
+        "cobblemonraiddens:deoxys_defense",
+        "cobblemonraiddens:deoxys_speed"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:scroll_of_water": {
+      "raid_bosses": [
+        "cobblemonraiddens:urshifu_rapid"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:azure_flute": {
+      "raid_bosses": [
+        "cobblemonraiddens:arceus_normal"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:silver_wing": {
+      "raid_bosses": [
+        "cobblemonraiddens:lugia"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:scroll_of_darkness": {
+      "raid_bosses": [
+        "cobblemonraiddens:urshifu_single"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:scaly_tablet": {
+      "raid_bosses": [
+        "cobblemonraiddens:regidrago"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:cornerstone_mask": {
+      "raid_bosses": [
+        "cobblemonraiddens:ogerpon"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:cocoon_of_destruction": {
+      "raid_bosses": [
+        "cobblemonraiddens:yveltal"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:antique_pokeball": {
+      "raid_bosses": [
+        "cobblemonraiddens:magearna"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:sun_flute": {
+      "raid_bosses": [
+        "cobblemonraiddens:solgaleo"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:magma_stone": {
+      "raid_bosses": [
+        "cobblemonraiddens:heatran"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:lustrous_orb": {
+      "raid_bosses": [
+        "cobblemonraiddens:palkia"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:eon_ticket": {
+      "raid_bosses": [
+        "cobblemonraiddens:latias",
+        "cobblemonraiddens:latios"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:grassland_blade": {
+      "raid_bosses": [
+        "cobblemonraiddens:virizion"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:binding_mochi": {
+      "raid_bosses": [
+        "cobblemonraiddens:pecharunt"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:clear_bell": {
+      "raid_bosses": [
+        "cobblemonraiddens:entei",
+        "cobblemonraiddens:raikou",
+        "cobblemonraiddens:suicune"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:kubfus_band": {
+      "raid_bosses": [
+        "cobblemonraiddens:kubfu"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:tidal_bell": {
+      "raid_bosses": [
+        "cobblemonraiddens:articuno",
+        "cobblemonraiddens:zapdos",
+        "cobblemonraiddens:moltres"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:meloetta_headset": {
+      "raid_bosses": [
+        "cobblemonraiddens:meloetta"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:prismatic_shell": {
+      "raid_bosses": [
+        "cobblemonraiddens:terapagos"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:zeraoras_thunderclaw": {
+      "raid_bosses": [
+        "cobblemonraiddens:zeraora"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:zygarde_cube": {
+      "raid_bosses": [
+        "cobblemonraiddens:zygarde"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:lele_totem": {
+      "raid_bosses": [
+        "cobblemonraiddens:tapulele"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:rusted_sword": {
+      "raid_bosses": [
+        "cobblemonraiddens:zacian"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:rainbow_wing": {
+      "raid_bosses": [
+        "cobblemonraiddens:hooh"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:ironwill_sword": {
+      "raid_bosses": [
+        "cobblemonraiddens:cobalion"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:gs_ball": {
+      "raid_bosses": [
+        "cobblemonraiddens:celebi"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:plasma_tablet": {
+      "raid_bosses": [
+        "cobblemonraiddens:regieleki"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:moon_flute": {
+      "raid_bosses": [
+        "cobblemonraiddens:lunala"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:reins_of_unity": {
+      "raid_bosses": [
+        "cobblemonraiddens:calyrex"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:red_orb": {
+      "raid_bosses": [
+        "cobblemonraiddens:groudon"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:sapling_of_life": {
+      "raid_bosses": [
+        "cobblemonraiddens:xerneas"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:griseous_orb": {
+      "raid_bosses": [
+        "cobblemonraiddens:giratina"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:fini_totem": {
+      "raid_bosses": [
+        "cobblemonraiddens:tapufini"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:cavern_shield": {
+      "raid_bosses": [
+        "cobblemonraiddens:terrakion"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:teal_mask": {
+      "raid_bosses": [
+        "cobblemonraiddens:ogerpon"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:type_null_mask": {
+      "raid_bosses": [
+        "cobblemonraiddens:typenull"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:scarlet_book": {
+      "raid_bosses": [
+        "cobblemonraiddens:koraidon"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:zarudes_cape": {
+      "raid_bosses": [
+        "cobblemonraiddens:zarude"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:koko_totem": {
+      "raid_bosses": [
+        "cobblemonraiddens:tapukoko"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:bulu_totem": {
+      "raid_bosses": [
+        "cobblemonraiddens:tapubulu"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:mythical_pecha_berry": {
+      "raid_bosses": [
+        "cobblemonraiddens:pecharunt"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:marshadow_hood": {
+      "raid_bosses": [
+        "cobblemonraiddens:marshadow"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:soul_heart": {
+      "raid_bosses": [
+        "cobblemonraiddens:magearna"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:eternatus_core": {
+      "raid_bosses": [
+        "cobblemonraiddens:eternatus"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:diancies_crown": {
+      "raid_bosses": [
+        "cobblemonraiddens:diancie"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:stone_tablet": {
+      "raid_bosses": [
+        "cobblemonraiddens:regirock"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:steam_valve": {
+      "raid_bosses": [
+        "cobblemonraiddens:volcanion"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:uxie_claw": {
+      "raid_bosses": [
+        "cobblemonraiddens:uxie"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:lunar_feather": {
+      "raid_bosses": [
+        "cobblemonraiddens:cresselia"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:oaks_letter": {
+      "raid_bosses": [
+        "cobblemonraiddens:shaymin"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:prison_bottle": {
+      "raid_bosses": [
+        "cobblemonraiddens:hoopa"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:violet_book": {
+      "raid_bosses": [
+        "cobblemonraiddens:miraidon"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:necro_prism": {
+      "raid_bosses": [
+        "cobblemonraiddens:necrozma"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:bonus_disk": {
+      "raid_bosses": [
+        "cobblemonraiddens:jirachi"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:sacred_sword": {
+      "raid_bosses": [
+        "cobblemonraiddens:keldeo"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:light_stone": {
+      "raid_bosses": [
+        "cobblemonraiddens:reshiram"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:dark_stone": {
+      "raid_bosses": [
+        "cobblemonraiddens:zekrom"
+      ],
+      "count": 1
+    },
+    "mythsandlegends:iceroot_carrot": {
+      "raid_bosses": [
+        "cobblemonraiddens:glastrier"
+      ],
+      "count": 1
+    }
+  }
+}

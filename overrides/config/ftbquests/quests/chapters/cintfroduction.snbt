@@ -20,7 +20,7 @@
 			y: -1.5d
 		}
 		{
-			dependency: "0898F24EA14CDE54"
+			dependency: "58869888B37C4839"
 			height: 1.5d
 			image: "mayview:textures/gamba_title.png"
 			rotation: 0.0d
@@ -267,16 +267,24 @@
 			hide_until_deps_complete: true
 			icon_scale: 0.9d
 			id: "5F411DDD034523DC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "51E7C29E21A10D04"
-				item: {
-					count: 1
-					id: "kubejs:pokemon_gamba_package"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51E7C29E21A10D04"
+					item: {
+						count: 1
+						id: "kubejs:pokemon_gamba_package"
+					}
+					team_reward: false
+					type: "item"
 				}
-				team_reward: false
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "19EA420E7D7C42FF"
+					table_id: 1957214908385103489L
+					type: "choice"
+				}
+			]
 			shape: "dex2"
 			size: 1.3d
 			tasks: [{
@@ -321,16 +329,24 @@
 			hide_until_deps_complete: true
 			icon_scale: 0.9d
 			id: "5FE33CA612F43357"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "723FEB01290311F5"
-				item: {
-					count: 1
-					id: "kubejs:pokemon_gamba_package"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "723FEB01290311F5"
+					item: {
+						count: 1
+						id: "kubejs:pokemon_gamba_package"
+					}
+					team_reward: false
+					type: "item"
 				}
-				team_reward: false
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1111FDB7E13075B5"
+					table_id: 1957214908385103489L
+					type: "choice"
+				}
+			]
 			shape: "dex2"
 			size: 1.3d
 			tasks: [{
@@ -378,15 +394,23 @@
 			}
 			icon_scale: 0.9d
 			id: "0C2AC1DBE2715A46"
-			rewards: [{
-				id: "6623A2CD97A6351C"
-				item: {
-					count: 1
-					id: "kubejs:shiny_pokemon_gamba_package"
+			rewards: [
+				{
+					id: "6623A2CD97A6351C"
+					item: {
+						count: 1
+						id: "kubejs:shiny_pokemon_gamba_package"
+					}
+					team_reward: false
+					type: "item"
 				}
-				team_reward: false
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "34EAABEF20AB059C"
+					table_id: 1957214908385103489L
+					type: "choice"
+				}
+			]
 			shape: "dex2"
 			size: 1.3d
 			tags: ["cobblemonquests"]
@@ -649,16 +673,24 @@
 			}
 			icon_scale: 0.9d
 			id: "1B7AD97644C13D1D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "79304950F932EF83"
-				item: {
-					count: 1
-					id: "kubejs:shiny_pokemon_gamba_package"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79304950F932EF83"
+					item: {
+						count: 1
+						id: "kubejs:shiny_pokemon_gamba_package"
+					}
+					team_reward: false
+					type: "item"
 				}
-				team_reward: false
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2B59693365C65A0C"
+					table_id: 1957214908385103489L
+					type: "choice"
+				}
+			]
 			shape: "dex2"
 			size: 1.3d
 			tags: ["cobblemonquests"]
@@ -737,10 +769,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"58869888B37C4839"
-				"5F411DDD034523DC"
-			]
+			dependencies: ["58869888B37C4839"]
 			dependency_requirement: "one_completed"
 			disable_toast: true
 			hide_dependency_lines: true

@@ -3409,6 +3409,1606 @@
 			x: -6.0d
 			y: 0.0d
 		}
+		{
+			id: "30877432D1026706"
+			rewards: [{
+				id: "2BB844520550D6E3"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "11029307B931CC37"
+				item: { count: 1, id: "simplehats:alien_antennae" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			id: "73C8EB5BB682575E"
+			rewards: [{
+				id: "61BE95DE3BF40B3A"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "2BE369E973A6B9BE"
+				item: { count: 1, id: "simplehats:angel_and_devil" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			id: "5D2CCE8038A39D5E"
+			rewards: [{
+				id: "0853964B50AF03B9"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "71722F244F58D669"
+				item: { count: 1, id: "simplehats:astronaut" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			id: "4DB8AE340066EBD7"
+			rewards: [{
+				id: "21A278F64F7FD633"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5B890FF6A8C324F1"
+				item: { count: 1, id: "simplehats:baby_crewmate" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			id: "0EE16DF3ED943C2D"
+			rewards: [{
+				id: "6C15C0C8E9DF4696"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "11A11F5125227C37"
+				item: { count: 1, id: "simplehats:baseballeaster" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			id: "12DA86A78C49EA20"
+			rewards: [{
+				id: "0FB6747CC2851E6B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "348334896A68F812"
+				item: { count: 1, id: "simplehats:baseballhatfestive" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "5F53EE62FCD62D18"
+			rewards: [{
+				id: "4D419B1B673BD475"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5D05AD7853C1F76E"
+				item: { count: 1, id: "simplehats:baseballhatjuly" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "351CE63A661BF9B8"
+			rewards: [{
+				id: "2CEE0468DAF62FE4"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "6BD2AA399DAC946D"
+				item: { count: 1, id: "simplehats:batwinghat" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "0908BCDE7D41AD85"
+			rewards: [{
+				id: "29A279764017F2ED"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "6CFC7403D75E173E"
+				item: { count: 1, id: "simplehats:beanieeaster" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "4EAEDE5FE878F78E"
+			rewards: [{
+				id: "2978AA2447C462DD"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "774626ADD09EE437"
+				item: { count: 1, id: "simplehats:beaniefestive" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "6C9F27187F4893AB"
+			rewards: [{
+				id: "048EF5A419E49AA9"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "2F01B7210760474F"
+				item: { count: 1, id: "simplehats:beaniejuly" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "36E8B5359309CC62"
+			rewards: [{
+				id: "73931BDB2A0DF3DB"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5862475C08123C12"
+				item: { count: 1, id: "simplehats:beaniespooky" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "75E6A2F03669D4E6"
+			rewards: [{
+				id: "7DF7FFE0297C79BF"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "1A6353754E13A86A"
+				item: { count: 1, id: "simplehats:bee_on_head" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "236970395E346A3A"
+			rewards: [{
+				id: "4F309FFEA518F32C"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "592A096C796F877B"
+				item: { count: 1, id: "simplehats:beetle_on_head" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "1C6A2E6E81C487B1"
+			rewards: [{
+				id: "5F7AF74B9D46FDB5"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "21599E3E9C8FE21D"
+				item: { count: 1, id: "simplehats:binky" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "62EA9071627AB080"
+			rewards: [{
+				id: "344D5D86B8065225"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "69A66A6F743A68AC"
+				item: { count: 1, id: "simplehats:bunnyhat" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			id: "151F386E490E09D9"
+			rewards: [{
+				id: "49B2B80BE2E14C54"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "2471D01C59B8E008"
+				item: { count: 1, id: "simplehats:candycane" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			id: "7D1AFCC4F14A3E3E"
+			rewards: [{
+				id: "04D42F8AC2ACAF12"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "7972D33E5901A19B"
+				item: { count: 1, id: "simplehats:cardboard_box" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			id: "13BBFA338B67A984"
+			rewards: [{
+				id: "36A18FDD7A458694"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "38175FD2FAD64195"
+				item: { count: 1, id: "simplehats:cat_hat" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			id: "7684319E1B429AD5"
+			rewards: [{
+				id: "64B858F9A3E247CB"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "2C083EB8CB37F0A7"
+				item: { count: 1, id: "simplehats:cat_on_head" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			id: "2E9D34119F3374CE"
+			rewards: [{
+				id: "5035C892D7F485CD"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "17437044D169421B"
+				item: { count: 1, id: "simplehats:caterpillar_on_head" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.5d
+		}
+		{
+			id: "2667A40844853040"
+			rewards: [{
+				id: "0B26C574894AE666"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "719E01FCD3FE22A4"
+				item: { count: 1, id: "simplehats:chocolate_sauced" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			id: "248AC9ED336DE7DA"
+			rewards: [{
+				id: "47DE3E3E28858971"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "3B41A3DBD199B364"
+				item: { count: 1, id: "simplehats:christmascakehat" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -11.5d
+		}
+		{
+			id: "114EC34150CC8AFC"
+			rewards: [{
+				id: "5B576F140CEF38C8"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "37620588A5B76277"
+				item: { count: 1, id: "simplehats:christmastree" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -12.5d
+		}
+		{
+			id: "3BD39F917C106964"
+			rewards: [{
+				id: "4B8F39C02C45AA17"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "0E2ADCD93C0A5EB2"
+				item: { count: 1, id: "simplehats:crystal_horns" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			id: "1F24CC3853981038"
+			rewards: [{
+				id: "77ABC4C4380D4717"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4E2FE981B29EE11B"
+				item: { count: 1, id: "simplehats:dangeresquejuly" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			id: "6EF86F141E95FE21"
+			rewards: [{
+				id: "517EE5BB9CDA1A2A"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "3C984A24B9C429CA"
+				item: { count: 1, id: "simplehats:dipper" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			id: "42DB0B956AF67442"
+			rewards: [{
+				id: "33EE3835C9B3985E"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "301429508B7A8480"
+				item: { count: 1, id: "simplehats:druid_antlers" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			id: "4BE725974B1F4AFF"
+			rewards: [{
+				id: "27767D3B53FF8B60"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "419F4FE020864D39"
+				item: { count: 1, id: "simplehats:druid_antlers_rare" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			id: "79317DE23F0749D0"
+			rewards: [{
+				id: "203CCBF1595A44CF"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "2B73A41BA5EF542E"
+				item: { count: 1, id: "simplehats:eevee_ears" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			id: "196161A9CF8169B1"
+			rewards: [{
+				id: "1A35C8D7E4AF0E82"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "2D59A32A99ED5EBE"
+				item: { count: 1, id: "simplehats:egghead" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			id: "1BD812CB504E1427"
+			rewards: [{
+				id: "4D2059352886C274"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "305FC388E69F6342"
+				item: { count: 1, id: "simplehats:eggonhead" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			id: "2A94361B86032058"
+			rewards: [{
+				id: "7F0BBE4229CFDD24"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "6EFADC5DBE37B7C1"
+				item: { count: 1, id: "simplehats:eyeholder_beeholder" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "7B92868492545A10"
+			rewards: [{
+				id: "2186D0F99F7C9E21"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5EDFE6A4AABC4B3A"
+				item: { count: 1, id: "simplehats:eyeholder_dark" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "7E38E74319CD75AA"
+			rewards: [{
+				id: "65FEF9F02CE76B11"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "29A414A947F16BB2"
+				item: { count: 1, id: "simplehats:eyeholder_evil" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			id: "44C9CBC95D2602D2"
+			rewards: [{
+				id: "1114AFE44AA5C9AF"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "56F068B0C4AF496F"
+				item: { count: 1, id: "simplehats:eyeholder_warm" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "471360EAD4D6DF14"
+			rewards: [{
+				id: "6AFCA5EAB8F67897"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "1931C56886D41CC0"
+				item: { count: 1, id: "simplehats:eyeholder_xanath" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "04C40268EA03F7AC"
+			rewards: [{
+				id: "713DAF3405DFF69A"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "56C1E0C8363D150B"
+				item: { count: 1, id: "simplehats:farmerbrim" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "3A9EF4E863A5E850"
+			rewards: [{
+				id: "06BA4A31F17C9C8D"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "074C7ED494275E1E"
+				item: { count: 1, id: "simplehats:festiveantlers" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			id: "40D3BB1EA4E555D9"
+			rewards: [{
+				id: "2EB231645AE36F2E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "1E4DE1E90C80621D"
+				item: { count: 1, id: "simplehats:festiveribbon" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			id: "4A646A3A95C27F1C"
+			rewards: [{
+				id: "24B35C47009EDC77"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "140775C91F424F72"
+				item: { count: 1, id: "simplehats:fireworks" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			id: "71CE761497AA7947"
+			rewards: [{
+				id: "4B58AAA035FA7CD1"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5F7794E1DD4C786A"
+				item: { count: 1, id: "simplehats:flagjuly" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			id: "2EB2618C1266F6A9"
+			rewards: [{
+				id: "0663F76C7A9CEB98"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4E9A6A65341EE48B"
+				item: { count: 1, id: "simplehats:ghostmask" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			id: "54E6CD021A45C003"
+			rewards: [{
+				id: "4F511210D472406E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "31309950473B3972"
+				item: { count: 1, id: "simplehats:gnome" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			id: "4768B8C2BCE77921"
+			rewards: [{
+				id: "2CCCF1052FDA3176"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "6CC65D2F6BBB2AFF"
+				item: { count: 1, id: "simplehats:gnome_clover_wig" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			id: "567661532F5D15FC"
+			rewards: [{
+				id: "0A24DD764847636A"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4CAB3209EB83425D"
+				item: { count: 1, id: "simplehats:greaser" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			id: "0D3460EE7AAF6CD9"
+			rewards: [{
+				id: "4F4881E2F5DC17B5"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "3754EB4FE4BBA4A2"
+				item: { count: 1, id: "simplehats:grinchhat" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.5d
+		}
+		{
+			id: "45C2148A9E0DF1CB"
+			rewards: [{
+				id: "071A60A3323E08F6"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "363EB6A36E9C95FA"
+				item: { count: 1, id: "simplehats:hat_of_discipline" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -12.5d
+		}
+		{
+			id: "3E228513CA41C160"
+			rewards: [{
+				id: "6B0B5AA118010C76"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4E8C490498CD3FD9"
+				item: { count: 1, id: "simplehats:hatscraps_easter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			id: "4CD5F55F945AE1B0"
+			rewards: [{
+				id: "35F3A0F2FBE2539F"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "6580C6F1B2ABD8DD"
+				item: { count: 1, id: "simplehats:hatscraps_festive" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			id: "6EB41389C9A29138"
+			rewards: [{
+				id: "1B85A99834D18447"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4A7CF48DCE22C8BE"
+				item: { count: 1, id: "simplehats:hatscraps_halloween" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			id: "61372F32882BD5DD"
+			rewards: [{
+				id: "4FA113E035EE0D64"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "56FD65CECD0B8D09"
+				item: { count: 1, id: "simplehats:hatscraps_summer" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			id: "06F247E00A3D4F27"
+			rewards: [{
+				id: "252C2654CE561A5B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "64DE62343CBDA478"
+				item: { count: 1, id: "simplehats:headbolts" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			id: "2790966C917FC37F"
+			rewards: [{
+				id: "20BA4CDB5F202086"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "11C9DDC24829264A"
+				item: { count: 1, id: "simplehats:hockeymask" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			id: "6F7DA525F4130D19"
+			rewards: [{
+				id: "405FB85B4830AD82"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "38601FBFB60C08D8"
+				item: { count: 1, id: "simplehats:jackohat" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			id: "071FBC451D7A7DA8"
+			rewards: [{
+				id: "2B31571C2E99A2E0"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "1EAB77C0F32B0D1A"
+				item: { count: 1, id: "simplehats:julydouble" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "0A0C9367DF148217"
+			rewards: [{
+				id: "5ACFC3760BECBFF3"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "374E1EB4E0D45755"
+				item: { count: 1, id: "simplehats:ladybug_on_head" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			id: "3B6E9E8325916A42"
+			rewards: [{
+				id: "7BC19850CE73E343"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "01746CB282026E42"
+				item: { count: 1, id: "simplehats:lil_bows" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "4CBF0532F70789C2"
+			rewards: [{
+				id: "04D393C573F4ED6D"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "670CBFFBAC850A70"
+				item: { count: 1, id: "simplehats:lil_termagant" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "04863CB09064A8A0"
+			rewards: [{
+				id: "7AB0B46F95F12177"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "0F0A64A5A10443B2"
+				item: { count: 1, id: "simplehats:medusa" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "2271019F76F8F087"
+			rewards: [{
+				id: "0775BF6E87D49101"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "21338B8666B0F48F"
+				item: { count: 1, id: "simplehats:mimic_head" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "0BBDA375609940DC"
+			rewards: [{
+				id: "29C56986C1DD6069"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5D513A66D899731C"
+				item: { count: 1, id: "simplehats:mimic_head_dark" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			id: "51035CFE63387D00"
+			rewards: [{
+				id: "7EE794A8F8EA651D"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "11808A70595AA84F"
+				item: { count: 1, id: "simplehats:mimic_head_gold" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			id: "49AF283C13CC93F0"
+			rewards: [{
+				id: "10A25C41BE56316B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "3D443339BD8CFF15"
+				item: { count: 1, id: "simplehats:mindflayer" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			id: "62E27CFCB2306CB4"
+			rewards: [{
+				id: "44CD06B21EDEC5C4"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "62F629EB046E2B65"
+				item: { count: 1, id: "simplehats:mindflayer_alhoon" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			id: "4AF3CCE0126B3939"
+			rewards: [{
+				id: "58290C1567768D00"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "0E81C4CCBBD528C3"
+				item: { count: 1, id: "simplehats:mistletoe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			id: "5CC71CFCB4F85E00"
+			rewards: [{
+				id: "471CA40F98DCC16A"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "7FB95593F485A27B"
+				item: { count: 1, id: "simplehats:monocle" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			id: "79DAB89E3F12F63C"
+			rewards: [{
+				id: "39580BC5EA1C6369"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "20B845DB7DD46F96"
+				item: { count: 1, id: "simplehats:murdered" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			id: "1111E19FB793AAC3"
+			rewards: [{
+				id: "1CF338512AED9C10"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "48283133DBD75E85"
+				item: { count: 1, id: "simplehats:octodad" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			id: "013DEC38F4609D38"
+			rewards: [{
+				id: "4D33933F6686BD95"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "1F6FA70023F42238"
+				item: { count: 1, id: "simplehats:palmtree" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.5d
+		}
+		{
+			id: "7E98E13519BAD331"
+			rewards: [{
+				id: "045ABE82BA53CCE8"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "527728370DBFFAF4"
+				item: { count: 1, id: "simplehats:pika_ears" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -12.5d
+		}
+		{
+			id: "4FF3DE128A07A3D7"
+			rewards: [{
+				id: "674261B533C3872F"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "17CC72EEE2FEA3F0"
+				item: { count: 1, id: "simplehats:pinhead" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			id: "3CD10296EAB17EAF"
+			rewards: [{
+				id: "01A8F6AF246386B4"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "38663C6E6A3D13EE"
+				item: { count: 1, id: "simplehats:plaguedoctor" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			id: "4F01DF5543CACD78"
+			rewards: [{
+				id: "62862A20CF3927C7"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4998121BBE3562D1"
+				item: { count: 1, id: "simplehats:presentsstack" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			id: "59841961BE37C791"
+			rewards: [{
+				id: "50A751AE71FFD4CC"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "2553C1D884580AE4"
+				item: { count: 1, id: "simplehats:rabbitears" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			id: "14A19FB2A7525DC2"
+			rewards: [{
+				id: "347B74F5085A7F96"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "3E4A4E09BF9C70EF"
+				item: { count: 1, id: "simplehats:rednose" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			id: "50266D36D240EA12"
+			rewards: [{
+				id: "2158278DCECDA0C3"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "0212B39929ECC0F5"
+				item: { count: 1, id: "simplehats:right_hand_hat" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			id: "74C949B04310C296"
+			rewards: [{
+				id: "6D7917C0E2C040CA"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "50159EEB781A0854"
+				item: { count: 1, id: "simplehats:round_purple_wig" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			id: "0ECF8501738887E8"
+			rewards: [{
+				id: "2A966DA62B27E501"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4CC69FFEEAD8F252"
+				item: { count: 1, id: "simplehats:round_red_wig" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			id: "754E554FB17F728B"
+			rewards: [{
+				id: "716BCFE11A3885CC"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "556E2BB4EE0C26B5"
+				item: { count: 1, id: "simplehats:sandcastle" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			id: "3C0956F6BF973D27"
+			rewards: [{
+				id: "35C11D4528D021DD"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "26EFF57D4585AE27"
+				item: { count: 1, id: "simplehats:santaclaus" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "10D40E49D765E3D1"
+			rewards: [{
+				id: "0DDB1D7FCB3D48F7"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "29D860030C6ADB34"
+				item: { count: 1, id: "simplehats:seaweedhat" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "2768283A0A620042"
+			rewards: [{
+				id: "0D8B181A0A43D94A"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "54507D71EDA38F88"
+				item: { count: 1, id: "simplehats:slime_cube_dnd" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			id: "06961751B70528CB"
+			rewards: [{
+				id: "657F3D1A9E51652C"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5D329A388ECF7AEE"
+				item: { count: 1, id: "simplehats:slime_head" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			id: "0F382C77ADB08792"
+			rewards: [{
+				id: "0A0B0504B681FB8E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "6767B4332F01FBAF"
+				item: { count: 1, id: "simplehats:special" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			id: "156E2F643AAF1E46"
+			rewards: [{
+				id: "115BA222CC926506"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "6C799F087BBC8A3E"
+				item: { count: 1, id: "simplehats:spiderweb" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			id: "7DC644F05DF4AF98"
+			rewards: [{
+				id: "1C35168F3EA8BB8B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "0D3B659BAFE2C9E4"
+				item: { count: 1, id: "simplehats:stackofeggs" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			id: "5ADC225A7AA98C8E"
+			rewards: [{
+				id: "718DF7C3D4BC20C1"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "393037E2575FFAEC"
+				item: { count: 1, id: "simplehats:stinkycheeseman" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			id: "4501BAFE8E45ED9B"
+			rewards: [{
+				id: "6A19A1A6A9CA7089"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "0FF90D970B6DDC75"
+				item: { count: 1, id: "simplehats:stuck_lollipop" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			id: "7AC55CAF15B6B23D"
+			rewards: [{
+				id: "3EE8F6A041053984"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "0EB54239AE6083C1"
+				item: { count: 1, id: "simplehats:tanuki_leaf" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			id: "2418C2F568C037CE"
+			rewards: [{
+				id: "716E36FC9A5138F9"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "6B1637DA0583C701"
+				item: { count: 1, id: "simplehats:the_noisier" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			id: "102EA9DAE6BB3A74"
+			rewards: [{
+				id: "7ABE60CB481FE9F6"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5BAE8524E98BE0C5"
+				item: { count: 1, id: "simplehats:thumbnail" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -9.5d
+		}
+		{
+			id: "0B7A2C6F49ADA332"
+			rewards: [{
+				id: "145163F631CF81B7"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "206F2E1BDB181292"
+				item: { count: 1, id: "simplehats:tick_on_head" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			id: "6337C6675D3BED35"
+			rewards: [{
+				id: "5CA5EBAABDDA76C8"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "7A1ED49CF413E2A4"
+				item: { count: 1, id: "simplehats:toast" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.5d
+		}
+		{
+			id: "1235C0B11F8ECFAF"
+			rewards: [{
+				id: "62AF5F391C21ABDD"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "370C191A4A741CE2"
+				item: { count: 1, id: "simplehats:toilet" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -12.5d
+		}
+		{
+			id: "7D9C44A2F1C82CD4"
+			rewards: [{
+				id: "4F6FC67728DA23DD"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "15CFD792E663C9DB"
+				item: { count: 1, id: "simplehats:tomato_splats" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.5d
+		}
+		{
+			id: "42317490A39EF0A6"
+			rewards: [{
+				id: "668F40C18519681E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "02C8B309C7C3AF25"
+				item: { count: 1, id: "simplehats:traffic_cone" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.5d
+		}
+		{
+			id: "6E0179AFC50BBB97"
+			rewards: [{
+				id: "39EC8207B3DB1C01"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4D9AE4646494D45A"
+				item: { count: 1, id: "simplehats:udder_hat" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			id: "235A40ADD9E84634"
+			rewards: [{
+				id: "5087770B2F4FB5CF"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "644AD7267D5786EA"
+				item: { count: 1, id: "simplehats:worm_hat" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			id: "1B0AC414E9F9CD7A"
+			rewards: [{
+				id: "39B84BD412DAB063"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "3F996DDFB2E95EE9"
+				item: { count: 1, id: "simplehats:zigzagwitchhat" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
 	]
 	tags: ["mayviewquests"]
 }

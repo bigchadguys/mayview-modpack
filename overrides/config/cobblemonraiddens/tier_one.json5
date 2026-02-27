@@ -37,6 +37,10 @@
 	"marks": [],
 	// The number of lives a player has per raid battle. Default: 1
 	"lives": 1,
+	// Whether all players share lives in raids. Default: false
+	"players_share_lives": false,
 	// How much raid energy is given from a cleared raid. Default: 0
-	"energy": 0
+	"energy": 0,
+	// The required damage percentage contribution a player needs to do to get rewards. Default: 0.0
+	"required_damage": 0.0
 }

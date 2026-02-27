@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "enableGuiShaders": false,
+  "showLevelUpMoves": true,
+  "showEggMoves": true,
+  "showTMMoves": true,
+  "showPartyTypeIcons": false,
+  "colorAbilityText": true,
+  "colorNatureText": true,
+  "colorOTText": true,
+  "colorSpeciesText": true,
+  "colorDexNumberText": true,
+  "colorTypeText": true
+}

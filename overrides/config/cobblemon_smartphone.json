@@ -5,7 +5,7 @@
     "cloudButton": 5
   },
   "features": {
-    "enableHeal": false,
+    "enableHeal": true,
     "enablePC": true,
     "enableCloud": true
   }

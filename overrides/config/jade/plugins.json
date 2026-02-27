@@ -56,10 +56,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -67,8 +63,18 @@
     "entity": true,
     "entity_variant": true
   },
+  "cobblemonraiddens": {
+    "raid_crystal": true
+  },
   "ftbquests": {
     "barrier": true
+  },
+  "cobblemonintegrations": {
+    "healer": true,
+    "campfire_pot": true,
+    "fossil_analyzer": true,
+    "pokemon_entity": true,
+    "berry_bush": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -81,14 +87,11 @@
     "block_properties": false,
     "mod_name": true
   },
-  "aewireless": {
-    "wireless_tooltip": true
-  },
-  "waystones": {
-    "waystone": true
-  },
   "balm": {
     "jade": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,
@@ -96,10 +99,20 @@
     "debug": true,
     "part_tooltip": true,
     "grid_node_state": true,
-    "pattern_provider": true,
+    "pattern_provider": false,
     "part_mod_name": true,
     "power_storage": true,
-    "crafting_monitor": true,
+    "crafting_monitor": false,
     "part_name": true
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "aewireless": {
+    "wireless_tooltip": true
+  },
+  "waystones": {
+    "waystone": true
   }
 }

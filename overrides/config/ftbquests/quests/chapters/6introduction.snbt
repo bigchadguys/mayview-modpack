@@ -276,6 +276,7 @@
 			}]
 			shape: "mv_wood3"
 			size: 1.2d
+			tags: ["mintyquests"]
 			tasks: [{
 				id: "30A9565FD0EEC3B5"
 				type: "checkmark"
@@ -367,5 +368,4 @@
 			y: 1.0d
 		}
 	]
-	tags: ["mayviewquests"]
 }

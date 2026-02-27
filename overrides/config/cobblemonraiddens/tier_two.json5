@@ -14,7 +14,7 @@
 	// The max number Pokemon a player can use in a raid. Default: 1
 	"raid_party_size": 1,
 	// Raid boss HP multiplier. Default: 5
-	"health_multiplier": 5,
+	"health_multiplier": 4,
 	// Bonus raid boss HP multiplier for each extra player that joins the raid battle. Default: 1.0
 	"multiplayer_health_multiplier": 1.0,
 	// Raid boss level. Default: 20
@@ -22,7 +22,7 @@
 	// Reward Pokemon level. Default: 20
 	"reward_level": 20,
 	// Reward Pokemon number of max IVs. Default: 1
-	"ivs": 1,
+	"ivs": 3,
 	// The default shiny chance for raid bosses as 1 in X (Set to -1 to use the Cobblemon rate). Default: -1.0
 	"shiny_rate": -1.0,
 	// How much currency is rewarded for clearing a raid boss (Requires CobbleDollars). Default: 2000
@@ -37,6 +37,10 @@
 	"marks": [],
 	// The number of lives a player has per raid battle. Default: 1
 	"lives": 1,
+	// Whether all players share lives in raids. Default: false
+	"players_share_lives": false,
 	// How much raid energy is given from a cleared raid. Default: 1
-	"energy": 1
+	"energy": 1,
+	// The required damage percentage contribution a player needs to do to get rewards. Default: 0.0
+	"required_damage": 0.0
 }

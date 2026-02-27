@@ -34,7 +34,7 @@
 			"renderUnHovered": true,
 			"darkenUnHovered": true,
 			"darkenedBrightness": 0.5,
-			"darkenedOpacity": 1.0
+			"darkenedOpacity": 0.8999999761581421
 		}
 	},
 	"modifiers": [

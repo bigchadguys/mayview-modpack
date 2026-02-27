@@ -9,4 +9,4 @@
 		# Whether or not mining fatigue is applied to players in the desert temple if it has not yet been cleared.
 		# Default: true
 		#
-		"Apply Mining Fatigue" = true
+		"Apply Mining Fatigue" = false

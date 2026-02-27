@@ -41,6 +41,7 @@
 		}
 		{
 			dependencies: ["2E5866CA79AB274A"]
+			icon_scale: 0.9d
 			id: "090DDB061A29C380"
 			rewards: [
 				{
@@ -66,6 +67,7 @@
 				}
 			]
 			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
 				count: 99L
 				id: "1C9D33659DFEB3C1"
@@ -73,86 +75,6 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["2E5866CA79AB274A"]
-			disable_toast: true
-			icon: {
-				components: {
-					"ftbquests:missing_item": "sellingbin:selling_bin"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "2F174A4CD3484062"
-			rewards: [{
-				id: "38652B3424B107CB"
-				item: {
-					components: {
-						"ftbquests:missing_item": "sellingbin:selling_bin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "mv_wood"
-			size: 1.1d
-			tasks: [
-				{
-					consume_items: true
-					count: 5L
-					id: "595020D632BFBF58"
-					item: { count: 1, id: "mayview:copper_coin" }
-					type: "item"
-				}
-				{
-					id: "7D6C9D894E8EE9DE"
-					type: "checkmark"
-				}
-			]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["4653E430E6C28B82"]
-			dependency_requirement: "one_started"
-			icon: {
-				components: {
-					"ftbquests:missing_item": "sellingbin:selling_bin"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "00B363F735626BAD"
-			rewards: [{
-				id: "003E637192628A8F"
-				item: {
-					components: {
-						"ftbquests:missing_item": "sellingbin:selling_bin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "wood_rounded"
-			size: 1.1d
-			tasks: [
-				{
-					consume_items: true
-					count: 3L
-					id: "79C6C73480741991"
-					item: { count: 1, id: "mayview:diamond_coin" }
-					type: "item"
-				}
-				{
-					id: "3FB7EB653EDC64D6"
-					type: "checkmark"
-				}
-			]
-			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -221,142 +143,14 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: true
-			dependencies: ["2F174A4CD3484062"]
-			dependency_requirement: "one_started"
-			disable_toast: true
-			icon: {
-				components: {
-					"ftbquests:missing_item": "sellingbin:selling_bin"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "73CA7AE70B0F3318"
-			rewards: [{
-				id: "7567FFA109BAFF22"
-				item: {
-					components: {
-						"ftbquests:missing_item": "sellingbin:selling_bin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "wood_rounded"
-			size: 1.1d
-			tasks: [
-				{
-					consume_items: true
-					count: 5L
-					disable_toast: true
-					id: "47C793A6860B63CB"
-					item: { count: 1, id: "mayview:iron_coin" }
-					type: "item"
-				}
-				{
-					id: "5E3E8D29870B813E"
-					type: "checkmark"
-				}
-			]
-			x: 4.0d
-			y: 1.0d
-		}
-		{
-			can_repeat: true
-			dependencies: [
-				"73CA7AE70B0F3318"
-				"2EA8499C85F1E97B"
-			]
-			dependency_requirement: "one_started"
-			disable_toast: true
-			icon: {
-				components: {
-					"ftbquests:missing_item": "sellingbin:selling_bin"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "4653E430E6C28B82"
-			min_required_dependencies: 1
-			rewards: [{
-				id: "06183D63456705EB"
-				item: {
-					components: {
-						"ftbquests:missing_item": "sellingbin:selling_bin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "wood_rounded"
-			size: 1.1d
-			tasks: [
-				{
-					consume_items: true
-					disable_toast: true
-					icon: {
-						id: "mayview:diamond_coin"
-					}
-					id: "08B2B772D0C9E5F2"
-					item: { count: 1, id: "mayview:diamond_coin" }
-					type: "item"
-				}
-				{
-					id: "181E6CBA99F83755"
-					type: "checkmark"
-				}
-			]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["2F174A4CD3484062"]
-			dependency_requirement: "one_started"
-			disable_toast: true
-			icon: {
-				components: {
-					"ftbquests:missing_item": "sellingbin:selling_bin"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "2EA8499C85F1E97B"
-			rewards: [{
-				id: "0E153D7732A9C7DE"
-				item: {
-					components: {
-						"ftbquests:missing_item": "sellingbin:selling_bin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			shape: "wood_rounded"
-			size: 1.1d
-			tasks: [
-				{
-					consume_items: true
-					count: 3L
-					disable_toast: true
-					id: "7EE46AD75890C4E8"
-					item: { count: 1, id: "mayview:gold_coin" }
-					type: "item"
-				}
-				{
-					id: "452722AC40F9E159"
-					type: "checkmark"
-				}
-			]
-			x: 4.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["2E5866CA79AB274A"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			hide_dependency_lines: false
 			id: "2B6DD29FB1207A45"
+			rewards: [{
+				id: "7E482E4CF720BE0A"
+				type: "xp"
+				xp: 20
+			}]
 			shape: "mv_wood"
 			size: 1.1d
 			tasks: [{
@@ -364,7 +158,7 @@
 				item: { count: 1, id: "mayview:piggy_bank" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -422,48 +216,7 @@
 				item: { count: 1, id: "dailyshop:daily_shop" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["30821B42C8DEB8B6"]
-			icon: {
-				id: "create:cardboard_package_12x12"
-			}
-			id: "6ED3683B843FCFDA"
-			rewards: [
-				{
-					id: "07BD6B77ABD93EA5"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					id: "6A1DE1D2680AAC62"
-					item: {
-						count: 1
-						id: "kubejs:food_care_package"
-					}
-					type: "item"
-				}
-				{
-					id: "567B233C4E683334"
-					type: "xp"
-					xp: 60
-				}
-			]
-			shape: "wood_rounded"
-			size: 1.1d
-			tasks: [{
-				icon: {
-					id: "dailyshop:daily_shop"
-				}
-				id: "3A8C0851FA67CF16"
-				type: "custom"
-			}]
-			x: 2.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -857,6 +610,37 @@
 			}]
 			x: 2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["2E5866CA79AB274A"]
+			icon_scale: 0.9d
+			id: "654E6DCCEC201923"
+			rewards: [{
+				id: "518274E72B1C755D"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "3726D3050BCD10A5"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E5866CA79AB274A"]
+			icon_scale: 0.9d
+			id: "7AFA0A5BC44B381B"
+			size: 1.2d
+			tasks: [{
+				id: "10B95194CE471C95"
+				item: { count: 1, id: "mayview:mythril_selling_bin" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	tags: ["mayviewquests"]

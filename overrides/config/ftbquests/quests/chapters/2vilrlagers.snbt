@@ -1317,6 +1317,9 @@
 			id: "04FC75E291C1A0BA"
 			tasks: [
 				{
+					icon: {
+						id: "mayview:gold_coin"
+					}
 					id: "5EC956337327AC9F"
 					profession_dropdown: "cobblemon_paleontologist:cobblemon_paleontologist"
 					profession_manual: "minecraft:librarian"

@@ -5,7 +5,7 @@
 	filename: "6trafnsportation"
 	group: "216429D7B624FFA8"
 	icon: {
-		id: "create_hypertube:hypertube_accelerator"
+		id: "immersive_aircraft:biplane"
 	}
 	id: "5FCE96282A5C444C"
 	order_index: 8
@@ -60,7 +60,7 @@
 			id: "6BE4B57C0FE9A8C9"
 			tasks: [{
 				id: "7758CCE6E22C6271"
-				item: { count: 1, id: "create_hypertube:hypertube_entrance" }
+				item: { count: 1, id: "hooked:iron_hook" }
 				type: "item"
 			}]
 			x: 0.0d

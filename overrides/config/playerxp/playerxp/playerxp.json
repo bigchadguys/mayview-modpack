@@ -1,0 +1,9 @@
+{
+  "shouldGiveLevels": false,
+  "baseXP": 5.0,
+  "baseLevels": 1,
+  "enableDailyCap": false,
+  "dailyXpCap": 6789,
+  "dailyLevelCap": 10,
+  "xpFromPlayerBattles": true
+}

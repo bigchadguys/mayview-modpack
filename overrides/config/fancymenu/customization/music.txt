@@ -1,7 +1,7 @@
 type = fancymenu_layout
 
 layout-meta {
-  identifier = %fancymenu:universal_layout%
+  identifier = title_screen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1748949116265
   is_enabled = true
