@@ -14,5 +14,8 @@
   "likoPendentDuration": 72000,
   "minBondingRequired": 200,
   "outSideMega": true,
-  "outSideUltraBurst": false
+  "outSideUltraBurst": false,
+  "showBattleHUD": false,
+  "showStatChanges": false,
+  "showMoveTooltips": false
 }

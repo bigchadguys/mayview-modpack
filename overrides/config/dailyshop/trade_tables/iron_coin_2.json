@@ -1,0 +1,20 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "mayview:iron_coin",
+    "count": {
+      "type": "constant",
+      "count": 2
+    }
+  },
+  "output": [
+    { "item": "chimes:amethyst_chimes", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "permanentsponges:magmatic_sponge", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "permanentsponges:aqueous_sponge", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "minecraft:sponge", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "cobblemon:hearty_grains", "count": { "type": "constant", "count": 1 }, "weight": 1 }
+  ]
+}

@@ -13,7 +13,7 @@
 			height: 6.0d
 			image: "mayview:textures/quest/film_development_setup.png"
 			rotation: 0.0d
-			width: 6.0d
+			width: 6.6d
 			x: -5.0d
 			y: 9.0d
 		}
@@ -26,12 +26,12 @@
 			y: 9.0d
 		}
 		{
-			height: 4.5d
+			height: 4.3d
 			image: "mayview:textures/biomes/crag_gardens.png"
 			rotation: 0.0d
-			width: 8.0d
-			x: -5.0d
-			y: 0.5d
+			width: 7.0d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			height: 4.5d
@@ -42,10 +42,10 @@
 			y: -15.0d
 		}
 		{
-			height: 4.5d
+			height: 4.0d
 			image: "mayview:textures/biomes/forgotten_forest.png"
 			rotation: 0.0d
-			width: 8.0d
+			width: 7.0d
 			x: 5.0d
 			y: 0.5d
 		}
@@ -89,6 +89,22 @@
 			x: -5.0d
 			y: -9.5d
 		}
+		{
+			height: 3.2d
+			image: "mayview:textures/photo_album_title.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			height: 4.5d
+			image: "mayview:textures/biomes/windswept_desert.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -5.0d
+			y: 4.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -105,17 +121,17 @@
 			id: "5874413FBDDE2AC1"
 			rewards: [
 				{
-					id: "4C1E521D4B7F8544"
-					type: "xp"
-					xp: 60
-				}
-				{
 					id: "1521F51B7CC78642"
 					item: {
 						count: 1
 						id: "ribbits:ribbit_merchant_spawn_egg"
 					}
 					type: "item"
+				}
+				{
+					id: "4C1E521D4B7F8544"
+					type: "xp"
+					xp: 60
 				}
 			]
 			size: 1.4d
@@ -137,17 +153,17 @@
 			id: "3FB93E2BFE62D0F8"
 			rewards: [
 				{
-					id: "4FFCBCE4F56F96B5"
-					type: "xp"
-					xp: 60
-				}
-				{
 					id: "34431309242CA6F0"
 					item: {
 						count: 1
 						id: "minecraft:villager_spawn_egg"
 					}
 					type: "item"
+				}
+				{
+					id: "4FFCBCE4F56F96B5"
+					type: "xp"
+					xp: 60
 				}
 			]
 			size: 1.4d
@@ -168,11 +184,6 @@
 			icon_scale: 0.9d
 			id: "025DE646E78F585B"
 			rewards: [
-				{
-					id: "54DE052F629E1940"
-					type: "xp"
-					xp: 60
-				}
 				{
 					exclude_from_claim_all: true
 					id: "2BA391CF0B668459"
@@ -195,6 +206,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "54DE052F629E1940"
+					type: "xp"
+					xp: 60
+				}
 			]
 			shape: "mystic_moon"
 			size: 2.0d
@@ -216,11 +232,6 @@
 			icon_scale: 0.9d
 			id: "2D938394EDC810D6"
 			rewards: [
-				{
-					id: "6F5AEEAC1F18D295"
-					type: "xp"
-					xp: 60
-				}
 				{
 					id: "2B6AC3CA3534D2E8"
 					item: {
@@ -246,6 +257,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6F5AEEAC1F18D295"
+					type: "xp"
+					xp: 60
+				}
 			]
 			shape: "wood_quad"
 			size: 1.6d
@@ -268,11 +284,6 @@
 			id: "1DD5C356333EE0F8"
 			rewards: [
 				{
-					id: "6771BB274608FC4B"
-					type: "xp"
-					xp: 60
-				}
-				{
 					count: 64
 					id: "148B6ECCE82C214A"
 					item: {
@@ -280,6 +291,11 @@
 						id: "minecraft:sculk"
 					}
 					type: "item"
+				}
+				{
+					id: "6771BB274608FC4B"
+					type: "xp"
+					xp: 60
 				}
 			]
 			size: 1.4d
@@ -323,11 +339,6 @@
 			id: "3358F20C6F1230D8"
 			rewards: [
 				{
-					id: "307C8738965C830F"
-					type: "xp"
-					xp: 60
-				}
-				{
 					id: "57573721282FE871"
 					item: {
 						count: 1
@@ -343,6 +354,11 @@
 						id: "minecraft:honey_block"
 					}
 					type: "item"
+				}
+				{
+					id: "307C8738965C830F"
+					type: "xp"
+					xp: 60
 				}
 			]
 			size: 1.4d
@@ -364,11 +380,6 @@
 			id: "6C223A15828BD608"
 			rewards: [
 				{
-					id: "50388ED9D6B5CA1C"
-					type: "xp"
-					xp: 60
-				}
-				{
 					count: 16
 					id: "19E6C93CFE495CF9"
 					item: {
@@ -384,6 +395,11 @@
 						id: "minecraft:enderman_spawn_egg"
 					}
 					type: "item"
+				}
+				{
+					id: "50388ED9D6B5CA1C"
+					type: "xp"
+					xp: 60
 				}
 			]
 			size: 1.4d
@@ -405,17 +421,17 @@
 			id: "78CDC247D47F1399"
 			rewards: [
 				{
-					id: "772C87393121D27F"
-					type: "xp"
-					xp: 60
-				}
-				{
 					id: "373FAEF1755DFAFB"
 					item: {
 						count: 1
 						id: "minecraft:iron_golem_spawn_egg"
 					}
 					type: "item"
+				}
+				{
+					id: "772C87393121D27F"
+					type: "xp"
+					xp: 60
 				}
 			]
 			shape: "wood_quad"
@@ -438,17 +454,17 @@
 			id: "7421B16C7DA32D20"
 			rewards: [
 				{
-					id: "13276E5390EFDB2A"
-					type: "xp"
-					xp: 60
-				}
-				{
 					id: "22B23129799D4CB9"
 					item: {
 						count: 1
 						id: "minecraft:creeper_spawn_egg"
 					}
 					type: "item"
+				}
+				{
+					id: "13276E5390EFDB2A"
+					type: "xp"
+					xp: 60
 				}
 			]
 			size: 1.4d
@@ -469,17 +485,17 @@
 			id: "15B7AF4DF1C30B14"
 			rewards: [
 				{
-					id: "50D788B6D8DB08F6"
-					type: "xp"
-					xp: 60
-				}
-				{
 					id: "76163A78751C68EC"
 					item: {
 						count: 1
 						id: "minecraft:phantom_spawn_egg"
 					}
 					type: "item"
+				}
+				{
+					id: "50D788B6D8DB08F6"
+					type: "xp"
+					xp: 60
 				}
 			]
 			size: 1.4d
@@ -500,11 +516,6 @@
 			icon_scale: 0.9d
 			id: "6BA76324A48CF929"
 			rewards: [
-				{
-					id: "46B709D4F305BA97"
-					type: "xp"
-					xp: 60
-				}
 				{
 					id: "3D2C0C07C2265514"
 					item: {
@@ -540,6 +551,19 @@
 					}
 					type: "item"
 				}
+				{
+					id: "067893D196B8212D"
+					item: {
+						count: 1
+						id: "plushies:polar_bear_plushie"
+					}
+					type: "item"
+				}
+				{
+					id: "46B709D4F305BA97"
+					type: "xp"
+					xp: 60
+				}
 			]
 			size: 1.4d
 			tasks: [{
@@ -560,11 +584,6 @@
 			id: "3B5B80FC07FF0300"
 			rewards: [
 				{
-					id: "485E9B97E7541B3B"
-					type: "xp"
-					xp: 60
-				}
-				{
 					id: "0CEAE7DF1A6C7CA1"
 					item: {
 						count: 1
@@ -579,6 +598,11 @@
 						id: "minecraft:blaze_spawn_egg"
 					}
 					type: "item"
+				}
+				{
+					id: "485E9B97E7541B3B"
+					type: "xp"
+					xp: 60
 				}
 			]
 			shape: "wood_quad"
@@ -601,11 +625,6 @@
 			icon_scale: 0.9d
 			id: "61BC1B6A2524CBE7"
 			rewards: [
-				{
-					id: "52F6F5A38AFFE908"
-					type: "xp"
-					xp: 60
-				}
 				{
 					id: "1BA3D96B08E95CA6"
 					item: {
@@ -630,6 +649,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "52F6F5A38AFFE908"
+					type: "xp"
+					xp: 60
+				}
 			]
 			size: 1.4d
 			tags: ["legendaryquests"]
@@ -651,11 +675,6 @@
 			id: "4527877C804CF3D8"
 			rewards: [
 				{
-					id: "7AB4BDD27169C66F"
-					type: "xp"
-					xp: 60
-				}
-				{
 					id: "48E09999CBE31355"
 					item: {
 						count: 1
@@ -668,6 +687,11 @@
 					id: "7F0604E1E0D06E41"
 					table_id: 6439676033221699478L
 					type: "choice"
+				}
+				{
+					id: "7AB4BDD27169C66F"
+					type: "xp"
+					xp: 60
 				}
 			]
 			shape: "wood_quad"
@@ -690,11 +714,6 @@
 			id: "2DDE3DB9837389A1"
 			rewards: [
 				{
-					id: "06E62C301E99895C"
-					type: "xp"
-					xp: 60
-				}
-				{
 					count: 8
 					id: "3A43B46162AB62B2"
 					item: {
@@ -702,6 +721,11 @@
 						id: "starcatcher:legendary_bait"
 					}
 					type: "item"
+				}
+				{
+					id: "06E62C301E99895C"
+					type: "xp"
+					xp: 60
 				}
 			]
 			size: 1.4d
@@ -722,11 +746,6 @@
 			icon_scale: 0.9d
 			id: "7DFE355C46ABBA23"
 			rewards: [
-				{
-					id: "0FA42689B542E7C7"
-					type: "xp"
-					xp: 60
-				}
 				{
 					id: "16C26F55E5CA7B1F"
 					item: {
@@ -752,6 +771,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0FA42689B542E7C7"
+					type: "xp"
+					xp: 60
+				}
 			]
 			size: 1.4d
 			tasks: [{
@@ -771,11 +795,6 @@
 			icon_scale: 0.9d
 			id: "51C4CD8339C0BCFF"
 			rewards: [
-				{
-					id: "2A3AA28D8F7E270F"
-					type: "xp"
-					xp: 60
-				}
 				{
 					count: 8
 					id: "69695D044298D1A6"
@@ -802,6 +821,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2A3AA28D8F7E270F"
+					type: "xp"
+					xp: 60
+				}
 			]
 			size: 1.4d
 			tasks: [{
@@ -821,11 +845,6 @@
 			icon_scale: 0.9d
 			id: "39A837209DEB73E3"
 			rewards: [
-				{
-					id: "2411F56251717E6A"
-					type: "xp"
-					xp: 60
-				}
 				{
 					id: "246DAFF360936542"
 					item: {
@@ -850,6 +869,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2411F56251717E6A"
+					type: "xp"
+					xp: 60
+				}
 			]
 			size: 1.4d
 			tasks: [{
@@ -870,11 +894,6 @@
 			id: "25AF01454763F97E"
 			rewards: [
 				{
-					id: "4BD44840A50D8AAF"
-					type: "xp"
-					xp: 60
-				}
-				{
 					count: 32
 					id: "3F20D5D48DA796EF"
 					item: {
@@ -890,6 +909,11 @@
 						id: "plushies:panda_plushie"
 					}
 					type: "item"
+				}
+				{
+					id: "4BD44840A50D8AAF"
+					type: "xp"
+					xp: 60
 				}
 			]
 			shape: "wood_quad"
@@ -931,11 +955,6 @@
 			id: "6EE4B338012DA7BF"
 			rewards: [
 				{
-					id: "33D79218C871D572"
-					type: "xp"
-					xp: 60
-				}
-				{
 					count: 2
 					id: "5D19F1A62AE9C8F9"
 					item: {
@@ -952,6 +971,11 @@
 						id: "exposure:black_and_white_film"
 					}
 					type: "item"
+				}
+				{
+					id: "33D79218C871D572"
+					type: "xp"
+					xp: 60
 				}
 			]
 			size: 1.4d
@@ -1026,11 +1050,6 @@
 			id: "01E41E192704C784"
 			rewards: [
 				{
-					id: "460E3F3A15113289"
-					type: "xp"
-					xp: 60
-				}
-				{
 					count: 8
 					id: "173C5E64355389CD"
 					item: {
@@ -1046,6 +1065,11 @@
 						id: "artifacts:everlasting_beef"
 					}
 					type: "item"
+				}
+				{
+					id: "460E3F3A15113289"
+					type: "xp"
+					xp: 60
 				}
 			]
 			size: 1.4d
@@ -1064,17 +1088,17 @@
 			id: "6A3E37220D5594EC"
 			rewards: [
 				{
-					id: "72BA3405F5B94DC0"
-					type: "xp"
-					xp: 60
-				}
-				{
 					id: "0F813C1FD2F6FE6E"
 					item: {
 						count: 1
 						id: "exposure:album"
 					}
 					type: "item"
+				}
+				{
+					id: "72BA3405F5B94DC0"
+					type: "xp"
+					xp: 60
 				}
 			]
 			shape: "iso_hex"
@@ -1375,18 +1399,58 @@
 			}
 			icon_scale: 0.9d
 			id: "18901FD254641674"
-			rewards: [{
-				id: "36E5560F529AEB83"
-				item: {
-					count: 1
-					id: "minecraft:frog_spawn_egg"
+			rewards: [
+				{
+					id: "36E5560F529AEB83"
+					item: {
+						count: 1
+						id: "minecraft:frog_spawn_egg"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2C5619BACCB52C0D"
+					item: {
+						count: 1
+						id: "displaydelight:crd_plated_frog_leg_kebab"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "55C83CFE47037636"
+					item: {
+						count: 1
+						id: "minecraft:ochre_froglight"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0D4BDA089D994675"
+					item: {
+						count: 1
+						id: "minecraft:verdant_froglight"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "29E4E1BED48E11E1"
+					item: {
+						count: 1
+						id: "minecraft:pearlescent_froglight"
+					}
+					type: "item"
+				}
+			]
 			size: 1.4d
 			tasks: [{
 				advancement: "lootr:1frame"
 				criterion: ""
+				icon: {
+					id: "minecraft:spyglass"
+				}
 				id: "76C9BED1BB07B2C1"
 				type: "advancement"
 			}]

@@ -4,7 +4,7 @@
 	}
 	id: "7AF4165CD8A5ECFA"
 	loot_size: 1
-	order_index: 12
+	order_index: 11
 	rewards: [
 		{ id: "527B92E34B29D092", item: { count: 1, id: "minecraft:netherite_helmet" } }
 		{ id: "78D1F016D00B471D", item: { count: 1, id: "minecraft:netherite_chestplate" } }

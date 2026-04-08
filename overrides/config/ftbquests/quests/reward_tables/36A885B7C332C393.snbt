@@ -4,7 +4,7 @@
 	}
 	id: "36A885B7C332C393"
 	loot_size: 1
-	order_index: 9
+	order_index: 8
 	rewards: [
 		{ id: "54AF83EE4F7327BB", item: { count: 1, id: "ores:magnite_helmet" } }
 		{ id: "33367F97747DF27D", item: { count: 1, id: "ores:magnite_boots" } }

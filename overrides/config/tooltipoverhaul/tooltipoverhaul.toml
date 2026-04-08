@@ -72,7 +72,7 @@ DEFAULT_INNER_OVERLAY_TYPE = "gradient"
 # Default tooltip background color in ARGB format (#AARRGGBB). Example: #F0010110.
 # 
 # Default: #F0000000
-DEFAULT_BACKGROUND_COLOR = "#F01C1F24"
+DEFAULT_BACKGROUND_COLOR = "#F00D1220"
 # Override vanilla tooltips even when no ItemStack is present (e.g., JEI category buttons or unsupported stacks). To disable custom
 # tooltips for specific items, edit your custom_frames.json and set disableTooltip=true for those items (or tags).
 # 
@@ -168,11 +168,11 @@ USE_PLAYER_SKIN_IN_PREVIEW = true
 # Color palette for tooltips without a stack. Must specify exactly 3 ARGB colors.
 # 
 # Default: 0xFF969696, 0xFF575757, 0xFF3C3C3C
-NO_STACK_PALETTE_COLORS = "0xFF6BAE74, 0xFF3D8C4A, 0xFF1F4E2C"
+NO_STACK_PALETTE_COLORS = "0xFF67C499, 0xFF3D8C4A, 0xFF1F4E2C"
 # Color palette for COMMON rarity (bright to dark). Must specify exactly 3 ARGB colors.
 # 
 # Default: 0xFF969696, 0xFF575757, 0xFF3C3C3C
-COMMON_PALETTE_COLORS = "0xFF6BAE74, 0xFF3D8C4A, 0xFF1F4E2C"
+COMMON_PALETTE_COLORS = "0xFF67C499, 0xFF3D8C4A, 0xFF1F4E2C"
 # Color palette for UNCOMMON rarity (bright to dark). Must specify exactly 3 ARGB colors.
 # 
 # Default: 0xFF9CA028, 0xFF6A6D18, 0xFF4B4D0E

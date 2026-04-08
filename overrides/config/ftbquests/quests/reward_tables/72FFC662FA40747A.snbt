@@ -4,7 +4,7 @@
 	}
 	id: "72FFC662FA40747A"
 	loot_size: 1
-	order_index: 5
+	order_index: 4
 	rewards: [
 		{ id: "7EE73CB2893D38DB", item: { count: 1, id: "cobblemon:big_malasada" } }
 		{ id: "484104A004AADD2F", item: { count: 1, id: "cobblemon:black_glasses" } }

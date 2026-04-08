@@ -11,5 +11,7 @@
 */
 console.info("[RES INTERFACE] Loading mayview_selling_bin.js");
 StartupEvents.registry('block', event => {
+	event.create("mayview:copper_selling_bin", "custommachinery:custom_machine")
 	event.create("mayview:mythril_selling_bin", "custommachinery:custom_machine")
+	event.create("mayview:viridium_selling_bin", "custommachinery:custom_machine")
 })

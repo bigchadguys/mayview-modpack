@@ -1,11 +1,10 @@
 {
   "hideUnknownPokemon": false,
-  "showPokemonTooltips": true,
-  "hideUnknownPokemonTooltips": false,
+  "hideConditionsOfUnknownSpawns": true,
   "hideNaturalBlockConditions": true,
+  "percentageForKnownHerd": 0.5,
   "syncLabelsWithClient": true,
-  "checkSpawnWidth": 8,
-  "checkSpawnHeight": 16,
+  "syncEvYieldWithClient": true,
   "searchAreaWidth": 200.0,
   "searchAreaHeight": 200.0,
   "pokemonFeatureWeights": {
@@ -44,12 +43,6 @@
     "area_type_block": true,
     "grounded_type_block": true,
     "seafloor_type_block": true,
-    "fishing_block": true,
-    "count": true,
-    "streak": true,
-    "key_item": false,
-    "items": false,
-    "pokemon": false,
-    "zygarde_cube_charge": false
+    "fishing_block": true
   }
 }

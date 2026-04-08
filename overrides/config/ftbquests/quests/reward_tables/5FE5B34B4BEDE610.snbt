@@ -4,7 +4,7 @@
 	}
 	id: "5FE5B34B4BEDE610"
 	loot_size: 1
-	order_index: 6
+	order_index: 5
 	rewards: [
 		{ id: "734C8BFC95A5317E", item: { count: 1, id: "ores:copper_helmet" } }
 		{ id: "020C91C0F2FFBA7B", item: { count: 1, id: "ores:copper_chestplate" } }

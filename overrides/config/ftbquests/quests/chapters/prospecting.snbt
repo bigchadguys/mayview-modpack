@@ -1,0 +1,2072 @@
+{
+	autofocus_id: "03BEE2F1FD4EF68F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octosquare"
+	filename: "prospecting"
+	group: "216429D7B624FFA8"
+	icon: {
+		id: "minecraft:raw_gold"
+	}
+	id: "779407891BE6EF00"
+	images: [
+		{
+			height: 1.5d
+			image: "relics:textures/hud/abilities/arrow_left.png"
+			order: 3
+			rotation: 0.0d
+			width: 1.3d
+			x: -1.5d
+			y: 2.28d
+		}
+		{
+			height: 1.5d
+			image: "relics:textures/hud/abilities/arrow_right.png"
+			order: 3
+			rotation: 0.0d
+			width: 1.3d
+			x: 1.5d
+			y: 2.28d
+		}
+		{
+			color: 12427910
+			height: 1.0d
+			image: "mega_showdown:item/aloraichium_z"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 3.35d
+		}
+		{
+			color: 15400877
+			height: 3.0d
+			image: "relics:textures/gui/description/experience/gems/oval/orange.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 1.4d
+		}
+		{
+			dependency: "03BEE2F1FD4EF68F"
+			height: 1.0d
+			hover: [
+				"Copper Ore"
+				"Y:0 to Y:112"
+			]
+			image: "minecraft:block/copper_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependency: "7210FBAC487CF0C5"
+			height: 1.0d
+			hover: [
+				"Gold Ore"
+				"Y:0 to Y:256"
+			]
+			image: "minecraft:block/gold_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependency: "7210FBAC487CF0C5"
+			height: 1.0d
+			hover: [
+				"Deepslate Iron Ore"
+				"Y:-64 to Y:0"
+			]
+			image: "minecraft:block/deepslate_iron_ore"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependency: "40BB7FC6B28FC65F"
+			height: 1.0d
+			hover: [
+				"Deepslate Cobalt Ore"
+				"Y:-50 to Y:0"
+			]
+			image: "ores:block/deepslate_cobalt_ore"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependency: "20946855265AADF1"
+			height: 1.0d
+			hover: [
+				"Magnite Ore"
+				"Y:0 to Y:50"
+			]
+			image: "ores:block/magnite_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependency: "40BB7FC6B28FC65F"
+			height: 1.0d
+			hover: [
+				"Diamond Ore"
+				"Y:0 to Y:16"
+			]
+			image: "minecraft:block/diamond_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependency: "4B0B37574F3B140A"
+			height: 1.0d
+			hover: [
+				"Mythril Ore"
+				"Y:0 to Y:40"
+			]
+			image: "ores:block/mythril_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependency: "0AE17A255B4BCBFC"
+			height: 1.0d
+			hover: [
+				"Orichalcum Ore"
+				"Y:0 to Y:30"
+			]
+			image: "ores:block/orichalcum_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependency: "19BF471F384D2F9B"
+			height: 1.0d
+			hover: [
+				"Deepslate Adamantite Ore"
+				"Y:-64 to Y:-16"
+			]
+			image: "ores:block/deepslate_adamantite_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependency: "533E5ECACD25067E"
+			height: 1.0d
+			hover: [
+				"Deepslate Celestium Ore"
+				"Y:-56 to Y:-28"
+			]
+			image: "ores:block/deepslate_celestium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependency: "29765B282C564AFD"
+			height: 1.0d
+			hover: [
+				"Viridium Ore"
+				"Y:20 to Y:70"
+			]
+			image: "ores:block/viridium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependency: "373301119DF9C5F0"
+			height: 1.0d
+			hover: [
+				"Deepslate Morphite Ore"
+				"Y:-48 to Y:-16"
+			]
+			image: "ores:block/deepslate_morphite_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependency: "40BB7FC6B28FC65F"
+			height: 1.0d
+			hover: [
+				"Cobalt Ore"
+				"Y:0 to Y:15"
+			]
+			image: "ores:block/cobalt_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependency: "7210FBAC487CF0C5"
+			height: 1.0d
+			hover: [
+				"Iron Ore"
+				"Y:0 to Y:384"
+			]
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependency: "03BEE2F1FD4EF68F"
+			height: 1.0d
+			hover: [
+				"Deepslate Copper Ore"
+				"Y:-16 to Y:0"
+			]
+			image: "minecraft:block/deepslate_copper_ore"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependency: "7210FBAC487CF0C5"
+			height: 1.0d
+			hover: [
+				"Deepslate Gold Ore"
+				"Y:-64 to Y:0"
+			]
+			image: "minecraft:block/deepslate_gold_ore"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependency: "20946855265AADF1"
+			height: 1.0d
+			hover: [
+				"Deepslate Magnite Ore"
+				"Y:-60 to Y:0"
+			]
+			image: "ores:block/deepslate_magnite_ore"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependency: "40BB7FC6B28FC65F"
+			height: 1.0d
+			hover: [
+				"Deepslate Diamond Ore"
+				"Y:-144 to Y:0"
+			]
+			image: "minecraft:block/deepslate_diamond_ore"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependency: "4B0B37574F3B140A"
+			height: 1.0d
+			hover: [
+				"Deepslate Mythril Ore"
+				"Y:-40 to Y:0"
+			]
+			image: "ores:block/deepslate_mythril_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependency: "0AE17A255B4BCBFC"
+			height: 1.0d
+			hover: [
+				"Deepslate Orichalcum Ore"
+				"Y:-60 to Y:0"
+			]
+			image: "ores:block/deepslate_orichalcum_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			alpha: 240
+			color: 6842472
+			dependency: "779DFAF63C4D814E"
+			height: 1.0d
+			image: "ores:block/morphite_synthesizer_front_on"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.3d
+			y: 1.2d
+		}
+		{
+			alpha: 240
+			color: 6842472
+			dependency: "779DFAF63C4D814E"
+			height: 1.0d
+			image: "ores:block/morphite_synthesizer_front_on"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.3d
+			y: 1.2d
+		}
+		{
+			color: 15400877
+			height: 1.5d
+			image: "relics:textures/gui/description/experience/gems/oval/orange.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 1.25d
+		}
+		{
+			color: 12040119
+			dependency: "03BEE2F1FD4EF68F"
+			height: 1.0d
+			image: "mcwbyg:block/barrel/ebony_barrel_trapdoor"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cobbled_deepslate"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			alpha: 235
+			color: 13092807
+			dependency: "03BEE2F1FD4EF68F"
+			height: 1.0d
+			image: "minecraft:block/smithing_table_side"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			alpha: 220
+			color: 7895160
+			dependency: "4B0B37574F3B140A"
+			height: 1.0d
+			image: "ores:block/morphite_synthesizer_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			alpha: 230
+			color: 11908533
+			dependency: "03BEE2F1FD4EF68F"
+			height: 1.0d
+			image: "minecraft:block/blast_furnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependency: "779DFAF63C4D814E"
+			height: 1.0d
+			image: "ores:block/morphite_synthesizer_front_on"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.05d
+			y: 3.0d
+		}
+		{
+			alpha: 240
+			color: 14540253
+			dependency: "779DFAF63C4D814E"
+			height: 1.0d
+			image: "minecraft:item/dragon_breath"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependency: "7210FBAC487CF0C5"
+			height: 1.0d
+			image: "minecraft:block/waxed_chiseled_copper"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.0d
+			y: 3.0d
+		}
+		{
+			dependency: "40BB7FC6B28FC65F"
+			height: 1.0d
+			image: "minecraft:block/waxed_copper_trapdoor"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/copper_torch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/copper_torch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			alpha: 235
+			color: 10987431
+			dependency: "0AE17A255B4BCBFC"
+			height: 1.0d
+			image: "minecraft:block/barrel_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependency: "0126831FF1FE4FF9"
+			height: 1.0d
+			image: "mcwbyg:block/barn/ebony_barn_trapdoor"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			alpha: 230
+			color: 8421755
+			dependency: "7210FBAC487CF0C5"
+			height: 1.0d
+			image: "farmersdelight:block/potato_crate_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			alpha: 230
+			color: 8026746
+			dependency: "7210FBAC487CF0C5"
+			height: 1.0d
+			image: "minecraft:block/oxidized_copper_bulb"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			alpha: 150
+			dependency: "779DFAF63C4D814E"
+			height: 1.0d
+			image: "create_dragons_plus:fluid/dragon_breath_flow"
+			rotation: 0.0d
+			width: 0.8d
+			x: 14.05d
+			y: 2.2d
+		}
+		{
+			height: 2.4d
+			image: "mayview:textures/prospecting_hd.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 4.85d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7210FBAC487CF0C5"
+			rewards: [
+				{
+					count: 8
+					id: "68C858F12733E6F4"
+					item: {
+						count: 1
+						id: "mayview:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "61773757E6E2681B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.4d
+			tags: ["copper"]
+			tasks: [{
+				id: "1BE6A1FECF9F1DBC"
+				item: { count: 1, id: "minecraft:raw_copper" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7210FBAC487CF0C5"]
+			id: "6C0E66901E0DE461"
+			rewards: [
+				{
+					count: 12
+					id: "1F24DE5BBB0A35E2"
+					item: {
+						count: 1
+						id: "mayview:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "484E785D4F129490"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.4d
+			tags: ["iron"]
+			tasks: [{
+				id: "5643F25765B135D0"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: -10.8d
+			y: 1.9d
+		}
+		{
+			dependencies: ["4B0B37574F3B140A"]
+			hide_dependency_lines: false
+			id: "0AE17A255B4BCBFC"
+			rewards: [
+				{
+					id: "0090CD2C2091A657"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 32
+					id: "101D5B1D7938DE4D"
+					item: {
+						count: 1
+						id: "mayview:copper_coin"
+					}
+					type: "item"
+				}
+			]
+			size: 1.4d
+			tags: ["mythril"]
+			tasks: [{
+				id: "689974B240EE9977"
+				item: { count: 1, id: "ores:raw_mythril" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: -0.2d
+		}
+		{
+			dependencies: ["0AE17A255B4BCBFC"]
+			id: "19BF471F384D2F9B"
+			rewards: [
+				{
+					count: 36
+					id: "593258D65F1A0478"
+					item: {
+						count: 1
+						id: "mayview:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2792B61426C80A28"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.4d
+			tags: ["orichalcum"]
+			tasks: [{
+				id: "445B3BF165C58594"
+				item: { count: 1, id: "ores:raw_orichalcum" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19BF471F384D2F9B"]
+			id: "533E5ECACD25067E"
+			rewards: [
+				{
+					count: 40
+					id: "6B004993228B03C3"
+					item: {
+						count: 1
+						id: "mayview:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0D51E2D29E183482"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.4d
+			tags: ["adamantite"]
+			tasks: [{
+				id: "13EDE2471E69C063"
+				item: { count: 1, id: "ores:raw_adamantite" }
+				type: "item"
+			}]
+			x: 6.100000000000001d
+			y: 0.38d
+		}
+		{
+			dependencies: ["533E5ECACD25067E"]
+			id: "29765B282C564AFD"
+			rewards: [
+				{
+					count: 8
+					id: "5CF8D556ACE68C76"
+					item: {
+						count: 1
+						id: "mayview:iron_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0D5AFCABF2566044"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.4d
+			tags: ["celestium"]
+			tasks: [{
+				id: "0109AF87782794FA"
+				item: { count: 1, id: "ores:raw_celestium" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29765B282C564AFD"]
+			id: "373301119DF9C5F0"
+			rewards: [
+				{
+					count: 16
+					id: "7EE65BCD77F6B0AD"
+					item: {
+						count: 1
+						id: "mayview:iron_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2E45F95300EBABB2"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.4d
+			tags: ["viridium"]
+			tasks: [{
+				id: "57369F5BC741E2AB"
+				item: { count: 1, id: "ores:raw_viridium" }
+				type: "item"
+			}]
+			x: 10.8d
+			y: 1.9d
+		}
+		{
+			dependencies: ["40BB7FC6B28FC65F"]
+			id: "37B7A6706503DCAD"
+			rewards: [
+				{
+					count: 8
+					id: "660F76E2D67B3429"
+					item: {
+						count: 1
+						id: "minecraft:raw_gold"
+					}
+					type: "item"
+				}
+				{
+					id: "65EF7BB61F9000B6"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["golden"]
+			tasks: [{
+				id: "6BE9B31E0067E5E5"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -9.53d
+			y: -1.49d
+		}
+		{
+			dependencies: ["6C0E66901E0DE461"]
+			id: "5DE5EC3C4A4958EA"
+			rewards: [
+				{
+					count: 8
+					id: "49B18C95A6CAED37"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "5500D0CCC06090BE"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["iron"]
+			tasks: [{
+				id: "11B2888AFAA40578"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0126831FF1FE4FF9"]
+			id: "607DFAF6285CCC51"
+			rewards: [
+				{
+					count: 4
+					id: "0A9CADB5BB4B8B76"
+					item: {
+						count: 1
+						id: "ores:raw_magnite"
+					}
+					type: "item"
+				}
+				{
+					id: "54A3CFD929781314"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["magnite"]
+			tasks: [{
+				id: "618716C406F4CA67"
+				item: { count: 1, id: "ores:magnite_ingot" }
+				type: "item"
+			}]
+			x: -4.1d
+			y: -3.3d
+		}
+		{
+			dependencies: ["29765B282C564AFD"]
+			id: "508C3778654FA16D"
+			rewards: [
+				{
+					id: "6F902C5694CA004D"
+					item: {
+						count: 1
+						id: "ores:solarium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4BF8B08A269AE66E"
+					item: {
+						count: 1
+						id: "ores:lunarium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "41F3C96E5528A5EA"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["celestium"]
+			tasks: [{
+				id: "2723D01DA09D8C7F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ores:celestium_ingot)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.53d
+			y: -1.49d
+		}
+		{
+			dependencies: ["373301119DF9C5F0"]
+			id: "0F0A98EF2C7F915B"
+			rewards: [
+				{
+					count: 2
+					id: "489AF5FA7DA82278"
+					item: {
+						count: 1
+						id: "ores:viridium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7CE665B8B507B8E6"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["viridium"]
+			tasks: [{
+				id: "26B81C53C48C6567"
+				item: { count: 1, id: "ores:viridium_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40BB7FC6B28FC65F"]
+			id: "20946855265AADF1"
+			rewards: [
+				{
+					count: 20
+					id: "19BA82D78667870F"
+					item: {
+						count: 1
+						id: "mayview:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2670BF641F3F7077"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.4d
+			tags: ["cobalt"]
+			tasks: [{
+				id: "4A16FEACA4549F80"
+				item: { count: 1, id: "ores:raw_cobalt" }
+				type: "item"
+			}]
+			x: -6.1d
+			y: 0.38d
+		}
+		{
+			dependencies: ["20946855265AADF1"]
+			id: "0126831FF1FE4FF9"
+			rewards: [
+				{
+					count: 24
+					id: "4F7A97790131303B"
+					item: {
+						count: 1
+						id: "mayview:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5A7C88A9201D0447"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.4d
+			tags: ["magnite"]
+			tasks: [{
+				id: "0497D54BBB24FB47"
+				item: { count: 1, id: "ores:raw_magnite" }
+				type: "item"
+			}]
+			x: -3.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0126831FF1FE4FF9"]
+			id: "4B0B37574F3B140A"
+			rewards: [
+				{
+					count: 28
+					id: "4E3AC764C3E980D4"
+					item: {
+						count: 1
+						id: "mayview:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3DDB568D055449E6"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.4d
+			tags: ["diamond"]
+			tasks: [{
+				id: "0997C3D22B096B0B"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: -0.2d
+		}
+		{
+			dependencies: ["20946855265AADF1"]
+			id: "6B87149CD524571A"
+			rewards: [
+				{
+					count: 8
+					id: "56243DE71F9981F4"
+					item: {
+						count: 1
+						id: "ores:raw_cobalt"
+					}
+					type: "item"
+				}
+				{
+					id: "540BA33EF900A64B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["cobalt"]
+			tasks: [{
+				id: "3C7972084B37214D"
+				item: { count: 1, id: "ores:cobalt_ingot" }
+				type: "item"
+			}]
+			x: -6.9d
+			y: -2.65d
+		}
+		{
+			dependencies: ["7210FBAC487CF0C5"]
+			id: "7046AEC733A5F34C"
+			rewards: [
+				{
+					count: 8
+					id: "5397D0DA9EA11518"
+					item: {
+						count: 1
+						id: "minecraft:raw_copper"
+					}
+					type: "item"
+				}
+				{
+					id: "4A970E82981B5505"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["copper"]
+			tasks: [{
+				id: "7280AEE01FDA6A0D"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: -13.899999999999999d
+			y: 1.7d
+		}
+		{
+			dependencies: ["6C0E66901E0DE461"]
+			id: "40BB7FC6B28FC65F"
+			rewards: [
+				{
+					count: 16
+					id: "4AF714C0A65F970D"
+					item: {
+						count: 1
+						id: "mayview:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1C743459B71E22EA"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.4d
+			tags: ["golden"]
+			tasks: [{
+				id: "7ED85CB73ED27E3F"
+				item: { count: 1, id: "minecraft:raw_gold" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7046AEC733A5F34C"]
+			icon_scale: 0.9d
+			id: "262F85B2CF4CC7D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "133365B0CB058FEF"
+					table_id: 6910126339247695376L
+					type: "choice"
+				}
+				{
+					id: "61A1806A7777605B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "wood_quad"
+			size: 1.2d
+			tags: ["copper"]
+			tasks: [{
+				id: "6F3922443D715EEA"
+				item: { count: 1, id: "ores:copper_pickaxe" }
+				type: "item"
+			}]
+			x: -12.6d
+			y: 1.25d
+		}
+		{
+			dependencies: ["097CB73987F94E30"]
+			id: "6D883930344CACBF"
+			rewards: [{
+				id: "7E523931AF727EF4"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "4E45F3B9C7C41EB3"
+				item: { count: 1, id: "ores:geovar_ingot" }
+				type: "item"
+			}]
+			x: 15.6d
+			y: 1.2d
+		}
+		{
+			dependencies: ["373301119DF9C5F0"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "779DFAF63C4D814E"
+			rewards: [
+				{
+					count: 3
+					id: "6337D9550A8DD663"
+					item: {
+						count: 1
+						id: "mayview:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2096120597B0CA0A"
+					item: {
+						count: 1
+						id: "minecraft:quartz_block"
+					}
+					type: "item"
+				}
+				{
+					id: "08A7B95043AA7D7D"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mystic_moon"
+			size: 1.4d
+			tags: ["morphite"]
+			tasks: [{
+				id: "016C46B8D81190CE"
+				item: { count: 1, id: "ores:raw_morphite" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70593BC5AACDE4A6"]
+			hide_until_deps_complete: true
+			id: "097CB73987F94E30"
+			rewards: [
+				{
+					id: "60F48324118E07F6"
+					item: {
+						count: 1
+						id: "mayview:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "798C109228A290AB"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1CA322FECA309707"
+				item: { count: 1, id: "ores:tectonic_shard" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D582C260A31B52A"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "6878A3FFCA9EF2CB"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F22ECED6CC1F2BE"
+					table_id: 2533907146338579803L
+					type: "choice"
+				}
+				{
+					id: "3A1FFD6C22DF0DBF"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.2d
+			tags: ["adamantite"]
+			tasks: [{
+				id: "680A9A20CE925F8A"
+				item: { count: 1, id: "ores:adamantite_pickaxe" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.35d
+		}
+		{
+			dependencies: ["7EA9EE95A3948493"]
+			icon_scale: 0.9d
+			id: "48696DD501CDF729"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53B975252B85E4E3"
+					table_id: 2730331132500425485L
+					type: "choice"
+				}
+				{
+					id: "22E756D0C2E3DAA3"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "wood_quad"
+			size: 1.2d
+			tags: ["orichalcum"]
+			tasks: [{
+				id: "0DE471C9DF8963CB"
+				item: { count: 1, id: "ores:orichalcum_pickaxe" }
+				type: "item"
+			}]
+			x: 5.3d
+			y: -2.0d
+		}
+		{
+			dependencies: ["058511D458CF94CA"]
+			icon_scale: 0.9d
+			id: "35B2F7B42BCD5A90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BE42F2803AE06B8"
+					table_id: 9124006560468028727L
+					type: "choice"
+				}
+				{
+					id: "2C192D5C0C408599"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "wood_quad"
+			size: 1.2d
+			tags: ["mythril"]
+			tasks: [{
+				id: "2327552132AAB8A2"
+				item: { count: 1, id: "ores:mythril_pickaxe" }
+				type: "item"
+			}]
+			x: 2.65d
+			y: -2.3d
+		}
+		{
+			dependencies: ["508C3778654FA16D"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "326E0DB787E10093"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C7A14A1659E6D88"
+					table_id: 5860136962462150928L
+					type: "choice"
+				}
+				{
+					id: "725DC512EDDDECED"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "octosquare"
+			size: 1.2d
+			tags: ["celestium"]
+			tasks: [{
+				id: "4828AD2894DDC481"
+				item: { count: 1, id: "ores:celestium_pickaxe" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 0.1d
+		}
+		{
+			dependencies: ["0F0A98EF2C7F915B"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "176419CF781B016C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51107198FD5134CD"
+					table_id: 7076459750085736403L
+					type: "choice"
+				}
+				{
+					id: "220C5F217A959FCD"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tags: ["viridium"]
+			tasks: [{
+				id: "2AEBD4888BA9602A"
+				item: { count: 1, id: "ores:viridium_pickaxe" }
+				type: "item"
+			}]
+			x: 14.1d
+			y: 0.0d
+		}
+		{
+			dependencies: ["607DFAF6285CCC51"]
+			icon_scale: 0.9d
+			id: "4BDDF67A701C2503"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A9878E1E6FC34D0"
+					table_id: 3938544898435892115L
+					type: "choice"
+				}
+				{
+					id: "596F8A174A08AB6F"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "wood_quad"
+			size: 1.2d
+			tags: ["magnite"]
+			tasks: [{
+				id: "1469A3265BBCC602"
+				item: { count: 1, id: "ores:magnite_pickaxe" }
+				type: "item"
+			}]
+			x: -2.6d
+			y: -2.35d
+		}
+		{
+			dependencies: ["6B87149CD524571A"]
+			icon_scale: 0.9d
+			id: "53DEBE13B3E6E4F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F77075D5856A672"
+					table_id: 4123660195208323644L
+					type: "choice"
+				}
+				{
+					id: "3DCBA8DA18A3A717"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "wood_quad"
+			size: 1.2d
+			tags: ["cobalt"]
+			tasks: [{
+				id: "42442068A9772A73"
+				item: { count: 1, id: "ores:cobalt_pickaxe" }
+				type: "item"
+			}]
+			x: -5.3d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DE5EC3C4A4958EA"]
+			icon_scale: 0.9d
+			id: "351475DA64658F0F"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06C70011720B7BC2"
+					table_id: 2780136831252347289L
+					type: "choice"
+				}
+				{
+					id: "5DAEA182C13B21DB"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "wood_quad"
+			size: 1.2d
+			tags: ["iron"]
+			tasks: [{
+				id: "7BF071FB3EFB0ECA"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: -10.4d
+			y: -0.1d
+		}
+		{
+			dependencies: ["4B0B37574F3B140A"]
+			icon_scale: 0.9d
+			id: "0D6ED7EB7F74B611"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6687A3A1F4595A11"
+					table_id: 6439676033221699478L
+					type: "choice"
+				}
+				{
+					id: "68A9980FA06CEBE0"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "wood_quad"
+			size: 1.2d
+			tags: ["diamond"]
+			tasks: [{
+				id: "088C5BEFD5DF5286"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.4d
+		}
+		{
+			icon_scale: 0.9d
+			id: "1BEDC703463FAEA7"
+			min_required_dependencies: 1
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B40A6F0EC54ECFA"
+					table_id: 8859730954972163322L
+					type: "choice"
+				}
+				{
+					id: "4F59FA0599AFC4C0"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "wood_quad"
+			size: 1.2d
+			tags: ["netherite"]
+			tasks: [{
+				id: "1219876C858A4341"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: 5.2d
+			y: -0.9d
+		}
+		{
+			dependencies: ["6D883930344CACBF"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "63F953095124B418"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: {
+						id: "minecraft:book"
+					}
+					id: "6AF88B729C3675D7"
+					table_id: 84435973384540341L
+					type: "choice"
+				}
+				{
+					count: 8
+					id: "4E78AF774428D208"
+					item: {
+						count: 1
+						id: "mayview:diamond_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "727DB2D12BEDEEC2"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tags: ["geovar"]
+			tasks: [{
+				id: "1C5D2A77870F43A5"
+				item: { count: 1, id: "ores:geovar_pickaxe" }
+				type: "item"
+			}]
+			x: 16.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B0B37574F3B140A"]
+			icon_scale: 0.95d
+			id: "0552CBFEAE1E8820"
+			optional: true
+			rewards: [
+				{
+					id: "36C2C9D72C2E8697"
+					item: {
+						count: 1
+						id: "wands:magic_bag_1"
+					}
+					type: "item"
+				}
+				{
+					id: "3C89AEEB899CB5A9"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "155F54CCE8E26135"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["diamond"]
+			tasks: [{
+				id: "3CEB453F5EB18AC2"
+				item: { count: 1, id: "wands:diamond_wand" }
+				type: "item"
+			}]
+			x: -1.29d
+			y: -3.6d
+		}
+		{
+			dependencies: ["0AE17A255B4BCBFC"]
+			id: "058511D458CF94CA"
+			rewards: [
+				{
+					count: 2
+					id: "1E38C7CAEEB91135"
+					item: {
+						count: 1
+						id: "ores:mythril_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7BF6CC5E52F3077C"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["mythril"]
+			tasks: [{
+				id: "592EE66D77A679B2"
+				item: { count: 1, id: "ores:mythril_ingot" }
+				type: "item"
+			}]
+			x: 1.29d
+			y: -3.6d
+		}
+		{
+			dependencies: ["19BF471F384D2F9B"]
+			id: "7EA9EE95A3948493"
+			rewards: [
+				{
+					count: 2
+					id: "33E8E83E699C681B"
+					item: {
+						count: 1
+						id: "ores:orichalcum_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "15A0791470002EE3"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["orichalcum"]
+			tasks: [{
+				id: "13F1BE0205046D54"
+				item: { count: 1, id: "ores:orichalcum_ingot" }
+				type: "item"
+			}]
+			x: 4.1d
+			y: -3.3d
+		}
+		{
+			dependencies: ["533E5ECACD25067E"]
+			id: "3D582C260A31B52A"
+			rewards: [
+				{
+					count: 2
+					id: "2075C5B4ACF9BB32"
+					item: {
+						count: 1
+						id: "ores:adamantite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "08895C8EBA097506"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "mv_wood"
+			size: 1.2d
+			tags: ["adamantite"]
+			tasks: [{
+				id: "5454645FB762DF81"
+				item: { count: 1, id: "ores:adamantite_ingot" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: -2.65d
+		}
+		{
+			icon: {
+				id: "minecraft:raw_gold"
+			}
+			icon_scale: 0.9d
+			id: "03BEE2F1FD4EF68F"
+			rewards: [
+				{
+					id: "5F839022C9B45AB6"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 8
+					id: "345FE3F0BC97E730"
+					item: {
+						count: 1
+						id: "mayview:copper_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "octosquare"
+			size: 2.6d
+			tags: ["golden"]
+			tasks: [{
+				disable_toast: true
+				id: "64A3F5430CDB9080"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3D582C260A31B52A"]
+			icon_scale: 0.9d
+			id: "5DFA05771E8A79BC"
+			rewards: [
+				{
+					count: 4
+					id: "20985099A6FB7054"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "309E4E5991C70667"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "38A2E6132D05D49D"
+				item: { count: 1, id: "ores:adamantite_furnace" }
+				type: "item"
+			}]
+			x: 7.6d
+			y: -0.2d
+		}
+		{
+			dependencies: ["6B87149CD524571A"]
+			icon_scale: 0.9d
+			id: "6EA4B0F064A29F28"
+			rewards: [
+				{
+					count: 4
+					id: "658FC386D6DDFCF8"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "5AEBBFE71DDCB8BE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "2D39E95E96094BC8"
+				item: { count: 1, id: "ores:cobalt_furnace" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["779DFAF63C4D814E"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "70593BC5AACDE4A6"
+			rewards: [{
+				id: "3A4ACE7BD4B14E34"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.6d
+			tasks: [{
+				id: "1EDB3FEC34786BA4"
+				item: { count: 1, id: "ores:morphite_synthesizer" }
+				type: "item"
+			}]
+			x: 14.4d
+			y: 4.8d
+		}
+		{
+			dependencies: ["70593BC5AACDE4A6"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "73CA644294510641"
+			rewards: [
+				{
+					id: "16197701AE7CAAF2"
+					item: {
+						count: 1
+						id: "mayview:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5C51791A65466A57"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "58C5BA015D147923"
+				item: { count: 1, id: "ores:mush" }
+				type: "item"
+			}]
+			x: 15.1d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70593BC5AACDE4A6"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "4D3B67BDAEA8DB0C"
+			rewards: [
+				{
+					id: "54EDE146CC70E652"
+					item: {
+						count: 1
+						id: "mayview:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3CDA126E10A6F567"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "061D211C16040A89"
+				item: { count: 1, id: "ores:ectoplasm" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["70593BC5AACDE4A6"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "7AC624094F6EB4EB"
+			rewards: [
+				{
+					id: "379DF945CADB643C"
+					item: {
+						count: 1
+						id: "mayview:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "64534DD7170984FA"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "063E1CA4FD9EEB72"
+				item: { count: 1, id: "ores:quicksilver" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70593BC5AACDE4A6"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "6C1CEA2371B48754"
+			rewards: [
+				{
+					id: "3B3EB3F0438F832D"
+					item: {
+						count: 1
+						id: "mayview:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0B3F8AC42408DFC1"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "41F983664FF52EEB"
+				item: { count: 1, id: "ores:petrified_bark" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["73CA644294510641"]
+			icon_scale: 0.9d
+			id: "14103A3D7B316CD5"
+			rewards: [{
+				id: "498F5DA165926700"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "355CD449797BA555"
+				item: { count: 1, id: "ores:florite_ingot" }
+				type: "item"
+			}]
+			x: 16.8d
+			y: 2.4d
+		}
+		{
+			dependencies: ["14103A3D7B316CD5"]
+			icon_scale: 0.9d
+			id: "3D624910AC967540"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "735C128A3D16B5BD"
+					table_id: 84435973384540341L
+					type: "choice"
+				}
+				{
+					count: 8
+					id: "5A7212706141088C"
+					item: {
+						count: 1
+						id: "mayview:diamond_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "199521C6784839D5"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "727332BD63B2968A"
+				item: { count: 1, id: "ores:florite_hoe" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.2d
+		}
+		{
+			dependencies: ["4D3B67BDAEA8DB0C"]
+			icon_scale: 0.9d
+			id: "419DA3F0821CFFEA"
+			rewards: [{
+				id: "78C0403DAAC9FCD6"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "1AA33B30F4773F75"
+				item: { count: 1, id: "ores:necronium_ingot" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["419DA3F0821CFFEA"]
+			icon_scale: 0.9d
+			id: "3B095E610F7D6C39"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A4279E10630204D"
+					table_id: 84435973384540341L
+					type: "choice"
+				}
+				{
+					count: 8
+					id: "7F84FFA17A5B3057"
+					item: {
+						count: 1
+						id: "mayview:diamond_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "067DC87356BB16FF"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1232AB6277A9A3FA"
+				item: { count: 1, id: "ores:necronium_sword" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 2.4d
+		}
+		{
+			dependencies: ["7AC624094F6EB4EB"]
+			icon_scale: 0.9d
+			id: "4CAAFB404BB2C5B2"
+			rewards: [{
+				id: "3BDE33FBFA13CCED"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "28209C073EE439CF"
+				item: { count: 1, id: "ores:swiftite_ingot" }
+				type: "item"
+			}]
+			x: 19.1d
+			y: 4.6d
+		}
+		{
+			dependencies: ["4CAAFB404BB2C5B2"]
+			icon_scale: 0.9d
+			id: "6FED89837B5D0BAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E0346C6878F15D5"
+					table_id: 84435973384540341L
+					type: "choice"
+				}
+				{
+					count: 8
+					id: "185738896E105430"
+					item: {
+						count: 1
+						id: "mayview:diamond_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6D28147F06F6FE49"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "2F48832D8DB227A1"
+				item: { count: 1, id: "ores:swiftite_shovel" }
+				type: "item"
+			}]
+			x: 20.4d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["6C1CEA2371B48754"]
+			icon_scale: 0.9d
+			id: "1C1C9C77BD9952CA"
+			rewards: [{
+				id: "50686E449CECC1A1"
+				type: "xp"
+				xp: 60
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "706DFE362931CCA1"
+				item: { count: 1, id: "ores:petrafite_ingot" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.8d
+		}
+		{
+			dependencies: ["1C1C9C77BD9952CA"]
+			icon_scale: 0.9d
+			id: "63D34DF711474790"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D6F67C724962765"
+					table_id: 84435973384540341L
+					type: "choice"
+				}
+				{
+					count: 8
+					id: "78164128500CA0B4"
+					item: {
+						count: 1
+						id: "mayview:diamond_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "48DBDBDDAEBEBAF1"
+					type: "xp"
+					xp: 60
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "4958AAEFD8C8926D"
+				item: { count: 1, id: "ores:petrafite_axe" }
+				type: "item"
+			}]
+			x: 21.599999999999998d
+			y: 4.8d
+		}
+	]
+	tags: ["mayviewquests"]
+}

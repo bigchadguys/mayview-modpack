@@ -1,0 +1,278 @@
+{
+	autofocus_id: "1768EDF563DBFC14"
+	default_hide_dependency_lines: false
+	default_quest_shape: "mv_wood2"
+	disable_toast: true
+	filename: "petals_n_planks"
+	group: "216429D7B624FFA8"
+	icon: {
+		id: "cobblemon:apricorn_leaves"
+	}
+	id: "515E4779F49E04AE"
+	images: [
+		{
+			height: 2.2d
+			image: "mayview:textures/petalsnplanks_title.png"
+			order: 10
+			rotation: 0.0d
+			width: 17.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/pink_petals"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			height: 2.4d
+			image: "biomeswevegone:block/yellow_sakura_petals"
+			rotation: 0.0d
+			width: 2.6d
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			alpha: 200
+			height: 1.0d
+			image: "farmersdelight:item/orange_hanging_canvas_sign"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.8d
+		}
+		{
+			height: 1.4d
+			image: "framedblocks:item/framed_lantern"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.0d
+			y: -2.75d
+		}
+		{
+			height: 1.8d
+			image: "candlelight:item/letter_closed"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "framedblocks:item/framed_glowing_item_frame"
+			rotation: -30.0d
+			width: 1.8d
+			x: -7.0d
+			y: -5.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mayview:textures/joe_flower_01.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1768EDF563DBFC14"
+			size: 2.0d
+			tasks: [{
+				id: "1415CC814D2EBE36"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.3999999999999999d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			disable_toast: true
+			icon: {
+				id: "chimes:iron_chimes"
+			}
+			icon_scale: 0.9d
+			id: "76A5522C17A9F1B2"
+			optional: true
+			size: 1.2d
+			tasks: [{
+				id: "7FD1D91B44957075"
+				type: "checkmark"
+			}]
+			x: 0.7d
+			y: 2.9d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			disable_toast: true
+			icon: {
+				id: "mcwstairs:oak_skyline_stairs"
+			}
+			icon_scale: 0.9d
+			id: "5C870B8D5E027058"
+			optional: true
+			size: 1.2d
+			tasks: [{
+				id: "3FE248C4E8D7078C"
+				type: "checkmark"
+			}]
+			x: -0.7d
+			y: 2.9d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			disable_toast: true
+			icon: {
+				id: "handcrafted:oak_fancy_bed"
+			}
+			icon_scale: 0.9d
+			id: "515A806F8C9790C6"
+			optional: true
+			size: 1.2d
+			tasks: [{
+				id: "370694A1968C23BB"
+				type: "checkmark"
+			}]
+			x: -2.6d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			disable_toast: true
+			icon: {
+				id: "another_furniture:red_sofa"
+			}
+			icon_scale: 0.9d
+			id: "05BB5B61DA44B0C2"
+			optional: true
+			size: 1.2d
+			tasks: [{
+				id: "0433DA61DA20F131"
+				type: "checkmark"
+			}]
+			x: -2.6d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			disable_toast: true
+			icon: {
+				id: "beautify:botanist_workbench"
+			}
+			icon_scale: 0.9d
+			id: "3225960CF8299863"
+			optional: true
+			size: 1.2d
+			tasks: [{
+				id: "1C626A13481FB2B8"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 2.4d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			disable_toast: true
+			icon: {
+				id: "framedblocks:framed_double_corner"
+			}
+			id: "22FE86797BDB90AD"
+			min_width: 280
+			optional: true
+			size: 1.2d
+			tasks: [{
+				id: "3EA668FB37F77A2A"
+				type: "checkmark"
+			}]
+			x: 2.5999999999999996d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			disable_toast: true
+			icon: {
+				id: "displaydelight:roasted_mutton_chops"
+			}
+			id: "1A8CA5AC5CEE044F"
+			optional: true
+			size: 1.2d
+			tasks: [{
+				id: "3FC76C5CAF949379"
+				type: "checkmark"
+			}]
+			x: 2.6d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			disable_toast: true
+			icon: {
+				id: "strawstatues:straw_statue"
+			}
+			id: "0BD69F8DE1986B38"
+			optional: true
+			size: 1.2d
+			tasks: [{
+				id: "7058BB7869A81273"
+				type: "checkmark"
+			}]
+			x: -2.1d
+			y: 2.4d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			disable_toast: true
+			icon: {
+				id: "cobblefurnies:statue_pikachu"
+			}
+			icon_scale: 0.9d
+			id: "6D7A769E4F8CF560"
+			optional: true
+			size: 1.2d
+			tasks: [{
+				id: "0B072E0D13153470"
+				type: "checkmark"
+			}]
+			x: -2.1d
+			y: -1.9d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			disable_toast: true
+			icon: {
+				id: "candlelight:table"
+			}
+			id: "15B26ABDBFB78F44"
+			optional: true
+			size: 1.2d
+			tasks: [{
+				id: "55B2D8DDEA12523A"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: -1.9d
+		}
+		{
+			dependencies: ["1768EDF563DBFC14"]
+			icon: {
+				components: {
+					"ftbquests:icon": "biomeswevegone:item/bwg_logo"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "142E4A47A8F3D704"
+			size: 1.2d
+			tasks: [{
+				id: "4942E560F961A3B4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.2d
+		}
+	]
+	tags: ["mayviewquests"]
+}

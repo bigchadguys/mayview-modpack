@@ -1,0 +1,1385 @@
+{
+	autofocus_id: "3349CCFEF4645049"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octosquare"
+	filename: "economy"
+	group: "216429D7B624FFA8"
+	icon: {
+		id: "mayview:gold_coin"
+	}
+	id: "7945EEEB5303E899"
+	images: [{
+		height: 2.4d
+		image: "mayview:textures/economy_title.png"
+		rotation: 0.0d
+		width: 14.5d
+		x: 0.0d
+		y: -3.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mayview:copper_coin"
+			}
+			id: "2E5866CA79AB274A"
+			rewards: [{
+				id: "653516F6B4D66F0C"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "mv_wood3"
+			size: 2.0d
+			tasks: [{
+				id: "74F44F79590DEFEA"
+				item: { count: 1, id: "mayview:copper_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E5866CA79AB274A"]
+			icon_scale: 0.9d
+			id: "090DDB061A29C380"
+			rewards: [
+				{
+					id: "331003C0685AF290"
+					item: {
+						count: 1
+						id: "kubejs:sapling_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "2C327DFACCACE6AC"
+					item: {
+						count: 1
+						id: "kubejs:wood_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "76DB855F95A34178"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.2d
+			tasks: [{
+				count: 99L
+				id: "1C9D33659DFEB3C1"
+				item: { count: 1, id: "mayview:iron_coin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["090DDB061A29C380"]
+			icon_scale: 0.9d
+			id: "00C59F8525D48840"
+			rewards: [
+				{
+					id: "74EDFFDCDAEF3DED"
+					item: {
+						count: 1
+						id: "kubejs:plushie_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "7801E2960A0C3648"
+					item: {
+						count: 1
+						id: "kubejs:stone_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "5F9545D61EC265EB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.2d
+			tasks: [{
+				count: 99L
+				id: "0F7270466A647794"
+				item: { count: 1, id: "mayview:gold_coin" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00C59F8525D48840"]
+			id: "0791C1B46A258F54"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E0184C1F4A31E23"
+					table_id: 5422239219386928246L
+					type: "choice"
+				}
+				{
+					id: "11D5D8770BDB22FE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "octosquare"
+			size: 1.5d
+			tags: ["diamond"]
+			tasks: [{
+				count: 99L
+				id: "2C3C6FD5A874D7A9"
+				item: { count: 1, id: "mayview:diamond_coin" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E5866CA79AB274A"]
+			hide_dependency_lines: false
+			id: "2B6DD29FB1207A45"
+			rewards: [{
+				id: "7E482E4CF720BE0A"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "mv_wood"
+			size: 1.2d
+			tasks: [{
+				id: "3A7F4EC78B493398"
+				item: { count: 1, id: "mayview:piggy_bank" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2E5866CA79AB274A"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon_scale: 0.9d
+			id: "3349CCFEF4645049"
+			rewards: [
+				{
+					id: "3DF5C7BA62C018C7"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 4
+					id: "312E0C2049738640"
+					item: {
+						count: 1
+						id: "create:white_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "wood_quad"
+			size: 1.8d
+			tasks: [{
+				id: "64F13BC1182CDDE4"
+				profession_dropdown: "minecraft:none"
+				profession_manual: "minecraft:librarian"
+				required: 1
+				type: "questeventbridge:trade_task"
+				use_dropdown: true
+				use_total: true
+				use_wanted_item: false
+				use_wanted_item_output_count: false
+				wanted_item: "minecraft:emerald"
+			}]
+			x: 0.0d
+			y: 0.8500000000000001d
+		}
+		{
+			dependencies: ["2E5866CA79AB274A"]
+			id: "30821B42C8DEB8B6"
+			rewards: [{
+				id: "7A57A9BE6E63C77F"
+				item: {
+					count: 1
+					id: "kubejs:food_care_package"
+				}
+				type: "item"
+			}]
+			shape: "mv_wood"
+			size: 1.2d
+			tasks: [{
+				id: "18A2D4033FED5C56"
+				item: { count: 1, id: "dailyshop:daily_shop" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"4CD9DF4C9FEE455B"
+				"44E4FC79CB7E87C3"
+				"1DF07DA2A52B1E1B"
+				"113D41EA70B36EC7"
+				"04FC75E291C1A0BA"
+				"4FD5D47135133451"
+				"446A338E5D864FC5"
+				"2C4BBF14C54D0D1A"
+				"3B79DC9F4241274E"
+				"694750A3B6D87435"
+				"6B693D101E498D99"
+				"1ABA833262772E53"
+				"3C13C4F2884995A5"
+				"3EE0157197FCB123"
+				"1332F4BE43C3ACBF"
+				"76D0CFD177937B83"
+				"36C219896F2D98D5"
+				"4995723E72765DCE"
+				"5FD5C62F0E2BA842"
+				"768B2E9FFE81CE23"
+				"3349CCFEF4645049"
+				"10A94F598BAB2625"
+				"3295946B3E6D0E0C"
+				"5A49A7C8A74D6EF3"
+				"090FEDF4BDE89E08"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "mayview:joe_coin"
+			}
+			icon_scale: 0.9d
+			id: "67886F3EEC7E8FEB"
+			rewards: [
+				{
+					id: "74CDCEC08D16886F"
+					item: {
+						count: 1
+						id: "mayview:joe_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7B547E73AABE7E73"
+					item: {
+						count: 1
+						id: "minecraft:item_frame"
+					}
+					type: "item"
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.6d
+			tags: ["legendaryquests"]
+			tasks: [{
+				id: "453B63ECAB2478F4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["2E5866CA79AB274A"]
+			icon_scale: 0.9d
+			id: "654E6DCCEC201923"
+			rewards: [{
+				id: "518274E72B1C755D"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "3726D3050BCD10A5"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["40A9768BE6F2B7F2"]
+			icon_scale: 0.9d
+			id: "7AFA0A5BC44B381B"
+			rewards: [
+				{
+					id: "57AC80F5B4754E9C"
+					item: {
+						count: 1
+						id: "kubejs:food_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "53E1709C21DAC845"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.2d
+			tasks: [{
+				id: "10B95194CE471C95"
+				item: { count: 1, id: "mayview:mythril_selling_bin" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E5866CA79AB274A"]
+			icon_scale: 0.9d
+			id: "37BFCE5A22BE0E91"
+			rewards: [
+				{
+					id: "541AE5280886B565"
+					item: {
+						count: 1
+						id: "mayview:mythril_selling_bin"
+					}
+					type: "item"
+				}
+				{
+					id: "1AD9956A9A252EEA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "3C78C664DAA24C48"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:lectern"
+			}
+			icon_scale: 0.9d
+			id: "36C219896F2D98D5"
+			optional: true
+			rewards: [{
+				id: "12955A8C962549FF"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "35CCA765E225D08C"
+					profession_dropdown: "minecraft:librarian"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "655668052698BE0C"
+					item: { count: 1, id: "minecraft:lectern" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			icon_scale: 0.9d
+			id: "446A338E5D864FC5"
+			optional: true
+			rewards: [{
+				id: "12E4D6DBA84F11C1"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "3822A341EACFEB79"
+					profession_dropdown: "chefsdelight:chef"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "121A8FDA3DDB767D"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "biomeswevegone:foragers_table"
+			}
+			icon_scale: 0.9d
+			id: "1332F4BE43C3ACBF"
+			optional: true
+			rewards: [{
+				id: "32C77AE764B16413"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "3AE9D0E952BA462B"
+					profession_dropdown: "biomeswevegone:forager"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "6D097607BA4BF09F"
+					item: { count: 1, id: "biomeswevegone:foragers_table" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "beautify:botanist_workbench"
+			}
+			icon_scale: 0.9d
+			id: "3C13C4F2884995A5"
+			optional: true
+			rewards: [{
+				id: "021ECB69C3FDA44D"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "602F98FC43E029AA"
+					profession_dropdown: "beautify:botanist"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "634EE9B42BABED3B"
+					item: { count: 1, id: "beautify:botanist_workbench" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:composter"
+			}
+			icon_scale: 0.9d
+			id: "3B79DC9F4241274E"
+			optional: true
+			rewards: [{
+				id: "2D0CD0D664252BA7"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "130AA53D6DF019B7"
+					profession_dropdown: "minecraft:farmer"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "7759B0FB4F3A6D16"
+					item: { count: 1, id: "minecraft:composter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			icon_scale: 0.9d
+			id: "76D0CFD177937B83"
+			optional: true
+			rewards: [{
+				id: "4417B12595323CF8"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "08333B3A2C2904C3"
+					profession_dropdown: "minecraft:fisherman"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "451C40301B42C34D"
+					item: { count: 1, id: "minecraft:barrel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:fletching_table"
+			}
+			icon_scale: 0.9d
+			id: "2C4BBF14C54D0D1A"
+			optional: true
+			rewards: [{
+				id: "59DDD1B58EA20A20"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "02C1D7300D1188DB"
+					profession_dropdown: "minecraft:fletcher"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "111F1707EA59112E"
+					item: { count: 1, id: "minecraft:fletching_table" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:cauldron"
+			}
+			icon_scale: 0.9d
+			id: "3295946B3E6D0E0C"
+			optional: true
+			rewards: [{
+				id: "7F6D20BE558BC155"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "24DD96A946D3AFBF"
+					profession_dropdown: "minecraft:leatherworker"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "36032B024F5E06A8"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "ae2:charger"
+			}
+			icon_scale: 0.9d
+			id: "694750A3B6D87435"
+			optional: true
+			rewards: [{
+				id: "591D0E2CEAEC3ECC"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "40DF3F85AAD87A44"
+					profession_dropdown: "ae2:fluix_researcher"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "70892B2BC7EFD503"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "farmersdelight:skillet"
+			}
+			icon_scale: 0.9d
+			id: "4995723E72765DCE"
+			optional: true
+			rewards: [{
+				id: "060CC4825DF3D338"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "01307AB91E8989BB"
+					profession_dropdown: "chefsdelight:cook"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "2A415958CC973327"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "cobblemon:healing_machine"
+			}
+			icon_scale: 0.9d
+			id: "6B693D101E498D99"
+			optional: true
+			rewards: [{
+				id: "1633633623BCE38D"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "46D22175A3E0C029"
+					profession_dropdown: "cobblemon:nurse"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "58D29A977B2B6224"
+					item: { count: 1, id: "cobblemon:healing_machine" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:blast_furnace"
+			}
+			icon_scale: 0.9d
+			id: "3EE0157197FCB123"
+			optional: true
+			rewards: [{
+				id: "7F850223384E21BA"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "01EF512F51B89E40"
+					profession_dropdown: "minecraft:armorer"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "6AD7B4961BE86701"
+					item: { count: 1, id: "minecraft:blast_furnace" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:smoker"
+			}
+			icon_scale: 0.9d
+			id: "1ABA833262772E53"
+			optional: true
+			rewards: [{
+				id: "1838B25CDE105FD3"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "5B77C88801074928"
+					profession_dropdown: "minecraft:butcher"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "57A80649C2D4A612"
+					item: { count: 1, id: "minecraft:smoker" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:cartography_table"
+			}
+			icon_scale: 0.9d
+			id: "1DF07DA2A52B1E1B"
+			optional: true
+			rewards: [{
+				id: "34365888C8FA5107"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "3C4974BAF5D4BF70"
+					profession_dropdown: "minecraft:cartographer"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "20168DCDE1AD0BAC"
+					item: { count: 1, id: "minecraft:cartography_table" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:brewing_stand"
+			}
+			icon_scale: 0.9d
+			id: "10A94F598BAB2625"
+			optional: true
+			rewards: [{
+				id: "4A723BAC73AA7EA2"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "696B2250F053A604"
+					profession_dropdown: "minecraft:cleric"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: true
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "453C3C0473411EA2"
+					item: { count: 1, id: "minecraft:brewing_stand" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:stonecutter"
+			}
+			icon_scale: 0.9d
+			id: "4CD9DF4C9FEE455B"
+			optional: true
+			rewards: [{
+				id: "6DAB5DB355A469C7"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "478DD2465E5EA719"
+					profession_dropdown: "minecraft:mason"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "4C63A9496726F660"
+					item: { count: 1, id: "minecraft:stonecutter" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:loom"
+			}
+			icon_scale: 0.9d
+			id: "768B2E9FFE81CE23"
+			optional: true
+			rewards: [{
+				id: "0E98D2F63E26B5B1"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "4EAF06C46A4B4685"
+					profession_dropdown: "minecraft:shepherd"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "0EDC5C1A030C709D"
+					item: { count: 1, id: "minecraft:loom" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:smithing_table"
+			}
+			icon_scale: 0.9d
+			id: "44E4FC79CB7E87C3"
+			optional: true
+			rewards: [{
+				id: "333661892D67D96E"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "532F99E3F998867A"
+					profession_dropdown: "minecraft:toolsmith"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "1DA569DC410467B2"
+					item: { count: 1, id: "minecraft:smithing_table" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:grindstone"
+			}
+			icon_scale: 0.9d
+			id: "4FD5D47135133451"
+			optional: true
+			rewards: [{
+				id: "4FA6117A26089DED"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "1549BB6EA560A866"
+					profession_dropdown: "minecraft:weaponsmith"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "7B62727095A8DB47"
+					item: { count: 1, id: "minecraft:grindstone" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "cobblemon_paleontologist:lab_table"
+			}
+			icon_scale: 0.9d
+			id: "04FC75E291C1A0BA"
+			optional: true
+			rewards: [{
+				id: "5B8884CB4BF9A2C3"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "5EC956337327AC9F"
+					profession_dropdown: "cobblemon_paleontologist:cobblemon_paleontologist"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "57C04EFBF8631B95"
+					item: { count: 1, id: "cobblemon_paleontologist:lab_table" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37BFCE5A22BE0E91"]
+			icon_scale: 0.9d
+			id: "40A9768BE6F2B7F2"
+			rewards: [
+				{
+					id: "0DE066748E90CCCE"
+					item: {
+						count: 1
+						id: "kubejs:food_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "531F117117607111"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.2d
+			tasks: [{
+				id: "6621A6072A5E1C8F"
+				item: { count: 1, id: "mayview:copper_selling_bin" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7AFA0A5BC44B381B"]
+			icon_scale: 0.9d
+			id: "1A6598C782A3254C"
+			rewards: [
+				{
+					id: "4AE9C4CF30213B6A"
+					item: {
+						count: 1
+						id: "kubejs:food_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "0AD2EFAD6D2E6CFF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "octosquare"
+			size: 1.2d
+			tasks: [{
+				id: "039FF7089A4C75C0"
+				item: { count: 1, id: "mayview:viridium_selling_bin" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "sawmill:sawmill"
+			}
+			icon_scale: 0.9d
+			id: "5FD5C62F0E2BA842"
+			optional: true
+			rewards: [{
+				id: "5A4B39F8806F07BE"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "3B1C627EAED168EF"
+					profession_dropdown: "sawmill:carpenter"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "2EE170E376605C17"
+					item: { count: 1, id: "sawmill:sawmill" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "minecraft:note_block"
+			}
+			icon_scale: 0.9d
+			id: "113D41EA70B36EC7"
+			optional: true
+			rewards: [{
+				id: "1DA3ADE763B7E460"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "70CD06508B24B6E5"
+					profession_dropdown: "etched:bard"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "2D4AC9FA12B94D98"
+					item: { count: 1, id: "minecraft:note_block" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3349CCFEF4645049"]
+			icon: {
+				id: "vinery:fermentation_barrel"
+			}
+			icon_scale: 0.9d
+			id: "5A49A7C8A74D6EF3"
+			optional: true
+			rewards: [{
+				id: "44B82AA180D97B5F"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						id: "mayview:gold_coin"
+					}
+					id: "41FDF515BC671D62"
+					profession_dropdown: "vinery:winemaker"
+					profession_manual: "minecraft:librarian"
+					required: 1
+					type: "questeventbridge:trade_task"
+					use_dropdown: true
+					use_total: false
+					use_wanted_item: false
+					use_wanted_item_output_count: false
+					wanted_item: "minecraft:emerald"
+				}
+				{
+					disable_toast: true
+					id: "022B1A27A225B970"
+					item: { count: 1, id: "vinery:fermentation_barrel" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E5866CA79AB274A"]
+			id: "650C3D7400EF0E70"
+			rewards: [{
+				id: "3F764E4388C04EE0"
+				type: "xp"
+				xp: 40
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "741389483CF1E674"
+				item: { count: 1, id: "spudaciousshops:shop_oak_red" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.75d
+		}
+	]
+	tags: [
+		"mayviewquests"
+		"golden"
+	]
+}

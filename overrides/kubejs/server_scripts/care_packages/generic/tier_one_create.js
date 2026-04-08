@@ -3,8 +3,12 @@ const TIER_ONE_CREATE_CARE_PACKAGE_BLOCK_ID =
 
 const TIER_ONE_CREATE_CARE_PACKAGE_ITEM_COUNTS = {
   "create:shaft": 16,
+  "createadditionallogistics:lazy_shaft": 16,
   "create:cogwheel": 16,
+  "createadditionallogistics:lazy_cogwheel": 16,
   "create:large_cogwheel": 8,
+  "createadditionallogistics:lazy_large_cogwheel": 8,
+  "createadditionallogistics:flexible_shaft": 8,
   "create:mechanical_bearing": 1,
   "create:andesite_encased_shaft": 8,
   "create:belt_connector": 8,

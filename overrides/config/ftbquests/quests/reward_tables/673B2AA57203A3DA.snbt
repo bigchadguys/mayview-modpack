@@ -1,0 +1,12 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "artifacts:item/running_shoes"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "673B2AA57203A3DA"
+	loot_size: 1
+	order_index: 26
+	rewards: [{ id: "7CC940CBE7D57734", item: { components: { "accessories:attributes": { modifiers: [{ amount: 1.0d, id: "minecraft:", is_stackable: 0b, operation: "add_value", slot_name: "shoes", type: "artifacts:generic.sprinting_step_height" }], show_in_tooltip: 1b }, "relics:data": { abilities: { abilities: { runner: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 10, research: { links: { 1: [I;0], 2: [I;1], 3: [I;2], 4: [I;3], 5: [I;4], 6: [I;5], 7: [I; 6, 8 ], 8: [I;0] }, researched: 1b }, stats: { speed: { initialValue: 0.5771d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "artifacts:running_shoes" } }]
+}

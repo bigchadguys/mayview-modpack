@@ -4,7 +4,7 @@
 	}
 	id: "232A3F1FD755B55B"
 	loot_size: 1
-	order_index: 14
+	order_index: 13
 	rewards: [
 		{ id: "120C7445B5A3C92D", item: { count: 1, id: "ores:adamantite_helmet" } }
 		{ id: "68FC835938DF6548", item: { count: 1, id: "ores:adamantite_chestplate" } }

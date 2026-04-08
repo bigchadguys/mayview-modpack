@@ -4,7 +4,7 @@
 	}
 	id: "25E415B2F7E0BB0D"
 	loot_size: 1
-	order_index: 13
+	order_index: 12
 	rewards: [
 		{ id: "7EF10C7132FE14AF", item: { count: 1, id: "ores:orichalcum_helmet" } }
 		{ id: "4E32D4348D90B5C8", item: { count: 1, id: "ores:orichalcum_chestplate" } }

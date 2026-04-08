@@ -7,11 +7,11 @@
 █  ████  ██  ████  █████  ████████  █████        ██        ██  ████  █
 
 ╭────────────────────────────────────────────────────────────────────╮
-│ FILE     : carePackageTooltips.js                                   │
-│ LAYER    : server_scripts                                   │
-│ PURPOSE  : Describe module purpose                           │
-│ NOTES    : Optional notes                                    │
-│ UPDATED  : 2026-02-07      │
+│ FILE     : carePackageTooltips.js                                  │
+│ LAYER    : server_scripts                                          │
+│ PURPOSE  : Describe module purpose                                 │
+│ NOTES    : Optional notes                                          │
+│ UPDATED  : 2026-02-07                                              │
 ╰────────────────────────────────────────────────────────────────────╯
 
 ══▣ RELATIVE PATH ▣════════════════════════════════════════════════════
@@ -44,14 +44,13 @@ ItemEvents.modifyTooltips((event) => {
     "kubejs:pokemon_gamba_package": [Text.aqua("Contains a random Pokémon!")],
     "kubejs:pokemon_wellness_package": [Text.aqua("Contains potions and medicines!")],
     "kubejs:shiny_pokemon_gamba_package": [Text.aqua("Contains a random shiny Pokémon!")],
+    "kubejs:myths_and_legends_package": [Text.aqua("Contains a random Mythical or Legendary Item!")],
   };
 
   const TITLE_OVERRIDES = {
     "kubejs:pokemon_gamba_package": Text.lightPurple("Pokémon Gamba Package"),
-    // Gold title + sparkles for shiny ✨
-    "kubejs:shiny_pokemon_gamba_package": [
-      Text.of("✨Shiny Pokémon Gamba Package").gold()
-    ],
+    "kubejs:shiny_pokemon_gamba_package": Text.gold("✨Shiny Pokémon Gamba Package"),
+    "kubejs:myths_and_legends_package": Text.gold("Myths and Legends Package"),
   };
 
   Object.keys(CARE_PACKAGE_TOOLTIPS).forEach(itemId => {

@@ -1,0 +1,407 @@
+{
+	autofocus_id: "5E361BAB0D46B132"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octosquare"
+	disable_toast: true
+	filename: "useful_tools"
+	group: "76673E7EF2CBE1DD"
+	icon: {
+		id: "framedblocks:framed_wrench"
+	}
+	id: "77D087998EC60612"
+	images: [
+		{
+			height: 2.2d
+			image: "mayview:textures/useful_tools_title.png"
+			order: 15
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:item/certus_quartz_wrench"
+			order: 5
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.6d
+			y: -5.0d
+		}
+		{
+			alpha: 222
+			height: 1.5d
+			image: "create:entity/blueprint_medium"
+			rotation: 33.0d
+			width: 1.5d
+			x: 6.5d
+			y: -4.3d
+		}
+		{
+			height: 1.0d
+			image: "handcrafted:item/crockery/blue_cup"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.15d
+			y: -4.0d
+		}
+		{
+			height: 1.2d
+			image: "buildinggadgets2:item/gadget_copy_paste"
+			order: 5
+			rotation: -26.0d
+			width: 1.2d
+			x: -7.0d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "buildinggadgets2:item/template"
+			rotation: -20.0d
+			width: 2.0d
+			x: -6.8d
+			y: -5.0d
+		}
+		{
+			height: 1.3d
+			image: "wands:item/creative_wand"
+			rotation: -140.0d
+			width: 1.3d
+			x: -7.4d
+			y: -4.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "framedblocks:item/framed_wrench"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "5E361BAB0D46B132"
+			size: 1.9d
+			tasks: [{
+				id: "092EEC1F20BE53D1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.8d
+			id: "13B12A090B277CEF"
+			optional: true
+			rewards: [{
+				id: "51AB0CDBB6C6A890"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "71D937BCF28E03AB"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "2BB1B17FAB5DDDCE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C764B5C00DF1EC9"
+					table_id: 4123660195208323644L
+					type: "choice"
+				}
+				{
+					id: "6C05AF33552D32F9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "54E7D64E56575016"
+				item: { count: 1, id: "hooked:diamond_hook" }
+				type: "item"
+			}]
+			x: 6.95d
+			y: -3.2d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "305837543FDB46A3"
+			optional: true
+			rewards: [{
+				id: "115B72DCCF5C9925"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "67B96B536EDAACF8"
+				item: { count: 1, id: "hooked:iron_hook" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.8d
+			id: "3FD5A6CB494B7D8C"
+			optional: true
+			rewards: [{
+				id: "769AFD9B6D392295"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "17BD4D314D7D6A86"
+				item: { count: 1, id: "wands:stone_wand" }
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "383C8BFA78FF07E4"
+			optional: true
+			rewards: [{
+				id: "16BC9E3717D45C64"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.4d
+			tasks: [
+				{
+					id: "5959CC2DEA17394B"
+					item: { count: 1, id: "permanentsponges:aqueous_sponge_on_a_stick" }
+					type: "item"
+				}
+				{
+					id: "6C81E6FB67A587C9"
+					item: { count: 1, id: "permanentsponges:magmatic_sponge_on_a_stick" }
+					type: "item"
+				}
+				{
+					id: "50B6F85F7669392B"
+					item: { count: 1, id: "permanentsponges:aqueous_sponge" }
+					type: "item"
+				}
+				{
+					id: "721BF15171D91199"
+					item: { count: 1, id: "permanentsponges:magmatic_sponge" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "369C99A4DACE26F1"
+			optional: true
+			rewards: [{
+				id: "4E3D937C25881D09"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "53B36ED82F2C686C"
+				item: { count: 1, id: "framedblocks:framed_cube" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "4E9C18ABA6335379"
+			optional: true
+			rewards: [{
+				id: "3D5E1252436E5283"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "06A84E3F0BF74250"
+				item: { count: 1, id: "darkutils:charm_sloth" }
+				type: "item"
+			}]
+			x: 3.5999999999999996d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.8d
+			id: "541CE804B18C0679"
+			optional: true
+			rewards: [{
+				id: "0F337E99F2475E82"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "25ACB2714AA14DAF"
+				item: { count: 1, id: "mechtrowel:mech_trowel" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "60E25882466BE178"
+			optional: true
+			rewards: [{
+				id: "0726934D61A02C4B"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "074CA77EC50B07C8"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "comforts:hammock_white"
+			}
+			icon_scale: 0.8d
+			id: "7DD1D9674FC79FE3"
+			optional: true
+			rewards: [{
+				id: "0B10E29271CD8B07"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.4d
+			tasks: [
+				{
+					id: "2C4375C2DF3ACC81"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:hammocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "11AC00602A15D5E9"
+					item: { count: 1, id: "comforts:rope_and_nail" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "36DC7EA242575E9D"
+			optional: true
+			rewards: [{
+				id: "611670C4BE471316"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.4d
+			tasks: [{
+				id: "05CE28FB20C997E5"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "2DD9DA1EFC360BBE"
+			rewards: [
+				{
+					id: "24FC559EA8741F22"
+					item: {
+						count: 1
+						id: "kubejs:food_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "29101789E0138CBC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.4d
+			tasks: [{
+				id: "757319CB61742115"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "568649E0016CCD15"
+			rewards: [
+				{
+					id: "4F167ADA5ADD1A42"
+					item: {
+						count: 1
+						id: "kubejs:food_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "326E8FCB84BB6D92"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.4d
+			tasks: [{
+				id: "5D512A01873AC7D9"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "035CAEE848B6EAAF"
+			size: 1.4d
+			tasks: [{
+				id: "6CEBB12D1811D473"
+				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	tags: ["mayviewquests"]
+}

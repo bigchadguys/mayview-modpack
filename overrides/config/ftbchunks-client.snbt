@@ -138,52 +138,53 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:cow": true
-			"minecraft:cod": false
-			"minecraft:dolphin": true
+			"minecraft:pig": true
+			"minecraft:tropical_fish": false
 			"minecraft:armadillo": true
 			"artifacts:mimic": true
-			"creeperoverhaul:hills_creeper": true
-			"creeperoverhaul:savannah_creeper": true
-			"minecraft:goat": true
-			"minecraft:pillager": true
-			"minecraft:cat": true
-			"minecraft:enderman": true
 			"minecraft:phantom": true
-			"minecraft:sheep": true
-			"minecraft:wandering_trader": true
-			"vinery:wandering_winemaker": true
-			"minecraft:villager": true
-			"minecraft:wolf": true
-			"minecraft:witch": true
-			"vinery:mule": true
+			"minecraft:squid": true
+			"minecraft:dolphin": true
+			"minecraft:axolotl": true
 			"creeperoverhaul:cave_creeper": true
-			"minecraft:zombie": true
-			"minecraft:pig": true
+			"minecraft:wolf": true
+			"minecraft:fox": true
+			"minecraft:goat": true
+			"creeperoverhaul:dripstone_creeper": true
+			"minecraft:enderman": true
 			"minecraft:zombie_villager": true
-			"minecraft:tropical_fish": false
-			"minecraft:chicken": true
-			"cobblemon:pokemon": true
-			"minecraft:evoker": true
-			"minecraft:creeper": true
-			"creeperoverhaul:snowy_creeper": true
+			"minecraft:witch": true
+			"minecraft:spider": true
+			"minecraft:bat": true
+			"vinery:mule": true
+			"creeperoverhaul:savannah_creeper": true
+			"minecraft:salmon": false
 			"minecraft:skeleton": true
+			"minecraft:chicken": true
+			"minecraft:sheep": true
+			"minecraft:evoker": true
+			"minecraft:drowned": true
+			"minecraft:zombie": true
+			"minecraft:villager": true
+			"minecraft:cod": false
+			"vinery:wandering_winemaker": true
+			"minecraft:rabbit": true
+			"creeperoverhaul:snowy_creeper": true
+			"cobblemon:pokemon": true
 			"minecraft:horse": true
+			"minecraft:slime": true
+			"minecraft:pillager": true
+			"endermanoverhaul:cave_enderman": true
+			"minecraft:cat": true
 			"minecraft:bee": true
 			"minecraft:iron_golem": true
-			"minecraft:spider": true
-			"minecraft:squid": true
-			"minecraft:drowned": true
-			"minecraft:slime": true
+			"creeperoverhaul:hills_creeper": true
+			"minecraft:cow": true
+			"minecraft:creeper": true
+			"minecraft:wandering_trader": true
+			"biomeswevegone:oddion": true
 			"minecraft:glow_squid": true
-			"minecraft:salmon": false
-			"minecraft:axolotl": true
-			"creeperoverhaul:dripstone_creeper": true
-			"endermanoverhaul:cave_enderman": true
-			"minecraft:bat": true
 			"endermanoverhaul:savanna_enderman": true
-			"minecraft:fox": true
-			"minecraft:rabbit": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

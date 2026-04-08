@@ -1,0 +1,101 @@
+{
+	autofocus_id: "4D663AA819ABEB83"
+	default_hide_dependency_lines: false
+	default_quest_shape: "mv_wood3"
+	disable_toast: true
+	filename: "support"
+	group: "4491236A495FC259"
+	icon: {
+		id: "candlelight:note_paper_written"
+	}
+	id: "6883F932283698D6"
+	images: [
+		{
+			height: 2.3d
+			image: "mayview:textures/support_title.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			click: "https://discord.gg/B5YQsgSZbR"
+			height: 2.0d
+			hover: ["Click here to visit the Mayview Discord"]
+			image: "mayview:textures/discord_button.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "artifacts:item/running_shoes"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "4D663AA819ABEB83"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FCAC909C59D274B"
+				table_id: 7438586099603317722L
+				type: "all_table"
+			}]
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				id: "1C416940C38B6EAB"
+				item: { count: 1, id: "mayview:copper_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.3999999999999999d
+		}
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			icon_scale: 0.85d
+			id: "146F976FEBE5C238"
+			optional: true
+			size: 1.4d
+			tasks: [{
+				id: "55ACC0A10CF8CEE1"
+				type: "checkmark"
+			}]
+			x: -2.8d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "waystones:item/blank_scroll"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "4CD7217D1E87D71F"
+			optional: true
+			size: 1.4d
+			tasks: [{
+				id: "45B071EB97CC1B57"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	tags: [
+		"mayviewquests"
+		"cobalt"
+	]
+}

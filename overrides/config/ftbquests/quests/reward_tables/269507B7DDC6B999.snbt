@@ -4,7 +4,7 @@
 	}
 	id: "269507B7DDC6B999"
 	loot_size: 1
-	order_index: 8
+	order_index: 7
 	rewards: [
 		{ id: "7920F7A17B9B0F06", item: { count: 1, id: "minecraft:chainmail_helmet" } }
 		{ id: "3B54BD7FC90AC438", item: { count: 1, id: "minecraft:chainmail_chestplate" } }

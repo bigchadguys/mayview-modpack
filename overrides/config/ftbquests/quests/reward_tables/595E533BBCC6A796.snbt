@@ -4,7 +4,7 @@
 	}
 	id: "595E533BBCC6A796"
 	loot_size: 1
-	order_index: 10
+	order_index: 9
 	rewards: [
 		{ id: "5A40EA49CBB5D78E", item: { count: 1, id: "minecraft:diamond_helmet" } }
 		{ id: "5462F84C5BEB9C15", item: { count: 1, id: "minecraft:diamond_chestplate" } }

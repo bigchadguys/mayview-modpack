@@ -1,0 +1,53 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "mayview:iron_coin",
+    "count": {
+      "type": "constant",
+      "count": 16
+    }
+  },
+  "output": [
+    { "item": "farmersdelight:cabbage_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "farmersdelight:onion", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "farmersdelight:tomato_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "minecraft:beetroot_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "minecraft:carrot", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "minecraft:melon_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "minecraft:pumpkin_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "minecraft:potato", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "minecraft:sweet_berries", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "minecraft:torchflower_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "minecraft:wheat_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "biomeswevegone:pale_pumpkin_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "ubesdelight:lemongrass_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "farmersdelight:rice", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "rusticdelight:cotton_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "rusticdelight:bell_pepper_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "rusticdelight:coffee_beans", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "veggiesdelight:bellpepper_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "veggiesdelight:broccoli_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "veggiesdelight:cauliflower_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "veggiesdelight:turnip_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "veggiesdelight:zucchini_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "farm_and_charm:oat_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "farm_and_charm:kernels", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "farm_and_charm:barley_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "farm_and_charm:lettuce_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "farm_and_charm:tomato_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "farm_and_charm:strawberry_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "farm_and_charm:onion", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "brewery:hops", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "vinery:white_grape_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "vinery:red_grape_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "vinery:savanna_grape_seeds_white", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "vinery:savanna_grape_seeds_red", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "vinery:jungle_grape_seeds_white", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "vinery:jungle_grape_seeds_red", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "vinery:taiga_grape_seeds_white", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "vinery:taiga_grape_seeds_red", "count": { "type": "constant", "count": 1 }, "weight": 1 }
+  ]
+}

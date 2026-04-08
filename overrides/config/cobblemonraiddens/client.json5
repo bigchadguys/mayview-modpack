@@ -13,10 +13,16 @@
 	"show_beam_tier_six": true,
 	// Show Beacon Beam for Tier Seven Raids
 	"show_beam_tier_seven": true,
+	// Render the raid crystal particle effects
+	"show_particles": false,
+	// Render the legacy beacon effect
+	"show_legacy_beacon": false,
 	// Automatically accept raid join requests
 	"auto_accept_requests": false,
 	// Show raid logs during raids
 	"enable_raid_logs": true,
+	// Show health bars above Pokemon during raids
+	"enable_health_bars": true,
 	"raid_status_x": 100,
 	"raid_status_y": 50,
 	"raid_popup_x": 50,

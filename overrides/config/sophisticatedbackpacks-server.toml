@@ -513,7 +513,7 @@
 		#Chance of an entity spawning with Backpack
 		# Default: 0.01
 		# Range: 0.0 ~ 1.0
-		chance = 0.15
+		chance = 0.10
 		#Turns on/off addition of loot into backpacks
 		addLoot = true
 		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.
@@ -533,7 +533,7 @@
 		#Chance of mob dropping backpack when killed by player
 		# Default: 0.5
 		# Range: 0.0 ~ 1.0
-		backpackDropChance = 0.5
+		backpackDropChance = 0.7
 		#Chance increase per looting level of mob dropping backpack
 		# Default: 0.15
 		# Range: 0.0 ~ 0.3
@@ -579,7 +579,7 @@
 		#Maximum number of backpacks in player's inventory that will not cause slowness
 		# Default: 3
 		# Range: 1 ~ 27
-		maxNumberOfBackpacks = 3
+		maxNumberOfBackpacks = 6
 		#Ratio of slowness levels per every backpack above the maximum number allowed. (number of backpacks above the max gets multiplied by this number and ceiled)
 		# Default: 1.0
 		# Range: 0.1 ~ 5.0

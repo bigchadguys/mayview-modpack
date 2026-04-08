@@ -4,6 +4,6 @@
 	}
 	id: "2CC9B60BC9C9C27C"
 	loot_size: 1
-	order_index: 21
-	rewards: [{ id: "38EC061486241F23", item: { components: { "minecraft:enchantments": { levels: { "minecraft:sharpness": 5 } } }, count: 1, id: "ores:mythril_axe" } }]
+	order_index: 20
+	rewards: [{ id: "38EC061486241F23", item: { components: { "minecraft:enchantments": { levels: { "minecraft:sharpness": 7 } } }, count: 1, id: "ores:mythril_axe" } }]
 }

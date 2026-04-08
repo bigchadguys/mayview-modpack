@@ -1,0 +1,18 @@
+{
+  "showSpawnWeights": true,
+  "showEvolutions": true,
+  "showObtainment": true,
+  "showDrops": true,
+  "showStats": true,
+  "showMoves": true,
+  "showPokedexInfo": true,
+  "showPokemonDescription": true,
+  "showFossils": true,
+  "showTypeChart": true,
+  "showNatures": true,
+  "showJobs": true,
+  "showAlternateForms": true,
+  "showRiding": true,
+  "registerFormEntries": true,
+  "debugMode": false
+}

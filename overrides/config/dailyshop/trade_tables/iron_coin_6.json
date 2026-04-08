@@ -1,0 +1,24 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "mayview:iron_coin",
+    "count": {
+      "type": "constant",
+      "count": 6
+    }
+  },
+  "output": [
+    { "item": "createadditionallogistics:lazy_shaft", "count": { "type": "constant", "count": 4 }, "weight": 1 },
+    { "item": "createadditionallogistics:lazy_cogwheel", "count": { "type": "constant", "count": 3 }, "weight": 1 },
+    { "item": "createadditionallogistics:lazy_large_cogwheel", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "create_connected:cross_connector", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "create:fluid_pipe", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "create:water_wheel", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "create:large_water_wheel", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "create:chain_conveyor", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "create:placard", "count": { "type": "constant", "count": 2 }, "weight": 1 }
+  ]
+}

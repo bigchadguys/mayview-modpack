@@ -2,10 +2,10 @@ ItemEvents.modifyTooltips((event) => {
   const COMMON_USAGE_LINES = [Text.gray("Mix with lava and tuff in a Mechanical Mixer to restore!")];
 
   const DEPLETED_ORESTONE_TOOLTIPS = {
-    "kubejs:depleted_crimsite": [Text.aqua("Depleted Crimsite Orestone")],
-    "kubejs:depleted_asurine": [Text.aqua("Depleted Asurine Orestone")],
-    "kubejs:depleted_veridium": [Text.aqua("Depleted Veridium Orestone")],
-    "kubejs:depleted_ochrum": [Text.aqua("Depleted Ochrum Orestone")],
+    "mayview:depleted_crimsite": [Text.aqua("Depleted Crimsite Orestone")],
+    "mayview:depleted_asurine": [Text.aqua("Depleted Asurine Orestone")],
+    "mayview:depleted_veridium": [Text.aqua("Depleted Veridium Orestone")],
+    "mayview:depleted_ochrum": [Text.aqua("Depleted Ochrum Orestone")],
   };
 
   const TITLE_OVERRIDES = {

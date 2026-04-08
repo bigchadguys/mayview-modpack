@@ -29,6 +29,7 @@
     "rolling_hills": true,
     "underground_rivers": true
   },
+  "experimental": {},
   "general": {
     "mod_enabled": true,
     "snow_start_offset": 179

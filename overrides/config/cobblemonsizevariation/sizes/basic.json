@@ -1,7 +1,7 @@
 {
   "name": "basic",
-  "minSizeModifier": "0.75",
-  "maxSizeModifier": "1.25",
+  "minSizeModifier": "0.5",
+  "maxSizeModifier": "1.5",
   "sizes": [
     {
       "name": "Tiny",

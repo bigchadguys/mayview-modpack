@@ -4,7 +4,7 @@
 	}
 	id: "23823E440D7C0F5C"
 	loot_size: 1
-	order_index: 25
+	order_index: 24
 	rewards: [
 		{ id: "099B0F0C35F6E9ED", item: { count: 1, id: "cobblemon:helix_fossil" } }
 		{ id: "3CA72ED94CA0390D", item: { count: 1, id: "cobblemon:dome_fossil" } }

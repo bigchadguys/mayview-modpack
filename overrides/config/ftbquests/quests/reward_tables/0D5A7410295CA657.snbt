@@ -4,9 +4,9 @@
 	}
 	id: "0D5A7410295CA657"
 	loot_size: 1
-	order_index: 23
+	order_index: 22
 	rewards: [
-		{ id: "3A8E63172FF464DF", item: { components: { "minecraft:enchantments": { levels: { "minecraft:efficiency": 5, "minecraft:sharpness": 5, "minecraft:unbreaking": 3, "yigd:soulbound": 1 } } }, count: 1, id: "ores:petrafite_axe" } }
+		{ id: "3A8E63172FF464DF", item: { components: { "minecraft:enchantments": { levels: { "minecraft:efficiency": 10, "minecraft:sharpness": 10, "minecraft:unbreaking": 5, "yigd:soulbound": 1 } } }, count: 1, id: "ores:petrafite_axe" } }
 		{ id: "125C8F09E11D8011", item: { count: 1, id: "unbreakablecatalyst:unbreakable_catalyst" } }
 	]
 }

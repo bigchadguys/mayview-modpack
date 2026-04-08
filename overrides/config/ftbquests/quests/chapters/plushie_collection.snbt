@@ -1,0 +1,1579 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "wood_rounded"
+	filename: "plushie_collection"
+	group: "13E63132F42CE474"
+	icon: {
+		id: "plushies:panda_plushie"
+	}
+	id: "6CAFC2FAB53F2605"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:item/axolotl_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 2.2d
+			image: "mayview:textures/plushies_title.png"
+			order: 5
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -3.4d
+		}
+		{
+			height: 2.2d
+			image: "minecraft:item/happy_ghast_spawn_egg"
+			rotation: 0.0d
+			width: 2.2d
+			x: 1.7d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ribbits:item/swamp_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.35d
+		}
+		{
+			height: 1.0d
+			image: "ribbits:item/swamp_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.35d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/llama_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: -3.3d
+		}
+		{
+			height: 1.4d
+			image: "minecraft:item/gold_axolotl_bucket"
+			rotation: 0.0d
+			width: 1.4d
+			x: 6.1d
+			y: -3.0d
+		}
+		{
+			color: 12112815
+			height: 1.6d
+			image: "mayview:textures/joe_flower_02.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: 5.1d
+			y: -4.1d
+		}
+		{
+			height: 2.0d
+			image: "mayview:textures/joe_flower_01.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: -5.0d
+			y: -4.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"59C4E18DA31041D9"
+				"7765BE8C461DE430"
+				"7C55C8A297BC28CF"
+				"0694F2F4AF2C5909"
+				"2B66F8F25AB426E6"
+				"2CB19A3FAA7251FB"
+				"72BD2105795489E4"
+				"42C6ED9B94878D50"
+				"261395A28C94CC6E"
+				"7C9E52B80EEF09C4"
+				"0ADA4F0C98FA4B7E"
+				"62AF7F39E428582D"
+				"5A46F19D956483EC"
+				"31677A9B7A166F79"
+				"11A2C1CCC21E8B66"
+				"4F02D36C0B11F7E9"
+				"3ACDFB455F175648"
+				"4AE08B6A260ABADB"
+				"14EF37883BC1E8BD"
+				"4D58B4BBDBCC8631"
+				"28195E29BE51B37E"
+				"6958355FD77AB61C"
+				"5945869818C7AE78"
+				"3CB31581B96764B7"
+				"0E2E9B9168CA8E97"
+				"41C2F58A8E96AF7A"
+				"6D083E9FC785A6B7"
+				"15E6789E23C902D8"
+				"3BE0676C468D61A8"
+				"57A34DC25937293C"
+				"1673C1A0D0C88630"
+				"3EE9AAD9E5F5F569"
+				"5289C6824E044DBD"
+				"0147B213E92CB54F"
+				"0A7B325D22CE37D2"
+				"3867CB4A1C1D33CB"
+				"3B5683B36DF7A0AE"
+				"43EC908323901883"
+				"210FFA323C523D52"
+				"078E147914D5A29D"
+				"7FF3419DDDC3588F"
+				"49B5E187C58DB7BB"
+				"385C6FF9CCC8E4E5"
+				"52C18A63DECDC347"
+				"56643F67A8FAE751"
+				"2189A3645FFAA17A"
+				"3F30E01D88D646F6"
+				"6CAD0A879CB29935"
+				"7FFB1B61A8F42A5E"
+				"6E729AF2080F7A1F"
+				"7DE003AA9B680473"
+				"7BCD44AF6CFB0588"
+				"69C1CD15FEE031C6"
+				"185C9FE14B9EF114"
+				"26E9C9C28BB6DEE4"
+				"4DD3EB42DF5622F9"
+				"1543A0574A2C74C7"
+				"60068C6EEB6F37C7"
+				"39A6661FF399EAA1"
+				"45949BC0057759A0"
+				"3C0F412AD718CE7B"
+				"62413C180C853AD5"
+				"2EB065127A4C9422"
+				"0CDABF40E0C41FD2"
+				"3DD0BC2C70092F7B"
+				"3E82759E5737BD25"
+				"14A9088F0EBD0894"
+				"31010DEA503C0D47"
+				"2F0C0259FCA198A6"
+				"34CD2D285308B1FE"
+				"1E898FE52D597C20"
+				"423C3A70B5A5C6FC"
+				"40BF19721506941C"
+				"7424360C952B5519"
+				"219416EEE5619E07"
+				"258590F7A6A560CB"
+				"21BAEF916FD506E3"
+				"25FAB1C89401192C"
+				"0828A6C09B02660A"
+				"4F8D6981715CFFB2"
+				"4A99DDFF9008CACC"
+				"3C7C440437023B5D"
+				"6C4A33724EDEB209"
+				"5B8852FB5B7830E4"
+				"66C13F8D69AFC253"
+				"1A367423923EC919"
+				"616C161A28B358F1"
+				"0313384A85B21F1C"
+				"19627B0465D29503"
+				"6E2FF80AB3358DAB"
+				"538F5A4160F64707"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "kubejs:plushie_care_package"
+			}
+			icon_scale: 0.9d
+			id: "25871D9548735CE5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75ED5D70B5DE99EC"
+					table_id: 5422239219386928246L
+					type: "choice"
+				}
+				{
+					id: "4DB6C439C5414BD1"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "296690A7336B8E7D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "26E9C9C28BB6DEE4"
+			rewards: [{
+				id: "7C217D2A43C141F9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "10AD19AE66A0ED3D"
+				item: { count: 1, id: "plushies:panda_plushie" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "3ACDFB455F175648"
+			rewards: [{
+				id: "2D341B41F04431C0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4B88CAC185C81A23"
+				item: { count: 1, id: "plushies:parrot_plushie" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "5945869818C7AE78"
+			rewards: [{
+				id: "5BF70C56BF6883D7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "731E72971CBC58BE"
+				item: { count: 1, id: "plushies:camel_plushie" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "49B5E187C58DB7BB"
+			rewards: [{
+				id: "6FF727EAA31E385E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3A8832484EB44C71"
+				item: { count: 1, id: "plushies:llama_plushie" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "4AE08B6A260ABADB"
+			rewards: [{
+				id: "5A7C6392E0BFEF2D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "587B3A9A9653B023"
+				item: { count: 1, id: "plushies:cow_plushie" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "6958355FD77AB61C"
+			rewards: [{
+				id: "0A0C9C686D93E38E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0736BA0E42010E1A"
+				item: { count: 1, id: "plushies:mooshroom_plushie" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "3EE9AAD9E5F5F569"
+			rewards: [{
+				id: "5EA6171F68FE0026"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "09F170F882246F7A"
+				item: { count: 1, id: "plushies:sheep_plushie" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "1673C1A0D0C88630"
+			rewards: [{
+				id: "59F6A2613EA89465"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "23587CAC100FDEA2"
+				item: { count: 1, id: "plushies:pig_plushie" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "7765BE8C461DE430"
+			rewards: [{
+				id: "370AE9EA7F5318A2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4EEEB7E106306BA7"
+				item: { count: 1, id: "plushies:horse_plushie" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			id: "7C55C8A297BC28CF"
+			rewards: [{
+				id: "7332254985C8F924"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5996039F70564CA3"
+				item: { count: 1, id: "plushies:mule_plushie" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "7DE003AA9B680473"
+			rewards: [{
+				id: "727648F841CF81BD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "514FFBF46B2EB90E"
+				item: { count: 1, id: "plushies:bee_plushie" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "0694F2F4AF2C5909"
+			rewards: [{
+				id: "452DD1D025124F05"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6DDDBFC51321444B"
+				item: { count: 1, id: "plushies:cat_plushie" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "15E6789E23C902D8"
+			rewards: [{
+				id: "07AC16B049F46098"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5ECBB73AC439FAFF"
+				item: { count: 1, id: "plushies:chicken_plushie" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "385C6FF9CCC8E4E5"
+			rewards: [{
+				id: "5025CB648626E931"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3E4C11E4F203ADDB"
+				item: { count: 1, id: "plushies:wolf_plushie" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "2189A3645FFAA17A"
+			rewards: [{
+				id: "7232057BB709AAAF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4DE52EDB688AA0EA"
+				item: { count: 1, id: "plushies:red_fox_plushie" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "11A2C1CCC21E8B66"
+			rewards: [{
+				id: "2150E875C604641B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "27241CDB34F5A3D7"
+				item: { count: 1, id: "plushies:allay_plushie" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "52C18A63DECDC347"
+			rewards: [{
+				id: "27202C7B16A1776F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4291425D234F715C"
+				item: { count: 1, id: "plushies:white_fox_plushie" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "42C6ED9B94878D50"
+			rewards: [{
+				id: "2A24FC69861C8DCC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7F9E326DC3F0B4E1"
+				item: { count: 1, id: "plushies:snow_golem_plushie" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "7FFB1B61A8F42A5E"
+			rewards: [{
+				id: "705894A24673563E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0F0E2C6F1A05593A"
+				item: { count: 1, id: "plushies:polar_bear_plushie" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "4DD3EB42DF5622F9"
+			rewards: [{
+				id: "0C390D8A0B3EBDB2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "566C2B647B39D1C6"
+				item: { count: 1, id: "plushies:goat_plushie" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "3B5683B36DF7A0AE"
+			rewards: [{
+				id: "7F485D898F1734F1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "14DE4363562E623C"
+				item: { count: 1, id: "plushies:sniffer_plushie" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "2CB19A3FAA7251FB"
+			rewards: [{
+				id: "5CA67CBD8584D7E4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "70E0526990A3B0F5"
+				item: { count: 1, id: "plushies:bat_plushie" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "210FFA323C523D52"
+			rewards: [{
+				id: "4E9EE6F86086F094"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "552A49B04980F96D"
+				item: { count: 1, id: "plushies:ocelot_plushie" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "59C4E18DA31041D9"
+			rewards: [{
+				id: "425F207E9771B2BC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1A11983A40C5BBB9"
+				item: { count: 1, id: "plushies:armadillo_plushie" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "0147B213E92CB54F"
+			rewards: [{
+				id: "27F037E21EA583CD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4012B1901AB67A53"
+				item: { count: 1, id: "plushies:brown_rabbit_plushie" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "261395A28C94CC6E"
+			rewards: [{
+				id: "5AAAB31829427C94"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7DF238DC24EE3A82"
+				item: { count: 1, id: "plushies:white_rabbit_plushie" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "62AF7F39E428582D"
+			rewards: [{
+				id: "7001F42F3B8AAFC5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6473E21E8507B1D1"
+				item: { count: 1, id: "plushies:black_rabbit_plushie" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			id: "4D58B4BBDBCC8631"
+			rewards: [{
+				id: "06A2E6CDF2A52F50"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "371E58526D60CF26"
+				item: { count: 1, id: "plushies:white_splotched_rabbit_plushie" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "0ADA4F0C98FA4B7E"
+			rewards: [{
+				id: "7A9FF63D9FA4946D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4F45BE1C5EEA4F05"
+				item: { count: 1, id: "plushies:yellow_rabbit_plushie" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "28195E29BE51B37E"
+			rewards: [{
+				id: "5ADC47378223E734"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5D17DDAA26556B93"
+				item: { count: 1, id: "plushies:toast_rabbit_plushie" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			id: "2B66F8F25AB426E6"
+			rewards: [{
+				id: "184CAA3B33DD97CE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3F316D7F3AE95693"
+				item: { count: 1, id: "plushies:salt_rabbit_plushie" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "3867CB4A1C1D33CB"
+			rewards: [{
+				id: "020B24FB239FA695"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5ED675745F1ACC3B"
+				item: { count: 1, id: "plushies:killer_bunny_plushie" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "7FF3419DDDC3588F"
+			rewards: [{
+				id: "3D4D47FAC6F8CD17"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5116A99F1834594C"
+				item: { count: 1, id: "plushies:iron_golem_plushie" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "5A46F19D956483EC"
+			rewards: [{
+				id: "3ABC3293BAB80E0B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1A2A8D2461A58058"
+				item: { count: 1, id: "plushies:wandering_trader_plushie" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "7C9E52B80EEF09C4"
+			rewards: [{
+				id: "0E6F9551A06B2C1C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "51720CACC09C4DAC"
+				item: { count: 1, id: "plushies:villager_plushie" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "2F0C0259FCA198A6"
+			rewards: [{
+				id: "68C975482691C3A2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2F1C698F5C448009"
+				item: { count: 1, id: "plushies:zombie_villager_plushie" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "1E898FE52D597C20"
+			rewards: [{
+				id: "52DC85485B95ED66"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "436DD138E0C2195C"
+				item: { count: 1, id: "plushies:pillager_plushie" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "60068C6EEB6F37C7"
+			rewards: [{
+				id: "795BEE37008DD160"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "650A29569A3B6EA6"
+				item: { count: 1, id: "plushies:illusioner_plushie" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "538F5A4160F64707"
+			rewards: [{
+				id: "4BA115FBD22AA78A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5E7B01AA6CFCCAAF"
+				item: { count: 1, id: "plushies:vindicator_plushie" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "6E2FF80AB3358DAB"
+			rewards: [{
+				id: "4EFA190977FE4FF5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "015AB85A8D3BF096"
+				item: { count: 1, id: "plushies:evoker_plushie" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "62413C180C853AD5"
+			rewards: [{
+				id: "2B11287EA33C17C2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "411117C8703D8226"
+				item: { count: 1, id: "plushies:witch_plushie" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "31010DEA503C0D47"
+			rewards: [{
+				id: "6C3CED57A254B08F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "612FC8BD7DA1AE7B"
+				item: { count: 1, id: "plushies:ravager_plushie" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "6C4A33724EDEB209"
+			rewards: [{
+				id: "228CB4167589E8FB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0CF20C3384F70BEF"
+				item: { count: 1, id: "plushies:vex_plushie" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "0313384A85B21F1C"
+			rewards: [{
+				id: "2E09E16B847F4FCB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "60C1C17F6E78D26A"
+				item: { count: 1, id: "plushies:breeze_plushie" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "14A9088F0EBD0894"
+			rewards: [{
+				id: "788A6B0F8F2FD678"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5054DA567453589F"
+				item: { count: 1, id: "plushies:creeper_plushie" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "25FAB1C89401192C"
+			rewards: [{
+				id: "527B0DE22BBD1393"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "59E84EE5F9DB9DB8"
+				item: { count: 1, id: "plushies:phantom_plushie" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "7424360C952B5519"
+			rewards: [{
+				id: "7D655B8C4C91EE15"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7AF859C9BE9F8A7E"
+				item: { count: 1, id: "plushies:skeleton_plushie" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "21BAEF916FD506E3"
+			rewards: [{
+				id: "135FA8F2E2C7154A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7FA402765C0F1FB2"
+				item: { count: 1, id: "plushies:stray_plushie" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "3C7C440437023B5D"
+			rewards: [{
+				id: "5497B42A0C94FF94"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "60AF35FC1AF38885"
+				item: { count: 1, id: "plushies:zombie_horse_plushie" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "4F8D6981715CFFB2"
+			rewards: [{
+				id: "71373F396A52AF55"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3BB35EDFD0A426FE"
+				item: { count: 1, id: "plushies:bogged_plushie" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "3C0F412AD718CE7B"
+			rewards: [{
+				id: "10F8445C18A8E9F1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "311E8A548548D5CF"
+				item: { count: 1, id: "plushies:skeleton_horse_plushie" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "6E729AF2080F7A1F"
+			rewards: [{
+				id: "418C3692F6F965D0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "21809BF651CAA716"
+				item: { count: 1, id: "plushies:spider_plushie" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "69C1CD15FEE031C6"
+			rewards: [{
+				id: "02247AEF3C13FD75"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "072D082D87D1D7AA"
+				item: { count: 1, id: "plushies:cave_spider_plushie" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "219416EEE5619E07"
+			rewards: [{
+				id: "4C07EF14F1C1D5A6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1545967A5A516BBA"
+				item: { count: 1, id: "plushies:warden_plushie" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "45949BC0057759A0"
+			rewards: [{
+				id: "6075744856A7C788"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "238638D7279B699A"
+				item: { count: 1, id: "plushies:wither_plushie" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "3DD0BC2C70092F7B"
+			rewards: [{
+				id: "1A532171AEF70086"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "59F0A6B294781B88"
+				item: { count: 1, id: "plushies:silverfish_plushie" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "34CD2D285308B1FE"
+			rewards: [{
+				id: "324FE1CEB0B85FA8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "293AEA49BF08E7E1"
+				item: { count: 1, id: "plushies:slime_plushie" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "423C3A70B5A5C6FC"
+			rewards: [{
+				id: "2C933B0CD7D31198"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1F94183B965EFFFB"
+				item: { count: 1, id: "plushies:zombie_plushie" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "616C161A28B358F1"
+			rewards: [{
+				id: "78C42B8B72D6E34A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "10CC45F4FF5D6DF5"
+				item: { count: 1, id: "plushies:husk_plushie" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "3F30E01D88D646F6"
+			rewards: [{
+				id: "3ECC93E1A3A4B8AD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "520F816C912DE925"
+				item: { count: 1, id: "plushies:drowned_plushie" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "078E147914D5A29D"
+			rewards: [{
+				id: "263FA59482073571"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1125FFF6EE5AA8D2"
+				item: { count: 1, id: "plushies:axolotl_plushie" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "56643F67A8FAE751"
+			rewards: [{
+				id: "702E237A61EA30CA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2EC41F8C068A0EC6"
+				item: { count: 1, id: "plushies:dolphin_plushie" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "6D083E9FC785A6B7"
+			rewards: [{
+				id: "0501AD2305C1E1FC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3BC9C238E31C1867"
+				item: { count: 1, id: "plushies:squid_plushie" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "72BD2105795489E4"
+			rewards: [{
+				id: "3BA585F80C5DD8FF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "22D3266A05015DCF"
+				item: { count: 1, id: "plushies:glow_squid_plushie" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "40BF19721506941C"
+			rewards: [{
+				id: "3392E555681309BF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3F57016CD9325210"
+				item: { count: 1, id: "plushies:guardian_plushie" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "4A99DDFF9008CACC"
+			rewards: [{
+				id: "3506C3BCEF657DDB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "43A975DF7007F062"
+				item: { count: 1, id: "plushies:elder_guardian_plushie" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "14EF37883BC1E8BD"
+			rewards: [{
+				id: "6F1191E0085BCFA4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "168590CC5FE66C5A"
+				item: { count: 1, id: "plushies:turtle_plushie" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "31677A9B7A166F79"
+			rewards: [{
+				id: "6216C8148F42184F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "782A965BD521EFAF"
+				item: { count: 1, id: "plushies:frog_plushie" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "5289C6824E044DBD"
+			rewards: [{
+				id: "2CA29E9424AAB2C5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "135D4EC247AFB291"
+				item: { count: 1, id: "plushies:warm_frog_plushie" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "43EC908323901883"
+			rewards: [{
+				id: "1216AC9C7D5E39F8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "745CDA6CB380570F"
+				item: { count: 1, id: "plushies:cold_frog_plushie" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			id: "41C2F58A8E96AF7A"
+			rewards: [{
+				id: "5BB7B47E1CEC3354"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0DECE394A2DC3013"
+				item: { count: 1, id: "plushies:tadpole_plushie" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			id: "3BE0676C468D61A8"
+			rewards: [{
+				id: "5673A0A1B16D0A0F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "02813751EA983E9F"
+				item: { count: 1, id: "plushies:salmon_plushie" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "4F02D36C0B11F7E9"
+			rewards: [{
+				id: "0CE3E034772A10BD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "16B9172A05D12FBF"
+				item: { count: 1, id: "plushies:cod_plushie" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "6CAD0A879CB29935"
+			rewards: [{
+				id: "5DE88FD661F696FD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "020E6E5029F8201D"
+				item: { count: 1, id: "plushies:pufferfish_plushie" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "3CB31581B96764B7"
+			rewards: [{
+				id: "3CF6593F23BD1DEA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "75601C9D6187BF1A"
+				item: { count: 1, id: "plushies:small_tropical_fish_plushie" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			id: "57A34DC25937293C"
+			rewards: [{
+				id: "72C244AFE807C18E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1D919B3989D77DCB"
+				item: { count: 1, id: "plushies:large_tropical_fish_plushie" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "2EB065127A4C9422"
+			rewards: [{
+				id: "4DF2A369F3228C13"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3B949405228A5DE6"
+				item: { count: 1, id: "plushies:wither_skeleton_plushie" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "1543A0574A2C74C7"
+			rewards: [{
+				id: "0ACE4A286A8B710C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5F7D0006821F4856"
+				item: { count: 1, id: "plushies:piglin_plushie" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "258590F7A6A560CB"
+			rewards: [{
+				id: "160A1569209F49F9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7B007ECA0562E55F"
+				item: { count: 1, id: "plushies:piglin_brute_plushie" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "7BCD44AF6CFB0588"
+			rewards: [{
+				id: "760E1332596558D8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6A774270247B322F"
+				item: { count: 1, id: "plushies:zombiefied_piglin_plushie" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "5B8852FB5B7830E4"
+			rewards: [{
+				id: "357814200B4D7069"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4CF0E70A9C3F816C"
+				item: { count: 1, id: "plushies:blaze_plushie" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "39A6661FF399EAA1"
+			rewards: [{
+				id: "341E43BAEE994E81"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6983DC17B602CB13"
+				item: { count: 1, id: "plushies:ghast_plushie" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "3E82759E5737BD25"
+			rewards: [{
+				id: "0C8F9B879EAAF8DA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1DCBF64BC4A5B717"
+				item: { count: 1, id: "plushies:hoglin_plushie" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "0CDABF40E0C41FD2"
+			rewards: [{
+				id: "35F9C0B3E8495EAB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "79FA13816FA93D6F"
+				item: { count: 1, id: "plushies:zoglin_plushie" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "0E2E9B9168CA8E97"
+			rewards: [{
+				id: "663B1265A6A60E9C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "79B823D967105095"
+				item: { count: 1, id: "plushies:strider_plushie" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			id: "1A367423923EC919"
+			rewards: [{
+				id: "430892FB052DEA7F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "280C5C0F55624C91"
+				item: { count: 1, id: "plushies:magma_cube_plushie" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "185C9FE14B9EF114"
+			rewards: [{
+				id: "50263E87178E8336"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "492DB65B95C4D525"
+				item: { count: 1, id: "plushies:enderman_plushie" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "19627B0465D29503"
+			rewards: [{
+				id: "1AE513D48847BCD7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3EB84EAA4D74E64C"
+				item: { count: 1, id: "plushies:endermite_plushie" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "66C13F8D69AFC253"
+			rewards: [{
+				id: "4420BB8DC8FBC8A4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "38EE6CD4BFA7DFF7"
+				item: { count: 1, id: "plushies:shulker_plushie" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "0828A6C09B02660A"
+			rewards: [{
+				id: "3299702B7207CE21"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "65CD824209F0BED3"
+				item: { count: 1, id: "plushies:dragon_plushie" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "0A7B325D22CE37D2"
+			rewards: [{
+				id: "37BFC93F0CCE9166"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7544C00277EF2AC0"
+				item: { count: 1, id: "plushies:donkey_plushie" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+	]
+	tags: ["mayviewquests"]
+}

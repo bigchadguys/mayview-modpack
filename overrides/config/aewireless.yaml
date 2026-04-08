@@ -4,6 +4,9 @@ isEnergy: false
 # Allow cross-dimensional connection
 crossDimensional: true
 
+# Enable auto-connect when placing blocks while sneaking.
+shiftAutoConnect: true
+
 baseEnergy: 100.0
 
 # Maximum transmission distance between Sub and Main wireless transceivers(0 for unlimited).

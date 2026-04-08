@@ -143,11 +143,11 @@
   },
   "compatConfig": {
     "enableAccessoriesCompat": true,
-    "defaultAccessoriesDropRule": "KEEP",
+    "defaultAccessoriesDropRule": "PUT_IN_GRAVE",
     "enableTravelersBackpackCompat": true,
     "defaultTravelersBackpackDropRule": "PUT_IN_GRAVE",
     "enableCuriosCompat": true,
-    "defaultCuriosDropRule": "KEEP",
+    "defaultCuriosDropRule": "PUT_IN_GRAVE",
     "enableCosmeticArmorCompat": true,
     "defaultCosmeticArmorDropRule": "PUT_IN_GRAVE"
   },
@@ -188,11 +188,11 @@
       "targeting": "PLAYER_GRAVE"
     },
     "deathScroll": {
-      "enabled": false,
+      "enabled": true,
       "rebindable": false,
-      "receiveOnRespawn": false,
-      "clickFunction": "VIEW_CONTENTS",
-      "consumeOnUse": false,
+      "receiveOnRespawn": true,
+      "clickFunction": "TELEPORT_TO_LOCATION",
+      "consumeOnUse": true,
       "useTime": 0,
       "useCooldown": 0
     },

@@ -7,14 +7,16 @@
   "apricorn": {
     "apricornHarvestersEnabled": true,
     "apricornHarvesters": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "typeHarvestsApricorns": "BUG"
   },
   "irrigation": {
     "cropIrrigatorsEnabled": true,
     "cropIrrigators": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "irrigationRadius": 1,
     "typeIrrigatesCrops": "WATER"
@@ -22,14 +24,16 @@
   "amethyst": {
     "amethystHarvestersEnabled": true,
     "amethystHarvesters": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "typeHarvestsAmethyst": "ROCK"
   },
   "tumblestone": {
     "tumblestoneHarvestersEnabled": true,
     "tumblestoneHarvesters": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "shouldReplantTumblestone": true,
     "typeHarvestsTumblestone": "STEEL"
@@ -37,7 +41,8 @@
   "cropHarvest": {
     "cropHarvestersEnabled": true,
     "cropHarvesters": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "shouldReplantCrops": true,
     "typeHarvestsCrops": "GRASS"
@@ -45,7 +50,8 @@
   "berries": {
     "berryHarvestersEnabled": true,
     "berryHarvesters": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "typeHarvestsBerries": "GRASS"
   },
@@ -62,14 +68,16 @@
   "mints": {
     "mintHarvestersEnabled": true,
     "mintHarvesters": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "typeHarvestsMints": "FAIRY"
   },
   "lava": {
     "lavaGeneratorsEnabled": true,
     "lavaGenerators": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "lavaGenerationCooldownSeconds": 90,
     "typeGeneratesLava": "FIRE"
@@ -77,7 +85,8 @@
   "water": {
     "waterGeneratorsEnabled": true,
     "waterGenerators": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "waterGenerationCooldownSeconds": 90,
     "typeGeneratesWater": "WATER"
@@ -93,7 +102,8 @@
   "fishing": {
     "fishingLootGeneratorsEnabled": true,
     "fishingLootGenerators": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "fishingLootGenerationCooldownSeconds": 60,
     "fishingLootTreasureChance": 1,
@@ -101,7 +111,7 @@
   },
   "pickup": {
     "pickUpLootersEnabled": true,
-    "pickUpLootingCooldownSeconds": 120,
+    "pickUpLootingCooldownSeconds": 200,
     "lootTables": [
       "cobblemon:sets/any_ancient_held_item",
       "cobblemon:sets/any_common_pokeball",
@@ -123,14 +133,16 @@
   "groundItemGathering": {
     "groundItemGatheringEnabled": true,
     "groundItemGatherers": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "typeGathersGroundItems": "PSYCHIC"
   },
   "netherwartHarvest": {
     "netherwartHarvestersEnabled": true,
     "netherwartHarvesters": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "shouldReplantNetherwart": true,
     "typeHarvestsNetherwart": "GHOST"
@@ -159,7 +171,8 @@
   "fuel": {
     "fuelGeneratorsEnabled": true,
     "fuelGenerators": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "fuelGenerationCooldownSeconds": 80,
     "burnTimeSeconds": 80,
@@ -168,7 +181,8 @@
   "brewingStandFuel": {
     "fuelGeneratorsEnabled": true,
     "fuelGenerators": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "fuelGenerationCooldownSeconds": 80,
     "addedFuel": 5,
@@ -177,7 +191,8 @@
   "extinguisher": {
     "extinguishersEnabled": true,
     "extinguishers": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "extinguishingRadius": 1,
     "typeExtinguishesFire": "WATER"
@@ -185,7 +200,8 @@
   "archeology": {
     "archeologistsEnabled": true,
     "archeologists": [
-      "ditto"
+      "ditto",
+      "hypno"
     ],
     "archeologyLootingCooldownSeconds": 80,
     "lootTables": [

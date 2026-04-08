@@ -1,0 +1,544 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "mystic_moon"
+	default_quest_size: 1.2d
+	disable_toast: true
+	filename: "resonant_aura"
+	group: "78DD8F6DA234BE4B"
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "0220739060F55225"
+	images: [
+		{
+			color: 7252223
+			dependency: "29743AA70FC440F9"
+			height: 1.0d
+			image: "mayview:textures/joe_flower_01.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			alpha: 150
+			dependency: "29743AA70FC440F9"
+			height: 1.0d
+			image: "mayview:textures/joe_flower_03.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			dependency: "29743AA70FC440F9"
+			height: 1.0d
+			image: "mayview:item/kinetic_assist_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			alpha: 150
+			dependency: "29743AA70FC440F9"
+			height: 1.0d
+			image: "mayview:item/ninefold_tread"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["29743AA70FC440F9"]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon_scale: 0.85d
+			id: "4BB652C747EF21D6"
+			size: 1.5d
+			tasks: [{
+				count: 1700L
+				id: "61CB12282AE9AE11"
+				item: { count: 1, id: "biomeswevegone:skyris_stairs" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 2.4d
+		}
+		{
+			dependencies: ["4BB652C747EF21D6"]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon_scale: 0.85d
+			id: "2CF66722A0E4E6A0"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "4E9D7C26DE16D50F"
+					item: {
+						count: 1
+						id: "ae2:annihilation_plane"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "503528CA9246942D"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:silk_touch": 1
+								}
+							}
+						}
+						count: 1
+						id: "ae2:annihilation_plane"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				block_tag: "c:ores"
+				id: "1A2FB42581005196"
+				type: "break_block"
+				value: 256L
+			}]
+			x: 4.8d
+			y: 4.8d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2CF66722A0E4E6A0"]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "ae2:annihilation_plane"
+			}
+			id: "58BF1F9D68D71106"
+			optional: true
+			repeat_cooldown: 600
+			rewards: [{
+				id: "6A01FC805B208791"
+				item: {
+					count: 1
+					id: "ae2:annihilation_plane"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				id: "4CF3DB777AC0A5D7"
+				item: { count: 1, id: "mayview:diamond_coin" }
+				type: "item"
+			}]
+			x: 8.4d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2CF66722A0E4E6A0"]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "ae2:formation_plane"
+			}
+			id: "38F6582608C806B2"
+			optional: true
+			repeat_cooldown: 600
+			rewards: [{
+				id: "6DB6CD3214946D98"
+				item: {
+					count: 1
+					id: "ae2:formation_plane"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				id: "209C3476E462B1D8"
+				item: { count: 1, id: "mayview:diamond_coin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.4d
+		}
+		{
+			id: "29743AA70FC440F9"
+			invisible: true
+			min_width: 220
+			size: 2.2d
+			tasks: [{
+				disable_toast: true
+				duration_seconds: 1800.0d
+				hand_mode: "ANY"
+				id: "050BE397D50CBF8E"
+				item: { count: 1, id: "mayview:joe_coin" }
+				type: "hold_item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["09990DD49BFF1802"]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:myths_and_legends_package"
+			}
+			id: "3E754DF22C1BB440"
+			optional: true
+			repeat_cooldown: 1800
+			rewards: [{
+				id: "6ED58C59C57EB580"
+				item: {
+					count: 1
+					id: "kubejs:myths_and_legends_package"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "5D902B7A223CC395"
+				item: { count: 1, id: "mayview:diamond_coin" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: ["29743AA70FC440F9"]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "cobblemonraiddens:raid_pouch"
+			}
+			id: "09990DD49BFF1802"
+			size: 1.5d
+			tasks: [{
+				abilities: ""
+				action: "open_raid_pouch"
+				amount: 100L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "70FA69FA3B9EA360"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.4d
+			y: -2.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["09990DD49BFF1802"]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:shiny_pokemon_gamba_package"
+			}
+			id: "1342B23ED5B443B6"
+			optional: true
+			repeat_cooldown: 1800
+			rewards: [{
+				id: "346B6C1A5BBB9239"
+				item: {
+					count: 1
+					id: "kubejs:shiny_pokemon_gamba_package"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "24A2C6DB9E68F194"
+				item: { count: 1, id: "mayview:diamond_coin" }
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: -6.0d
+		}
+		{
+			dependencies: ["21BE09A9D6A183DA"]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:torchflower"
+			}
+			id: "2B8186CA67AD3894"
+			rewards: [{
+				count: 8
+				id: "2C878A2DD00B0A6C"
+				item: {
+					count: 1
+					id: "minecraft:torchflower_seeds"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "7EF19FB3097CDBC6"
+				item: { count: 1, id: "mayview:diamond_coin" }
+				type: "item"
+			}]
+			x: 3.5999999999999996d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D88DFD58BD32EDC"]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "simplyswords:runic_tablet"
+			}
+			id: "462F887FA0CAAE25"
+			optional: true
+			repeat_cooldown: 600
+			rewards: [{
+				id: "48C464036EA3D3EF"
+				item: {
+					count: 1
+					id: "simplyswords:runic_tablet"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "154ADE5F74853FB9"
+				item: { count: 1, id: "mayview:diamond_coin" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["29743AA70FC440F9"]
+			id: "4D88DFD58BD32EDC"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "42B907D9947EFBA2"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.4d
+			y: 2.4d
+		}
+		{
+			dependencies: ["29743AA70FC440F9"]
+			hide_details_until_startable: true
+			id: "21BE09A9D6A183DA"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "32179EDA72A9A659"
+					item: { count: 1, id: "minecraft:white_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4C3DC04F6E72FD4A"
+					item: { count: 1, id: "minecraft:light_gray_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "2A3524D682099C16"
+					item: { count: 1, id: "minecraft:gray_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "221084DC678A2377"
+					item: { count: 1, id: "minecraft:black_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3962F0AB3F9752E2"
+					item: { count: 1, id: "minecraft:brown_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7113240B63A871A0"
+					item: { count: 1, id: "minecraft:red_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "524027C9A6B78452"
+					item: { count: 1, id: "minecraft:orange_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "28723199D8298DD3"
+					item: { count: 1, id: "minecraft:yellow_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "01287210860A33C6"
+					item: { count: 1, id: "minecraft:lime_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4D56D6D57C316574"
+					item: { count: 1, id: "minecraft:green_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5EA0C3F762914C8F"
+					item: { count: 1, id: "minecraft:cyan_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "16B755FC5A40AB4C"
+					item: { count: 1, id: "minecraft:light_blue_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "40B4C28D6DBDD486"
+					item: { count: 1, id: "minecraft:blue_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4F6C1FE1A43FB1E0"
+					item: { count: 1, id: "minecraft:purple_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "368AD08FDD4DFDDE"
+					item: { count: 1, id: "minecraft:magenta_dye" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0AF2102DA6E8823C"
+					item: { count: 1, id: "minecraft:pink_dye" }
+					type: "item"
+				}
+			]
+			x: 2.4d
+			y: -2.4d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D88DFD58BD32EDC"]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "simplyswords:empowered_remnant"
+			}
+			id: "78079A8DFF8994A8"
+			optional: true
+			repeat_cooldown: 600
+			rewards: [{
+				id: "4F84C600BFFF2FD9"
+				item: {
+					count: 1
+					id: "simplyswords:empowered_remnant"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "388A1179AF1FE0B3"
+				item: { count: 1, id: "mayview:diamond_coin" }
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21BE09A9D6A183DA"]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "4761F6810273A91C"
+			rewards: [{
+				id: "2E11C544A6DE8404"
+				item: {
+					count: 1
+					id: "minecraft:elytra"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "4844FC4B591B4691"
+				item: { count: 1, id: "mayview:diamond_coin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+	]
+	tags: ["legendaryquests"]
+}

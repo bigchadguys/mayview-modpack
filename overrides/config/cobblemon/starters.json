@@ -1,0 +1,244 @@
+{
+  "allowStarterOnJoin": true,
+  "promptStarterOnceOnly": true,
+  "useConfigStarters": false,
+  "starters": [
+    {
+      "name": "Kanto",
+      "displayName": "cobblemon.starterselection.category.kanto",
+      "pokemon": [
+        "Bulbasaur level=10",
+        "Charmander level=10",
+        "Squirtle level=10"
+      ]
+    },
+    {
+      "name": "Kanto-Alt",
+      "displayName": "cobblemon.starterselection.category.kanto-alt",
+      "pokemon": [
+		    "Pikachu level=10",
+		    "Eevee level=10",
+        "Paras level=10 moves=metalclaw,screech",
+        "Koffing level=10",
+        "Meowth level=10",
+        "Psyduck level=10",
+        "Machop level=10",
+        "Cubone level=10",
+        "Ponyta level=10",
+        "Vulpix level=10 moves=howl",
+        "Porygon level=10",
+        "Dratini level=10",
+        "Magikarp level=10 moves=tackle,flail,bounce"
+      ]
+    },
+    {
+      "name": "Johto",
+      "displayName": "cobblemon.starterselection.category.johto",
+      "pokemon": [
+        "Chikorita level=10",
+        "Cyndaquil level=10",
+        "Totodile level=10"
+      ]
+    },
+	 {
+      "name": "Johto-Alt",
+      "displayName": "cobblemon.starterselection.category.johto-alt",
+      "pokemon": [
+		    "Phanpy level=10 moves=snore",
+		    "Pichu level=10",
+		    "Tyrogue level=10 moves=vacuumwave",
+		    "Togepi level=10 moves=extrasensory",
+		    "Cleffa level=10 moves=disarmingvoice",
+		    "Igglybuff level=10 moves=rollout",
+		    "Elekid level=10",
+		    "Smoochum level=10",
+		    "Magby level=10",
+		    "Larvitar level=10"
+      ]
+    },
+    {
+      "name": "Hoenn",
+      "displayName": "cobblemon.starterselection.category.hoenn",
+      "pokemon": [
+        "Treecko level=10",
+        "Torchic level=10",
+        "Mudkip level=10"
+      ]
+    },
+    {
+      "name": "Hoenn-Alt",
+      "displayName": "cobblemon.starterselection.category.hoenn-alt",
+      "pokemon": [
+		    "Baltoy level=10",
+		    "Skitty level=10",
+		    "Bagon level=10",
+		    "Aron level=10",
+		    "Beldum level=10",
+		    "Feebas level=10 moves=tackle,flail,mist",
+		    "Ralts level=10 gender=male",
+		    "Ralts level=10 gender=female",
+		    "Snorunt level=10 gender=female"
+      ]
+    },
+    {
+      "name": "Sinnoh",
+      "displayName": "cobblemon.starterselection.category.sinnoh",
+      "pokemon": [
+        "Turtwig level=10 moves=leafage",
+        "Chimchar level=10",
+        "Piplup level=10"
+      ]
+    },
+    {
+      "name": "Sinnoh-Alt",
+      "displayName": "cobblemon.starterselection.category.sinnoh-alt",
+      "pokemon": [
+		    "Happiny level=10 moves=disarmingvoice",
+		    "Bonsly level=10 moves=harden",
+		    "Munchlax level=10",
+		    "Budew level=10 moves=extrasensory",
+		    "Shinx level=10",
+		    "Riolu level=10",
+		    "Gible level=10",
+		    "Combee level=10 gender=female"
+      ]
+    },
+    {
+      "name": "Unova",
+      "displayName": "cobblemon.starterselection.category.unova",
+      "pokemon": [
+        "Snivy level=10",
+        "Tepig level=10",
+        "Oshawott level=10"
+      ]
+    },
+    {
+      "name": "Unova-Alt",
+      "displayName": "cobblemon.starterselection.category.unova-alt",
+      "pokemon": [
+		    "Pansage level=10 moves=disarmingvoice",
+		    "Pansear level=10 moves=disarmingvoice",
+		    "Panpour level=10 moves=disarmingvoice",
+		    "Timburr level=10",
+		    "Litwick level=10",
+		    "Zorua level=10",
+		    "Trubbish level=10",
+		    "Axew level=10",
+		    "Deino level=10"
+      ]
+    },
+    {
+      "name": "Kalos",
+      "displayName": "cobblemon.starterselection.category.kalos",
+      "pokemon": [
+        "Chespin level=10",
+        "Fennekin level=10",
+        "Froakie level=10"
+      ]
+    },
+    {
+      "name": "Kalos-Alt",
+      "displayName": "cobblemon.starterselection.category.kalos-alt",
+      "pokemon": [
+		    "Pancham level=10",
+		    "Honedge level=10",
+		    "Goomy level=10",
+		    "Pumpkaboo pumpkin_size=small level=10",
+		    "Pumpkaboo pumpkin_size=super level=10",
+		    "Phantump level=10",
+		    "Espurr level=10 gender=male",
+		    "Espurr level=10 gender=female",
+		    "Noibat level=10"
+      ]
+    },
+    {
+      "name": "Alola",
+      "displayName": "cobblemon.starterselection.category.alola",
+      "pokemon": [
+        "Rowlet level=10",
+        "Litten level=10",
+        "Popplio level=10"
+      ]
+    },
+    {
+      "name": "Alola-Alt",
+      "displayName": "cobblemon.starterselection.category.alola-alt",
+      "pokemon": [
+		    "Rockruff level=10 moves=rockthrow",
+		    "Salandit level=10 gender=female",
+		    "Pikachu region_bias=alola level=10",
+		    "Meowth alolan level=10",
+		    "Vulpix alolan level=10 moves=howl",
+		    "Jangmo-o level=10 moves=dragonbreath"
+      ]
+    },
+    {
+      "name": "Galar",
+      "displayName": "cobblemon.starterselection.category.galar",
+      "pokemon": [
+        "Grookey level=10",
+        "Scorbunny level=10",
+        "Sobble level=10"
+      ]
+    },
+    {
+      "name": "Galar-Alt",
+      "displayName": "cobblemon.starterselection.category.galar-alt",
+      "pokemon": [
+		    "Applin level=10 moves=rollout,defensecurl",
+		    "Toxel level=10",
+		    "Cufant level=10",
+		    "Meowth Galarian level=10",
+		    "Snom level=10 moves=fairywind,bugbite",
+		    "Dreepy level=10"
+      ]
+    },
+    {
+      "name": "Hisui Bias",
+      "displayName": "cobblemon.starterselection.category.hisui_bias",
+      "pokemon": [
+        "Rowlet region_bias=hisui level=10 pokeball=ancient_poke_ball",
+        "Cyndaquil region_bias=hisui level=10 pokeball=ancient_poke_ball",
+		    "Goomy region_bias=hisui level=10 pokeball=ancient_poke_ball",
+        "Oshawott region_bias=hisui level=10 pokeball=ancient_poke_ball"
+      ]
+    },
+    {
+      "name": "Paldea",
+      "displayName": "cobblemon.starterselection.category.paldea",
+      "pokemon": [
+        "Sprigatito level=10",
+        "Fuecoco level=10",
+        "Quaxly level=10"
+      ]
+    },
+    {
+      "name": "Paldea-Alt",
+      "displayName": "cobblemon.starterselection.category.paldea-alt",
+      "pokemon": [
+		"Pawmi level=10",
+		"Charcadet level=10",
+		"Maschiff level=10",
+		"Tinkatink level=10",
+		"Frigibax level=10"
+      ]
+    },
+	  {
+      "name": "Let's Go",
+      "displayName": "cobblemon.starterselection.category.letsgo",
+      "pokemon": [
+        "Pikachu level=5",
+        "Eevee level=5"
+      ]
+    },
+    {
+      "name": "Mayview",
+      "displayName": "cobblemon.starterselection.category.mayview",
+      "pokemon": [
+        "Beldum level=10 pokeball=cherish_ball",
+        "Dratini level=10 pokeball=cherish_ball",
+        "Larvitar level=10 pokeball=cherish_ball"
+      ]
+    }
+  ]
+}

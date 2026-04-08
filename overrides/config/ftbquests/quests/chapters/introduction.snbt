@@ -1,0 +1,473 @@
+{
+	autofocus_id: "43B54EE2E0483FA7"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: "216429D7B624FFA8"
+	icon: {
+		id: "minecraft:sunflower"
+	}
+	id: "3BE7C2DCF9CBCB6C"
+	images: [
+		{
+			height: 6.5d
+			image: "mayview:textures/mayview_logo_day.png"
+			order: 10
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/sunflower_front"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "mayview:textures/joe_flower_03.png"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "mayview:textures/joe_flower_02.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "biomeswevegone:block/pink_allium_flower_bush"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "biomeswevegone:block/cactus_flowering_spike_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.75d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "biomeswevegone:block/cactus_flowering_spike_overlay"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			color: 9954247
+			height: 1.2d
+			image: "minecraft:block/firefly_bush"
+			order: 3
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/firefly_bush"
+			order: 4
+			rotation: 0.0d
+			width: 0.7d
+			x: -2.0d
+			y: 0.6d
+		}
+		{
+			color: 3294266
+			height: 1.5d
+			image: "cobblemon:textures/gui/pokedex/platform_base_grass.png"
+			rotation: 0.0d
+			width: 2.1d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/spore_blossom"
+			rotation: 180.0d
+			width: 1.0d
+			x: 2.0d
+			y: -0.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/glow_lichen_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.2d
+		}
+		{
+			height: 1.0d
+			image: "herbalbrews:block/yerba_mate_plant_stage3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			color: 3294266
+			height: 1.5d
+			image: "cobblemon:textures/gui/pokedex/platform_base_grass.png"
+			rotation: 0.0d
+			width: 2.1d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			image: "biomeswevegone:block/incan_lily"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.5d
+			y: -0.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lily_of_the_valley"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			color: 9954247
+			height: 0.8d
+			image: "minecraft:block/firefly_bush"
+			order: 1
+			rotation: 0.0d
+			width: 0.8d
+			x: -4.4d
+			y: -0.5d
+		}
+		{
+			color: 12040119
+			height: 1.0d
+			image: "ftblibrary:textures/faces/minecraft/frog.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.2d
+		}
+		{
+			height: 1.1d
+			image: "minecraft:block/pink_tulip"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.6d
+			y: 0.95d
+		}
+		{
+			height: 1.0d
+			image: "biomeswevegone:block/cyan_tulip"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/orange_tulip"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.35d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/flowering_azalea_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.7d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mayview:textures/joe_flower_01.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.2d
+			id: "43B54EE2E0483FA7"
+			rewards: [
+				{
+					id: "6C6DA509AA0BEE3B"
+					item: {
+						count: 1
+						id: "kubejs:food_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "444F5B295B10AE22"
+					item: {
+						count: 1
+						id: "kubejs:starter_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "020DD18C250AD449"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:gold_backpack"
+					}
+					type: "item"
+				}
+			]
+			shape: "mv_wood2"
+			size: 1.6d
+			tags: ["mayviewquests"]
+			tasks: [{
+				id: "034ABF3DDC39FE39"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "ores:viridium_pickaxe"
+			}
+			icon_scale: 0.9d
+			id: "04E42B9FBE016B30"
+			rewards: [{
+				id: "196B4AEE1ACE2AAA"
+				item: {
+					count: 1
+					id: "kubejs:food_care_package"
+				}
+				type: "item"
+			}]
+			shape: "mv_wood3"
+			size: 1.2d
+			tasks: [{
+				id: "5D74991949F500F9"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			icon_scale: 0.9d
+			id: "3FCF661FCC7DC7B0"
+			rewards: [{
+				id: "1017AFCE4975DF1E"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "mv_wood3"
+			size: 1.2d
+			tasks: [{
+				id: "30A9565FD0EEC3B5"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:villager_spawn_egg"
+			}
+			icon_scale: 0.9d
+			id: "273B9B822BEA02AD"
+			rewards: [
+				{
+					id: "3DBDCA860861C59C"
+					item: {
+						count: 1
+						id: "kubejs:plushie_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "4CE96BE16EBF3161"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "mv_wood3"
+			size: 1.2d
+			tasks: [{
+				id: "4AACDC7F7783B67F"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:pillager_spawn_egg"
+			}
+			icon_scale: 0.9d
+			id: "5C05FD8030EC55C7"
+			rewards: [{
+				id: "1E244DC4EB4CAF7C"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "mv_wood3"
+			size: 1.2d
+			tasks: [{
+				id: "6112A127C5F3A031"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			disable_recipe_mod: true
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_lock_icon: true
+			icon_scale: 1.4d
+			id: "1E859F8640905FB9"
+			optional: true
+			rewards: [{
+				id: "6A682F690037DB39"
+				item: {
+					count: 1
+					id: "kubejs:wood_care_package"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "5E5288C206B27437"
+				item: { count: 1, id: "mcwfurnitures:oak_chair" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:bee_spawn_egg"
+			}
+			icon_scale: 1.2d
+			id: "6800A37D038E872A"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "201A20463FB2B9A8"
+					item: {
+						count: 1
+						id: "minecraft:beehive"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67801C1620329347"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4BA04DBE5FFDBCB0"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "27859F257EBFC395"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.2d
+		}
+		{
+			icon: {
+				id: "solcarrot:food_book"
+			}
+			icon_scale: 0.9d
+			id: "415AF581CA848F37"
+			rewards: [{
+				id: "0816D7567D76B311"
+				item: {
+					count: 1
+					id: "solcarrot:food_book"
+				}
+				type: "item"
+			}]
+			shape: "mv_wood3"
+			size: 1.2d
+			tasks: [{
+				id: "428330EACDA1628B"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			icon_scale: 0.9d
+			id: "099A3C1738B6E748"
+			rewards: [
+				{
+					id: "4716AA19D70F3B45"
+					item: {
+						count: 1
+						id: "kubejs:food_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "7EE9FF04A64EA724"
+					item: {
+						count: 1
+						id: "kubejs:assorted_dyed_blocks_care_package"
+					}
+					type: "item"
+				}
+			]
+			shape: "mv_wood3"
+			size: 1.2d
+			tasks: [{
+				id: "6FB7BA50A492B302"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+	tags: ["mayviewquests"]
+}

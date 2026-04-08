@@ -3,9 +3,9 @@ const STARTER_CARE_PACKAGE_BLOCK_ID = "kubejs:starter_care_package";
 const STARTER_FOOD_TAG = "mayview:high_low_foods";
 
 const STARTER_CARE_PACKAGE_ITEM_COUNTS = {
-  STARTER_FOOD: 4,
+  STARTER_FOOD: 8,
   "ftbquests:book": 1,
-  "cobblemon:poke_ball": 3,
+  "cobblemon:poke_ball": 16,
   "cobblemon:pokedex_pink": 1,
 };
 

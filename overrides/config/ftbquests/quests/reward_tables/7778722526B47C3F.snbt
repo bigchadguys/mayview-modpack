@@ -1,0 +1,9 @@
+{
+	icon: {
+		id: "minecraft:elytra"
+	}
+	id: "7778722526B47C3F"
+	loot_size: 1
+	order_index: 27
+	rewards: [{ id: "71316F48AB7B7065", item: { components: { "minecraft:attribute_modifiers": { modifiers: [{ amount: 2.0d, id: "mayview:elytra_luck", operation: "add_value", slot: "chest", type: "minecraft:generic.luck" }] } }, count: 1, id: "minecraft:elytra" } }]
+}

@@ -6,5 +6,6 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'ftbquests:screen_3' })
     event.remove({ output: 'ftbquests:screen_5' })
     event.remove({ output: 'ftbquests:screen_7' })
+    event.remove({ output: 'ftbquests:loot_crate_opener' })
     event.remove({ output: 'ftbquests:task_screen_configurator' })
 })

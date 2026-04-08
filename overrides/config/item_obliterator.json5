@@ -81,8 +81,8 @@
     "ae2:pattern_access_terminal",
     "ae2:cable_pattern_provider",
     "ae2:pattern_encoding_terminal",
-    "ae2:formation_plane",
-    "ae2:annihilation_plane",
+    //"ae2:formation_plane",
+    //"ae2:annihilation_plane",
     "ae2:spatial_storage_cell_128",
     "ae2:spatial_storage_cell_16",
     "ae2:spatial_storage_cell_2",
@@ -118,8 +118,8 @@
     "ae2:cable_interface",
     "ae2:cable_pattern_provider",
     "ae2:pattern_encoding_terminal",
-    "ae2:formation_plane",
-    "ae2:annihilation_plane"
+    //"ae2:formation_plane",
+    //"ae2:annihilation_plane"
   ],
   // -----------------------------------------------------------
   // Items here will not be able to be used to attack

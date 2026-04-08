@@ -3,22 +3,22 @@ ServerEvents.recipes(event => {
     {
         catalyst: "minecraft:redstone_block",
         dye: "create_dragons_plus:red_dye",
-        output: 'kubejs:depleted_crimsite',
+        output: 'mayview:depleted_crimsite',
     },
     {
         catalyst: "minecraft:lapis_block",
         dye: "create_dragons_plus:blue_dye",
-        output: 'kubejs:depleted_asurine',
+        output: 'mayview:depleted_asurine',
     },
     {
         catalyst: "minecraft:glowstone",
         dye: "create_dragons_plus:yellow_dye",
-        output: 'kubejs:depleted_ochrum',
+        output: 'mayview:depleted_ochrum',
     },
     {
         catalyst: "minecraft:dark_prismarine",
         dye: "create_dragons_plus:green_dye",
-        output: 'kubejs:depleted_veridium',
+        output: 'mayview:depleted_veridium',
     }
   ];
 

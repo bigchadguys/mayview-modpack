@@ -1,0 +1,2549 @@
+{
+	autofocus_id: "2BAF8C862CC108CC"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octosquare"
+	filename: "pokesnacks"
+	group: "379FE802613ABCBC"
+	icon: {
+		id: "cobblemon:poke_snack"
+	}
+	id: "09ADE4AC1E242E97"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/campfire"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 2.1d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:item/campfire_pots/campfire_pot_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			height: 2.2d
+			image: "mayview:textures/pokesnacks_title.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 0.0d
+			y: -6.6d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "cobblemon:poke_snack"
+			}
+			icon_scale: 0.9d
+			id: "1DB20DB87E1826CD"
+			rewards: [
+				{
+					count: 2
+					id: "00236933AB5C655A"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2EB7222C889A83EA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "dex2"
+			size: 2.2d
+			tasks: [{
+				id: "14591CCC62DA1883"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "533E28FDD184CA97"
+			rewards: [
+				{
+					count: 2
+					id: "300B5DA7F9819A9D"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "6992361891632D32"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "5900F8F9A0130989"
+				item: { count: 1, id: "cobblemon:pecha_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "1D4476C1B0E224B8"
+			rewards: [
+				{
+					count: 2
+					id: "7AA571936F5B7060"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4B02E287423C3E34"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "5EA27EBDCC68C658"
+				item: { count: 1, id: "cobblemon:rawst_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "5997081574CD448B"
+			rewards: [
+				{
+					count: 2
+					id: "0F7ABB2ACF93A96C"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "37F1DFDB36AF7761"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "4DBA048831C6C76F"
+				item: { count: 1, id: "cobblemon:cheri_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "007C2B6693C9A9F7"
+			rewards: [
+				{
+					count: 2
+					id: "6A3B85C3D574EE73"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "7D911FF2276BC825"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "6F693347C12727B4"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "39FE9DA01C9761A0"
+			rewards: [
+				{
+					count: 2
+					id: "6A7E4EDBE41DCEA7"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "5500F7D2094389E3"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "dex2"
+			size: 1.4d
+			tasks: [{
+				id: "656112F86F05F549"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblemon:campfire_pots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39FE9DA01C9761A0"]
+			id: "1CA48A986EED6173"
+			rewards: [
+				{
+					count: 2
+					id: "5E5E35525459F457"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "406FD46327B0944B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "dex2"
+			size: 1.4d
+			tasks: [{
+				id: "5CB993816667FEF0"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CA48A986EED6173"]
+			id: "5A8890B7DB299763"
+			rewards: [
+				{
+					count: 2
+					id: "569DB0128B0CED5A"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "00702937B13F0C1F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "dex2"
+			size: 1.4d
+			tasks: [{
+				advancement: "cobblemon:place_campfire_pot"
+				criterion: ""
+				icon: {
+					id: "cobblemon:campfire_pot_red"
+				}
+				id: "4C9400213972B7B2"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "337AD9E978C0A15B"
+			rewards: [
+				{
+					count: 2
+					id: "00BA8BA2A55B8890"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "40E4C41648836E5C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "50842D5447C7A44B"
+				item: { count: 1, id: "cobblemon:aspear_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "337552B629B30806"
+			rewards: [
+				{
+					count: 2
+					id: "38384CDB6D47A379"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "3AB87D7B185B46B2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				disable_toast: true
+				id: "3EAB6607F549ACBA"
+				item: { count: 1, id: "cobblemon:persim_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "4DCC606B5852BBD8"
+			rewards: [
+				{
+					count: 2
+					id: "47B6220F6B94E002"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2331D22A320359A7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "64846BC249BB43E1"
+				item: { count: 1, id: "cobblemon:lum_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "7EE527811BB6EF82"
+			rewards: [
+				{
+					count: 2
+					id: "2D927A566824CF86"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "016B06C80C2A174B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "75C9FE4B0223BCC6"
+				item: { count: 1, id: "cobblemon:rindo_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "5C427721989DAC61"
+			rewards: [
+				{
+					count: 2
+					id: "2613D829A761F8DA"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2E6BAC245409AA51"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "7BE3D6AFB77F9C1B"
+				item: { count: 1, id: "cobblemon:shuca_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "5BB2850AE7FF404C"
+			rewards: [
+				{
+					count: 2
+					id: "55D5A26EE5A4CBFB"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "66CC64E0327021DB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "17AE8107C9291AE1"
+				item: { count: 1, id: "cobblemon:yache_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "3984C08C2236203D"
+			rewards: [
+				{
+					count: 2
+					id: "1A757E86A1B012A7"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "20EDA4CAD152885C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "55C8AE3EF6C92B99"
+				item: { count: 1, id: "cobblemon:chilan_berry" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "2095665C756D2A1C"
+			rewards: [
+				{
+					count: 2
+					id: "5EB763322DF80745"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "21ECAFF3129AB35C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "675DD3B485D397B2"
+				item: { count: 1, id: "cobblemon:kebia_berry" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "7C925C24698B63FD"
+			rewards: [
+				{
+					count: 2
+					id: "435C83BEA241846D"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "147A286B269DED0F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "0BA5A896104007B9"
+				item: { count: 1, id: "cobblemon:payapa_berry" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "0D5064D62169DB56"
+			rewards: [
+				{
+					count: 2
+					id: "2F3D18420BA5AEA3"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "47C496C98B2261F4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "30B09CF6C46BE23F"
+				item: { count: 1, id: "cobblemon:charti_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "1141F61E12D87F01"
+			rewards: [
+				{
+					count: 2
+					id: "3261D04E873E992F"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "69AD96D3562D00C2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "0200D94A869C5277"
+				item: { count: 1, id: "cobblemon:babiri_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "5DB746F25F296A24"
+			rewards: [
+				{
+					count: 2
+					id: "1E4E6CBB61061E38"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "53F0F52B15817F0D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "27E3800E00915FFA"
+				item: { count: 1, id: "cobblemon:passho_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "0344C248EE3A7515"
+			rewards: [
+				{
+					count: 2
+					id: "23A6C8D6249C449C"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4B7F39DF7DD53852"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "058B33FC48B7CB41"
+				item: { count: 1, id: "cobblemon:occa_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "1DDC15719DB251AA"
+			rewards: [
+				{
+					count: 2
+					id: "3E7E77C27E963215"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "067C3E13B74F4A2B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "76879454DCFA0E42"
+				item: { count: 1, id: "cobblemon:coba_berry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "4615DCECF12BE2C8"
+			rewards: [
+				{
+					count: 2
+					id: "566613F79E565F87"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "19F7574A53A06528"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1581F5A36030B9C5"
+				item: { count: 1, id: "cobblemon:kasib_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "679180D287A4862F"
+			rewards: [
+				{
+					count: 2
+					id: "42A633874A2AC479"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "6BE0345A75022590"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "063A4CC397BD13E1"
+				item: { count: 1, id: "cobblemon:wacan_berry" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "7B2F6F9EE545F75A"
+			rewards: [
+				{
+					count: 2
+					id: "2177E223B72A7C35"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "3597154697E0FE60"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "454375BDABDA59DA"
+				item: { count: 1, id: "cobblemon:colbur_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "4C84E215BA033CDF"
+			rewards: [
+				{
+					count: 2
+					id: "41175C9B0D3D4ADA"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "32B1ED58AC804B97"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "50A2CF6FDFCE028D"
+				item: { count: 1, id: "cobblemon:chople_berry" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "0B6DEA885AF330C2"
+			rewards: [
+				{
+					count: 2
+					id: "62CFD3E4097ABAC8"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "6A7A672D4747AB92"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "7900594917CE6B20"
+				item: { count: 1, id: "cobblemon:roseli_berry" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "2F33EECB6401E569"
+			rewards: [
+				{
+					count: 2
+					id: "4459502AD3B7C807"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2E099525F6834DF5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "520D42F820F13797"
+				item: { count: 1, id: "cobblemon:haban_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "55D7F86A48DB9967"
+			rewards: [
+				{
+					count: 2
+					id: "27781EECC4971F3D"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4C1D2AC012A977E1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tags: ["bug"]
+			tasks: [{
+				id: "6A6B2D79ACECE564"
+				item: { count: 1, id: "cobblemon:tanga_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "0DB4B9D6CD807E2C"
+			rewards: [
+				{
+					count: 2
+					id: "5A1DEB40183B2D9C"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4A88A65AAA3A2BD2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "586CC6584575626B"
+				item: { count: 1, id: "cobblemon:eggant_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "65E7F6D1FD4BCF07"
+			rewards: [
+				{
+					count: 2
+					id: "32C26C76181C1FD5"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4278212D602C2056"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "723AE525D33913B9"
+				item: { count: 1, id: "cobblemon:jaboca_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "1F1B7494F7F7BCFA"
+			rewards: [
+				{
+					count: 2
+					id: "0EF68347E21A6574"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4B69A0EF78F859F5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "12040C74AA7A1E3F"
+				item: { count: 1, id: "cobblemon:enigma_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "73EA2892A5F4C983"
+			rewards: [
+				{
+					count: 2
+					id: "20F71D94494AEA40"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "33E7FB5BF04E4AA7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "19D7AA4F18E3E6D6"
+				item: { count: 1, id: "cobblemon:starf_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "0330D78E9232D352"
+			rewards: [
+				{
+					count: 2
+					id: "0D104F9F921F1306"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "1B7C80DF92ECAC1A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "5567E2477539C6C4"
+				item: { count: 1, id: "cobblemon:rowap_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "370CBF6BDCEB42A0"
+			rewards: [
+				{
+					count: 2
+					id: "442E6CC26838B8F6"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "57D20F8F277A22A9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "6BE7CB778AA1AD43"
+				item: { count: 1, id: "minecraft:glistering_melon_slice" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "6F12BABAB877CD1D"
+			rewards: [
+				{
+					count: 2
+					id: "76493548FD0A68B7"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "771DF9BF5E7A10DA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "5AC822C6E5E52497"
+				item: { count: 1, id: "minecraft:golden_carrot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "6E34C0861D78012E"
+			rewards: [
+				{
+					count: 2
+					id: "3B446EBC7E9ED299"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "7380C7DBB2D096EB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "79DA153498A9012A"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "0B87E84206550098"
+			rewards: [
+				{
+					count: 2
+					id: "694B947C4E29D83B"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2101CB2FD9ECF6B6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1FE32B3EAE807F63"
+				item: { count: 1, id: "minecraft:enchanted_golden_apple" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "35132B2AC0FD3803"
+			rewards: [
+				{
+					count: 2
+					id: "34CABA2E46CEF20D"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "59CC1AD629A189F5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "7BFB84AD9AF6C387"
+				item: { count: 1, id: "cobblemon:pomeg_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "2783963FB74CE37E"
+			rewards: [
+				{
+					count: 2
+					id: "6B64E211C84265DD"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "7EFF06A367F102F7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "0E29DACF1B71EB82"
+				item: { count: 1, id: "cobblemon:kelpsy_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "577EF3527FE6B38F"
+			rewards: [
+				{
+					count: 2
+					id: "22A3222786C5BDA0"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "68238BF49A5B6501"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "2D59797E6DBF1EA9"
+				item: { count: 1, id: "cobblemon:qualot_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "35084B052DCAE596"
+			rewards: [
+				{
+					count: 2
+					id: "7C9327074F5B3F07"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "0BB98B5C02E56F8A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "4A5AEF35CF663852"
+				item: { count: 1, id: "cobblemon:hondew_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "1D489A20E4A588F9"
+			rewards: [
+				{
+					count: 2
+					id: "2AAFBFCEC6FAE945"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "00EBDD23CB8E7BDF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "4C98B3A2897493F8"
+				item: { count: 1, id: "cobblemon:grepa_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "076B4C4B64627BB8"
+			rewards: [
+				{
+					count: 2
+					id: "1A92070510671DE7"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2ED3995D00661F1F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "72EC38A485A275F0"
+				item: { count: 1, id: "cobblemon:tamato_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "15D6338560EB2D6E"
+			rewards: [
+				{
+					count: 2
+					id: "1D9987A362E05976"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4C1258BA426072D1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "06215D86D9C41074"
+				item: { count: 1, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "1D441AB2244BECCD"
+			rewards: [
+				{
+					count: 2
+					id: "6B689A080A7594E3"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "7D88642E159A5A48"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "27352A7ADE75F229"
+				item: { count: 1, id: "minecraft:glow_berries" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "2D51FBC4803C1E41"
+			rewards: [
+				{
+					count: 2
+					id: "416A94F6355824D5"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "7AA1C45E43B7F4D5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "31B22E62C7199863"
+				item: { count: 1, id: "cobblemon:oran_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "7D4EB9C323B62E26"
+			rewards: [
+				{
+					count: 2
+					id: "445C258B9E9987B2"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "73D2CE02AC97B3A2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "3EB06475E4A04774"
+				item: { count: 1, id: "cobblemon:sitrus_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "30AF6443B66F769B"
+			rewards: [
+				{
+					count: 2
+					id: "7114119529464B45"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "7560F51F9D425527"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "2180D80DE1CDE3FA"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "2849D95DF2DEB0F9"
+			rewards: [
+				{
+					count: 2
+					id: "0867F35C119E2DED"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "336EF5C33915244F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "2C91E14BF3EB03DE"
+				item: { count: 1, id: "cobblemon:custap_berry" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "0F850E0682FD5EC1"
+			rewards: [
+				{
+					count: 2
+					id: "495CA7DB3691A0C0"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "67E24599C9EE8CDA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "2912E0B05A9A1C85"
+				item: { count: 1, id: "cobblemon:micle_berry" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "5B4FC34E7D185FE3"
+			rewards: [
+				{
+					count: 2
+					id: "4717DEF1151B083C"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2DA77D6A32FA82CD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "4BDEB4FF1E1D2D45"
+				item: { count: 1, id: "cobblemon:kee_berry" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "0E2003DEF1D70BA7"
+			rewards: [
+				{
+					count: 2
+					id: "3A39A7FB35E23EC6"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "5ACB134901AF25B7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1080C2CBF31B07B2"
+				item: { count: 1, id: "cobblemon:maranga_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "11C8A6423A25739C"
+			rewards: [
+				{
+					count: 2
+					id: "31E7B3D305D909D1"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2888E4A1700DCC8F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "4914EE14B454D025"
+				item: { count: 1, id: "cobblemon:leppa_berry" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "4A700F4ACE15A3E1"
+			rewards: [
+				{
+					count: 2
+					id: "2599AF11FB9B65E3"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "7D0BF21A1D154ED8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1A1B5572336D66F4"
+				item: { count: 1, id: "cobblemon:hopo_berry" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "7B7EC5557D78F2CA"
+			rewards: [
+				{
+					count: 2
+					id: "37B3DE7419644426"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "1A2D23C4CB79C386"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1458673ACD7B5CBA"
+				item: { count: 1, id: "cobblemon:lansat_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "7DCFEFE925A39055"
+			rewards: [
+				{
+					count: 2
+					id: "7BED41252676E0F0"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "5D9526B41A6925D7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "79B1AE7A2BF8304F"
+				item: { count: 1, id: "cobblemon:liechi_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "3218B74C597E3852"
+			rewards: [
+				{
+					count: 2
+					id: "72847D66CFF369E6"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2F5BAC2BA5156ACD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "04DBFC7F92B8EA00"
+				item: { count: 1, id: "cobblemon:ganlon_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "434E57AE504779CB"
+			rewards: [
+				{
+					count: 2
+					id: "6E208A89B3E227C3"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2DA923DF1ACDB211"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "754638D7CA82EB2F"
+				item: { count: 1, id: "cobblemon:petaya_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "2497FC043B400A8A"
+			rewards: [
+				{
+					count: 2
+					id: "3D7C1773987FF9D4"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "21B046A417953018"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "2CD8CCDC3BB60EFE"
+				item: { count: 1, id: "cobblemon:apicot_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "7031C0CDB7A83825"
+			rewards: [
+				{
+					count: 2
+					id: "71E2D43BEB9A2E37"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "01970CAA674B4383"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "6B1936B3DCDC15CE"
+				item: { count: 1, id: "cobblemon:salac_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "589A57B84BC8762D"
+			rewards: [
+				{
+					count: 2
+					id: "3ED9899E63C10D0C"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4E7B10E424D943D7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "2205BBEAA264FD41"
+				item: { count: 1, id: "cobblemon:razz_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "76891DA3E6B54A12"
+			rewards: [
+				{
+					count: 2
+					id: "0E0D86EA81C52F8F"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "490A5A81C36B13E0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "4192ACAE54E7E8AF"
+				item: { count: 1, id: "cobblemon:figy_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "75DD1B2D7B325342"
+			rewards: [
+				{
+					count: 2
+					id: "5AC9677393FB0639"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4A4C9772323E94D9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1CC25986C61B5A18"
+				item: { count: 1, id: "cobblemon:pinap_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "3AAB02AC892BFF0A"
+			rewards: [
+				{
+					count: 2
+					id: "1BCAAA4917E5CC46"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "0CF74FB41310744C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "73D6D56F15EB0EB4"
+				item: { count: 1, id: "cobblemon:iapapa_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "00EF0A3F7732AE8D"
+			rewards: [
+				{
+					count: 2
+					id: "1BBD3E9688B4E255"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "6DB880DE6A81C68C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1191E0CB5FE4D750"
+				item: { count: 1, id: "cobblemon:wepear_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "7B5C17F6A5470CF4"
+			rewards: [
+				{
+					count: 2
+					id: "52EC003B5EA6D317"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "139CC42CA5DC842A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "5C52406DF132A13C"
+				item: { count: 1, id: "cobblemon:touga_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "1E059172D69D7BB6"
+			rewards: [
+				{
+					count: 2
+					id: "7320F92C8385A86B"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "70213B6F30940C30"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "25C526B9F12FCC7D"
+				item: { count: 1, id: "cobblemon:spelon_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "71F5C1644F083A71"
+			rewards: [
+				{
+					count: 2
+					id: "227B3AA6E92B0AFE"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "462CEECAD6B8D30D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "57E097803CD9CDF4"
+				item: { count: 1, id: "cobblemon:nomel_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "17340021A3D47658"
+			rewards: [
+				{
+					count: 2
+					id: "393B3C708F293F0F"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "25F1A7C307E6088C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1C3B617E3DC0B8A0"
+				item: { count: 1, id: "cobblemon:belue_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "6AECBB7447C36C06"
+			rewards: [
+				{
+					count: 2
+					id: "6480A8079886AC32"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "3E9F9013B543CFC9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "23039EA3283A1C54"
+				item: { count: 1, id: "cobblemon:maranga_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "7E6899852DAD3D67"
+			rewards: [
+				{
+					count: 2
+					id: "044E2D336B4494B5"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4737C0C0059E2DBB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "496888D8F49DDF6B"
+				item: { count: 1, id: "cobblemon:bluk_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "0742163B5EDDBBD7"
+			rewards: [
+				{
+					count: 2
+					id: "31B054CD7BA5A90A"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "4217CB9E9D4CD697"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "3FBA48B049A99E13"
+				item: { count: 1, id: "cobblemon:wiki_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "45588B37210B366F"
+			rewards: [
+				{
+					count: 2
+					id: "4361BE32EDB5DE0B"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "02E22EA4F7384BD1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "72738A23B52DE465"
+				item: { count: 1, id: "cobblemon:aguav_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "07AFEA700C1AC572"
+			rewards: [
+				{
+					count: 2
+					id: "5A8A5D1BD7D1447F"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "7BF53CB959210A35"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "154A8D0FD2928222"
+				item: { count: 1, id: "cobblemon:cornn_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "2BAF8C862CC108CC"
+			rewards: [
+				{
+					count: 2
+					id: "52AC129B0F498DD1"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "0F425374874689D9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "61A2EC9A8A54D091"
+				item: { count: 1, id: "cobblemon:pamtre_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "7E84DD4D7FA63540"
+			rewards: [
+				{
+					count: 2
+					id: "3E70D2E117CC6330"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "5609A9A9A0EB5717"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "6E2DC566D6F559D2"
+				item: { count: 1, id: "cobblemon:durin_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "43CDCB2BC6A983D6"
+			rewards: [
+				{
+					count: 2
+					id: "7D6977FDF7925421"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "1793F9F8A0B63F1A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1B8650836E8355D7"
+				item: { count: 1, id: "cobblemon:nanab_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "6B898724194C887C"
+			rewards: [
+				{
+					count: 2
+					id: "07AB3BCEBD265842"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "40B7CA339E1E1783"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "6DC543A260952CC0"
+				item: { count: 1, id: "cobblemon:mago_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "7853AE38602FA911"
+			rewards: [
+				{
+					count: 2
+					id: "30B7D32CB2B62988"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "50CC4FE3C56CAD5C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "433818261983B56D"
+				item: { count: 1, id: "cobblemon:magost_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "6183A1F2566091CA"
+			rewards: [
+				{
+					count: 2
+					id: "73647D9D76C437D6"
+					item: {
+						count: 1
+						id: "cobblemon:hearty_grains"
+					}
+					type: "item"
+				}
+				{
+					id: "2F59FA876BE8E219"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "3D59FAD9CCE8A726"
+				item: { count: 1, id: "cobblemon:watmel_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	tags: ["cobblemonquests"]
+}

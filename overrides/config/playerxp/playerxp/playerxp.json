@@ -5,5 +5,7 @@
   "enableDailyCap": false,
   "dailyXpCap": 6789,
   "dailyLevelCap": 10,
-  "xpFromPlayerBattles": true
+  "xpFromPlayerBattles": true,
+  "luckyEggXpBoost": true,
+  "luckyEggXpMultiplier": 1.5
 }

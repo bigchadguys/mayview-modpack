@@ -4,7 +4,7 @@
 	}
 	id: "4B3FA9D77EBFCC76"
 	loot_size: 1
-	order_index: 24
+	order_index: 23
 	rewards: [
 		{ id: "6D4543107774E053", item: { count: 1, id: "create:creative_motor" } }
 		{ id: "3D525DAA717D736D", item: { count: 1, id: "create:creative_fluid_tank" } }

@@ -1,22 +1,22 @@
 StartupEvents.registry("block", function (event) {
   var DEPLETED_ORESTONE_BLOCK_DEFINITIONS = [
     {
-      id: "depleted_asurine",
+      id: "mayview:depleted_asurine",
       displayName: "Depleted Asurine",
       soundType: "stone",
     },
     {
-      id: "depleted_crimsite",
+      id: "mayview:depleted_crimsite",
       displayName: "Depleted Crimsite",
       soundType: "stone",
     },
     {
-      id: "depleted_ochrum",
+      id: "mayview:depleted_ochrum",
       displayName: "Depleted Ochrum",
       soundType: "stone",
     },
     {
-      id: "depleted_veridium",
+      id: "mayview:depleted_veridium",
       displayName: "Depleted Veridium",
       soundType: "stone",
     }

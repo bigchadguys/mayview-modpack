@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "mayview:block/delibird_red_present", "y": 0 },
-    "facing=east":  { "model": "mayview:block/delibird_red_present", "y": 90 },
-    "facing=south": { "model": "mayview:block/delibird_red_present", "y": 180 },
-    "facing=west":  { "model": "mayview:block/delibird_red_present", "y": 270 }
-  }
-}

@@ -1,0 +1,16 @@
+{
+	"modPackConfig": {
+		"clusterName": "MAYV",
+		"serversTitle": "Mayview Servers",
+		"welcomeTitle": "Welcome to §6§lCraft Down Under§r§f!",
+		"welcomeMessage": "Use code §6§ljoe§r§f to get 10% off purchases on CDU store!",
+		"servers": []
+	},
+	"chatConfig": {
+		"useQChat": true
+	},
+	"tabListConfig": {
+		"showNetworkPlayers": true
+	},
+	"collapsedTabs": []
+}

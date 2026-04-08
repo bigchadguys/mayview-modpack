@@ -1,0 +1,20 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "mayview:iron_coin",
+    "count": {
+      "type": "constant",
+      "count": 4
+    }
+  },
+  "output": [
+    { "item": "create:super_glue", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "create:andesite_casing", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "create:brass_casing", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "create:copper_casing", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "cobblemon:exp_candy_m", "count": { "type": "constant", "count": 1 }, "weight": 1 }
+  ]
+}

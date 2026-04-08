@@ -16,7 +16,7 @@ pack_edit_mode = false
 		#Modpack Configs
 		[modules.server_creator_banner.pack]
 			#The title to display at the top of the entry.
-			title = "Need a server?"
+			title = "Need your own Mayview Server?"
 			#The description to display below the title.
 			description = "Click me to get your own server!"
 			#Set this to true to use specific language translation keys.

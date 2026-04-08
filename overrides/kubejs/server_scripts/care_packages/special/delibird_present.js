@@ -1,5 +1,5 @@
 //ignored: true
-const DELIBIRD_PRESENT_BLOCK_ID = "mayview:delibird_present_red";
+const DELIBIRD_PRESENT_BLOCK_ID = "kubejs:delibird_present_red";
 
 const DELIBIRD_BUCKET_TAGS = {
   COMMON_PRESENTS: "mayview:delibird_common_presents",

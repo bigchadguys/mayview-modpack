@@ -60,7 +60,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			height: 1.0d
@@ -69,7 +69,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -2.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			height: 1.0d
@@ -78,7 +78,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			height: 1.0d
@@ -87,7 +87,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			height: 2.3d
@@ -126,6 +126,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			disable_toast: true
 			icon: {
 				components: {
 					"ftbquests:icon": "mayview:textures/bluebook.png"
@@ -164,7 +165,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			id: "6ED5235055BA98B0"
@@ -212,7 +213,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			id: "6A005CBAC94607B5"
@@ -228,7 +229,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			id: "19657D8A1E3AD1A7"
@@ -244,7 +245,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			id: "350639F780C3554A"
@@ -260,7 +261,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			id: "663ADD5FD0699451"
@@ -276,7 +277,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			id: "7DF2C47CA706CE95"
@@ -292,7 +293,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			id: "62A5FB55117EB975"
@@ -308,7 +309,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			id: "6CE4CA1C69B37463"
@@ -324,7 +325,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "47CAC39451B610CA"
@@ -340,7 +341,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			id: "1FE44184FB6751A4"
@@ -356,7 +357,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			id: "25B48DA9FF395B5F"
@@ -372,7 +373,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "0052B749038398DB"
@@ -388,7 +389,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "7C1CBC543D143416"
@@ -404,7 +405,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			id: "0A61826AC3BA9D53"
@@ -420,7 +421,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			id: "7D95E23FC30C8095"
@@ -436,7 +437,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "5BAB3E5E46AA7E70"
@@ -452,7 +453,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "21E04BB7912F34AE"
@@ -468,7 +469,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "3FDEB1E23CE78F51"
@@ -484,7 +485,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			id: "288F7A68247E7D32"
@@ -500,7 +501,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			id: "065038E648FD917A"
@@ -516,7 +517,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "41FCF0297FBDDFA8"
@@ -548,7 +549,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			id: "293646A757CB3587"
@@ -564,7 +565,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "338E3933D9F97C08"
@@ -580,7 +581,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "0ABBE4D95BDF563E"
@@ -596,7 +597,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			id: "40CC52CD0CB6C380"
@@ -612,7 +613,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			id: "7702D08D433DD846"
@@ -627,8 +628,8 @@
 				item: { count: 1, id: "biomeswevegone:skyris_sapling" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -7.0d
+			y: -3.0d
 		}
 		{
 			id: "575627DDE0DBB55E"
@@ -643,8 +644,8 @@
 				item: { count: 1, id: "biomeswevegone:spirit_sapling" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			id: "270885DFF5944513"
@@ -659,8 +660,8 @@
 				item: { count: 1, id: "biomeswevegone:white_mangrove_sapling" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			id: "078968DA84888F9E"
@@ -675,8 +676,8 @@
 				item: { count: 1, id: "biomeswevegone:willow_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			id: "1662263C9FC362DD"
@@ -691,8 +692,8 @@
 				item: { count: 1, id: "biomeswevegone:witch_hazel_sapling" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			id: "36564CE2B1FC4142"
@@ -708,7 +709,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			id: "114E9868C6DA33F3"
@@ -723,8 +724,8 @@
 				item: { count: 1, id: "biomeswevegone:palo_verde_sapling" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			id: "1AB01C268FC3E343"
@@ -740,7 +741,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			id: "0C8920E2751AC1C3"
@@ -804,7 +805,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			id: "54EC48CC7D1DC842"
@@ -820,7 +821,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			id: "5B000B2D3A487317"
@@ -1086,6 +1087,23 @@
 			}]
 			x: 0.0d
 			y: -4.0d
+		}
+		{
+			icon_scale: 0.9d
+			id: "0BD7BAF094E180EB"
+			rewards: [{
+				id: "59922913410BA9E3"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "081902A0AFCE4F7B"
+				item: { count: 1, id: "culturaldelights:avocado_sapling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
 		}
 	]
 	tags: ["mayviewquests"]

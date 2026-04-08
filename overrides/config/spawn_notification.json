@@ -1,5 +1,5 @@
 {
-  "broadcastRange": 128,
+  "broadcastRange": 16384,
   "playerLimit": -1,
   "broadcastAcrossDimensions": false,
   "actionBar": false,
@@ -15,16 +15,32 @@
     "spawn_notification:coord_y": "DARK_AQUA",
     "spawn_notification:coord_z": "AQUA"
   },
-  "disabledSituations": [],
-  "disabledSegments": [],
+  "disabledSituations": [
+    "spawn_notification:*/resurrected",
+    "spawn_notification:*/hatched",
+    "spawn_notification:ultra_rare/*"
+  ],
+  "disabledSegments": [
+    "spawn_notification:biome",
+    "spawn_notification:dimension",
+    "spawn_notification:max_ivs",
+    "spawn_notification:ultra_rare"
+  ],
   "disabledSegmentsBySituation": [
     {
-      "situations": [],
+      "situations": [
+        "spawn_notification:*/fished"
+      ],
       "segments": []
     },
     {
-      "situations": [],
-      "segments": []
+      "situations": [
+        "spawn_notification:*/despawned",
+        "spawn_notification:*/spawned"
+      ],
+      "segments": [
+        "spawn_notification:player"
+      ]
     }
   ],
   "ignoreSpectators": true,

@@ -1,10 +1,10 @@
 {
 	icon: {
-		id: "ores:geovar_pickaxe"
+		id: "minecraft:book"
 	}
 	id: "012BFA1207D990B5"
 	loot_size: 1
-	order_index: 17
+	order_index: 16
 	rewards: [
 		{ id: "639E2BF100E7EA2E", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:silk_touch": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
 		{ id: "4EA58F9D3A38AE3F", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:efficiency": 5 } } }, count: 1, id: "minecraft:enchanted_book" } }

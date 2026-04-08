@@ -16,6 +16,7 @@
 	"isDebugOBBEnabled": true,
 	"swingThruGrassBlacklist": "farmersdelight",
 	"mineWithWeaponBlacklist": "",
+	"mineWithWeaponWhitelist": "",
 	"firstPersonAnimations": "AUTO",
 	"legAnimationThreshold": 0.0
 }

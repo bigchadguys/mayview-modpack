@@ -37,9 +37,10 @@ Ponder.tags(event => {
       "kubejs:tier_two_create_care_package",
       "kubejs:plushie_care_package",
       "kubejs:assorted_dyed_blocks_care_package",
-      "kubejs:pokemon_gamba_package",
       "kubejs:pokemon_wellness_package",
-      "kubejs:shiny_pokemon_gamba_package"
+      "kubejs:pokemon_gamba_package",
+      "kubejs:shiny_pokemon_gamba_package",
+      "kubejs:myths_and_legends_package"
     ]
   )
   event.createTag(

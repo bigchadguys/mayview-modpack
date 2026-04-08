@@ -1,0 +1,30 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "mayview:gold_coin",
+    "count": {
+      "type": "constant",
+      "count": 2
+    }
+  },
+  "output": [
+    { "item": "exposure:black_and_white_film", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "gamediscs:game_disc_blocktris", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "gamediscs:game_disc_flappy_bird", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "gamediscs:game_disc_froggie", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "gamediscs:game_disc_pong", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "gamediscs:game_disc_rabbit", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "gamediscs:game_disc_slime", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "gamediscs:game_disc_tnt_sweeper", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "gamediscs:gaming_console", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "createaddition:large_connector", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "createaddition:portable_energy_interface", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "createaddition:rolling_mill", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "create:item_hatch", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "create_dragons_plus:fluid_hatch", "count": { "type": "constant", "count": 1 }, "weight": 1 },
+    { "item": "minecraft:heart_of_the_sea", "count": { "type": "constant", "count": 1 }, "weight": 1 }
+  ]
+}

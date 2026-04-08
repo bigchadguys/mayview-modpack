@@ -83,7 +83,7 @@
     "distance": false,
     "block_face": false,
     "coordinates": false,
-    "registry_name": "ADVANCED_TOOLTIPS",
+    "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
   },
@@ -110,9 +110,13 @@
     "photograph_frame": true
   },
   "aewireless": {
-    "wireless_tooltip": true
+    "wireless_tooltip": true,
+    "block_entity_tooltip": true
   },
   "waystones": {
     "waystone": true
+  },
+  "mega_showdown": {
+    "jade": true
   }
 }

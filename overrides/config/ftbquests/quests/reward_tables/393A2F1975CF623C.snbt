@@ -4,7 +4,7 @@
 	}
 	id: "393A2F1975CF623C"
 	loot_size: 1
-	order_index: 7
+	order_index: 6
 	rewards: [
 		{ id: "3356B5D7EB13C91C", item: { count: 1, id: "ores:cobalt_helmet" } }
 		{ id: "5CA930CF8FBDFC40", item: { count: 1, id: "ores:cobalt_chestplate" } }

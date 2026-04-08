@@ -1,0 +1,9 @@
+{
+	icon: {
+		id: "create:cardboard_leggings"
+	}
+	id: "3CD76B490BF6909F"
+	loot_size: 1
+	order_index: 28
+	rewards: [{ id: "30DCC7AD805B7F2C", item: { components: { "minecraft:attribute_modifiers": { modifiers: [{ amount: 2.0d, id: "mayview:pants_luck", operation: "add_value", slot: "legs", type: "minecraft:generic.luck" }] } }, count: 1, id: "create:cardboard_leggings" } }]
+}

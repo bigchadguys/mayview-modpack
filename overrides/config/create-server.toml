@@ -89,7 +89,7 @@
 	#Maximum allowed rotation speed for any Kinetic Block.
 	# Default: 256
 	# Range: > 64
-	maxRotationSpeed = 128
+	maxRotationSpeed = 256
 	#.
 	#Select what mobs should ignore Deployers when attacked by them.
 	#Allowed Values: ALL, CREEPERS, NONE
@@ -162,7 +162,7 @@
 		#Maximum amount of blocks in a structure movable by Pistons, Bearings or other means.
 		# Default: 2048
 		# Range: > 1
-		maxBlocksMoved = 512
+		maxBlocksMoved = 1024
 		#.
 		#Maximum value of a chassis attachment range.
 		# Default: 16

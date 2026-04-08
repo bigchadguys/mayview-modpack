@@ -1,5 +1,6 @@
+// ignored: true
 StartupEvents.registry('block', event => {
-  event.create('delibird_red_present', 'cardinal')
+  event.create('mayview:delibird_red_present')
     .displayName('Delibird Present (Red)')
     .soundType('wool')
     .hardness(1)

@@ -1,0 +1,418 @@
+{
+	autofocus_id: "47F9827AE40E2358"
+	default_hide_dependency_lines: false
+	default_quest_shape: "wood_rounded"
+	disable_toast: true
+	filename: "faq"
+	group: "4491236A495FC259"
+	icon: {
+		components: {
+			"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "0E9DDDED2B0F9D8B"
+	images: [{
+		height: 2.5d
+		image: "mayview:textures/questions_title.png"
+		rotation: 0.0d
+		width: 15.5d
+		x: 0.0d
+		y: -4.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "voicechat:icons/speaker"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "48C38F8754E5BD1A"
+			rewards: [{
+				aggro: "none"
+				amount: 1
+				boots_drop_rate: 1.0d
+				chestplate_drop_rate: 1.0d
+				custom_drops: ""
+				custom_name: ""
+				despawn_distance: 64.0d
+				despawn_if_dead: true
+				despawn_if_offline: false
+				duration_ticks: -1
+				entity: "minecraft:allay"
+				exclude_from_claim_all: true
+				follow: true
+				helmet_drop_rate: 1.0d
+				icon: {
+					id: "minecraft:allay_spawn_egg"
+				}
+				id: "3FD84657316D5F5B"
+				leggings_drop_rate: 1.0d
+				mainhand_drop_rate: 1.0d
+				offhand_drop_rate: 1.0d
+				persistent: false
+				random_spawn_area: 0.0d
+				reward_killer_type: "owner"
+				reward_tables: ""
+				scoreboard_tags: ""
+				set_owner: false
+				smart_spawn: true
+				spawn_limit: -1
+				spawn_x: 0.0d
+				spawn_y: 0.0d
+				spawn_z: 0.0d
+				texture_above_mob: "cobblemon:textures/gui/mark/mark_rare.png"
+				texture_offset_x: 0.0d
+				texture_offset_y: 0.0d
+				texture_offset_z: 0.0d
+				texture_scale: 1.0f
+				type: "summon"
+				use_absolute_coords: false
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7EC6CF8FECC1656E"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "fancymenu:textures/contextmenu/icons/gui.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "47F9827AE40E2358"
+			shape: "wood_quad"
+			size: 1.8d
+			tasks: [{
+				id: "5F794D32FDAB5699"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48C38F8754E5BD1A"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "voicechat:icons/speaker_off"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "4C1F3B14ABD9F15A"
+			optional: true
+			rewards: [{
+				id: "49070F9B08322962"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "79A33B9241226A6A"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48C38F8754E5BD1A"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "extrasounds:textures/gui/sprites/settings/button.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "2DDD966E4DC4126F"
+			optional: true
+			rewards: [{
+				category: "player"
+				exclude_from_claim_all: true
+				id: "2C58FC39AC0039A8"
+				pitch: 1.0f
+				sound: "minecraft:entity.player.levelup"
+				type: "play_sound"
+				volume: 0.4f
+			}]
+			tasks: [{
+				id: "3BAE01FACDE80CE4"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48C38F8754E5BD1A"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fancymenu:textures/contextmenu/icons/sound.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "15938C819CAFD7C0"
+			optional: true
+			tasks: [{
+				id: "3E31BCDBA32BFF99"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47F9827AE40E2358"]
+			disable_toast: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:item/icon_item"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "76B1EB1F33ABF9D1"
+			size: 1.5d
+			tasks: [{
+				id: "770443EA41E71D7B"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["76B1EB1F33ABF9D1"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/waypoint_home.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "3531892CF5099921"
+			optional: true
+			tasks: [{
+				id: "2DE506A1C1285E12"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76B1EB1F33ABF9D1"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemonintegrations:textures/gui/icon_teleport.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "37312FBE6967F77D"
+			optional: true
+			tasks: [{
+				id: "0B9C3198EED1D48D"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76B1EB1F33ABF9D1"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "relics:textures/gui/description/icons/warp_drive/teleport.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "7F75AAFC5A4E14FA"
+			optional: true
+			tasks: [{
+				id: "387651081F969131"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["76B1EB1F33ABF9D1"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:emi_ores/biome_icon/lush_caves"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1B8945DD714F20FC"
+			optional: true
+			tasks: [{
+				id: "7925D5E2C1800A2B"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["47F9827AE40E2358"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			icon_scale: 0.9d
+			id: "3F0BD058EB46D05A"
+			size: 1.5d
+			tasks: [{
+				id: "4DA165901BA072AE"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F0BD058EB46D05A"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/fire_0"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "4A3AF0ACE425B6FE"
+			optional: true
+			tasks: [{
+				id: "55A9C9DFDC0ED3EB"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F0BD058EB46D05A"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:red_bed"
+			}
+			icon_scale: 0.9d
+			id: "06E9D3EA10BD3597"
+			min_width: 290
+			optional: true
+			tasks: [{
+				id: "330BB234A2551242"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F0BD058EB46D05A"]
+			disable_toast: true
+			icon: {
+				id: "plushies:creeper_plushie"
+			}
+			icon_scale: 0.9d
+			id: "00E0A66C24856D12"
+			optional: true
+			tasks: [{
+				id: "2120CE1AA47EC9A2"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F0BD058EB46D05A"]
+			disable_toast: true
+			icon: {
+				id: "yigd:grave"
+			}
+			icon_scale: 0.9d
+			id: "1948BDED48D11EF7"
+			optional: true
+			tasks: [{
+				id: "3FFD72C39830ED63"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/toast/movement_keys.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "60E2B2B88ACEBACB"
+			size: 1.5d
+			tasks: [{
+				id: "5697BE124D47115C"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60E2B2B88ACEBACB"]
+			disable_toast: true
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "3109F3D43E6EE601"
+			tasks: [{
+				id: "69D43DB619A0428A"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60E2B2B88ACEBACB"]
+			disable_toast: true
+			icon: {
+				id: "gamediscs:control_pad"
+			}
+			icon_scale: 0.9d
+			id: "154166E2434F2F2B"
+			tasks: [{
+				id: "507C2327E39F2B22"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "3DC9FF124F10E892"
+			size: 1.2d
+			tasks: [{
+				id: "333A6E7D296A61A9"
+				item: { count: 1, id: "yigd:death_scroll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+	]
+	tags: ["mayviewquests"]
+}

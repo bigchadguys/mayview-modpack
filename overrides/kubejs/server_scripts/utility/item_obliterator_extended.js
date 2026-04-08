@@ -31,6 +31,8 @@ const extendedObliterator = [
     "ae2:singularity",
     "ae2:quantum_entangled_singularity",
 
+    "ae2:creative_storage_cell",
+
     "ae2:spatial_cell_component_2",
     "ae2:spatial_cell_component_16",
     "ae2:spatial_cell_component_128",
@@ -91,13 +93,59 @@ const extendedObliterator = [
     "ae2:processing_pattern",
     "ae2:stonecutting_pattern",
 
+    "wands:creative_wand",
+
     "mega_showdown:debug_stick",
     "mega_showdown:mega_stone_crystal",
 
     "spudaciousshops:stock_warning",
     "spudaciousshops:payment_warning",
 
-    "berrypouch:pokeball_gun"
+    "berrypouch:pokeball_gun",
+
+    "moonlight:spawn_box",
+
+    "vinery:mule_spawn_egg",
+    "vinery:wandering_winemaker_spawn_egg",
+    "brewery:beer_elemental_spawn_egg",
+    "yungscavebiomes:ice_cube_spawn_egg",
+    "yungscavebiomes:sand_snapper_spawn_egg",
+    "starcatcher:starcaught_bucket",
+
+    "littlejoys:dig_spot",
+    "littlejoys:fishing_spot",
+    "ftblibrary:icon_item",
+    "ftbquests:barrier",
+    "ftbquests:stage_barrier",
+    "simplehats:haticon",
+    "custommachinery:machine_creator",
+    "custommachinery:box_creator",
+    "custommachinery:structure_creator",
+    "framedblocks:phantom_paste",
+    "ftbquests:detector",
+    "ftbquests:screen_1",
+    "ftbquests:screen_3",
+    "ftbquests:screen_5",
+    "ftbquests:screen_7",
+    "ftbquests:task_screen_configurator",
+    "ftbquests:loot_crate_opener",
+    "ftbquests:lootcrate",
+    "ftbquests:custom_icon",
+
+    "create_jetpack:jetpack_placeable",
+    "create_jetpack:netherite_jetpack_placeable",
+    "createaddition:digital_adapter",
+    "create:creative_crate",
+    "create:handheld_worldshaper",
+    "create:creative_blaze_cake",
+
+    "custommachinery:machine_creator",
+    "custommachinery:box_creator",
+    "custommachinery:structure_creator",
+    "custommachinery:configuration_card",
+    "custommachinery:custom_machine_item",
+
+    "farm_and_charm:timber_well"
 ]
 
 extendedObliterator.forEach(itemId => {

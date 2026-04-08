@@ -60,13 +60,14 @@
 			rotation: 0.0d
 			width: 17.0d
 			x: 0.0d
-			y: -4.6d
+			y: -4.7d
 		}
 	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			disable_toast: true
 			icon: {
 				components: {
 					"ftbquests:icon": "mayview:textures/bluebook.png"
@@ -568,7 +569,7 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 5
 					id: "3F8F57F305930B95"
 					item: {
 						count: 1
@@ -582,6 +583,14 @@
 					item: {
 						count: 1
 						id: "minecraft:honey_block"
+					}
+					type: "item"
+				}
+				{
+					id: "5F3D86E2524090AB"
+					item: {
+						count: 1
+						id: "unbreakablecatalyst:unbreakable_catalyst"
 					}
 					type: "item"
 				}

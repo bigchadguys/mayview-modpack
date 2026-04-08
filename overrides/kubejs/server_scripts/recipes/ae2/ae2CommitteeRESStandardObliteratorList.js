@@ -8,6 +8,7 @@ RecipeViewerEvents.removeEntries('item', event => {
 })
 
 ServerEvents.recipes(event => {
+  event.remove({ output: "ae2:facade" })
 
   const bannedOutputs = [
     // P2P

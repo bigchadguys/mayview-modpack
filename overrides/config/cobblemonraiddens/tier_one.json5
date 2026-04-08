@@ -14,7 +14,7 @@
 	// The max number Pokemon a player can use in a raid. Default: 1
 	"raid_party_size": 1,
 	// Raid boss HP multiplier. Default: 5
-	"health_multiplier": 5,
+	"health_multiplier": 3,
 	// Bonus raid boss HP multiplier for each extra player that joins the raid battle. Default: 1.0
 	"multiplayer_health_multiplier": 1.0,
 	// Raid boss level. Default: 12
@@ -31,7 +31,7 @@
 	"max_catches": -1,
 	// The default script to add to raid bosses without a script. Default: {}
 	"default_scripts": { },
-	// The battle AI used by the raid boss (Options: RANDOM, STRONG, RCT). Default: RANDOM
+	// The battle AI used by the raid boss (Options: random, strong, rct). Default: random
 	"raid_ai": "RANDOM",
 	// The list of marks the reward Pokemon will have. Default: [].
 	"marks": [],
@@ -42,5 +42,7 @@
 	// How much raid energy is given from a cleared raid. Default: 0
 	"energy": 0,
 	// The required damage percentage contribution a player needs to do to get rewards. Default: 0.0
-	"required_damage": 0.0
+	"required_damage": 0.0,
+	// The base catch rate of the raid boss. Default: 1.0
+	"catch_rate": 1.0
 }

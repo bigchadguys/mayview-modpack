@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1764381341702
+  last_edited_time = 1773719831971
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_blacklist = title_screen;
-  [loading_requirement_container_meta:2329aa66-6599-4eb7-a80c-1bf084910f45-1764381331304] = [groups:][instances:18c679c2-51a2-43fa-b6a2-772020306842-1743985136010;a71d9f53-f673-4004-bdae-84d09d4546d8-1752070372874;]
+  [loading_requirement_container_meta:ce4a86ad-5633-4bf1-8583-e9b6bf49e70d-1773718711238] = [groups:][instances:18c679c2-51a2-43fa-b6a2-772020306842-1743985136010;a71d9f53-f673-4004-bdae-84d09d4546d8-1752070372874;]
   [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:18c679c2-51a2-43fa-b6a2-772020306842-1743985136010] = 
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:a71d9f53-f673-4004-bdae-84d09d4546d8-1752070372874] = day_night_state:0
 }

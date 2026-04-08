@@ -1,0 +1,26 @@
+{
+	icon: {
+		id: "cobblemon:red_plaque"
+	}
+	id: "3D50BD5C473185C3"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ id: "043E4158676C3B2B", item: { count: 1, id: "cobblemon:white_plaque" } }
+		{ id: "73545D2048334173", item: { count: 1, id: "cobblemon:light_gray_plaque" } }
+		{ id: "5958385177759430", item: { count: 1, id: "cobblemon:gray_plaque" } }
+		{ id: "1014DE08B7AC978F", item: { count: 1, id: "cobblemon:black_plaque" } }
+		{ id: "4D344D73D6A7E73E", item: { count: 1, id: "cobblemon:brown_plaque" } }
+		{ id: "5FB6649DB10DC275", item: { count: 1, id: "cobblemon:red_plaque" } }
+		{ id: "3A130684F90E34B6", item: { count: 1, id: "cobblemon:orange_plaque" } }
+		{ id: "5CDD146813D8CDEA", item: { count: 1, id: "cobblemon:yellow_plaque" } }
+		{ id: "3F8046DB471D3CB8", item: { count: 1, id: "cobblemon:lime_plaque" } }
+		{ id: "3B4262C62DA76707", item: { count: 1, id: "cobblemon:green_plaque" } }
+		{ id: "3D88FF4262AA2C0C", item: { count: 1, id: "cobblemon:cyan_plaque" } }
+		{ id: "1061639B401C33E7", item: { count: 1, id: "cobblemon:light_blue_plaque" } }
+		{ id: "46BA9E6F7E2951C5", item: { count: 1, id: "cobblemon:blue_plaque" } }
+		{ id: "56EBE928D2930DEC", item: { count: 1, id: "cobblemon:purple_plaque" } }
+		{ id: "01D6ED657CBB6426", item: { count: 1, id: "cobblemon:magenta_plaque" } }
+		{ id: "7AFC8560E6B57A5F", item: { count: 1, id: "cobblemon:pink_plaque" } }
+	]
+}

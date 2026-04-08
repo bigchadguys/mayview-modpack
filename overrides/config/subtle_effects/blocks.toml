@@ -68,12 +68,15 @@ rainWaterRipples = true
 rainWaterRipplesDensity = 0.35
 underwaterBlockBreakBubbles = true
 decoratedPotsSpawnBubbles = true
-openingBarrelsSpawnsBubbles = true
-openingChestsSpawnsBubbles = true
-chestsOpenRandomlyUnderwater = true
+openingBarrelsSpawnsBubbles = false
+openingChestsSpawnsBubbles = false
+chestsOpenRandomlyUnderwaterFrequency = 0
 randomChestOpeningNeedsSoulSand = false
-dispenseItemBubbles = true
+dispenseItemBubbles = false
 rainIncreasesLeavesSpawningParticles = true
+purpleMonsterSpawnerParticles = false
+monsterSpawnerSpawnMobSoundVolume = 1.0
+monsterSpawnerAmbientSoundVolume = 1.0
 
 [sparks]
 removeVanillaCampfireSparks = true
@@ -86,6 +89,7 @@ lanternSparksDensity = 5
 lavaSparksDisplayType = "ON"
 lavaSparksDensity = 0.3
 brewingStandSparks = true
+monsterSpawnerSparks = true
 
 [updatedSmoke]
 candleSmoke = true

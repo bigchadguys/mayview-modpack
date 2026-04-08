@@ -1,0 +1,76 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "mayview:iron_coin",
+    "count": {
+      "type": "constant",
+      "count": 12
+    }
+  },
+  "output": [
+    { "item": "minecraft:acacia_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "minecraft:birch_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "minecraft:cherry_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "minecraft:dark_oak_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "minecraft:jungle_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "minecraft:oak_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "minecraft:spruce_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "minecraft:azalea", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "minecraft:flowering_azalea", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "minecraft:mangrove_propagule", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+
+    { "item": "cobblemon:saccharine_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+
+    { "item": "biomeswevegone:araucaria_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:aspen_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:baobab_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:blue_enchanted_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:blue_spruce_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:brown_birch_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:brown_oak_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:brown_zelkova_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:cika_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:cypress_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:ebony_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:fir_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:green_enchanted_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:holly_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:indigo_jacaranda_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:ironwood_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:jacaranda_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:mahogany_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:maple_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:orange_birch_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:orange_oak_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:orange_spruce_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:orchard_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:palm_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:palo_verde_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:pine_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:rainbow_eucalyptus_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:red_birch_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:red_maple_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:red_oak_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:red_spruce_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:redwood_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:silver_maple_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:skyris_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:spirit_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:white_mangrove_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:white_sakura_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:willow_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:witch_hazel_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:yellow_birch_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:yellow_sakura_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:yellow_spruce_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:yucca_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "biomeswevegone:zelkova_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+
+    { "item": "culturaldelights:avocado_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "vinery:dark_cherry_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 },
+    { "item": "vinery:apple_tree_sapling", "count": { "type": "constant", "count": 2 }, "weight": 1 }
+  ]
+}

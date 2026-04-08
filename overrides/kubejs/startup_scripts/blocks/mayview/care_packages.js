@@ -69,6 +69,11 @@ StartupEvents.registry("block", function (event) {
       id: "assorted_dyed_blocks_care_package",
       displayName: "Assorted Dyed Blocks Care Package",
       soundType: "wool",
+    },
+    {
+      id: "myths_and_legends_package",
+      displayName: "Myths and Legends Package",
+      soundType: "wool",
     }
   ];
 

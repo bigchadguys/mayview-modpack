@@ -9,9 +9,6 @@ net.minecraft.client.gui.screens.TitleScreen {
 io.wispforest.accessories.client.gui.AccessoriesScreen {
 }
 
-net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
-}
-
 net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
@@ -108,15 +105,9 @@ net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
 net.minecraft.client.gui.screens.ChatScreen {
 }
 
-io.github.gaming32.worldhost.gui.screen.OnlineFriendsScreen {
-}
-
-io.github.gaming32.worldhost.gui.screen.FriendsScreen {
-}
-
-io.github.gaming32.worldhost.gui.screen.AddFriendScreen {
-}
-
 com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHOrderScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 }
 

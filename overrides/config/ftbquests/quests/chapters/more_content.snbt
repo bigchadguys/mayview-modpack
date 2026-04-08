@@ -1,0 +1,50 @@
+{
+	autofocus_id: "369DF9E702FB8651"
+	default_hide_dependency_lines: false
+	default_quest_shape: "mv_wood"
+	disable_toast: true
+	filename: "more_content"
+	group: "78DD8F6DA234BE4B"
+	id: "5D7A423B81A623FB"
+	images: [
+		{
+			height: 2.0d
+			image: "mayview:textures/bluebook.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "candlelight:item/note_paper_writeable"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create:item/crafting_blueprint"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		disable_toast: true
+		icon_scale: 0.9d
+		id: "369DF9E702FB8651"
+		size: 2.0d
+		tasks: [{
+			id: "588CBEDAECF8CB66"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	tags: ["mayviewquests"]
+}

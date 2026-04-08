@@ -1,9 +1,0 @@
-wheat to create:wheat_flour
-remove wheat from c:grains
-remove wheat from:
-- farm_and_charm:mincer
-- create:milling
-- create:crushing
-
-
-oat, barley, corn to farm_and_charm:flour

@@ -1,0 +1,744 @@
+{
+	autofocus_id: "792D5AE77D6C7261"
+	default_hide_dependency_lines: false
+	default_quest_shape: "dex2"
+	filename: "pokeinteract"
+	group: "379FE802613ABCBC"
+	icon: {
+		id: "minecraft:brush"
+	}
+	id: "67FFD71BF53F2C9F"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/glass_bottle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/brush"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/bucket"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/shears"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/bone_meal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "mayview:textures/pokeinteract_title.png"
+			rotation: 0.0d
+			width: 14.5d
+			x: 0.0d
+			y: -1.85d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F4859CD55D7BF6B"]
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "393093B202D91768"
+			rewards: [{
+				id: "0A60E1AB1EF2A28B"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "521610CF024FC5AF"
+				item: { count: 1, id: "minecraft:brush" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "create:brass_hand"
+			}
+			id: "6F4859CD55D7BF6B"
+			rewards: [{
+				id: "7B3879A62B79E3F4"
+				type: "xp"
+				xp: 20
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4D05DF2E3ECCB5D6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F4859CD55D7BF6B"]
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "5795E1CE0E5464CB"
+			rewards: [{
+				id: "064932012E0C957A"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "78720B3280E1A808"
+				item: { count: 1, id: "minecraft:shears" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F4859CD55D7BF6B"]
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "7D33810D752876D4"
+			rewards: [{
+				id: "28334BA6C485B03A"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "029A785631B47E3A"
+				item: { count: 1, id: "minecraft:glass_bottle" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "6DF9676F51BCB702"
+			rewards: [{
+				id: "249B7B745CAB01C3"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				abilities: ""
+				action: ""
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4DEF865666447A70"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: "cobblemon:vespiquen"
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "4E370956A7B63304"
+			rewards: [{
+				id: "4BA8F8800F297D41"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				abilities: ""
+				action: ""
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "7D5790206BAB9A1E"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: "cobblemon:miltank"
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "35F7863764800C51"
+			rewards: [{
+				id: "022B264DC94604CB"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "304C4761C0711DE0"
+				item: { count: 1, id: "minecraft:armadillo_scute" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "6FCB397E906974E2"
+			rewards: [{
+				id: "0DC23014FB1C5FF6"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "6D50700CC7CB98E9"
+				item: { count: 1, id: "minecraft:blaze_powder" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "087F0A1625207E38"
+			rewards: [{
+				id: "652CD466A565D470"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "69087CA6CE6DBB8A"
+				item: { count: 1, id: "minecraft:brown_mushroom" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "223DB8C3D16D4F22"
+			rewards: [{
+				id: "126A735412A9071C"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "22CBA48119571BE0"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "2F101B636C42FB09"
+			rewards: [{
+				id: "382195AAA3BCB43A"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "774B5ABDD264D29F"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "64BB0AB074FB2E6C"
+			rewards: [{
+				id: "1A06DA42CA9ACF61"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "3336A9EE94AC545A"
+				item: { count: 1, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "285AD013ECB91079"
+			rewards: [{
+				id: "31D938775B568FC2"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "014C1E1F0B530C18"
+				item: { count: 1, id: "minecraft:snowball" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "281ECCCBA104FC7C"
+			rewards: [{
+				id: "75EAB42017702065"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "17D868F32E6DC216"
+				item: { count: 1, id: "minecraft:string" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "5E210C612A42059F"
+			rewards: [{
+				id: "68DDB4EA693F34EC"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "124FA86E868AC5E2"
+				item: { count: 1, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6F4859CD55D7BF6B"]
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "792D5AE77D6C7261"
+			rewards: [{
+				id: "618D54E94530CCD0"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5BB75F0211934AE8"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "457270018FCFBDAF"
+			rewards: [{
+				id: "116D48A26193258B"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "43D37BACCD3CDF50"
+				item: { count: 1, id: "minecraft:powder_snow_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "703A04114BE95485"
+			rewards: [{
+				id: "4CBC4FC038B55ED9"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "3C1281FFAA6A2200"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "0D7F2538B3C6FE5A"
+			rewards: [{
+				id: "52BD5BABBF2AD659"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "30F59EA2D96B919B"
+				item: { count: 1, id: "minecraft:milk_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "4A1D58AA04747586"
+			rewards: [{
+				id: "6B6FEB7578160B35"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5D54412470F640A7"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6F4859CD55D7BF6B"]
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "47E3023F5170B9B3"
+			rewards: [{
+				id: "0506B1442C1E1BDE"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "42A3A1AE2E39CEA4"
+				item: { count: 1, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "64745F2FD4D1BA22"
+			rewards: [{
+				id: "5C26F743EE2C38BF"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "1AD79E777E879680"
+				item: { count: 1, id: "minecraft:white_wool" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "3640C15A0F3C96FB"
+			rewards: [{
+				id: "5AEEDA806E3DFAD4"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "116FE57F49E2FEB1"
+				item: { count: 1, id: "cobblemon:tasty_tail" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "534000F7107600E8"
+			rewards: [{
+				id: "08C6D54DE9286A15"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4A17EFA35F087057"
+				item: { count: 1, id: "minecraft:cactus" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "2D6076DA55E59D89"
+			rewards: [{
+				id: "5210600F40D93BD1"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "7BE4FFC813A333E3"
+				item: { count: 1, id: "minecraft:dandelion" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "7A2E3FA6AC360090"
+			rewards: [{
+				id: "59E27D21282178D6"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "40290535E255D026"
+				item: { count: 1, id: "minecraft:dark_oak_sapling" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "6C5FB730824F5AD6"
+			rewards: [{
+				id: "376F266FA4761D60"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "351B95F2285746D7"
+				item: { count: 1, id: "minecraft:jungle_sapling" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "1B56A9C1F20956B1"
+			rewards: [{
+				id: "44538C9497F34E94"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "1C567962861EE603"
+				item: { count: 1, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "5497342494170503"
+			rewards: [{
+				id: "7D4DD705A2FF5C72"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "69EF34356F23B01E"
+				item: { count: 1, id: "minecraft:lily_pad" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "28918E57CFF1CD11"
+			rewards: [{
+				id: "139C95EAA0A7CEE7"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4742EE7FECA1B15A"
+				item: { count: 1, id: "cobblemon:revival_herb" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "36A3C244A66E8699"
+			rewards: [{
+				id: "50F1DFB312904DE2"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "48E7E7D7823129C5"
+				item: { count: 1, id: "minecraft:rose_bush" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "24F062B2D147503C"
+			rewards: [{
+				id: "49E79593C9EEA61C"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "350B6F86446E176B"
+				item: { count: 1, id: "minecraft:spruce_sapling" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "4F6D5497C58A7A51"
+			rewards: [{
+				id: "66A70870CFBE711C"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "21744E46AC490ECA"
+				item: { count: 1, id: "minecraft:sunflower" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "634084BA42AD9256"
+			rewards: [{
+				id: "6A3EF5FACB0EF427"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "28B99F6C6BFAB637"
+				item: { count: 1, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			icon_scale: 0.9d
+			id: "45614538AE73BC59"
+			rewards: [{
+				id: "4FA26B4C5671A432"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "19352A735F4BECF8"
+				item: { count: 1, id: "minecraft:vine" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+	]
+	tags: ["cobblemonquests"]
+}
