@@ -73,7 +73,7 @@
 	#TRIGGERED: skeleton horse traps and warden from sculk shriekers
 	#Default Value: [NATURAL, EVENT]
 	#Allowed Values: NATURAL, SPAWNER, STRUCTURE, MOB_SUMMONED, JOCKEY, EVENT, REINFORCEMENT, PATROL, TRIGGERED
-	blocked_spawn_types = ["NATURAL", "EVENT"]
+	blocked_spawn_types = ["NATURAL"]
 	#Mobs of this category are prevented from spawning through natural means (e.g. mob spawners and breeding will still work).
 	#For refining affected mobs use blacklist and whitelist options.
 	#If you only want to prevent a few mob types from spawning that do not fit any category leave this list empty and include them in the blacklist option.
